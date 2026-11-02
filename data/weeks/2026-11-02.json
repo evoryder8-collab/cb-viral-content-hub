@@ -1,0 +1,3954 @@
+{
+ "id": "2026-11-02",
+ "label": "Week of 2 November 2026",
+ "headline": "Film the face and the number, not the technique.",
+ "headline_html": "Film the <em>face</em> and the <em>number</em>, not the technique.",
+ "lede": "In this week’s research the top performers show a person’s reaction or a hard number: a skeptic in a head spa (~2.9M likes), a stranger in an ice bath (711K likes), body-fat percentages on real people (16.9M views). Process-only head-spa clips in the same sample sat at 6K–40K likes.",
+ "moves": [
+  {
+   "niche": "massage",
+   "title": "Film the skeptic, not the massage",
+   "text": "Book a couple and film the partner’s face at five beats. The treatment is the setting; the reaction is the content.",
+   "ref": "ms-hayleyandmo-wife-takes-her-husband"
+  },
+  {
+   "niche": "gym_pt",
+   "title": "Name a test after your buyer",
+   "text": "A 20-second “Old Man Challenge” took one small gym to ~2M views. Demo one test your 45+ members would try at home.",
+   "ref": "pt-marty-mcloughlin-old-man-challenge-gym"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "title": "Put the number on a real body",
+   "text": "Body-fat ladders on real, scanned people pulled 16.9M views. With consent, show the DEXA printout next to the person.",
+   "ref": "dx-jeffnippard-jeff-nippard-what-every"
+  }
+ ],
+ "picks": [
+  "ms-hayleyandmo-wife-takes-her-husband",
+  "pt-marty-mcloughlin-old-man-challenge-gym",
+  "dx-jeffnippard-jeff-nippard-what-every",
+  "ms-maggie-tiktok-client-storytime-creator-realises",
+  "pt-anatoly-vladimir-elite-powerlifter-disguised-as",
+  "ms-jaimesskin-esthetician-s-10-minute",
+  "dx-ameelzonweelz-biological-age-kneel-to",
+  "ms-baba-sen-baba-sen-cosmic-baba",
+  "pt-joe-strada-gym-owner-appears-to",
+  "dx-jesssfamofficial-creator-pays-2-500",
+  "ib-coldplungecam-cold-plunge-cam-drops",
+  "pv-jordi-koalitic-magic-door-a-small"
+ ],
+ "videos": [
+  {
+   "id": "ms-hayleyandmo-wife-takes-her-husband",
+   "title": "Wife takes her skeptical husband to a head spa",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@hayleyandmo",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@hayleyandmo",
+    "name": "Hayley Molina",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 2900000,
+    "comments": 11500,
+    "shares": null,
+    "quote": "Hayley Molina's (@hayleyandmo) video ... TikTok's discover page lists it at about 2.9M likes and 11.5K comments ... built around her husband's reactions. [Snippet: '2.9M Likes, 11.5K Comments']. A sister discover page snapshot showed '1.8M Likes, 4638 Comments' for the same theme.",
+    "source_url": "https://www.tiktok.com/discover/took-my-husband-to-a-head-spa",
+    "as_of": "2026-11",
+    "qualifier": "~"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Partner-reaction framing: the husband (the skeptic) is put in the head-spa chair and his facial reactions are the payoff; the treatment is the setting, not the star.",
+    "types": [
+     "reaction_face",
+     "humor_skit",
+     "pov",
+     "asmr_sensory"
+    ]
+   },
+   "formula": "Bring a skeptical partner/friend → film their face at each step (water, foam, scalp massage) → punchline reaction → 'full experience on my profile'",
+   "beats": [
+    "0-2s husband in chair / towel wrap, caption sets up 'I took my husband to a head spa'",
+    "2-15s quick cuts of his reactions to each treatment step",
+    "end best reaction or post-treatment verdict; full experience referenced on profile (documented)"
+   ],
+   "beats_inferred": true,
+   "why": "The genre's top post (about 2.9M likes) is built around the husband's reactions, not the treatment. Copycat posts from other couples show it became a repeatable format. The skeptical-man-gets-pampered contrast adds humor that process-only head-spa clips (6K–40K likes in our sample) lack.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Book a couple or a friend pair. Shoot vertical on iPhone from a tripod at the head of the bed, angled at the client's face, and add a second handheld for scalp close-ups. Capture reactions at five beats: first warm water, foam, scalp massage, steam or towel, mirror reveal. Overlay text: 'I brought my [boyfriend/dad] to a head spa…'. Get a model release before filming.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 92,
+    "relevancy": 95
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "Book a couple. Film the skeptical partner's face at five beats: oil, first pressure, the knot, hot towel, mirror. Text: “I brought my [boyfriend] for his first deep-tissue massage…”",
+    "gym_pt": "Film a member's skeptical partner at their first PT session. Their face at each exercise is the payoff; the trainer stays mostly off-camera.",
+    "dexa_biohacking": "Bring a skeptical spouse to a DEXA scan and capture their face when the body-fat % appears on the screen.",
+    "icebath": "Film the partner who swore “never” getting into the plunge: count-in, gasp, the 60-second mark, the grin.",
+    "photo_video": "Film the client's partner watching the photos on the back of the camera. Their reaction is the reel."
+   }
+  },
+  {
+   "id": "ms-baba-sen-baba-sen-cosmic-baba",
+   "title": "Baba Sen's street head massage, filmed by a tourist",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "short",
+   "url": "https://melmagazine.com/en-us/story/baba-sen-asmr-head-massage-youtube-gofundme",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Baba Sen (subject); clip uploaded by an Italian YouTube creator not named in the source",
+    "followers": null
+   },
+   "stats": {
+    "views": 32000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "One Italian creator's channel has snagged more than 50 million views on his numerous clips with Baba (including 32 million on this one clip alone) ... his videos have racked up more than 100 million views on YouTube now.",
+    "source_url": "https://melmagazine.com/en-us/story/baba-sen-asmr-head-massage-youtube-gofundme",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A raw, tourist-shot head massage by a charismatic street barber. The unusual technique and his personality are the hook; there is no text or edit.",
+    "types": [
+     "asmr_sensory",
+     "visual_spectacle",
+     "satisfying_process"
+    ]
+   },
+   "formula": "One continuous take of a distinctive head massage by a memorable practitioner → natural sound only → personality carries the clip",
+   "beats": [
+    "0-3s practitioner starts immediately, no intro",
+    "middle continuous rhythmic head/neck/face work with audible taps and rubs",
+    "end client's reaction / practitioner signature move"
+   ],
+   "beats_inferred": true,
+   "why": "Mel Magazine reports one clip alone reached 32M views and his videos passed 100M in total. The coverage led to trips to London and Japan and to BBC and NY Post features. Factor Daily notes viewers use Indian barber massage videos to fall asleep, so long watch sessions are part of the appeal.",
+   "production": {
+    "camera": null,
+    "asmr": "yes",
+    "editing": "raw",
+    "vfx": "none",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Film a therapist who has a signature technique or a strong personality in one uncut take. Clip a lav mic to the client's collar to capture hand sounds. Use a 3/4 front angle that shows both faces. Post a 30-60s cut as a Short/Reel and the 10-20 min full take on YouTube for sleep viewers.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 84
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "One continuous take of your signature technique, natural sound only, filmed from where a client's friend would stand.",
+    "gym_pt": "Your coach's signature cue in one raw take: the count, the clap, the client's PR.",
+    "dexa_biohacking": "The scan ritual in one take with natural sound: positioning, the slow arm pass, the printout.",
+    "icebath": "The guide's breathing count and the crack of the ice in one take, no music.",
+    "photo_video": "Your own directing style in one take from a guest's phone. Let your personality carry it."
+   }
+  },
+  {
+   "id": "ms-munur-onkan-turkish-barber-asmr-massage",
+   "title": "Turkish barber ASMR: massage, grooming and skincare in one ritual",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "short",
+   "url": "https://www.dazeddigital.com/beauty/article/62897/1/are-turkeys-viral-massage-videos-asmr-or-soft-porn",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Münür Önkan",
+    "followers": "1.79M YouTube subscribers, 1.6M TikTok followers (Dazed); ~2.6M YouTube subscribers, ~214K avg views/video (SponsorRadar, later)"
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Münür Önkan is an award-winning hairdresser from Ankara and one of the pioneers of the Turkish barber ASMR genre, with over 1.79 million subscribers on YouTube and 1.6 million followers on TikTok. Known for his combination of body massage, personal grooming and skincare, his videos have racked up over 600 million views. (Channel total, not a single video.)",
+    "source_url": "https://www.dazeddigital.com/beauty/article/62897/1/are-turkeys-viral-massage-videos-asmr-or-soft-porn",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "ASMR barbershop ritual: tactile massage, grooming and skincare sounds in a recognisable shop setting.",
+    "types": [
+     "asmr_sensory",
+     "satisfying_process",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Client sits in barber chair → stacked sensory steps (massage, grooming, skincare) → natural-sound ASMR, minimal talking",
+   "beats": [
+    "0-2s close-up of first tactile contact",
+    "middle stacked steps, each with a distinct sound",
+    "end finished look / relaxed client"
+   ],
+   "beats_inferred": true,
+   "why": "Dazed credits the combination of body massage, grooming and skincare with building 600M+ views. Önkan says creators first paid him to make ASMR videos. Dazed also reports a backlash: barber Anil Çakmak says the more erotic copycats are 'not a massage, it's a show', so professional framing matters.",
+   "production": {
+    "camera": null,
+    "asmr": "yes",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "For a massage studio, stack three or four distinct-sounding steps in one session: oil pour, forearm glide, tapotement, hot towel. Mic close (lav plus a shotgun just out of frame) and keep music low or off. Shoot in a branded space so the room is recognisable. Keep draping and framing clinical to avoid the sexualisation backlash.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 62,
+    "relevancy": 76
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ms-sophie-dolce-psa-creator-says-her",
+   "title": "“My doctor told me never to use a massage gun on my neck”",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@sophie.dolce",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@sophie.dolce",
+    "name": "Sophie",
+    "followers": null
+   },
+   "stats": {
+    "views": 5000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Viral TikTok PSA About Using Massage Guns On Your Neck ... Over 5 Million People [watched the video]",
+    "source_url": "https://www.buzzfeed.com/michaelabramwell/viral-tiktok-warning-about-danger-of-massage-gun-use-on-neck",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Talking-head warning: 'my doctor told me never to do X' about an everyday tool (massage gun on the neck). Her doctor reportedly suspected swollen lymph nodes.",
+    "types": [
+     "negative_warning",
+     "storytime",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Personal mistake with a common tool → what the doctor said → warning to viewers",
+   "beats": [
+    "0-3s face to camera stating the warning",
+    "3-30s story of using the gun for hours and the symptoms",
+    "end doctor's advice / PSA"
+   ],
+   "beats_inferred": true,
+   "why": "BuzzFeed reports it reached more than 5M people and quoted a physical therapist (Dr. Heather Jeffcoat). Physicians including @drjoe_md made follow-up posts about the carotid and vertebral arteries. The warning about a common gadget invites shares and expert responses.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Therapist version, said to camera with the massage gun in hand: 'Stop using your massage gun here.' Point to the front and side of the neck, then show the safe zones (upper traps, glutes, quads) with green/red overlay text. End with: 'Book a session if your neck still hurts.' Keep claims within scope and cite a doctor or PT where you can.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 85,
+    "relevancy": 82
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-jaimesskin-esthetician-s-10-minute",
+   "title": "“10 minutes of lymphatic drainage goes a long way”",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@jaimesskin/video/7492532258411220266",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@jaimesskin",
+    "name": "Jaime Nicole",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 684700,
+    "comments": 1403,
+    "shares": null,
+    "quote": "10 minutes focusing on lymphatic drainage goes a long way 🩷 ... A TikTok page shows a video by Jaime Nicole with 684.7K Likes, 1403 Comments.",
+    "source_url": "https://www.tiktok.com/@jaimesskin/video/7492532258411220266",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": "10 minutes focusing on lymphatic drainage goes a long way 🩷",
+    "summary": "Low-effort promise (10 minutes) plus a visible de-puffing result, delivered as a follow-along self-massage routine.",
+    "types": [
+     "tutorial_howto",
+     "before_after_reveal",
+     "transformation"
+    ]
+   },
+   "formula": "Time-boxed promise ('10 minutes') → follow-along self-massage strokes → visible de-puff result",
+   "beats": [
+    "0-2s caption with the time promise over a puffy 'before' face",
+    "2-40s strokes along neck, jaw and cheekbones",
+    "end 'after' face"
+   ],
+   "beats_inferred": true,
+   "why": "684.7K likes on a single post. It taps the #lymphaticdrainage trend (Remix Magazine reports almost 1B hashtag views) and gives viewers a routine they can do at home with an immediate visual payoff.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Mount an iPhone with a ring light facing the therapist or client. Overlay text: 'X minutes of lymphatic drainage for [puffy face / heavy legs]'. Show 4-6 strokes with arrows overlaid. Shoot before and after in the same light and framing, and avoid claims about weight loss or detox (experts push back on those).",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 88
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "“5 minutes of self-massage for desk neck”: follow-along strokes, timer on screen, before/after posture shot.",
+    "gym_pt": "“The 10 minutes your trainer makes you do after every session”: follow-along cool-down.",
+    "dexa_biohacking": "“The 10-minute daily habit behind this DEXA change”, only when a real client's two scans back it up.",
+    "icebath": "“3-minute breathing routine before every plunge” as a follow-along (no breath-holds in water).",
+    "photo_video": "“10 minutes, one light, one phone”: a follow-along portrait setup with the result at the end."
+   }
+  },
+  {
+   "id": "ms-maggie-tiktok-client-storytime-creator-realises",
+   "title": "Storytime: “I accidentally booked a happy-ending massage”",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://cafemom.com/news/tiktok-mom-accidentally-booked-a-happy-ending-massage",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Maggie (TikTok creator, handle not given in source)",
+    "followers": null
+   },
+   "stats": {
+    "views": 13000000,
+    "likes": 1000000,
+    "comments": 10000,
+    "shares": null,
+    "quote": "Her video has been viewed more than 13 million times and has more than 1 million likes and 10,000 comments.",
+    "source_url": "https://cafemom.com/news/tiktok-mom-accidentally-booked-a-happy-ending-massage",
+    "as_of": "2024-09",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Shock storytime: 'I accidentally booked a happy-ending massage', told as the warning signs she missed.",
+    "types": [
+     "storytime",
+     "negative_warning",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "Shocking first line → step-by-step red flags → what she did → lesson for viewers",
+   "beats": [
+    "0-3s shock line to camera",
+    "middle the red flags in order",
+    "Documented: she signalled to the therapist and said no once she realised; end with the lesson"
+   ],
+   "beats_inferred": true,
+   "why": "CafeMom reports 13M+ views, 1M+ likes and 10K+ comments. The red-flags framing makes it useful as well as shocking. It shows how much consumers want to know whether a massage business is legitimate.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Do not copy the topic itself. A legitimate studio can use the same structure: 'X signs a massage place is legit (and X red flags)'. Film it as a walk-through of your own studio showing licence on the wall, intake form, draping and posted prices. This is trust-building content in the same format.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 80
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "Therapist storytime: “Red flags a massage place isn't legit”, one per beat (no intake form, no licence on the wall, cash only), ending on your own intake process.",
+    "gym_pt": "“Red flags your personal trainer isn't qualified”: no assessment, same plan for everyone, phone out during your set.",
+    "dexa_biohacking": "“Red flags your body-scan provider isn't legit”: no calibration talk, scans you after lunch, no follow-up.",
+    "icebath": "“Signs your ice-bath studio isn't safe”: no time limits, nobody supervising, breath-holds in the water.",
+    "photo_video": "“I hired a photographer and these were the red flags”, then show how you work instead."
+   }
+  },
+  {
+   "id": "ms-theknotking-huge-muscle-knot-being",
+   "title": "“This knot was HUGE!” A visible knot, worked out on camera",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@theknotking/video/7553465909147389214",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@theknotking",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 62700,
+    "comments": 187,
+    "shares": null,
+    "quote": "This knot was HUGE! #massage #fyp #foryoupage #satisfying #tiktok ... shows 62.7K Likes, 187 Comments.",
+    "source_url": "https://www.tiktok.com/@theknotking/video/7553465909147389214",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-09",
+   "hook": {
+    "verbatim": "This knot was HUGE!",
+    "summary": "Visible knot or lump under the skin plus a superlative claim, so viewers watch for the 'release'.",
+    "types": [
+     "satisfying_process",
+     "visual_spectacle",
+     "shock_stat"
+    ]
+   },
+   "formula": "Show the visible knot → work it (thumb/elbow) → reveal the flattened tissue",
+   "beats": [
+    "0-2s close-up of the bulging knot with 'HUGE' caption",
+    "2-20s working it with visible tissue movement",
+    "end smooth tissue / client relief"
+   ],
+   "beats_inferred": true,
+   "why": "62.7K likes on a single satisfying-knot clip. TikTok has a dedicated 'satisfying muscle knot removal' discover topic, which shows sustained demand for visible-release content.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Shoot a low side angle at skin level so the knot reads in silhouette, with raking light from one side. Mount an iPhone on an arm over the table. Text: 'This knot was HUGE' or 'Biggest knot this week'. Keep it 15-25s, end on the flattened tissue and loop back.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 92
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-knot-doc-local-creator-recommends-a",
+   "title": "“If you live in Philly and need a massage…” local search call-out",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@knot_doc/video/7550038461445721358",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@knot_doc",
+    "name": "Knot Doc",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 8342,
+    "comments": 179,
+    "shares": null,
+    "quote": "Tiktok is truly becoming a search engine. If you live in Philly and need a massage, this is your place to get one! #philly #philadelphia #massage #massagetherapy ... shows 8342 Likes, 179 Comments.",
+    "source_url": "https://www.tiktok.com/@knot_doc/video/7550038461445721358",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-09",
+   "hook": {
+    "verbatim": "Tiktok is truly becoming a search engine. If you live in Philly and need a massage, this is your place to get one!",
+    "summary": "Geo call-out ('If you live in Philly…') aimed at local searchers, followed by the venue tour and treatment.",
+    "types": [
+     "question",
+     "social_proof_testimonial",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "City call-out → 'this is your place' → venue/treatment walkthrough → location in caption and hashtags",
+   "beats": [
+    "0-2s city name on screen",
+    "2-20s venue and treatment highlights",
+    "end name/location"
+   ],
+   "beats_inferred": true,
+   "why": "A small but documented local-intent post: 8.3K likes and 179 comments, high for a local recommendation. City hashtags plus 'TikTok is a search engine' framing aim at people searching TikTok for local services. The caption references Waterfall Head Spa.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "For each client studio, open on the city name: 'If you live in [Zürich/Geneva] and need a massage…'. Shoot a 10-15s walk-in from the street door to the room, then 3-4 treatment close-ups, then the booking info. Put the city and neighbourhood in the caption and first hashtags.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 60,
+    "relevancy": 90
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-saskiafield-traveller-s-first-head",
+   "title": "“My first head spa & it was worth every dong”",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@saskiafield/video/7489832677810408726",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@saskiafield",
+    "name": "Saskia",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 40500,
+    "comments": 75,
+    "shares": null,
+    "quote": "My first head spa & it was worth every dong 💆🏻‍♀️ ... A clip by Saskia about a first head spa visit in Vietnam shows 40.5K Likes, 75 Comments.",
+    "source_url": "https://www.tiktok.com/@saskiafield/video/7489832677810408726?lang=en",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": "My first head spa & it was worth every dong 💆🏻‍♀️",
+    "summary": "'My first X' experience vlog plus a price pun (Vietnamese dong), implying great value abroad.",
+    "types": [
+     "pov",
+     "price_value_reveal",
+     "asmr_sensory"
+    ]
+   },
+   "formula": "'My first [treatment]' → step-by-step sensory clips → value verdict",
+   "beats": [
+    "0-2s client lying down, 'my first head spa' caption",
+    "2-30s water/foam/scalp close-ups",
+    "end hair result / verdict"
+   ],
+   "beats_inferred": true,
+   "why": "40.5K likes. It combines the head-spa trend with travel value and a pun in the hook. 'My first head spa' is one of the most repeated framings in the genre (e.g. @ericarobertss 'MY FIRST *JAPANESE HEAD SPA* EXPERIENCE').",
+   "production": {
+    "camera": "iphone",
+    "asmr": "yes",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Bring in a first-timer client and caption it 'My first head spa'. Shoot top-down over the basin for the water cascade and use a macro on the foam. Add a price card at the end ('CHF X for 60 min, worth it?') to trigger value debate in the comments.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 74,
+    "relevancy": 86
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-tanameraspa-malaysian-masseuse-mazlin-mazlan",
+   "title": "Martial-arts-style oil massage at the Asia Massage Championship",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://says.com/my/news/video-malaysian-masseuse-asia-massage-championship-tokyo",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@tanameraspa",
+    "name": "Tanamera Spa (posted); performer Mazlin Mazlan",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "No numbers published. SAYS: 'Many praised Mazlin for her graceful martial arts-like movements and for proudly using batik sheets on her massage table. The video was published on Instagram by @tanameraspa.'",
+    "source_url": "https://says.com/my/news/video-malaysian-masseuse-asia-massage-championship-tokyo",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Competition performance: flowing, choreographed, martial-arts-like massage on a stage, with cultural identity (batik sheets) visible.",
+    "types": [
+     "visual_spectacle",
+     "authority_credential",
+     "satisfying_process"
+    ]
+   },
+   "formula": "Wide shot of competitor on stage → flowing signature sequence → national/cultural detail → judges/crowd",
+   "beats": [
+    "0-2s wide shot establishing the competition stage",
+    "2-30s flowing technique sequence",
+    "end pose / applause"
+   ],
+   "beats_inferred": true,
+   "why": "It was picked up by Malaysian media (SAYS) as viral. Commenters praised the graceful technique and the national pride shown by the batik sheets. There is no view count, so treat as low evidence.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Directly relevant to championship filming. Use a gimbal for slow orbit shots of the competitor's signature flowing move, plus a static wide for the full choreography. Cut to music and flag national or cultural elements (textiles, flags). Pitch the reel to the competitor's spa and national press.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 55,
+    "relevancy": 90
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ms-hattamaneekorn-spa-thai-massage-competitors-dancing",
+   "title": "Thai massage champions ‘dancing’ on a client's back",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://mustsharenews.com/thai-massage-competition-moves/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@hattamaneekorn.spa",
+    "name": "Hattamaneekorn Spa (source account cited by MustShareNews)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "No numbers published. MustShareNews: clips of the more unusual moves, including masseuses dancing on a person's back, drew attention; 'One of the posts that went viral on X expressed surprise over the existence of such a competition.' Event: 17-18 May 2024, 372 contestants from 37 countries.",
+    "source_url": "https://mustsharenews.com/thai-massage-competition-moves/",
+    "as_of": "2024-05"
+   },
+   "posted": "2024-05",
+   "hook": {
+    "verbatim": null,
+    "summary": "Unexpected spectacle: athletic, acrobatic Thai massage moves in a competition setting; viewers didn't know massage competitions existed.",
+    "types": [
+     "visual_spectacle",
+     "curiosity_gap",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "Most extreme move first → reveal it's a competition → reaction",
+   "beats": [
+    "0-2s therapist balancing/stepping on client's back",
+    "2-15s more acrobatic moves",
+    "end reveal of the championship context"
+   ],
+   "beats_inferred": true,
+   "why": "Novelty: the viral X post centred on surprise that such a competition exists, and MustShareNews covered it as news. Gives Constantin's championship footage a ready-made 'Wait, this is a sport?' angle.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "At championships, capture the most acrobatic or unusual moves from a low wide angle. Open cold on the wildest move with text like 'This is a real sport' or 'POV: you didn't know massage had a world championship', then reveal the stage, scoreboard and medals.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 60,
+    "relevancy": 88
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ms-iranmassage70-massage-school-uses-anatomical",
+   "title": "Anatomy body paint shows the exact muscle being massaged",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.tiktok.com/@dailyideasguy/video/7561122832034303254",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@iranmassage70",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "No numbers found. @dailyideasguy (Oct 2025): '@iranmassage70 turned massage education into a viral brand. Their videos use anatomical body paint to show exactly how muscles move during each technique — transforming it into visual art.'",
+    "source_url": "https://www.tiktok.com/@dailyideasguy/video/7561122832034303254",
+    "as_of": "2025-10"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Client's body painted with muscle anatomy, so viewers literally see the muscle the therapist is working.",
+    "types": [
+     "visual_spectacle",
+     "tutorial_howto",
+     "authority_credential"
+    ]
+   },
+   "formula": "Anatomy body paint on client → technique on the painted muscle → name the muscle and what it does",
+   "beats": [
+    "0-2s painted anatomy reveal",
+    "2-25s technique on the named muscle",
+    "end CTA to course/booking"
+   ],
+   "beats_inferred": true,
+   "why": "A third-party business-ideas creator calls it a 'viral brand' that attracts students to their massage programs. The education is unusually visual. No view counts were found, so low evidence.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "body paint (practical, not VFX)",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Hire a body-paint artist for one shoot day and paint the upper traps, rhomboids and lats on a model. Film 6-10 short technique clips, one muscle each, with the muscle name as overlay text. Overhead top-down shots work best for the back.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 66,
+    "relevancy": 90
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pt-anatoly-vladimir-elite-powerlifter-disguised-as",
+   "title": "Powerlifter disguised as a cleaner out-lifts a bodybuilder",
+   "niche": "gym_pt",
+   "adjacent": true,
+   "platform": "youtube",
+   "content_type": "short",
+   "url": "https://www.youtube.com/watch?v=-AusCTZwSR8",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": null,
+    "name": "Anatoly (Vladimir Shmondenko)",
+    "followers": "9.78M YouTube subscribers (socialcounts.org, same page as the stats); 23.8M TikTok followers (Wikipedia figure surfaced in search results)"
+   },
+   "stats": {
+    "views": 15351031,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Socialcounts lists a YouTube Short, \"Anatoly VS Bodybuilder The CLEANER lifted with ONE HAND,\" with 15,351,031 views, published July 1, 2024. The same page says the channel has 9.78M subs.",
+    "source_url": "https://socialcounts.org/youtube-video-analytics/-AusCTZwSR8",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-07",
+   "hook": {
+    "verbatim": null,
+    "summary": "An 'ordinary' cleaner in work clothes appears next to serious lifters. The pattern interrupt is the mismatch between how he looks and what he lifts. The series is built on bystanders reacting to the reveal.",
+    "types": [
+     "pattern_interrupt",
+     "visual_spectacle",
+     "humor_skit",
+     "reaction_face",
+     "us_vs_them"
+    ]
+   },
+   "formula": "Underestimated outsider (disguise) next to confident lifters, then a casual 'impossible' lift, then the bystanders' double-take. Numbered as a recurring series (#15, #23, #28, #31...).",
+   "beats": [
+    "0-2s: the 'cleaner' is mopping or wiping near a lifter (premise set up visually)",
+    "2-8s: he casually picks up or asks to try the heavy implement",
+    "8-20s: one-hand or effortless lift while the lifter watches",
+    "end: reaction faces, laugh or reveal"
+   ],
+   "beats_inferred": false,
+   "why": "Instant visual contrast with no context needed, plus a reaction payoff. The series format (titles numbered #15 to #31 in the results) trains viewers to expect the payoff. The Short's 15.35M views far exceed the 2.4M to 4.1M seen on the channel's long-form uploads (ytubeinfluencers list), which suggests the premise works best compressed into a short.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "PT-studio version without pranking strangers: (1) Cast the studio's 60+ client or smallest client in plain clothes or a cleaner apron at the deadlift platform. (2) Wide tripod shot plus a second iPhone close on a trainer's face. (3) Client casually pulls a weight the 'new member' (a staff actor) just struggled with. (4) Freeze-frame on the reaction, text: 'She's 64. 14 months of PT.' Only film consenting members.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 72
+   },
+   "effort": "medium",
+   "remix": {
+    "gym_pt": "A 60-year-old member in office clothes casually pulls more than the young guy next to them. Film the double-take.",
+    "massage": "The petite therapist working on a 120 kg rugby player: his face when the pressure lands.",
+    "dexa_biohacking": "The member who “doesn't look fit” gets the gym's best DEXA result. Reveal the printout.",
+    "icebath": "A grandmother walks past the nervous first-timers and sits in the plunge for three minutes, reading.",
+    "photo_video": "Shoot an event as a ‘guest’ with a phone, then reveal the edited pro frames."
+   }
+  },
+  {
+   "id": "pt-joe-strada-gym-owner-appears-to",
+   "title": "Gym owner ‘fails’ a heavy squat while the members behind him slump",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://twobrainbusiness.com/?p=158163",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Joe Strada (owner, Unleash'd Strength, Manassas Park, Virginia; 2026 Two-Brain Business Gym of the Year)",
+    "followers": "over 33,000 TikTok followers and nearly 2M likes (Kilo / Two-Brain articles, undated)"
+   },
+   "stats": {
+    "views": 5200000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "He filmed himself apparently failing a heavy squat and re-racking the bar while the people behind him reacted with disappointment. That clip reached 5.2 million views. (search-result summary of the Two-Brain Business article)",
+    "source_url": "https://twobrainbusiness.com/?p=158163",
+    "as_of": "2026"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Heavy squat setup, then the bar stalls, then the background crowd slumps in visible disappointment. The joke lands in the background, not the foreground.",
+    "types": [
+     "humor_skit",
+     "reaction_face",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "Staged 'fail' on a big lift with an exaggerated background reaction, repeated as a series across lifts (he repeated it with a bench press and a front squat-to-clean).",
+   "beats": [
+    "0-2s: lifter under a loaded bar, background members visibly watching",
+    "2-6s: rep stalls and the bar is re-racked",
+    "6-10s: background members groan, turn away or slump",
+    "end: loop back to the setup"
+   ],
+   "beats_inferred": false,
+   "why": "Simple and readable without sound, with a relatable 'everyone's watching your PR' tension. Caveat from the same Two-Brain article: some of Joe's highest-view content, like the squat-fail series, brought almost no new followers. By contrast, a gym-features carousel drew modest views but real follower growth and local prospects.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": null,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Tripod at hip height, behind the lifter, so 3-4 clients stand in frame. Run 2 takes: a 'fail' version and a 'client hits PR, whole studio erupts' version (the second is better for a PT brand). Post both and pin the PR version. Follow up with a features carousel to convert the reach.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 86
+   },
+   "effort": "low",
+   "remix": {
+    "gym_pt": "Owner stalls on a big lift; the whole class behind slumps in sync. Repeat across lifts as a numbered series. Pair it with a features carousel, since the skit brings views and the carousel brings members.",
+    "massage": "Therapist pretends the knot “won't budge” while the next clients peer in through the door.",
+    "dexa_biohacking": "The result loads, the room gasps. Cut to reveal it's the owner's own ‘before’ scan.",
+    "icebath": "The coach steps in looking fearless, yelps, and the group behind falls apart laughing.",
+    "photo_video": "The photographer ‘drops’ the camera (a decoy). The client's horrified face is the shot."
+   }
+  },
+  {
+   "id": "pt-joe-strada-8-second-gym-injury",
+   "title": "8-second gym mishap on a trending sound",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://usekilo.com/this-gym-owner-got-200-members-from-social-media/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Joe Strada (Unleash'd Strength)",
+    "followers": "over 33,000 TikTok followers (Kilo / Two-Brain)"
+   },
+   "stats": {
+    "views": 2400000,
+    "likes": 230000,
+    "comments": null,
+    "shares": null,
+    "quote": "It cites an 8-second clip from 2021 that used a trending sound and got 2.4M views and 230K likes. (search-result summary of blog.johnisbuilding.com mirror of the Kilo article) / Two-Brain: his first viral hit was a gym-injury bit built on a TikTok trend, a weird sound effect, a weird filter, a guy bumping his knee on a squat rack... it took five minutes to make and pulled in his first million-view video.",
+    "source_url": "https://blog.johnisbuilding.com/p/this-gym-owner-got-200-members-from-social-media",
+    "as_of": "2026-11"
+   },
+   "posted": "2021",
+   "hook": {
+    "verbatim": null,
+    "summary": "Immediate slapstick: a lifter clips his knee on the rack, timed to an absurd trending sound effect and filter. No setup is needed.",
+    "types": [
+     "humor_skit",
+     "relatable_pain",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "Trending sound plus a tiny relatable gym mishap acted out in under 10s.",
+   "beats": [
+    "0-2s: lifter walks to the rack",
+    "2-5s: knee bump synced to the sound effect",
+    "5-8s: exaggerated pain reaction, then loop"
+   ],
+   "beats_inferred": false,
+   "why": "It rode a sound that was already getting high engagement, and the short length made it rewatchable. Kilo describes his approach as funny POVs, lighthearted jokes and relatable gym moments. Over a third of his roughly 600 members came from social media. Note: Kilo's 2.4M clip and Two-Brain's 'first million-view' knee-bump bit are probably, but not confirmed to be, the same video.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "TikTok filter",
+    "captions": null,
+    "audio": "trending_sound",
+    "length_s": 8,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Keep a weekly 'sound bank' of 3 trending sounds. For each, act out one 5-10s studio mishap (cable-machine handle swing, foam roller fail, client's face when the trainer says 'one more'). Shoot on an iPhone on a tripod with in-app filters; it takes 5 minutes. Treat it as reach content, not as a lead source.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 74
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-marty-mcloughlin-old-man-challenge-gym",
+   "title": "“Old Man Challenge”: a gym owner's 20-second mobility test",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "web",
+   "content_type": "reel",
+   "url": "https://www.yahoo.com/lifestyle/falls-bucks-county-gym-owner-085526689.html",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Marty McLoughlin (owner, Extreme Fitness, Falls Township, Bucks County, PA)",
+    "followers": null
+   },
+   "stats": {
+    "views": 2000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Owner Marty McLoughlin posted a 20-second mobility video called \"Old Man Challenge.\" He called it \"riding the lightning,\" and said it was the first time any of the gym's videos had gone viral. The article reports nearly 2 million views. (search-result summary of 'In Falls, a Bucks County gym owner goes viral with 'Old Man Challenge.' Can you do it?')",
+    "source_url": "https://www.yahoo.com/lifestyle/falls-bucks-county-gym-owner-085526689.html",
+    "as_of": "2025-04",
+    "qualifier": "~"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A named challenge ('Old Man Challenge') shown as a short mobility sequence that viewers instinctively test themselves against. The news headline frames it as 'Can you do it?'",
+    "types": [
+     "challenge_day_x",
+     "test_experiment",
+     "question"
+    ]
+   },
+   "formula": "Name a simple bodyweight/mobility test after an age identity, demo it in 20s, and the viewer tries it at home and comments or stitches.",
+   "beats": [
+    "0-3s: challenge name on screen plus start position",
+    "3-17s: full mobility sequence performed cleanly",
+    "17-20s: finish, implied 'your turn'"
+   ],
+   "beats_inferred": false,
+   "why": "Participation hook: viewers test themselves, then share or tag friends. The age framing ('old man') pulls in the over-40 audience and invites a friendly ego challenge. It was the gym's first viral video and earned local press coverage.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "none documented",
+    "captions": null,
+    "audio": null,
+    "length_s": 20,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Make it the studio's signature test: '[Studio] 50+ Challenge' (e.g., floor-to-stand without hands, plus a 30s dead hang, plus a deep squat hold). Film one trainer and one 55+ client doing it side by side, front-on tripod, full body in frame, with the challenge name as large text. CTA: 'Can you do it? Book a free movement assessment.'",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 90,
+    "relevancy": 96
+   },
+   "effort": "low",
+   "remix": {
+    "gym_pt": "Name a 20-second test after your buyer (“The 45+ Challenge”: deep squat hold, floor get-up, dead hang). The owner demos it once; caption “Can you do it?”",
+    "massage": "“The Desk-Neck Test”: three range-of-motion checks in 20 seconds; most people fail the last one. End on “book a release”.",
+    "dexa_biohacking": "Run a sit-to-rise or grip test on camera, show the score, then “book your baseline scan”.",
+    "icebath": "“The 60-second rule”: can you stay in at 3 °C for one minute? One attempt per member, timer on screen.",
+    "photo_video": "“Can you hold a natural smile for 20 seconds?” A posing test, then show the final frame."
+   }
+  },
+  {
+   "id": "pt-joeyswoll-joey-swoll-stitches-a",
+   "title": "Joey Swoll stitches a gym shamer and defends the lifter",
+   "niche": "gym_pt",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@joeyswoll",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@joeyswoll",
+    "name": "Joey Swoll",
+    "followers": null
+   },
+   "stats": {
+    "views": 7900000,
+    "likes": 1400000,
+    "comments": null,
+    "shares": null,
+    "quote": "Drag curl video: One report says it reached more than 7.9 million views and 1.4 million likes. It responds to a woman who criticized a man's drag curl set (search-result summary of Fitness Volt coverage)",
+    "source_url": "https://fitnessvolt.com/joey-swoll-schools-female-tiktoker/",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Opens on the offending clip (someone filming and mocking a stranger), then cuts to Swoll's calm, direct-to-camera rebuttal.",
+    "types": [
+     "stitch_duet",
+     "green_screen_react",
+     "us_vs_them",
+     "negative_warning"
+    ]
+   },
+   "formula": "Stitch the bad-etiquette clip, then a calm authority figure states the rule, then 'mind your own business' / 'respect the shared space'.",
+   "beats": [
+    "0-3s: original clip of the filmer mocking someone",
+    "3-10s: Swoll appears, pauses and names the problem",
+    "10-40s: explains why it's wrong (shared space, everyone starts somewhere)",
+    "end: one-line rule"
+   ],
+   "beats_inferred": false,
+   "why": "A moral-defender stance plus an underdog everyone relates to. Other coverage puts his etiquette videos at very large scale (The Barbell: 'over 20 million views, 3 million likes, and 46,000 comments' for one unnamed video; Newsweek: a response video at nearly 2 million views). Figures conflict across articles.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "stitch",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Ethical PT version: do not stitch members of the public. The head coach reacts on green screen to a public, widely shared bad-advice or bad-etiquette clip, then states the studio's 'house rules'. Talking head at a desk or in the studio, lav mic, one rule per video ('In our studio nobody films you without asking.').",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 62
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-nickigeorgiou-uk-personal-trainer-posts",
+   "title": "Personal trainer shows what fitness posts usually hide",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@nickigeorgiou",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Nicki Georgiou (UK personal trainer)",
+    "followers": null
+   },
+   "stats": {
+    "views": 2500000,
+    "likes": 160000,
+    "comments": null,
+    "shares": null,
+    "quote": "Nicki Georgiou, a UK personal trainer, posted a video of herself in gym kit with text about her period and eating. It amassed more than 2.5 million views and 160,000 likes. (search-result summary of This Is Wiltshire: 'Personal trainer goes TikTok viral after body positive videos')",
+    "source_url": "https://www.thisiswiltshire.co.uk/news/19736189.personal-trainer-goes-tiktok-viral-body-positive-videos/",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A trainer in gym kit, with on-screen text admitting something 'fitness people' don't usually show (period bloating or eating). Vulnerability from an authority figure.",
+    "types": [
+     "relatable_pain",
+     "contrarian",
+     "myth_bust"
+    ]
+   },
+   "formula": "Trainer on camera plus a text overlay confessing a normal-body truth, which breaks the 'perfect trainer' expectation.",
+   "beats": [
+    "0-2s: trainer in gym kit, text overlay hook",
+    "2-10s: body shown honestly / posing naturally",
+    "end: reassuring line or caption"
+   ],
+   "beats_inferred": false,
+   "why": "Women viewers relate when a PT shows that a 'fit' body fluctuates. It lowers the intimidation barrier to hiring a PT. A Ypulse piece notes that TikTok fitness creators who succeed are often body-positive and non-diet.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "none",
+    "captions": true,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "A female coach films a mirror or tripod clip in studio kit with text such as 'Day 2 of my cycle. Still training. Here's how I adjust clients' sessions.' Shoot raw on an iPhone with a soft trending sound, then pin a comment linking to the women's PT programme.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 90,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-morningfitnessgym-trainer-reacts-when-a",
+   "title": "Trainer's reaction when a client's weight pin jams",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@morningfitnessgym",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@morningfitnessgym",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 132500,
+    "comments": 1508,
+    "shares": null,
+    "quote": "The highest-engagement item I saw is a gym-humor clip from @morningfitnessgym, a trainer reacting to a client's weight pin getting stuck, with 132.5K likes and 1,508 comments. (search-result summary of TikTok /discover/ pages)",
+    "source_url": "https://www.tiktok.com/discover/funny-trainer-yelling-at-his-client (one of several TikTok discover pages returned; the exact page was not isolated: also /discover/angry-personal-trainer, /discover/gym-trainer-response, /discover/trainer-and-client)",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A client on a machine, the pin jams, and the trainer's reaction carries the joke.",
+    "types": [
+     "humor_skit",
+     "reaction_face",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Real (or re-enacted) session mishap, trainer reaction as the punchline.",
+   "beats": [
+    "0-2s: client set up on a stack machine",
+    "2-6s: pin stuck, client confused",
+    "6-12s: trainer's reaction",
+    "end: laugh/loop"
+   ],
+   "beats_inferred": false,
+   "why": "It shows the trainer-client relationship as fun and human, which is the most common theme in TikTok's 'trainer and client' clusters.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": true,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Keep a 'blooper' iPhone on a tripod running during sessions (with client consent). Clip 6-12s moments: stuck pins, a client's face at 'last set', a high-five miss. Add one line of caption text. Avoid mocking-the-client clips: TikTok clusters show 'trainer mocks client' clips get engagement (42.8K likes for one sissy-squat clip) but carry brand risk.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 76,
+    "relevancy": 84
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-ultimateperformance-ultimate-performance-client-story",
+   "title": "PT-only gym client story: 45-year-old, ~80 kg lighter in a year",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@ultimateperformance",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@ultimateperformance",
+    "name": "Ultimate Performance (UP)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "No engagement figures found. A TikTok discover page for @ultimateperformance describes a 45-year-old client, Ammar, who was 79kg lighter one year later. The same video series also includes a caption about losing almost 80kg.",
+    "source_url": "https://www.tiktok.com/discover/ultimate-performance-personal-training-review",
+    "as_of": "2026-10"
+   },
+   "posted": "2026-10",
+   "hook": {
+    "verbatim": null,
+    "summary": "Age plus a hard number up front (45 years old, about 80kg lost, one year), then the before/after and how life changed.",
+    "types": [
+     "transformation",
+     "before_after_reveal",
+     "social_proof_testimonial",
+     "shock_stat"
+    ]
+   },
+   "formula": "[Age]-year-old + [kg lost] + [time] headline, then before/after, then client talking about daily-life change.",
+   "beats": [
+    "0-2s: age and number overlay on the 'before' footage/photo",
+    "2-10s: reveal of the 'after'",
+    "10-40s: client describes how daily life changed",
+    "end: UP branding"
+   ],
+   "beats_inferred": false,
+   "why": "Unverified (no stats). Included because UP is the archetype PT-only brand and its feed leans on age-tagged client transformations (others: 'age or injury shouldn't stop you'), celebrity sessions (Glen Powell's Men's Health cover prep), gym challenges (Mayfair), trainer splits (trainer Eddie) and behind-the-scenes gym tours. UP's site uses a 'Client of the Month' format with numbers ('lost an astonishing 52kg (114lbs) over 45 weeks').",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "before/after cuts",
+    "captions": true,
+    "audio": "voiceover",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Shoot a monthly 'Client of the Month' reel: (1) a 2s title card with age, kg or strength gain and weeks; (2) a progress-photo hard cut; (3) a 20-30s seated interview (two-camera, lav) on what changed outside the gym; (4) b-roll of the client lifting with their trainer; (5) CTA to a consultation. Get written consent for before photos.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 74,
+    "relevancy": 95
+   },
+   "effort": "high"
+  },
+  {
+   "id": "pt-trainwithjoan-joan-macdonald-started-strength",
+   "title": "Started lifting at 70, coached by her trainer daughter",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/trainwithjoan/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@trainwithjoan",
+    "name": "Joan MacDonald (coached by daughter Michelle MacDonald)",
+    "followers": "over 2.3 million Instagram followers (Healthy Her podcast description); about 716K in 2020 (earlier article)"
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Account-level only: 'an educational Instagram account with over 2.3 million followers' (podcast description); 'She went viral after showing off her muscular physique' (news coverage). No per-post stats found.",
+    "source_url": "https://omny.fm/shows/healthy-her/she-started-strength-training-at-70-and-changed-millions-of-womens-lives",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Before/after contrast of a woman in her 70s (198 lb, size 22, on medication) against the same woman deadlifting and showing muscle. Age is the hook.",
+    "types": [
+     "transformation",
+     "before_after_reveal",
+     "shock_stat",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "Age + starting point (weight, size, meds) + 'now' lifting footage. Coached-by-a-trainer story.",
+   "beats": [
+    "0-2s: age on screen + 'before' photo",
+    "2-8s: cut to her deadlifting / posing",
+    "8-30s: tip or story (why she started: didn't want her mother's life of medication)",
+    "end: CTA"
+   ],
+   "beats_inferred": false,
+   "why": "It breaks the assumption that it's too late. The brand grew into a book (Flex Your Age) and a healthy-ageing movement. The trainer daughter shows that the PT relationship is part of the story.",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "before/after cut",
+    "captions": true,
+    "audio": "music",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Ideal for the 55+ high-value PT buyer. Feature your oldest committed client: (1) their age large on screen; (2) a photo from day 1; (3) them pulling a deadlift or doing a push-up today; (4) the trainer's one-line explanation of how they progressed safely. Shoot handheld with natural light and light music.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 90
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pt-noeldeyzel-noel-deyzel-s-how",
+   "title": "“How to not be a gym douche”: the kind giant explains etiquette",
+   "niche": "gym_pt",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@noeldeyzel",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@noeldeyzel",
+    "name": "Noel Deyzel",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Euronews describes one of his early hits as \"How to not be a Gym Douche\", and says 'From the off, Deyzel was promoting ways to be more considerate to other people in gyms.' (no view count given)",
+    "source_url": "https://www.euronews.com/2022/08/25/had-enough-of-toxic-masculinity-on-tiktok-be-more-like-noel-deyzel",
+    "as_of": "2022-08"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "How to not be a Gym Douche",
+    "summary": "A huge bodybuilder delivering kind, anti-ego etiquette advice. The contrast between his size and gentle tone is the pattern interrupt.",
+    "types": [
+     "tutorial_howto",
+     "contrarian",
+     "humor_skit",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "'How to not be a [gym stereotype]' plus acted examples of the bad and good behaviour.",
+   "beats": [
+    "0-2s: title line on screen",
+    "2-20s: acted 'don't' vs 'do' examples",
+    "end: warm sign-off"
+   ],
+   "beats_inferred": false,
+   "why": "Euronews framed it as an antidote to toxic masculinity on TikTok. Kindness from an intimidating-looking person disarms gym anxiety.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "jump cuts",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Cast the studio's most muscular coach for a 'How not to be a gym [X]' series: re-rack your weights, wipe down, don't coach strangers, ask before working in. Play each bad-behaviour vs right-way pair for laughs. Soft-sells the studio's welcoming culture.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 66
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-kimkardashian-kim-kardashian-poses-in",
+   "title": "Kim Kardashian in scrubs beside a full-body MRI scanner",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "carousel",
+   "url": "https://www.instagram.com/kimkardashian/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@kimkardashian",
+    "name": "Kim Kardashian",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 3400000,
+    "comments": null,
+    "shares": null,
+    "quote": "in an Instagram post last month that has racked up more than 3.4 million \"likes,\" Kim Kardashian poses in scrubs alongside an MRI scanner",
+    "source_url": "https://www.bloomberg.com/opinion/articles/2023-09-13/is-prenuvo-s-full-body-mri-scan-worth-it-trust-your-doctor-not-a-kardashian",
+    "as_of": "2023-09"
+   },
+   "posted": "2023-08",
+   "hook": {
+    "verbatim": null,
+    "summary": "Photo post: Kim in scrubs standing next to the MRI scanner (Bloomberg's description). Caption as quoted in press: the scan is 'like getting a MRI for an hour with no radiation', the machine 'has really saved some of my friends lives', tagged #NotAnAd. Fortune separately reported 'over 3.5 million likes'.",
+    "types": [
+     "social_proof_testimonial",
+     "visual_spectacle",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Recognisable person in scrubs/gown beside a futuristic scanner + first-person caption: what it is, how long it takes, why I did it, 'not an ad'.",
+   "beats": [
+    "Image 1: the person in scrubs beside the scanner (documented)",
+    "Caption: what the scan is and how long it takes (documented: 'an hour', 'no radiation')",
+    "Caption: why it matters to me - friends' stories (documented claim)",
+    "End: #NotAnAd disclosure; Prenuvo reposted it to its Stories (documented by press)"
+   ],
+   "beats_inferred": false,
+   "why": "Celebrity social proof plus a striking machine visual. The $2,499 price set off a backlash ('People can't afford food right now', per Yahoo) and widespread press (Bloomberg, Fox News, Yahoo, AOL), which spread it further.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none (photo post)",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Photo carousel: client or gym owner in a branded gown beside the DEXA table (slide 1), operator positioning them (slide 2), the anonymised printout with fat/lean/bone values circled (slide 3), the price and how long it takes (slide 4), and how to book (slide 5). Do NOT copy the 'saved lives' or cancer-detection framing. DEXA claims should stay at what it measures: fat mass, lean mass, bone density and a visceral-fat estimate.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 50,
+    "relevancy": 70
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "dx-jesssfamofficial-creator-pays-2-500",
+   "title": "“I paid $2,500 for a full-body MRI… here's how it went”",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@jesssfamofficial/video/7355593218035174699",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@jesssfamofficial",
+    "name": "JesssFam",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 91200,
+    "comments": 370,
+    "shares": null,
+    "quote": "91.2K Likes, 370 Comments",
+    "source_url": "https://www.tiktok.com/@jesssfamofficial/video/7355593218035174699",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-04",
+   "hook": {
+    "verbatim": "I paid $2,500 to do the FULL body MRI scan… here's how it went 🥲",
+    "summary": "Caption opens with the price and an emotional emoji. The caption goes on: '60 min scan, scared, nervous, anxious… results to come!' and is tagged #comewithme #mriresults. The exact on-screen text and visuals are not verified.",
+    "types": [
+     "price_value_reveal",
+     "storytime",
+     "curiosity_gap",
+     "pov"
+    ]
+   },
+   "formula": "Price-shock confession + come-with-me vlog of the scan + honest nerves + 'results to come' cliffhanger, so viewers follow for part 2.",
+   "beats": [
+    "0-2s: price hook 'I paid $2,500…' (caption; on-screen text unverified)",
+    "2-20s: come-with-me footage of the visit and scan (inferred from #comewithme)",
+    "middle: feelings - 'scared, nervous, anxious' (caption)",
+    "end: 'results to come!' sets up a sequel"
+   ],
+   "beats_inferred": false,
+   "why": "The price comes in the first words, the creator admits her nerves, and the results are left open. In the same search, a sponsored Prenuvo walkthrough by another creator, heavy on claims (@lorelaimentzer), showed 805 likes against 91.2K here. That comparison is anecdotal.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "unknown",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Client vlog in two parts. Part 1: 'I paid CHF ___ for a DEXA scan - here's how it went' (phone selfie walking in, reception, changing, lying on the table while the arm passes over, 'results in 10 minutes'). Part 2: the results on the printout with a reaction. Shoot vertical on an iPhone with natural audio and burned-in captions.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 86
+   },
+   "effort": "low",
+   "remix": {
+    "dexa_biohacking": "“I paid CHF [price] for a DEXA scan… here's what it told me”: arrival, scan, the one surprising number, ‘part 2’ tease.",
+    "gym_pt": "“I paid CHF [price] for three months of personal training… here's what happened”: a client's honest vlog.",
+    "massage": "“I paid CHF 180 for a 90-minute sports massage… worth it?”: client POV with the verdict at the end.",
+    "icebath": "“I paid CHF [price] for a Wim Hof Method workshop… here's how it went.”",
+    "photo_video": "“I paid CHF [price] for a brand shoot… here's what I got”: the client reveals the gallery."
+   }
+  },
+  {
+   "id": "dx-dylanmulvaney-dylan-mulvaney-come-with",
+   "title": "“Come with me to get a full-body MRI?”",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@dylanmulvaney/video/7443092561092201774",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@dylanmulvaney",
+    "name": "Dylan Mulvaney",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 48700,
+    "comments": 467,
+    "shares": null,
+    "quote": "48.7K Likes, 467 Comments",
+    "source_url": "https://www.tiktok.com/@dylanmulvaney/video/7443092561092201774",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-11",
+   "hook": {
+    "verbatim": "Come with me to get a full body MRI? @Prenuvo #prenuvo #gifted",
+    "summary": "A 'come with me' question as the caption and premise. The visit was gifted, with a discount link (prenuvo.com/DYLANMULVANEY for 300 off). The visuals are not verified.",
+    "types": [
+     "pov",
+     "behind_the_scenes",
+     "question"
+    ]
+   },
+   "formula": "'Come with me to get a [scan]?' + walk-through of the visit + discount code in the caption.",
+   "beats": [
+    "0-2s: 'Come with me to get a full body MRI?' (caption)",
+    "2-30s: arrival and scan experience (inferred from the come-with-me format)",
+    "end: discount link in the caption"
+   ],
+   "beats_inferred": false,
+   "why": "The come-with-me format lets the viewer experience something exclusive and expensive by proxy. The creator's existing audience is a big factor; their follower count was not found.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "unknown",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Invite a local micro-influencer or member for a gifted DEXA or VO2 test: 'Come with me to get a DEXA scan in Zürich?'. Film the door, reception, scan and printout, and add a member code in the caption. Mark it as gifted or a partnership, as this creator did.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 66,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-shawstrength-strongman-brian-shaw-and",
+   "title": "Strongman vs arm-wrestler: DEXA results side by side",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "long_form",
+   "url": "https://www.youtube.com/watch?v=1EjX5UK29GE",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@shawstrength",
+    "name": "Brian Shaw (with Devon Larratt)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "2026-11"
+   },
+   "posted": "2025-06",
+   "hook": {
+    "verbatim": "1 in 500 million bone density🦴 Brian Shaw and Devon Larratt @devlarratt find out their DXA scan results 👀",
+    "summary": "Clip reposts lead with the superlative stat. Sport Manual reports that Shaw said 'at six standard deviations, one in 500 million people would have his bone density'. Bone density readings were 5.9 (Shaw) vs 5.1 (Larratt), and body fat about 15% vs 18%.",
+    "types": [
+     "shock_stat",
+     "us_vs_them",
+     "test_experiment",
+     "reaction_face"
+    ]
+   },
+   "formula": "Two very different bodies scanned back to back -> numbers read out -> one jaw-dropping percentile stat becomes the clip title.",
+   "beats": [
+    "0-2s: headline stat '1 in 500 million bone density' (repost captions)",
+    "2-15s: both athletes at the DEXA scan",
+    "15-45s: results compared - body fat ~15% vs ~18%, bone density 5.9 vs 5.1 (Sport Manual)",
+    "end: the percentile framing ('six standard deviations')"
+   ],
+   "beats_inferred": false,
+   "why": "One superlative number turned a long video into clips that kept getting reposted: fan TikTok reposts (@shawstrength73, June 2025), a Knees Over Toes Guy repost on Threads that tags @joeroganexperience, and a Sport Manual article in January 2026. A TikTok discover page showed '147.2K Likes, 3047 Comments' near these clips, but it was not tied to one video, so it is excluded.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "results screens / data cut-ins (likely; not verified)",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "'Coach vs member' or 'two members, same weight, totally different DEXA' video. Film both on the table, then show a split-screen of the printouts. Pull out ONE percentile or superlative stat that the report itself supports (e.g. the bone-density Z-score shown on the report) for the title. Don't invent percentiles.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 60,
+    "relevancy": 84
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "dx-jeffnippard-jeff-nippard-what-every",
+   "title": "What every body-fat % actually looks like, 50% to 5%",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "long_form",
+   "url": "https://www.youtube.com/channel/UC68TLK0mAEzUyHx5x5k-S1Q",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@jeffnippard",
+    "name": "Jeff Nippard",
+    "followers": "8,710,000 YouTube subscribers (prepublish.ai)"
+   },
+   "stats": {
+    "views": 16900000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "16.9M views · 3.8x the median",
+    "source_url": "https://prepublish.ai/youtube-channel/jeffnippard",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "What Every Body Fat % Actually Looks Like (50% to 5%)",
+    "summary": "The title promises a complete visual ladder. Rosetta.to describes it as 'a visual guide to body fat percentages, ranging from 50% down to 5%, using real individuals measured by DEXA and BIA scans'.",
+    "types": [
+     "listicle",
+     "curiosity_gap",
+     "myth_bust",
+     "visual_spectacle"
+    ]
+   },
+   "formula": "Descending ladder: one body-fat % per segment, shown on a real person whose number was measured by scan.",
+   "beats": [
+    "0-5s: title promise - every body-fat % from 50% to 5%",
+    "segments: real individuals at each level, measured by DEXA/BIA (rosetta.to description)",
+    "viewer places themselves on the ladder",
+    "end: not documented"
+   ],
+   "beats_inferred": false,
+   "why": "Its views are 3.8x the channel median (the median is 4,447,184 per long-form video, per prepublish.ai). It answers a universal 'where am I?' question with measured examples, and it was big enough to get a HasanAbi reaction video (aggregator listings).",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "on-screen % labels (implied by format; not verified)",
+    "captions": null,
+    "audio": "voiceover",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Short-form version: 'What 35% / 25% / 18% / 12% body fat actually looks like - DEXA-verified members'. Use 4-6 consenting members in a neutral stance, each with a big % overlay, 2 s per person, plus a CTA to find your own number. It also works as a carousel. Get written consent and avoid shaming language.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 94
+   },
+   "effort": "high",
+   "remix": {
+    "dexa_biohacking": "With consent, line up members by DEXA result (35, 28, 22, 15%), each holding their printout. Same pose, same light.",
+    "gym_pt": "One client's DEXA at months 0, 3, 6 and 12 as a ladder, same pose and light, the number on screen each time.",
+    "massage": "“What each tension level feels like”: the same trapezius pressure on four clients, their 1–10 rating on screen.",
+    "icebath": "A temperature ladder: 15, 10, 5 and 2 °C, same person, breath and face at each step.",
+    "photo_video": "The same portrait at five budgets (phone, €500, €3K, cinema rig). Viewers guess which is which."
+   }
+  },
+  {
+   "id": "dx-ameelzonweelz-biological-age-kneel-to",
+   "title": "“If you can do this, your biological age is below 30”",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@ameelzonweelz/video/7490882709846363410",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@ameelzonweelz",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 419600,
+    "comments": 2407,
+    "shares": null,
+    "quote": "A video of this kneel-to-squat test shows 419.6K Likes, 2407 Comments",
+    "source_url": "https://www.greenmatters.com/news/biological-age-test-tiktok",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": "If you can do this your biological age is below 30",
+    "summary": "A bold claim on screen or in the caption, then the person kneels and tries to jump up into a squat. Variants include families, office teams, brands, and Derek Jeter (HuffPost). Daily Dot reports that one April 2025 kneel-to-squat post has 6.7 million views, without naming the creator.",
+    "types": [
+     "challenge_day_x",
+     "test_experiment",
+     "curiosity_gap",
+     "humor_skit"
+    ]
+   },
+   "formula": "Bold age claim ('If you can do this, your biological age is under 30') -> one 3-second attempt -> pass or funny fail -> the next person tries.",
+   "beats": [
+    "0-2s: claim text + person kneeling",
+    "2-5s: the jump attempt",
+    "5-12s: reaction, fail or next person (family/office variants)",
+    "end: implied challenge to the viewer"
+   ],
+   "beats_inferred": false,
+   "why": "It needs no equipment, takes 5 seconds and has a binary pass/fail, so it invites duets and group versions. Coverage: Daily Dot (6.7M-view post), HuffPost (Oct 2025), Green Matters. The 419.6K-like figure comes from a search snippet next to this video's link. Its pairing with this exact URL is likely but not verified.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "none",
+    "captions": true,
+    "audio": "trending_sound",
+    "length_s": 10,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "PT gym version: coaches and members attempt it one after another on gym flooring, with the caption 'Fun challenge, NOT a real biological-age test'. End card: 'Want real numbers? We measure VO2 max and body composition.' Include a regression for anyone with knee or back issues, since experts flagged this to HuffPost. Never present the result as an age.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 92,
+    "relevancy": 88
+   },
+   "effort": "low",
+   "remix": {
+    "dexa_biohacking": "Members try the kneel-to-squat jump, then cut to their real DEXA or VO2 max number. Caption: the real test takes 10 minutes. Don't claim the jump measures age.",
+    "gym_pt": "Staff vs members as a numbered series (part 1, 2, 3) with a cocky line before every attempt.",
+    "massage": "“If you can touch your toes like this, your hamstrings are fine”: clients try, you explain the fails.",
+    "icebath": "“If you can stay in for two minutes, your cold tolerance is above average”: regulars vs first-timers.",
+    "photo_video": "“If you can do this pose, you'll look good in any photo”: clients attempt it, final frames shown."
+   }
+  },
+  {
+   "id": "dx-theautofilled1-gym-member-posts-his",
+   "title": "Big guy posts his gym InBody result: 17% body fat at 232 lb",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/discover/lifetime-fitness-fat-scanner",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@theautofilled1",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 69500,
+    "comments": 126,
+    "shares": null,
+    "quote": "69.5K Likes, 126 Comments",
+    "source_url": "https://www.tiktok.com/discover/lifetime-fitness-fat-scanner",
+    "as_of": "2026-10"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Caption, paraphrased on the discover page: an InBody scan at Life Time put him at 17% body fat at 232 lb and 6'2\". Another caption on the page jokingly calls the result fake. The visuals are not verified.",
+    "types": [
+     "shock_stat",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "Big guy + an unexpectedly low body-fat number from the gym's own scanner + 'is this real?' framing -> debate in the comments.",
+   "beats": [
+    "0-2s: the result number (inferred)",
+    "2-10s: stats context - weight and height",
+    "end: disbelief / 'fake?' framing"
+   ],
+   "beats_inferred": false,
+   "why": "The number clashes with what viewers expect at 232 lb, which invites disbelief. Life Time's in-house scanner is familiar to members. It was the top-liked gym body-scan post found. For comparison, gym-brand eVolt explainer posts (Anytime Fitness Elgin) showed 22-60 likes.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "unknown",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "Member reveal: phone shot of the printout coming out, a thumb covering the % before revealing it, then the member's face reacting. Caption: 'Guess my body fat at 105 kg'. Note that bioimpedance can differ from DEXA.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 86
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-danielle-creator-danielle-films-herself",
+   "title": "Get scanned with me: a first DEXA scan",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/discover/dexa-scan",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Danielle",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 19700,
+    "comments": 239,
+    "shares": null,
+    "quote": "19.7K Likes, 239 Comments",
+    "source_url": "https://www.tiktok.com/discover/dexa-scan",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A first-person video of getting a DEXA scan. No other detail was available from the discover page.",
+    "types": [
+     "behind_the_scenes",
+     "pov"
+    ]
+   },
+   "formula": "Get-scanned-with-me: arrival -> lying on the DEXA table -> result.",
+   "beats": [
+    "not documented beyond 'getting a DEXA scan'"
+   ],
+   "beats_inferred": false,
+   "why": "It was the highest-engagement 'getting a DEXA' post on TikTok's main DEXA discover page, other than unrelated medical posts. Details are unknown.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": "unknown",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Baseline 'come with me' DEXA vlog (see the JesssFam entry for structure).",
+   "evidence": "low",
+   "scores": {
+    "relatability": 64,
+    "relevancy": 92
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-madsfladetri-triathlete-posts-vo2-max",
+   "title": "“VO2 max test: 72” with the score in the title",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@madsfladetri/video/7500558792409517334",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@madsfladetri",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 2068,
+    "comments": 43,
+    "shares": null,
+    "quote": "2068 Likes, 43 Comments",
+    "source_url": "https://www.tiktok.com/@madsfladetri/video/7500558792409517334",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-05",
+   "hook": {
+    "verbatim": "VO2 - Max test : 72",
+    "summary": "The score is in the title. Caption: 'I did a VO2 Max test, which I'd recommend everyone get done. It helps show your current heart rate zones and max heart rate'.",
+    "types": [
+     "shock_stat",
+     "test_experiment",
+     "tutorial_howto"
+    ]
+   },
+   "formula": "Score-in-title + mask-and-treadmill footage + one practical use (training zones).",
+   "beats": [
+    "0-2s: score as text",
+    "2-15s: test footage (mask, treadmill)",
+    "end: recommendation + why (HR zones)"
+   ],
+   "beats_inferred": false,
+   "why": "Engagement is modest. VO2 videos with the number in the title are a recurring pattern: many creators post their scores (83, 75.5, 54.2, 50.8 on the vo2-max-test discover page). The value is the format, not the virality.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Film the member's VO2 test: mask fitting close-up, a speed-up montage, the gasping finish, then the number on screen. Caption: 'VO2 max: __. What it means for your training'. Explain zones, not lifespan.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 55,
+    "relevancy": 84
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-steven-diary-of-a-ceo",
+   "title": "Peter Attia: VO2 max predicts how long you'll live (podcast clip)",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@steven/video/7490640431793917206",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@steven",
+    "name": "Steven Bartlett (The Diary Of A CEO)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": "Longevity expert Peter Attia explains how your VO2 max results can predict how long you're going to live.",
+    "summary": "A podcast clip where the expert's credential plus a mortality-prediction promise make up the hook. The same material also ran on YouTube as 'Doctor Reveals POWERFUL Test to PREDICT How Long You'll Live'.",
+    "types": [
+     "authority_credential",
+     "shock_stat",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "Credentialed expert + 'this one test predicts your lifespan' + a single clip with burned-in captions.",
+   "beats": [
+    "0-3s: expert introduced with the claim",
+    "3-45s: explanation of VO2 max vs mortality",
+    "end: pointer to the full episode"
+   ],
+   "beats_inferred": false,
+   "why": "No stats were found for this post. Attia's own X post ('VO2 max is highly correlated with longevity. In fact, few variables are more strongly correlated.') and 60 Minutes coverage made this the defining talking point of the longevity space.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Gym version: the coach on camera with a VO2 chart behind (green screen). 'The one test top longevity doctors want you to take', then cut to a member doing the test. State correlation carefully, not as a guarantee.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 78
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "dx-bryan-johnson-bryan-johnson-posts-his",
+   "title": "Bryan Johnson: “my morning routine… am I weird?” (4:30–10 am)",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "x",
+   "content_type": "text_post",
+   "url": "https://x.com/bryan_johnson/status/1920218459478372834",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@bryan_johnson",
+    "name": "Bryan Johnson",
+    "followers": null
+   },
+   "stats": {
+    "views": 599000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "A separate post asked whether his routine was \"weird\" and had about 599K views.",
+    "source_url": "https://x.com/bryan_johnson/status/1920218459478372834",
+    "as_of": "2026-11",
+    "qualifier": "~"
+   },
+   "posted": "2025-05",
+   "hook": {
+    "verbatim": "my current morning routine... am I weird? start: 4:30am. finish: 10am.",
+    "summary": "A self-aware question, then extreme start and end times, then a bullet list (inner ear temp, BP, hair serum, red light cap, 10k lux light in eyes, Longevity Mix...). A sibling post, 'Timed my morning routine today. 4 hrs and 46 min.' (incl. sauna + red/NIR light + 90 min HBOT), showed about 262K views.",
+    "types": [
+     "question",
+     "listicle",
+     "shock_stat",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "'My [extreme] routine - am I weird?' + timestamped bullet list of biohacks.",
+   "beats": [
+    "line 1: 'am I weird?'",
+    "line 2: start/finish times (4:30am-10am)",
+    "list: each protocol step",
+    "end: implicit invitation to judge or copy"
+   ],
+   "beats_inferred": false,
+   "why": "The extreme numbers invite mockery and curiosity at the same time. It created a copycat genre on TikTok ('I Tried Bryan Johnson's Morning Routine for 30 Days') and mainstream coverage (LADbible, Netflix's 'Don't Die' Jan 2025).",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "none",
+    "captions": false,
+    "audio": null,
+    "length_s": null,
+    "faces": "none"
+   },
+   "replicate": "Reel: 'Our biohacking studio's 60-minute recovery stack - am I weird?' with a timestamp overlay per station (sauna 20 min, red light 10 min, cold plunge 3 min, PEMF 15 min), each shot as a 2-s clip. Or a member tries 'Bryan Johnson's routine for 7 days'.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 66,
+    "relevancy": 70
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-glucosegoddess-glucose-goddess-posting-her",
+   "title": "Glucose Goddess: her own CGM graphs, one hack per post",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "carousel",
+   "url": "https://www.instagram.com/glucosegoddess/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@glucosegoddess",
+    "name": "Jessie Inchauspé",
+    "followers": "6,329,864 Instagram (HypeAuditor, 16 Oct 2026)"
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "follower count shift from 6,310,066 to 6,329,864 from 22 Sep'26 to 16 Oct'26",
+    "source_url": "https://hypeauditor.com/instagram/glucosegoddess/",
+    "as_of": "2026-10"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "She posts graphs from her CGM readings to show how different foods and habits affect her glucose, alongside 'hack' videos. She says she built an app that 'automated the graph-making process and then I began to share them on Instagram' (Country & Town House).",
+    "types": [
+     "test_experiment",
+     "before_after_reveal",
+     "visual_spectacle",
+     "myth_bust"
+    ]
+   },
+   "formula": "Own biometric graph (food/habit -> glucose curve) + one simple behaviour 'hack' + a consistent, branded chart style.",
+   "beats": [
+    "slide/frame 1: glucose graph with a food or habit label",
+    "next: the comparison or 'hack' version",
+    "next: the explanation",
+    "end: the takeaway hack"
+   ],
+   "beats_inferred": false,
+   "why": "She made an invisible body process visible with a recognisable chart. Growth was steady rather than viral: 321,721 followers a year before reaching 1.9M (Bustle), and 6.3M by Oct 2026. She said: 'Instagram is very slow and very steady... There aren't that many spikes.'",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "custom chart graphics from her own app",
+    "captions": true,
+    "audio": "voiceover",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "A gym with CGM coaching: client wears a CGM for 14 days. Post 'same lunch, walk vs no walk' style graphs in one consistent brand template. Keep claims to the observed curve. Many dietitians criticise her extrapolations (Marie Claire, Today).",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 82
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "dx-bodyspec-bodyspec-mobile-dexa-provider",
+   "title": "DEXA provider puts visiting creators in the scanner",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@bodyspec/video/7427214864247999775",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@bodyspec",
+    "name": "BodySpec",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "2026-11"
+   },
+   "posted": "2024-10",
+   "hook": {
+    "verbatim": "DEXA scans are the gold standard for measuring body composition! 💪📊 Thanks for visiting us, @chefkurry",
+    "summary": "A provider-run account shows a tagged creator getting scanned. A sibling post (Aug 2024) reads: 'Shayan got back in the BodySpec DEXA scanner to track his body composition progress. @wizemufti Keep up the good work 💪🔥'.",
+    "types": [
+     "authority_credential",
+     "social_proof_testimonial",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Tagged guest in the scanner + 'gold standard' authority line + a shout-out; repeat with rescans for progress stories.",
+   "beats": [
+    "0-2s: guest lying on the DEXA table",
+    "2-10s: scan arm passes over, results screen",
+    "end: tag/thanks to the guest"
+   ],
+   "beats_inferred": false,
+   "why": "No stats were found. This is evidence of a scalable provider workflow: every client visit becomes content, and tagging the guest borrows their audience. Yahoo notes that much DEXA TikTok content is provider-driven.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "With consent, film every first scan and rescan from the same tripod angle above the DEXA table. Tag the client, and post rescans as 'Round 2' progress videos.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 52,
+    "relevancy": 92
+   },
+   "effort": "low"
+  },
+  {
+   "id": "dx-doctormike-doctor-mike-questions-prenuvo",
+   "title": "Doctor Mike questions the full-body-MRI CEO",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@doctormike/video/7482804033338592554",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@doctormike",
+    "name": "Dr. Mikhail Varshavski (Doctor Mike)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "2026-11"
+   },
+   "posted": "2025-03",
+   "hook": {
+    "verbatim": "Full-body (screening) MRI Scans are going viral and the medical community has spoken saying these are largely unecesssry. 🩻 So, I sat down with @Prenuvo CEO, Andrew Lacy, to ask him about the potential benefits and harms",
+    "summary": "A skeptic-authority framing: names the trend, states the medical consensus, then confronts the company's CEO.",
+    "types": [
+     "contrarian",
+     "authority_credential",
+     "myth_bust"
+    ]
+   },
+   "formula": "'[Trend] is going viral, but experts say ___' + interview with the person selling it.",
+   "beats": [
+    "0-3s: trend + expert pushback",
+    "3-40s: CEO answers on benefits and harms",
+    "end: full podcast CTA"
+   ],
+   "beats_inferred": false,
+   "why": "No stats were found. Included as the counter-narrative format, which balances hype and is safer for regulated clients.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "'Is a DEXA scan worth it? Our sports scientist answers the 5 biggest objections' (radiation dose, accuracy vs InBody, how often, cost, who shouldn't). This builds trust and avoids hype.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 60,
+    "relevancy": 70
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ib-coldplungecam-cold-plunge-cam-drops",
+   "title": "“Stranger ice baths > testing new heart-rate monitor”",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@coldplungecam/video/7273536432214510891",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@coldplungecam",
+    "name": "Cameron LaBar (Cold Plunge Cam)",
+    "followers": "335K+ Instagram followers and 4.6M TikTok likes (Rezerv blog, undated); 250K IG followers by end of 2023 (Nomadix interview, 2024-03)"
+   },
+   "stats": {
+    "views": null,
+    "likes": 711000,
+    "comments": 1477,
+    "shares": null,
+    "quote": "TikTok search-index snippet for the post captioned 'Stranger ice baths > testing new heart rate monitor': '711K Likes, 1477 Comments.'",
+    "source_url": "https://www.tiktok.com/@coldplungecam/video/7273536432214510891",
+    "as_of": "2026-11"
+   },
+   "posted": "2023-08",
+   "hook": {
+    "verbatim": null,
+    "summary": "From the caption: the ice bath was prepared to test a sponsor's heart-rate monitor, but 'getting a stranger into an ice bath was more important at that moment'. The caption opener 'Stranger ice baths > testing new heart rate monitor' frames it as a priorities joke. Hashtags (#boiseriver, #funny) point to an outdoor Boise setting played for comedy. First-frame visuals not verified, because the video could not be viewed.",
+    "types": [
+     "humor_skit",
+     "reaction_face",
+     "pattern_interrupt",
+     "social_proof_testimonial"
+    ]
+   },
+   "formula": "Plunge set up in public → recruit a random passer-by → film their cold-shock entry and reaction → payoff of them sticking it out; caption: 'Stranger ice baths > [the boring thing I was supposed to film]'",
+   "beats": [
+    "0-2s (inferred from caption) creator next to his prepared ice bath, implied gear-test setup",
+    "2-8s (inferred) a stranger is approached or volunteers",
+    "8-20s (inferred) stranger's entry, gasps and reaction",
+    "end (inferred) stranger exits or celebrates; the sponsor code (Frontier X2, 25% off) goes in the caption, not the video"
+   ],
+   "beats_inferred": false,
+   "why": "A non-creator's unpredictable reaction plus a relatable 'priorities shifted' joke. At 711K likes it has about 37x the likes of Wim Hof's own world-record TikTok (19.4K), which suggests that in this niche, reactions from strangers and first-timers beat solo expert content. Keeping the sponsorship in the caption kept the video native.",
+   "production": {
+    "camera": null,
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Studio version: put a branded tub outside the studio (sidewalk, market day, or lakefront in winter) and invite passers-by for a coached 30-60s dip. Shots: (1) wide establishing shot of the tub and stranger walking past, (2) handheld ask moment, (3) tight face cam at water level for the entry gasp, (4) coach's hand on shoulder counting breaths, (5) exit and towel hug, with the person saying one line ('I feel insane/amazing'). Get signed releases, screen for heart conditions, keep a timer visible. Caption: 'Stranger ice baths > [whatever you were meant to film]'.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 90
+   },
+   "effort": "medium",
+   "remix": {
+    "icebath": "Set up a plunge in a public spot (with permission) and invite passers-by. Film the entry, the gasp, the 30-second mark, the grin.",
+    "massage": "Two-minute free chair massages for strangers (a station or market, with permission). Film the first touch and the walk-away face.",
+    "gym_pt": "Invite passers-by to try one exercise with your trainer for 30 seconds. Film the effort and the high-five.",
+    "dexa_biohacking": "Free grip-strength tests for strangers; show their number against their age group.",
+    "photo_video": "Stranger portraits at an event: 60 seconds each, then show them the frame."
+   }
+  },
+  {
+   "id": "ib-itskyajeub-he-hid-in-my",
+   "title": "“HE HID IN MY ICE BATH!!” Husband pranks the daily plunge",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@itskyajeub",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@itskyajeub",
+    "name": "Kya Jeub (Ice Queen)",
+    "followers": "about 2M followers and 87.7M likes (TikTok profile snapshot via search)"
+   },
+   "stats": {
+    "views": null,
+    "likes": 504800,
+    "comments": 1680,
+    "shares": null,
+    "quote": "Search summary of TikTok listings: title 'HE HID IN MY ICE BATH!!' with note 'im still recovering', tagged #prank #coupleprank — 'Listings report it at around 504.8K likes and 1680 comments, but other listings of the same clip show much lower counts.' A second snapshot of a 'surprise couples ice bath prank' by @itskyajeub (discover page dated 2026-07-20): '505.4K likes and 1,669 comments'.",
+    "source_url": "https://www.tiktok.com/discover/kya-jeub-ice-bath",
+    "as_of": "2026-07",
+    "qualifier": "~"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "HE HID IN MY ICE BATH!!",
+    "summary": "Title or on-screen line in all caps announcing the scare; the wife walks up to her routine ice bath and her husband bursts out of the water. A later reply video says it was partly a skit ('he couldn't hold his breath that long and had to bail'). The exact first frame is not verified.",
+    "types": [
+     "humor_skit",
+     "pattern_interrupt",
+     "reaction_face",
+     "storytime"
+    ]
+   },
+   "formula": "Established daily-ice-bath ritual → partner subverts it with a prank → genuine scream/reaction → follow-up 'payback' video keeps the series going",
+   "beats": [
+    "0-2s ALL-CAPS headline 'HE HID IN MY ICE BATH!!' over the approach to the tub",
+    "2-8s she walks up to the routine plunge, nothing seems off",
+    "8-15s husband surges out of the ice water, she screams",
+    "end aftermath laughter; series continues with a reply that explains the skit and a 'HE DESERVED THIS' payback (about 47.9K likes)"
+   ],
+   "beats_inferred": false,
+   "why": "It hijacks a ritual the audience already knows from her daily ice-bath series, so the subversion lands. The couple dynamic and the scream give it shareability outside the cold-plunge niche. The payback and explainer videos turned one prank into a mini-series.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Studio version (staff or regular client couple, with consent): (1) the regular walks to their usual plunge as normal, (2) a staff member is hidden under a floating ice layer or lid. Only do this with an experienced cold-exposure person, a breath-hold of a few seconds, and a spotter. Never hyperventilate or do long breath-holds in water. (3) Tight reaction shot plus a wide shot. (4) Post the 'payback' as part 2. On-screen line: 'HE HID IN MY ICE BATH!!'.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 78
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ib-itskyajeub-ice-queen-daily-ice",
+   "title": "Ice Queen's numbered daily ice-bath diary",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@itskyajeub",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@itskyajeub",
+    "name": "Kya Jeub (Ice Queen)",
+    "followers": "about 2M followers and 87.7M likes (TikTok profile snapshot via search)"
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Account-level only: profile 'Ice Queen (@itskyajeub)' lists about '2M Followers and 87.7M Likes'. Per-post stats for the day-numbered posts were not captured.",
+    "source_url": "https://www.tiktok.com/@itskyajeub",
+    "as_of": "2026-11"
+   },
+   "posted": "2022-12",
+   "hook": {
+    "verbatim": "Explained the benefits of taking ice baths to a stranger today… turns out she was an RN!! 😭😍",
+    "summary": "Each post is one entry in a running daily-ice-bath log (#day37, 'comin up on 1 month!!', #daily, #icequeen), with a micro-story, a comment reply or a couple/family moment layered on top of the routine plunge.",
+    "types": [
+     "challenge_day_x",
+     "storytime",
+     "comment_reply",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Same daily ice-bath ritual + day counter + one new micro-story per day (stranger encounter, comment reply, partner joins, life update) = serialized habit content",
+   "beats": [
+    "0-2s day number or a one-line story setup",
+    "2-10s getting into the ice bath (same location every day)",
+    "10-30s the story or reply delivered while sitting in the ice",
+    "end exit; teaser for the next day"
+   ],
+   "beats_inferred": false,
+   "why": "Serialized daily content builds a habit audience. The account grew to about 2M followers and 87.7M likes with ice baths as the constant. Captions from 2022-12 (#day37, 'comin up on 1 month!!') show the account was built on the day-counter mechanic before moving to couple and family storylines in 2024–2025.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "For a studio: pick one recurring face (owner or a member doing a 30- or 100-day challenge). Use the same tripod angle and the same tub every day, with a day counter on screen. Each day, deliver one thing while in the ice: an answer to a comment, a client story, or a myth. Film vertical at water level with one fixed wide angle. End every post by stating the next day number.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 88
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ib-zachking-zach-king-s-first",
+   "title": "Zach King's first glacier cold plunge",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@zachking/video/7426364367215529246",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@zachking",
+    "name": "Zach King",
+    "followers": "86.8M TikTok followers (Wikipedia, via search)"
+   },
+   "stats": {
+    "views": null,
+    "likes": 308900,
+    "comments": 2281,
+    "shares": null,
+    "quote": "TikTok video from Zach King (@zachking): 'My FIRST glacier cold plunge 🥶' — '308.9K Likes, 2281 Comments' (search index, post dated 2024-10-16)",
+    "source_url": "https://www.tiktok.com/@zachking/video/7426364367215529246",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-10",
+   "hook": {
+    "verbatim": null,
+    "summary": "Title or caption 'My FIRST glacier cold plunge 🥶'. The promise is a first-timer reaction in an extreme natural setting. Whether it uses his trademark illusion edits is not documented.",
+    "types": [
+     "visual_spectacle",
+     "reaction_face",
+     "challenge_day_x"
+    ]
+   },
+   "formula": "'My FIRST [extreme location] cold plunge' = spectacular location + first-time reaction",
+   "beats": [
+    "0-2s glacier or ice landscape and the 'FIRST' framing",
+    "2-8s approach and hesitation",
+    "8-15s plunge and cold-shock reaction",
+    "end exit and verdict"
+   ],
+   "beats_inferred": false,
+   "why": "It combines the two biggest levers in this niche: the scenery (glacier) and a first-time reaction. 2,281 comments on 308.9K likes points to a conversational payoff (people sharing their own plunge stories or questions).",
+   "production": {
+    "camera": null,
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "not documented",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Swiss studio advantage: shoot 'My FIRST glacier-lake / Alpine-lake cold plunge' with a client at a mountain lake (e.g., in winter) with a guide present. Shots: drone or wide establishing shot of the landscape, a GoPro at the waterline, a slow-mo entry, a tight face reaction, and a steam-breath exit. Keep the word 'FIRST' in the title.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 82
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ib-ramonkhino-filipino-actor-rk-bagatsing",
+   "title": "“Added cold plunge to my routine ☑️”",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@ramonkhino/video/7494264162810465554",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@ramonkhino",
+    "name": "RK Bagatsing",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 248900,
+    "comments": 585,
+    "shares": null,
+    "quote": "TikTok video from RK Bagatsing (@ramonkhino): 'Added cold plunge to my routine ☑️ #recovery #icebath' — '248.9K likes and 585 comments' (search index)",
+    "source_url": "https://www.tiktok.com/@ramonkhino/video/7494264162810465554",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": null,
+    "summary": "Caption 'Added cold plunge to my routine ☑️' frames it as a recovery-routine upgrade by a celebrity. Visuals not documented.",
+    "types": [
+     "behind_the_scenes",
+     "transformation"
+    ]
+   },
+   "formula": "Celebrity or attractive athlete + 'added [X] to my routine' checkmark framing + recovery tag = aspirational routine clip",
+   "beats": [
+    "0-2s (inferred) face or physique next to the plunge",
+    "2-10s (inferred) entry into the ice",
+    "end (inferred) calm, controlled sit, implied discipline"
+   ],
+   "beats_inferred": false,
+   "why": "It is aspirational routine content from a recognizable face. The checkmark framing makes it feel like a habit tracker, not a stunt. Low comments relative to likes (585 on 248.9K) suggests passive, aesthetic consumption rather than debate.",
+   "production": {
+    "camera": null,
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": false,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Use a local athlete or influencer client: 'Added cold plunge to my routine ☑️'. Shoot a clean aesthetic in your studio: slow push-in on the tub, ice texture macro, a calm controlled entry, and a steady breathing close-up. Grade it moody, and put the studio name only in the caption or tag.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 72
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ib-espn-first-time-ice-bath",
+   "title": "First-timer bails out of the ice bath (ESPN repost)",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@espn/video/7491312758386855199",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@espn",
+    "name": "ESPN (original via @Booter)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 238700,
+    "comments": 1154,
+    "shares": null,
+    "quote": "ESPN TikTok captioned 'He did what he had to do 😂 (via @Booter) #icebath #fail' — '238.7K likes and 1,154 comments'; description says it's someone's first time trying an ice bath.",
+    "source_url": "https://www.tiktok.com/@espn/video/7491312758386855199",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-04",
+   "hook": {
+    "verbatim": null,
+    "summary": "A first-timer's ice-bath attempt that ends in an undignified 'fail', framed by the caption 'He did what he had to do 😂'. The exact action is not documented.",
+    "types": [
+     "humor_skit",
+     "reaction_face",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "First-timer + ice bath + escape/fail moment, reposted by a big aggregator page with a deadpan caption",
+   "beats": [
+    "0-2s (inferred) first-timer at the tub edge",
+    "2-6s (inferred) entry and instant panic",
+    "end (inferred) the 'fail' payoff (bailing out)"
+   ],
+   "beats_inferred": false,
+   "why": "Fail and first-timer panic is universally relatable. The vague caption ('did what he had to do') creates a curiosity gap that you only resolve by watching. Aggregator reposts like this show the format travels beyond wellness audiences.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "raw",
+    "vfx": "none documented",
+    "captions": false,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Run a 'first-timer Fridays' series at the studio: tripod at tub height, wide enough to catch bail-outs, with a second phone on the face. Post the funniest honest reactions with a deadpan caption. Never stage an actual unsafe exit (slipping, jumping out onto wet tiles). Get consent before posting.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ib-ashton-ashton-hall-s-extreme",
+   "title": "Ashton Hall's 3:50 am routine and ice-water face dunk",
+   "niche": "icebath",
+   "adjacent": true,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://amp.knowyourmeme.com/memes/people/ashton-hall",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Ashton Hall",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Figures in March 2025 press coverage conflict and could not be pinned to one URL: 'more than 8 million likes on TikTok and over 99 million views'; 'the X repost has amassed 700 million views and counting, and Hall's original post of the morning routine has reached 150 million views across his social media platforms'; other outlets: '33 million views across TikTok and Instagram' and 'over 600 million views'. MrBeast posted: 'Morning gang, don't forget to dunk your face in ice water today'.",
+    "source_url": "https://www.today.com/today/amp/rcna197851",
+    "as_of": "2025-03"
+   },
+   "posted": "2025-02",
+   "hook": {
+    "verbatim": null,
+    "summary": "A pre-dawn, clock-stamped routine (press reports a start around 3:50 a.m.) of mouth tape, a banana-peel facial, and a face dunk in a bowl of ice water filled with Saratoga spring water. The absurd precision and luxury props made it meme fuel.",
+    "types": [
+     "pattern_interrupt",
+     "visual_spectacle",
+     "behind_the_scenes",
+     "loop"
+    ]
+   },
+   "formula": "On-screen timestamps + a hyper-disciplined, slightly absurd ritual sequence + a signature cold moment (ice-water face dunk) = 'morning routine' meme template",
+   "beats": [
+    "0-2s pre-dawn wake-up with an early timestamp",
+    "2-20s rapid ritual montage (mouth tape, workout, skincare)",
+    "20-40s ice-water face dunk with branded spring water, done twice",
+    "end more rituals; no voice explanation, so viewers fill in the meaning"
+   ],
+   "beats_inferred": false,
+   "why": "It is extreme, earnest, and parody-ready, which drove an X repost and responses from MrBeast and Logan Paul. The ice-water face dunk became the meme's signature move and pushed 'face dunk' search interest (TikTok has a 'benefits of dunking your face in ice water' discover page).",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "yes",
+    "editing": "heavy",
+    "vfx": "fast cuts with on-screen timestamps",
+    "captions": true,
+    "audio": "music",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Parody or homage for a studio: '[5:47 AM] my client's morning routine' with timestamps → arrive at the studio → breathwork → face dunk → full plunge → coffee. Shoot an ASMR ice bowl close-up, water droplets in slow-mo, a branded bottle pour. Lean into self-aware humour to ride the meme without health claims.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 68,
+    "relevancy": 62
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ib-iceman-hof-wim-hof-breaking-my",
+   "title": "Wim Hof: how he kept breaking his own ice-bath record",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@iceman_hof/video/7376402486267088160",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@iceman_hof",
+    "name": "Wim Hof",
+    "followers": "about 3.5M Instagram followers, avg reel views about 335K (Qoruz, 2025-09); 3.0M YouTube subscribers (Qoruz, 2025-06)"
+   },
+   "stats": {
+    "views": null,
+    "likes": 19400,
+    "comments": 84,
+    "shares": null,
+    "quote": "Third-party TikTok aggregator pages: '19.4K Likes, 84 Comments' (another page shows 85 comments); text says he 'always broke his own world record by 1 minute' in ice bath endurance.",
+    "source_url": "https://www.tiktok.com/discover/world-record-for-the-longest-ice-bath",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-06",
+   "hook": {
+    "verbatim": null,
+    "summary": "Wim Hof recounts his own ice-bath world-record strategy (beat it by one minute every time). This is authority and credential storytelling.",
+    "types": [
+     "authority_credential",
+     "storytime",
+     "shock_stat"
+    ]
+   },
+   "formula": "Living legend + record anecdote + one tactical lesson",
+   "beats": [
+    "0-3s Wim on camera, record framing",
+    "3-30s story of the record attempts",
+    "end lesson or catchphrase"
+   ],
+   "beats_inferred": false,
+   "why": "Included as a benchmark. Wim Hof's own TikToks earn modest engagement (19.4K likes) compared with reaction formats (Cold Plunge Cam stranger 711K, Ice Queen prank about 505K). Qoruz also reports only about a 0.2% average like rate on his Instagram despite about 3.5M followers. Authority alone underperforms reaction and story formats in short-form.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": true,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "For a certified WHM instructor: use credential stories sparingly and pair them with a visual (instructor in the ice while talking). Better: let the instructor guide a first-timer and put the authority in the coaching voice-over.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 58,
+    "relevancy": 76
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-jordi-koalitic-magic-door-a-small",
+   "title": "‘Magic Door’: a phone-shot practical illusion, then the trick",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@jordi.koalitic",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@jordi.koalitic",
+    "name": "Jordi Koalitic",
+    "followers": "20.6M TikTok / 7.3M Instagram (Adorama article, updated 2026-06)"
+   },
+   "stats": {
+    "views": 222800000,
+    "likes": 14800000,
+    "comments": null,
+    "shares": null,
+    "quote": "PetaPixel (2024-04-10): 'The video, which has amassed an astounding 222.8 million views on TikTok, creative photographer Jordi Koalitic uses nothing but clever camera angles and precise timing.' PetaPixel also reports the video drew 'over 14.8 million likes on TikTok'. A separate Bored Panda piece (syndicated on inkl) cites '15 million likes and 280 million views on Instagram alone' for the BTS reel of the same shot.",
+    "source_url": "https://petapixel.com/2024/04/10/photographer-uses-clever-trick-to-create-magic-door-image",
+    "as_of": "2024-04"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "An image that looks impossible (a tiny paper door in a book page opening onto a real scene) is shown together with the low-tech practical setup: a co-worker opens the cut-paper door while Jordi films through the opening on a phone (tagged Xiaomi 13 Ultra). Our sources do not document the exact order of the shots.",
+    "types": [
+     "behind_the_scenes",
+     "before_after_reveal",
+     "visual_spectacle",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "An 'impossible' photo, then the cheap physical trick behind it, all shot on a phone with no editing tricks.",
+   "beats": [
+    "(reconstructed from PetaPixel description) 0-2s: striking result frame or odd-looking rig",
+    "2-8s: the rig is a book page with a hinged paper door cut in it, a helper's hand opens it, and the phone lens is framed through the hole",
+    "8-15s: the BTS angle is matched to the final frame",
+    "end: final image held, with a natural loop back to the start"
+   ],
+   "beats_inferred": false,
+   "why": "PetaPixel stresses it used 'nothing but clever camera angles and precise timing'. It's a reproducible, practical, phone-only trick, and the reveal pays off the curiosity the impossible image creates. Jordi's 2026 Adorama profile frames his whole audience as coming from in-camera practical effects with only light Lightroom edits.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none in-shot (practical). Cuts between BTS and result",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Phone: the original was tagged Xiaomi 13 Ultra, and any flagship phone works. Shot list: (1) print an A3 photo of the championship venue or the massage studio door and cut a small hinged flap; (2) clamp the phone right behind the flap so the lens sees through it into the real room; (3) a helper opens the flap exactly as the therapist/athlete steps into frame; (4) a second phone films a side-angle BTS of the rig; (5) edit 3-5s of BTS, then the clean in-camera result. No VFX. Massage spin: the paper door on the event poster opens onto the live competition table.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 76,
+    "relevancy": 80
+   },
+   "effort": "medium",
+   "remix": {
+    "photo_video": "Make one impossible-looking frame in camera, then show the cheap practical trick behind it. Phone only, no VFX.",
+    "massage": "Forced perspective: the therapist's hands seem to massage the city skyline. Then reveal the setup.",
+    "gym_pt": "A client appears to deadlift the gym building through a forced-perspective frame. Then reveal how.",
+    "dexa_biohacking": "A paper ‘X-ray window’ cut into a printed scan opens onto the real member. Then reveal the setup.",
+    "icebath": "A small paper hole in a photo of the Alps opens onto your real plunge. Then reveal the setup."
+   }
+  },
+  {
+   "id": "pv-zachking-zach-king-s-magic",
+   "title": "‘Magic Broomstick’: the most-viewed TikTok on record",
+   "niche": "photo_video",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@zachking",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@zachking",
+    "name": "Zach King",
+    "followers": null
+   },
+   "stats": {
+    "views": 2200000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Guinness World Records: approximately 2.2 billion views, verified by TikTok on 15 March 2022; posted on 9 December 2019. Third-party lists (Dexerto and others) also cite his 'This is the best hiding spot' video at 1.1 billion views and a glass-cake illusion at about 967 million.",
+    "source_url": "https://www.guinnessworldrecords.com/news/2022/11/internet-illusionist-zach-king-breaks-record-for-most-viewed-video-on-tiktok-724834",
+    "as_of": "2022-03",
+    "qualifier": "~"
+   },
+   "posted": "2019-12",
+   "hook": {
+    "verbatim": null,
+    "summary": "Opens straight into the illusion: Zach in wizard costume appears to ride a broom in mid-air within the first second, then the staging is revealed. Our sources do not detail the exact reveal mechanics.",
+    "types": [
+     "visual_spectacle",
+     "pattern_interrupt",
+     "behind_the_scenes",
+     "loop"
+    ]
+   },
+   "formula": "An impossible moment in second 0, followed by a short reveal of how it was staged in camera.",
+   "beats": [
+    "0-1s: the impossible action is already happening (no intro)",
+    "1-6s: the illusion plays out",
+    "6-12s: the camera or cut reveals the practical setup",
+    "end: quick ending that loops"
+   ],
+   "beats_inferred": false,
+   "why": "Guinness-verified as the most-viewed TikTok. The format front-loads the spectacle and adds a 'how' reveal that rewards rewatching. It is pop-culture adjacent (Harry Potter) and runs very short.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "practical illusion + in-camera staging / compositing",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Adjacent (VFX illusionist, not a photographer). For a videographer, the lesson is to open on the impossible frame and reveal the trick in the last third. Massage spin: a forced-perspective 'levitating' athlete over the massage table (low phone angle, athlete balanced on a hidden stool that the table edge blocks), then a 1-second wide reveal of the stool and the crew.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 60
+   },
+   "effort": "high"
+  },
+  {
+   "id": "pv-oak-and-alternative-wedding-portrait-slideshow",
+   "title": "Unconventional wedding portraits as a fast slideshow",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://petapixel.com/2024/06/03/wedding-photographers-praised-for-their-stunning-alternative-images",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Oak and Iron Photography (Bianca & Pastrami, Melbourne)",
+    "followers": null
+   },
+   "stats": {
+    "views": 5600000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "PetaPixel: 'The TikTok video, which amassed 5.6 million views, featured a selection of Bianca's and Pastrami's alternative portraiture of the couple's nupitals'. Photographers: 'We've been working the social media game for a while now and have had some things get a lot of views in the past, but never to this level.'",
+    "source_url": "https://petapixel.com/2024/06/03/wedding-photographers-praised-for-their-stunning-alternative-images",
+    "as_of": "2024-06"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A photo slideshow of the most unconventional frames from one wedding, with a caption pushing against a common wedding-photo complaint. Social media responded by calling them 'the coolest wedding photos ever'.",
+    "types": [
+     "contrarian",
+     "visual_spectacle",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Your boldest client images as a fast slideshow plus a caption that pushes back on the category cliché.",
+   "beats": [
+    "0-1s: most unexpected frame first",
+    "1-10s: rapid image changes on the beat",
+    "end: strongest image last (or loop)"
+   ],
+   "beats_inferred": false,
+   "why": "Differentiation. The photographers say they still deliver traditional 'wall hangers', but posting only the unconventional frames made the feed stand out, and commenters called them 'the coolest wedding photos ever'.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "photo slideshow cuts",
+    "captions": true,
+    "audio": "music",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Pull 8-12 'not your typical massage photos' frames from a championship: extreme top-down of oiled hands on a back, slow-shutter motion blur of a stroke, low wide-angle from the judges' eye line, silhouette backlight through steam. Put them on a beat-synced slideshow with an on-screen caption contrasting them with stock spa photos. Use TikTok photo mode or an IG Reel at 0.5-0.8s per image.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 66,
+    "relevancy": 76
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-ryan-chipman-wedding-first-look-prank",
+   "title": "Wedding first-look prank, captured by the videographer",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://kfyo.com/texas-wedding-videographer-participates-in-hilarious-tiktok-trend/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Ryan Chipman (Ryan Chipman Stills & Motion, Texas wedding videographer)",
+    "followers": null
+   },
+   "stats": {
+    "views": 3000000,
+    "likes": 710000,
+    "comments": null,
+    "shares": null,
+    "quote": "KFYO: 'the video has gained over 3 million views and 710,000 likes within about a month.'",
+    "source_url": "https://kfyo.com/texas-wedding-videographer-participates-in-hilarious-tiktok-trend/",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "The recognisable emotional setup comes first: the groom stands facing away, waiting for the bride's first look. When he turns, it's a friend in costume carrying a Smirnoff Ice. This copies a popular TikTok trend format.",
+    "types": [
+     "humor_skit",
+     "pattern_interrupt",
+     "reaction_face",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "Familiar emotional ritual, subverted by a prank, with the genuine reaction captured on pro camera.",
+   "beats": [
+    "0-3s: groom facing away; anticipation",
+    "3-6s: the 'bride' approaches from behind (the viewer sees it's a friend)",
+    "6-10s: groom turns, then laughter",
+    "end: real bride or a hug (resolution)"
+   ],
+   "beats_inferred": false,
+   "why": "It rides an existing trend (per KFYO), so the audience already knows the setup and the subversion lands quickly. The reaction face is the payoff. A working videographer posted it to a professional account, so it doubles as a portfolio piece.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Only do this with client consent. Wellness version: the 'first look' at a competitor's championship reel. Have them face away from the monitor; a teammate sets up a fake 'reel' (blooper or a dancing mascot), then the real cinematic edit plays. Film their face with a second camera on a 50-85mm.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 72
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-anaugazz-iphone-photos-app-editing",
+   "title": "iPhone Photos ‘golden hour’ editing hack",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@anaugazz",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@anaugazz",
+    "name": "anaugazz",
+    "followers": null
+   },
+   "stats": {
+    "views": 19700000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Accio trend report: 'initial videos by @anaugazz racking up over 19.7 million views'. Another outlet in the same results (exact outlet not pinned down) reported it 'racked up 20 million views and 3 million likes on TikTok, and over 740 thousand people saved it.'",
+    "source_url": "https://www.accio.com/business/tiktok-photo-editing-trend-steps",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": "2021-04",
+   "hook": {
+    "verbatim": null,
+    "summary": "A screen recording of the native iPhone Photos editor on a dull photo. The sliders move to extremes, then get dialed back, ending on a warm golden-hour result.",
+    "types": [
+     "tutorial_howto",
+     "before_after_reveal",
+     "satisfying_process"
+    ]
+   },
+   "formula": "Show the slider recipe on one flat photo in real time, then the before/after.",
+   "beats": [
+    "0-2s: flat 'before' photo",
+    "2-15s: slider-by-slider recipe (brightness/contrast up, edit, then back down)",
+    "end: golden-hour 'after', often with a before/after flip"
+   ],
+   "beats_inferred": false,
+   "why": "It was immediately actionable on a phone everyone owns, which drove saves (740K reported). Follow-up re-creations by other users also pulled millions (8.9M and 7.9M reported), showing the format was copyable. It was popularised by a general creator, not a pro photographer.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "screen recording",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "none"
+   },
+   "replicate": "Make 'the 10-second edit I use on every event photo': screen-record Lightroom Mobile (or iPhone Photos) on a flat massage-championship shot, show each slider value as on-screen text, end on a before/after swipe. Keep it to one photo and one recipe so it's saveable.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 70
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-alexstemp-street-photographer-asks-a",
+   "title": "Asking a random mall employee to model",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@alexstemp",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@alexstemp",
+    "name": "Alex Stemplewski (Alex Stemp)",
+    "followers": "10M+ TikTok (Adobe MAX 2020 session description); Digital Camera World headline says 11M"
+   },
+   "stats": {
+    "views": 82000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Columbia Chronicle (opinion): 'His viral video, with over 82 million views, was simply him asking a random mall employee to model for him, and the photos he took turned out pretty basic.'",
+    "source_url": "https://columbiachronicle.com/opinion/opinion-tiktoks-photography-feed-lacks-originality-opportunity-for-aspiring-artists/",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "The camera follows Alex as he approaches an unsuspecting worker at their job and asks them to model. A quick on-location shoot follows, then the portrait reveal.",
+    "types": [
+     "transformation",
+     "reaction_face",
+     "before_after_reveal"
+    ]
+   },
+   "formula": "An ordinary person in their workplace is asked to model, a 30-second shoot follows, then the reveal and their reaction.",
+   "beats": [
+    "0-2s: approach and the ask",
+    "2-10s: quick posing direction on location",
+    "10-20s: portraits revealed",
+    "end: subject's reaction"
+   ],
+   "beats_inferred": false,
+   "why": "The stranger-to-star transformation creates emotional payoff and a reaction. PetaPixel profiles him as claiming he makes strangers 'famous'. He told Digital Camera World he gained '3 million followers within my first three months'. Caveat: the 82M figure comes from one critical student-newspaper column.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "cuts from BTS to stills",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "At a massage championship or gym: ask a volunteer, judge or cleaner, 'Can I make you the star of my next shot?' Do 3 quick setups (window light, a rim light against the dark arena, a wide with the venue). Show the photos on the camera's back screen and film their face. Get a signed release on the spot.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 80
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-mark-kelvin-stranger-portrait-shoot-in",
+   "title": "Stranger portrait shoot in Batangas",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.gmanetwork.com/entertainment/tv/mars_pa_more/76678/meet-mark-kelvin-the-viral-tiktok-photographer-for-strangers/story",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Mark Kelvin (Philippines)",
+    "followers": null
+   },
+   "stats": {
+    "views": 11000000,
+    "likes": 1600000,
+    "comments": null,
+    "shares": null,
+    "quote": "GMA Network interview (2021): the photographer said the post of a woman in Batangas 'reached about 11 million views and 1.6 million likes' (paraphrased from his on-air interview).",
+    "source_url": "https://www.gmanetwork.com/entertainment/tv/mars_pa_more/76678/meet-mark-kelvin-the-viral-tiktok-photographer-for-strangers/story",
+    "as_of": "2026-11",
+    "qualifier": "~"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Approaching a stranger in a provincial setting, with gentle on-camera direction ('I'll help you along the way') and then the polished portraits.",
+    "types": [
+     "transformation",
+     "reaction_face",
+     "before_after_reveal"
+    ]
+   },
+   "formula": "Approach, then reassure-and-direct, then the portrait reveal that makes an everyday person look like a cover star.",
+   "beats": [
+    "0-3s: the approach",
+    "3-12s: natural direction",
+    "12-20s: edited portraits",
+    "end: reaction or a final hero frame"
+   ],
+   "beats_inferred": false,
+   "why": "Per the interview, he prefers subjects to look natural and coaches them through it. Wholesome transformation content with a strong final image; self-reported numbers from a 2021 interview.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "cut from BTS to stills",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Same structure as the stranger-shoot format. For wellness clients, run a 'massage therapist who's never had a portrait' series: approach, 60-second shoot at their table, reveal.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 74
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-pete-pete-28-second-bts-of",
+   "title": "28-second BTS: photographing a cowboy in York",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://petesotherlife.substack.com/p/from-200-view-prison-to-1m-what-its-like-going-viral-as-a-photographer",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Pete ('Pete's Other Life', York street photographer, per his Substack)",
+    "followers": null
+   },
+   "stats": {
+    "views": 1000000,
+    "likes": 59000,
+    "comments": null,
+    "shares": null,
+    "quote": "Creator's Substack: 'The video has just passed the 1,000,000 views mark (with 59k likes and nearly a thousand comments).' Also: 'within days it had racked up hundreds of thousands of views on Instagram'. The post is titled 'From 200 View Prison to 1,000,000'.",
+    "source_url": "https://petesotherlife.substack.com/p/from-200-view-prison-to-1m-what-its-like-going-viral-as-a-photographer",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "BTS camera on the photographer as he spots and approaches a cowboy-hatted stranger in an English city: an unexpected character in an unexpected place. Short shoot, then the portrait.",
+    "types": [
+     "behind_the_scenes",
+     "transformation",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "A striking character spotted, approached on BTS cam, the portrait reveal, in under 30 seconds.",
+   "beats": [
+    "0-2s: the character (cowboy in York) on screen immediately",
+    "2-15s: approach and short chat",
+    "15-25s: shooting",
+    "end: final portrait"
+   ],
+   "beats_inferred": false,
+   "why": "The creator went from roughly 200-view posts to 1M with one 28-second BTS clip. Short runtime plus an incongruous character (Texan cowboy in York) is an instant curiosity gap.",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": null,
+    "audio": null,
+    "length_s": 28,
+    "faces": "client_only"
+   },
+   "replicate": "Keep it under 30 seconds. Second shooter on a phone filming you plus your main camera. Open on the most visually odd person at the event (a competitor in national costume, a 2m-tall judge, a therapist with tattooed forearms). Approach, three frames, final portrait.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 74,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-alex-baker-reel-pairing-behind-the",
+   "title": "Behind the scenes intercut with the final images",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.diyphotography.net/?p=262478",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Alex Baker (photographer, per DIYPhotography)",
+    "followers": null
+   },
+   "stats": {
+    "views": 1000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "DIYPhotography ('Beyond The Likes: What Really Happens When Your Content Goes Viral'): 'It went from 10,000 views to 100,000 views in a matter of minutes, and it kept snowballing from there.' The reel eventually reached 'almost 1 million views'.",
+    "source_url": "https://www.diyphotography.net/?p=262478",
+    "as_of": "2026-11",
+    "qualifier": "~"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "BTS footage of the shoot intercut with the finished images.",
+    "types": [
+     "behind_the_scenes",
+     "before_after_reveal"
+    ]
+   },
+   "formula": "BTS clip, then the final image, repeated 3-5 times.",
+   "beats": [
+    "0-2s: BTS setup",
+    "2-4s: final image",
+    "repeat BTS/final pairs",
+    "end: best final image"
+   ],
+   "beats_inferred": false,
+   "why": "Reported acceleration from 10K to 100K in minutes suggests strong early retention. The BTS/final pairing gives a mini-reveal every few seconds.",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "hard cuts on beat between BTS and stills",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "At every client shoot, keep a phone on a mini-tripod or a second shooter capturing your setup. Edit four BTS/final pairs (lighting rig, then portrait; slider move, then cinematic frame) cut on the beat.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 64,
+    "relevancy": 84
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-unnamed-influencer-sunset-photo-test-iphone",
+   "title": "iPhone vs camera: the same sunset, viewers vote",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://petapixel.com/2023/04/04/gen-z-discovers-modern-digital-cameras-are-better-than-iphones",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Unnamed influencer (per PetaPixel)",
+    "followers": null
+   },
+   "stats": {
+    "views": 4000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "PetaPixel ('Gen Z Discovers Modern Digital Cameras are Better Than iPhones'): the influencer's sunset comparison video 'amassed over 4 million views'. Viewers concluded the 'digital camera was always, unquestionably better than the smartphone'.",
+    "source_url": "https://petapixel.com/2023/04/04/gen-z-discovers-modern-digital-cameras-are-better-than-iphones",
+    "as_of": "2023-04",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "The same sunset is shot side by side on an iPhone and a dedicated camera, and the results are shown back to back.",
+    "types": [
+     "us_vs_them",
+     "test_experiment",
+     "question"
+    ]
+   },
+   "formula": "Same scene, two devices, a split or back-to-back reveal, and the viewer votes.",
+   "beats": [
+    "0-2s: both devices raised at the same scene",
+    "2-6s: iPhone result",
+    "6-10s: camera result",
+    "end: verdict or a question to the comments"
+   ],
+   "beats_inferred": false,
+   "why": "It's built-in debate bait (phone vs camera) and fed a broader 2023 'Gen Z rediscovers digital cameras' trend that PetaPixel covered.",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "side-by-side or A/B cut",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "'iPhone vs my cinema camera at a massage championship.' Pick a dim, mixed-light scene where the gap is obvious (low tungsten arena light, oil highlights, backlight flare). Cinematographer tests (No Film School, YMCinema) note phones hold up in good light but lose on low light, detail and flare. Show phone first, then the cinema camera, and end with 'which would you hire?'",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 72
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-kevinbparry-netflix-logo-stop-motion",
+   "title": "The Netflix intro rebuilt in yarn (mostly digital)",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@kevinbparry",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@kevinbparry",
+    "name": "Kevin Parry",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Creative Bloq / press: 'the short video shared on Twitter amassing more than 7 million views'. Gigazine (2024-02) puts the total across platforms above 50 million and reports Parry admitting 'most of the movie is a lie, it is not a stop motion animation made only with still images.'",
+    "source_url": "https://gigazine.net/gsc_news/en/20240223-netflix-intro",
+    "as_of": "2024-02"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "The instantly recognisable Netflix 'N' intro rebuilt in tactile yarn, with recognition in the first frame plus a satisfying handmade texture.",
+    "types": [
+     "visual_spectacle",
+     "satisfying_process",
+     "loop"
+    ]
+   },
+   "formula": "Recreate an iconic brand or pop-culture moment in an unexpected handmade material, then (optionally) post the BTS 'how it's really made'.",
+   "beats": [
+    "0-1s: the recognisable logo shape",
+    "1-8s: the yarn animation plays the familiar intro",
+    "end: logo hold, which loops"
+   ],
+   "beats_inferred": false,
+   "why": "Brand recognition, tactile novelty and a perfect loop. The later 'it's mostly a lie' confession generated a second news cycle (Gigazine). Cross-platform totals are large, but no single verified TikTok count was found.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "partial",
+    "editing": "heavy",
+    "vfx": "digital build made to look like stop-motion",
+    "captions": false,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "none"
+   },
+   "replicate": "Recreate a client's logo (or a championship trophy or logo) with massage-relevant materials (towels, massage stones, oil drips) as a 3-5s stop-motion loop. Shoot 12fps stills on a tripod with locked exposure, then post a second reel with the BTS. Parry uses Runway to cut himself out of BTS footage in about 5 minutes.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 62,
+    "relevancy": 64
+   },
+   "effort": "high"
+  },
+  {
+   "id": "pv-kalli-obray-wedding-videographer-s-pep",
+   "title": "The videographer's whispered pep talk before the first look",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.nbcnews.com/pop-culture/lifestyle/wedding-videographer-viral-advice-tiktok-rcna201550",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Kalli Obray (wedding videographer, Spanish Fork, Utah)",
+    "followers": null
+   },
+   "stats": {
+    "views": 100000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "People (via AOL): the short clip 'drew over 100K views'. NBC News headline: 'A wedding videographer's encouraging words are being praised by brides across TikTok.' TODAY: 'The 1 piece of advice this photographer gives to grooms on their wedding day.'",
+    "source_url": "https://www.aol.com/lifestyle/wedding-videographer-goes-viral-giving-204624140.html",
+    "as_of": "2026-11",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "BTS audio of the videographer quietly coaching the groom (be yourself, make her feel beautiful) seconds before he turns. The groom visibly relaxes.",
+    "types": [
+     "behind_the_scenes",
+     "authority_credential",
+     "relatable_pain"
+    ]
+   },
+   "formula": "The director's whisper: let the audience hear what the shooter tells the nervous subject right before the big moment.",
+   "beats": [
+    "0-3s: nervous subject waiting",
+    "3-10s: videographer's advice, audible",
+    "10-20s: the moment happens and the subject relaxes",
+    "end: emotional payoff"
+   ],
+   "beats_inferred": false,
+   "why": "Raw views were modest (100K+), but it earned NBC, TODAY and People pickup. Brides praised the photographer's human touch, which builds trust directly with future clients.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none",
+    "captions": true,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "'What I tell every competitor before we film.' Lav-mic yourself, capture the 10 seconds where you calm a nervous massage-championship athlete or therapist before their routine, then cut to their confident performance. Caption your actual advice on screen.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 88
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-danwhiffenfs-12-second-clip-that",
+   "title": "12 seconds of footage, 8.4M views: place in second one",
+   "niche": "photo_video",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://viralacademy.beehiiv.com/p/8-4-million-views-535k-likes-12-seconds-of-footage",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@danwhiffenfs",
+    "name": "Dan Whiffen",
+    "followers": "31.7K (Viral Academy)"
+   },
+   "stats": {
+    "views": 8400000,
+    "likes": 535000,
+    "comments": null,
+    "shares": null,
+    "quote": "Viral Academy newsletter headline: '8.4 Million Views, 535K Likes, 12 Seconds of Footage'. The post lists the creator as @danwhiffenfs with 31.7K followers and 550 posts.",
+    "source_url": "https://viralacademy.beehiiv.com/p/8-4-million-views-535k-likes-12-seconds-of-footage",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Location is established in the first beat (Indonesia), and the whole story is told in about 12 seconds.",
+    "types": [
+     "visual_spectacle",
+     "loop"
+    ]
+   },
+   "formula": "Ultra-short cinematic clip: establish place in second 1, one story beat, end before the viewer can scroll.",
+   "beats": [
+    "0-1s: setting established",
+    "1-10s: single story beat",
+    "10-12s: end, which encourages a rewatch"
+   ],
+   "beats_inferred": false,
+   "why": "The author credits the short runtime and fast storytelling, calling roughly 12s 'the sweet spot for viral content'. A 31.7K-follower account hitting 8.4M shows reach isn't follower-gated.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "none documented",
+    "captions": null,
+    "audio": null,
+    "length_s": 12,
+    "faces": null
+   },
+   "replicate": "Platform not confirmed in our source (listed as TikTok by assumption), and the creator's niche is unclear, so it's marked adjacent. Lesson for event work: cut a 10-12s teaser per championship. Second 1 is the venue or country sign, seconds 2-10 are one hero moment, and it ends on the winner's reaction.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 66,
+    "relevancy": 78
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-iamjeanblack-street-portrait-approach-videos",
+   "title": "Street-portrait cold approaches",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@iamjeanblack",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@iamjeanblack",
+    "name": "Jean Black",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "PetaPixel (2022-09): '@iamjeanblack has also become one of the most popular content creators in his field on the platform — with some of his stunning portraits amassing over 74.1 million views.' (cumulative across several posts, not one video)",
+    "source_url": "https://petapixel.com/2022/09/16/street-photographers-mocked-for-how-they-approach-strangers",
+    "as_of": "2022-09"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "A spoken cold approach to a stylish stranger. The approach became so recognisable that it spawned the parody meme 'Do you speak English? I'm a street photographer. Can I take some pictures of you? Your style is amazing, bro' (Know Your Meme).",
+    "types": [
+     "transformation",
+     "reaction_face",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Cold approach with a compliment, a quick shoot, then the cinematic portrait reveal.",
+   "beats": [
+    "0-3s: approach line",
+    "3-10s: posing",
+    "10-15s: portrait reveal"
+   ],
+   "beats_inferred": false,
+   "why": "Repeatable series format. Its virality is shown by imitation: others recreated his style, and a whole parody trend mocked it (PetaPixel, DIYPhotography, Know Your Meme).",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "cut to stills",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "The approach line is a known trope (and a parody), so lean into self-awareness: 'Do you speak English? I'm a videographer at the massage championship...' as a wink, then deliver a genuinely cinematic portrait of a competitor.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 70
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pv-danielschiffer-product-commercial-shot-at",
+   "title": "Pro ad vs how I actually shot it at home",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "short",
+   "url": "https://www.youtube.com/@danielschiffer",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@danielschiffer",
+    "name": "Daniel Schiffer",
+    "followers": "~2.9M across YouTube/Instagram/TikTok, 2.3M YouTube (CreatorDB, refreshed 2026-10-08)"
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "CreatorDB (refreshed 2026-10-08): about 2.9M followers across YouTube, Instagram and TikTok (YouTube 2.3M); engagement 4.7% vs a category median of 1.5%. No per-video view counts found.",
+    "source_url": "https://creatordb.app/creatorstats/danielschiffer/",
+    "as_of": "2026-10"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "The glossy commercial frame (splashing drink or floating food) is shown against the scrappy reality: fishing line, toothpicks, a dining-room table, a green screen.",
+    "types": [
+     "behind_the_scenes",
+     "before_after_reveal",
+     "satisfying_process",
+     "tutorial_howto"
+    ]
+   },
+   "formula": "'Pro ad vs how I actually shot it': polished product shot, then the DIY rig, then the final ad.",
+   "beats": [
+    "0-2s: hero product shot",
+    "2-10s: BTS of the rig (fishing line, motion-control slider, toothpick spin in front of green screen)",
+    "10-20s: polished sequence",
+    "end: final hero frame or logo"
+   ],
+   "beats_inferred": false,
+   "why": "High engagement relative to the category (4.7% vs 1.5%). The 'big-brand look from a home setup' promise is aspirational and teachable (Fstoppers: 'How to Shoot an Ad in Your Dining Room'; Lensvid: 'Fishing ropes and imagination is all you need').",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "partial",
+    "editing": "heavy",
+    "vfx": "speed ramps, practical rigs, green screen",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Lensvid notes manual focus on a Sony A7 III with Zeiss Batis lenses. Massage-product version: massage oil bottle hung on fishing line with an oil pour in slow motion (120fps) against black; massage stones on a toothpick spin in front of green or black. Post the BTS rig in the first 2 seconds, then the glossy result. Pitch it to massage-oil sponsors of the championship.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 68,
+    "relevancy": 86
+   },
+   "effort": "high"
+  },
+  {
+   "id": "pv-unconfirmed-search-artist-appears-to-jump",
+   "title": "Jumping into a coffee cup: a scale transition",
+   "niche": "photo_video",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://petapixel.com/2023/03/15/artist-jumps-into-her-morning-coffee-in-mind-bending-video",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Unconfirmed (search excerpt names the artist 'Laufer'; see PetaPixel 2023-03-15)",
+    "followers": null
+   },
+   "stats": {
+    "views": 21500000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "Search excerpt summarising PetaPixel ('Artist Jumps into Her Morning Coffee in Mind-Bending Video'): the coffee-jumping clip 'amassed over 21.5 million views on TikTok'.",
+    "source_url": "https://petapixel.com/2023/03/15/artist-jumps-into-her-morning-coffee-in-mind-bending-video",
+    "as_of": "2023-03",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "An everyday object (a coffee cup) becomes a portal: the creator 'jumps' into the drink through a seamless scale transition.",
+    "types": [
+     "visual_spectacle",
+     "pattern_interrupt",
+     "loop"
+    ]
+   },
+   "formula": "Mundane object, then a match-cut or scale transition, then an impossible world.",
+   "beats": [
+    "0-2s: ordinary morning scene",
+    "2-4s: jump with the match cut",
+    "4-10s: 'inside the coffee' world",
+    "end: loop"
+   ],
+   "beats_inferred": false,
+   "why": "A familiar ritual turned impossible in seconds, plus a loopable ending. Details are thin: only the headline and a view-count excerpt were captured.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "scale match-cut / compositing",
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Match-cut into a massage oil bowl: a top-down macro of oil swirling in a bowl, a hand dips in, match the swirl motion to a top-down of hands gliding on a back at the championship table. Lock the camera angle for both shots so the cut is seamless.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 62,
+    "relevancy": 62
+   },
+   "effort": "high"
+  }
+ ],
+ "trends": [
+  {
+   "niche": "massage",
+   "trend": "Head spa / Japanese head spa: client POV 'first head spa', partner-reaction videos, and new head spas opening in smaller cities",
+   "evidence": "Skin Inc: #headspa had 919M+ TikTok views. Reaction-led top post ~2.9M likes (@hayleyandmo). Coverage from BuzzFeed, Time Out NY and Manchester Evening News. WJHL reports a Kingsport, TN salon opened a head spa after the owner tried the 'TikTok famous' treatment.",
+   "source_url": "https://www.skininc.com/wellness/therapies/news/22889261/head-spas-is-a-growing-tik-tok-trend-for-enhanced-hair-health",
+   "date": "2024-03"
+  },
+  {
+   "niche": "massage",
+   "trend": "Lymphatic drainage (self-massage routines, before/after de-puffing) plus expert myth-busting replies",
+   "evidence": "Remix Magazine: #lymphaticdrainage 'almost a billion' TikTok views. Savoir Flair: 425M+ views and celebrity endorsements (Hailey Bieber, Jennifer Aniston). @jaimesskin post 684.7K likes. An Acibadem blog cites an unnamed 'snatched waist' therapist clip at 12M views (unverified). Doctors (Dr Xand, @drpremtripathi, KFOX 'Medical Myth Busters') push back.",
+   "source_url": "https://www.remixmagazine.com/beauty/the-viral-massage-trend-thats-part-wellness-part-beauty-ritualand-all-about-helping-your-body-release-detox-and-shine",
+   "date": null
+  },
+  {
+   "niche": "massage",
+   "trend": "Sora 2 AI-generated 'absurd chiropractor' parodies flooding the crack/adjustment niche (adjacent)",
+   "evidence": "Know Your Meme: wave from mid-Oct 2025. @slushpapa 9M views/600K likes. An elderly-patient clip at 30M views/2M likes; a YouTube version at 69M views in 9 days; a table-breaking clip at 11M views/300K likes in 6 days.",
+   "source_url": "https://knowyourmeme.com/memes/sora-ai-chiropractor-videos",
+   "date": "2025-10"
+  },
+  {
+   "niche": "massage",
+   "trend": "Massage championships growing in size and media pickup (World Championship in Massage, Asia Massage Championship, Nuad Thai championships)",
+   "evidence": "European Spa Magazine: World Championship in Massage 2026 (Copenhagen, 3-5 July) had a record number of participants. Khaosod English (May 2026): Thai masseuse wins gold. Asia Massage Championship in Tokyo, June 2026. 2024 Nuad Thai Championships: 372 contestants from 37 countries, viral clips on X. A Malaysian competitor's reel went viral (SAYS).",
+   "source_url": "https://europeanspamagazine.com/world-championship-in-massage-2026-boasts-record-number-of-participants/",
+   "date": "2026-07"
+  },
+  {
+   "niche": "massage",
+   "trend": "Turkish barber ASMR massage (grooming + massage + skincare), with backlash over sexualised copycats",
+   "evidence": "Dazed: Münür Önkan 600M+ views, 1.79M YouTube / 1.6M TikTok. Rival barber: 'It's not a massage, it's a show.'",
+   "source_url": "https://www.dazeddigital.com/beauty/article/62897/1/are-turkeys-viral-massage-videos-asmr-or-soft-porn",
+   "date": null
+  },
+  {
+   "niche": "massage",
+   "trend": "Massage-gun safety PSAs and doctor warnings (neck/carotid)",
+   "evidence": "BuzzFeed: @sophie.dolce PSA reached 5M+. Follow-ups from @drjoe_md, a Michigan neurologist and neurosurgeon Justin Neira. UK regional press ran 'doctor's urgent warning' stories (getsurrey).",
+   "source_url": "https://www.buzzfeed.com/michaelabramwell/viral-tiktok-warning-about-danger-of-massage-gun-use-on-neck",
+   "date": null
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Anti-filming / gym-etiquette backlash: viewers reward creators who defend strangers being filmed or mocked, and audiences are getting more uneasy about being filmed.",
+   "evidence": "Joey Swoll drag-curl response at 7.9M views and 1.4M likes; Dexerto (Jan 2024): a filming-rant clip at over 4M views; Levity survey (Apr 2025, n=1,000): 37% say TikTok/IG fitness content made them too discouraged to go to the gym, 62% among Gen Z.",
+   "source_url": "https://www.joinlevity.com/posts/gymxiety",
+   "date": "2025-04"
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Gymtimidation / 'shy girl workouts': content that explicitly reassures nervous beginners, especially women.",
+   "evidence": "#ShyGirlWorkout reported at over 315M or over 200M views (sources differ; CNN cited 530M secondhand); Integris Health ran a Jan 2025 explainer on 'gymtimidation'; women's personal-space confrontation clips reach 6M to 50M+ (Newsweek).",
+   "source_url": "https://www.healthline.com/health-news/shy-girl-workout-how-this-tiktok-trend-can-help-ease-gym-anxiety",
+   "date": "2025-01"
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Women's strength identity is shifting from 'muscle mommy' towards the 'Pilates princess' aesthetic, which trainers counter with lift-heavy and menopause-strength messaging.",
+   "evidence": "#musclemommy over 44M views; NY Post/AOL report that the movement is being replaced by Pilates-obsessed influencers, with experts warning about narrow ideals; TikTok trainers target menopause strength.",
+   "source_url": "https://www.aol.com/sports/toxic-muscle-mommy-versus-pilates-015143294.html",
+   "date": null
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Healthy-ageing / 50-70+ strength as a hero story, a high-value PT buyer segment.",
+   "evidence": "Joan MacDonald grew to over 2.3M followers and published a book (Flex Your Age, about 2024); a gym owner's 'Old Man Challenge' hit nearly 2M views and local press (about 2025); UP features age-tagged client stories ('45-year-old ... 79kg lighter', 'age or injury shouldn't stop you').",
+   "source_url": "https://www.yahoo.com/lifestyle/falls-bucks-county-gym-owner-085526689.html",
+   "date": "2025-04"
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Gym owners split content into reach (humor POVs on trending sounds) and conversion (features carousels, local proof).",
+   "evidence": "Two-Brain Business (featuring its 2026 Gym of the Year winner): skits pulled 5.2M views but few followers; a features carousel brought local prospects; over a third of 600 members came from social media.",
+   "source_url": "https://twobrainbusiness.com/?p=158163",
+   "date": "2026"
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Boutique-studio brands use creator vlogs inside the studio around New Year.",
+   "evidence": "F45 Training US TikTok campaign before the New Year rush: 5.8M views from diverse creators' vlog-style in-studio videos (agency's own case study).",
+   "source_url": "https://theinfluencermarketingfactory.com/f45-new-year-fitness/",
+   "date": null
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "A trust gap: misinformation backlash favours credentialed, evidence-based coaches and reaction/critique formats.",
+   "evidence": "CBC: Australian researchers found 60% of 200 fitness-influencer TikTok videos presented misleading or harmful information; Israetel's critique videos are covered repeatedly by Fitness Volt (Feb 2025 onward).",
+   "source_url": "https://www.cbc.ca/lite/story/1.7342886",
+   "date": "2024"
+  },
+  {
+   "niche": "gym_pt",
+   "trend": "Pop-culture HIIT: TikTok workouts set to KPop Demon Hunters tracks.",
+   "evidence": "Gulf News: 'KPop Demon Hunters revolution is now gym culture too: TikTok makes HIIT golden and stylish'. No view figures captured.",
+   "source_url": "https://gulfnews.com/lifestyle/k-pop-demon-hunters-go-from-screen-to-gym-culture-tiktok-makes-it-a-hiit-and-stylish-join-in-for-the-takedown-1.500248266",
+   "date": "2025"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "'Biological age' movement tests (kneel-to-squat, knees-to-feet jump) done by individuals, families, office teams and brands",
+   "evidence": "Daily Dot: an April 2025 post has 6.7M views. HuffPost (Oct 2025): experts say it is 'not a valid measure', and Derek Jeter attempted it. Brands (1st Phorm) and non-fitness businesses kept posting into July 2025.",
+   "source_url": "https://www.huffpost.com/entry/tiktok-jumping-knee-challenge-biological-age_l_68fbd8ffe4b011e808865769",
+   "date": "2025-10"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "Full-body MRI 'come with me' and price-reveal vlogs (Prenuvo etc.), plus the skeptic backlash",
+   "evidence": "Yahoo (Jan 2026): 'We Started 2026 by Trying the TikTok-Viral Full-Body Scan Kim Kardashian and Paris Hilton Swear By'. Doctor Mike's CEO interview. Many #gifted/#partner posts with discount codes.",
+   "source_url": "https://health.yahoo.com/wellness/healthy-aging/longevity/articles/started-2026-trying-tiktok-viral-080000962.html",
+   "date": "2026-01"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "Body-composition scans as the expensive health trend: comparing machines (DEXA vs InBody vs Evolt) and accuracy debates",
+   "evidence": "Yahoo calls body-composition scans 'the potentially useful yet often wildly expensive health trend of 2025'. TikTok has a dedicated 'dexa-scan-vs-evolt-scan' discover page and 'how-to-cheat-on-inbody-scan' search page.",
+   "source_url": "https://health.yahoo.com/wellness/article/i-tried-four-trendy-body-scans-the-results-were--confusing-100056673.html",
+   "date": "2025"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "Athlete/celebrity DEXA stat flexes (bone density and body-fat percentiles)",
+   "evidence": "The Brian Shaw x Devon Larratt '1 in 500 million bone density' clip was reposted across TikTok and Threads (tagging JRE) and covered by Sport Manual on 2026-01-13.",
+   "source_url": "https://sportmanual.co.uk/2026/01/13/brian-shaws-dexa-scan-results-reveal-astounding-bone-density-score-ranked-1-in-500000000/",
+   "date": "2026-01"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "VO2 max as the longevity number, driven by Peter Attia; a 60 Minutes profile is now drawing credential backlash",
+   "evidence": "CBS 60 Minutes Attia profile ('Life is a sport'). On the research date, an X trending page read 'Peter Attia Faces X Backlash Over Credentials After 60 Minutes Longevity Profile' (unverified beyond the trending page).",
+   "source_url": "https://www.cbsnews.com/news/dr-peter-attia-says-enjoying-longer-healthier-life-requires-serious-training-60-minutes-transcript/",
+   "date": "2026-11"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "Floor sit-to-rise 'longevity test' self-scoring",
+   "evidence": "Washington Post (June 2025) on a new study of 4,282 participants. Yahoo: 'This Viral, At-Home Fitness Test Claims to Predict Longevity - but There's a Catch'. TikTok 'longevity test get up from the floor 2025' discover page.",
+   "source_url": "https://www.washingtonpost.com/wellness/2025/06/18/sitting-rising-test-longevity/",
+   "date": "2025-06"
+  },
+  {
+   "niche": "dexa_biohacking",
+   "trend": "Bryan Johnson 'Don't Die' routine content and copycat 'I tried his routine for X days' videos",
+   "evidence": "Netflix doc Jan 2025. X routine posts at ~262K-599K views (May 2025). LADbible on the 'five hours every day' protocol (June 2025). TikTok discover page for 'Bryan Johnson routine daily'.",
+   "source_url": "https://www.ladbible.com/entertainment/celebrity/bryan-johnson-daily-routine-longevity-protocol-five-hours-394633-20250612",
+   "date": "2025-06"
+  },
+  {
+   "niche": "icebath",
+   "trend": "Social wellness / bathhouse clubs as the new nightlife (sauna + cold plunge as group social activity)",
+   "evidence": "Fortune (2025-01): a CEO's backyard group cold plunges grew to 'thousands of members who skip nightclubs to scream, cry and freeze together'. Othership 'took over' a reviewer's TikTok For You page (Substack) and its amber-lit interiors are 'recognizable from TikTok' (Narcity). Goop review mentions a 90-person sauna and eight cold plunges.",
+   "source_url": "https://fortune.com/well/2025/01/02/this-40-year-old-ceo-started-hosting-group-cold-plunges-in-his-backyard-now-he-has-thousands-of-members-who-skip-nightclubs-to-scream-cry-and-freeze-together",
+   "date": "2025-01"
+  },
+  {
+   "niche": "icebath",
+   "trend": "Ice-water face dunk / extreme 'morning routine' meme",
+   "evidence": "Ashton Hall's routine (posted 2025-02, viral 2025-03) with an ice-water face dunk; MrBeast and Logan Paul responded; press reach figures range from 33M to 700M+ views. TikTok now has a 'benefits of dunking your face in ice water' discover page.",
+   "source_url": "https://www.today.com/today/amp/rcna197851",
+   "date": "2025-03"
+  },
+  {
+   "niche": "icebath",
+   "trend": "Couple and family daily ice-bath creators, plus ice-bath pranks",
+   "evidence": "@itskyajeub (Ice Queen): about 2M followers and 87.7M likes, built on day-numbered daily ice baths and couple pranks (prank about 505K likes; 'Ice Bath Dates' and couple-routine posts 2025-01).",
+   "source_url": "https://www.tiktok.com/@itskyajeub",
+   "date": "2025-01"
+  },
+  {
+   "niche": "icebath",
+   "trend": "Destination or travel plunges by mainstream creators (glaciers, mountains)",
+   "evidence": "Zach King 'My FIRST glacier cold plunge' (2024-10, 308.9K likes) and Jared Leto POV travel plunge (2025-06, 16.3K likes).",
+   "source_url": "https://www.tiktok.com/@zachking/video/7426364367215529246",
+   "date": "2024-10"
+  },
+  {
+   "niche": "icebath",
+   "trend": "Adjacent: 'throwing ice in the bathtub' as anger/'mom rage' release",
+   "evidence": "Yahoo Lifestyle coverage of a mom who relieves parenting stress by throwing ice into the bathtub; meme.com documents it as a trend that drew controversy. It is not immersion, but it shares the ice-in-tub visual vocabulary.",
+   "source_url": "https://www.yahoo.com/lifestyle/articles/mom-shows-she-relieves-parenting-001000697.html",
+   "date": null
+  },
+  {
+   "niche": "photo_video",
+   "trend": "'Practical, not AI' as a selling point. Top phone-photo creators emphasise physical in-camera effects (incl. pop-culture/anime recreations such as a One Piece-inspired project) over AI generation.",
+   "evidence": "Adorama (updated 2026-06-09): for Koalitic 'the appeal lies in creating effects physically rather than generating them digitally'. He uses Lightroom for colour/exposure and Photoshop only to remove support strings. He also has a year-long Adorama ambassadorship with NYC workshops.",
+   "source_url": "https://www.adorama.com/alc/?p=116390",
+   "date": "2026-06"
+  },
+  {
+   "niche": "photo_video",
+   "trend": "AI tools quietly entering videographer pipelines: AI video sponsors on top filmmaking channels, and AI rotoscoping for BTS cutouts",
+   "evidence": "CreatorDB lists Daniel Schiffer's 2026 sponsors as Shutterstock, Storyblocks and Higgsfield AI (refreshed 2026-10-08). Kevin Parry uses Runway to 'quickly rotoscope himself out of a normal background' for BTS clips in about five minutes.",
+   "source_url": "https://creatordb.app/creatorstats/danielschiffer/",
+   "date": "2026-10"
+  },
+  {
+   "niche": "photo_video",
+   "trend": "The 'wedding content creator': phone-shot, same-day social content sold alongside or instead of traditional videography",
+   "evidence": "The Viral Post newsletter: wedding content creators charge $1,250-$1,500 per wedding, roughly half the US average for a traditional photographer. Coverage by the Newcastle Herald/Canberra Times ('women paid thousands to capture viral wedding moments') and Imagen AI. This model transfers directly to events such as massage championships.",
+   "source_url": "https://theviralpost.beehiiv.com/p/rise-of-wedding-content-creators",
+   "date": null
+  },
+  {
+   "niche": "photo_video",
+   "trend": "Clients post their own reviews of photographers on TikTok, with backlash risk ('Sepia Bride')",
+   "evidence": "PetaPixel 2024-07: a bride posted many TikToks about 'sepia-toned' wedding photos. PetaPixel 2025-01: 'Bride TikTok Drama Highlights Social Media Pitfalls for Photographers'. This argues for filming positive client-reaction content proactively, with consent.",
+   "source_url": "https://petapixel.com/2025/01/28/bride-tiktok-drama-highlights-social-media-pitfalls-for-photographers",
+   "date": "2025-01"
+  },
+  {
+   "niche": "photo_video",
+   "trend": "Fitness/gym brands hiring in-house videographers for cinematic short-form, with briefs explicitly demanding hooks in the first 1-3 s, slow motion and speed ramps",
+   "evidence": "A Mediabistro 'Fitness Videographer/Producer' posting (Grapevine, TX) asks for cinematic workout footage cut for Reels/TikTok/Shorts. Upwork briefs ask for editors who know 'what actually goes viral in the fitness space' with hooks in the first 1-3 seconds, and cinematic gym edits with slow motion and speed ramps.",
+   "source_url": "https://www.mediabistro.com/jobs/3541849276-fitness-videographer-producer",
+   "date": null
+  },
+  {
+   "niche": "photo_video",
+   "trend": "Retro digital camera revival and 'phone vs camera' debates among Gen Z",
+   "evidence": "PetaPixel 2023-04: an influencer's iPhone-vs-digital-camera sunset test passed 4M views, and viewers concluded the camera was 'always, unquestionably better'. Older (2023) but it underpins the evergreen iPhone-vs-pro-camera format.",
+   "source_url": "https://petapixel.com/2023/04/04/gen-z-discovers-modern-digital-cameras-are-better-than-iphones",
+   "date": "2023-04"
+  }
+ ]
+}
