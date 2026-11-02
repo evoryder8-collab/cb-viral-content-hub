@@ -113,10 +113,22 @@ def cover_url(v):
     return None
 
 
-def save_jpeg(raw, path):
+class Placeholder(ValueError):
+    pass
+
+
+def save_jpeg(raw, path, platform=None):
     try:
-        from PIL import Image  # optional: shrink to keep the repo light
+        from PIL import Image  # optional: crop and shrink to keep the repo light
         im = Image.open(io.BytesIO(raw)).convert("RGB")
+        if platform == "tiktok" and abs(im.width / im.height - 1) < 0.05:
+            # TikTok answers removed/private posts with its square logo
+            raise Placeholder("TikTok returned its logo (post removed or private?)")
+        if platform == "tiktok" and im.width / im.height > 1.3:
+            # link-preview images put the vertical video in the middle of blurred bars: keep the 9:16 frame
+            cw = round(im.height * 9 / 16)
+            x = (im.width - cw) // 2
+            im = im.crop((x, 0, x + cw, im.height))
         if im.width > MAX_W:
             im = im.resize((MAX_W, round(im.height * MAX_W / im.width)))
         im.save(path, "JPEG", quality=80, optimize=True, progressive=True)
@@ -153,7 +165,7 @@ def main():
                 raw, ctype = get(cu, ua=UA_BROWSER)
                 if "image" not in ctype and not raw[:3] == b"\xff\xd8\xff":
                     raise ValueError(f"not an image ({ctype})")
-                save_jpeg(raw, dest)
+                save_jpeg(raw, dest, v.get("platform"))
                 v["thumb"] = rel
                 got += 1
                 print(f"ok    {v['id']}")

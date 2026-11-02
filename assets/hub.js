@@ -76,8 +76,7 @@
     { key: 'tiktok', label: 'TikTok top', short: 'TikTok', icon: 'tiktok', match: ['tiktok'] },
     { key: 'instagram', label: 'Instagram top', short: 'Instagram', icon: 'instagram', match: ['instagram'] },
     { key: 'youtube', label: 'YouTube top', short: 'YouTube', icon: 'youtube', match: ['youtube'], note: 'Shorts views include replays' },
-    { key: 'facebook', label: 'Facebook top', short: 'Facebook', icon: 'facebook', match: ['facebook'] },
-    { key: 'other', label: 'X & press-reported', short: 'X & press', icon: 'web', match: ['x', 'web'], note: 'Platform not named in the source, or X' }
+    { key: 'other', label: 'X, Facebook & press-reported', short: 'other platforms', icon: 'web', match: ['x', 'web', 'facebook'], note: 'Platform not named in the source, or X / Facebook' }
   ];
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const fmtDate = d => {
@@ -126,7 +125,7 @@
   /* ---------------- state ---------------- */
   const state = {
     data: null, weekId: null, niche: store.get('niche', 'all'), view: 'home', q: '',
-    sort: 'viral', hookType: 'all', platform: 'instagram', showAll: false, group: 'all', platOpen: {},
+    sort: 'viral', hookType: 'all', platform: 'instagram', showAll: false, group: 'all', platOpen: {}, plat: store.get('plat', 'all'),
     saved: store.get('saved', { v: [], h: [] }), pf: store.get('preflight', {}), spot: 0
   };
   const IS_SINGLE = !!(window.__HUB_DATA__ && window.__HUB_DATA__.mode === 'single');
@@ -160,6 +159,8 @@
   }
 
   const nicheOK = n => state.niche === 'all' || n === state.niche;
+  const boardOf = p => (PLATFORM_BOARDS.find(b => b.match.includes(p)) || PLATFORM_BOARDS[PLATFORM_BOARDS.length - 1]).key;
+  const platOK = v => state.plat === 'all' || boardOf(v.platform) === state.plat;
   const nichesOK = arr => state.niche === 'all' || !arr || !arr.length || arr.includes(state.niche) || arr.includes('general');
 
   /* ---------------- render helpers ---------------- */
@@ -291,7 +292,7 @@
     const w = state.data.weeks[state.weekId];
     const ranks = new Map((w.picks || []).map((id, i) => [id, i + 1]));
     let list = (w.videos || []).map(v => Object.assign({}, v, { week: state.weekId, _rank: ranks.get(v.id) || 999 }));
-    list = list.filter(v => nicheOK(v.niche));
+    list = list.filter(v => nicheOK(v.niche) && platOK(v));
     const vir = v => { const x = virality(v).value; return x == null ? -1 : x; };
     if (state.sort === 'rank') list.sort((a, b) => a._rank - b._rank || overall(b) - overall(a));
     if (state.sort === 'viral') list.sort((a, b) => vir(b) - vir(a) || overall(b) - overall(a));
@@ -315,10 +316,10 @@
     // One leaderboard per platform: views are not comparable across apps, so nothing is mixed.
     const proven = list.filter(passesBar);
     const below = list.filter(v => !passesBar(v));
-    const boards = PLATFORM_BOARDS.map(b => {
+    const boards = PLATFORM_BOARDS.filter(b => state.plat === 'all' || b.key === state.plat).map(b => {
       const items = proven.filter(v => b.match.includes(v.platform));
       if (!items.length) return '';
-      const open = !!state.platOpen[b.key];
+      const open = state.plat !== 'all' || !!state.platOpen[b.key];
       const shown = open ? items : items.slice(0, 4);
       const viralTop = items.map(v => virality(v).value).filter(x => x != null);
       const meta = items.length + (items.length === 1 ? ' reference' : ' references') + (viralTop.length ? ' · top virality ' + Math.max.apply(null, viralTop) : '');
@@ -326,14 +327,15 @@
         '<div class="board-head"><span class="board-icon">' + (I[b.icon] || I.web) + '</span><div><h3>' + esc(b.label) + '</h3><p>' + esc(meta) + '</p></div>' +
         (b.note ? '<span class="board-note">' + esc(b.note) + '</span>' : '') + '</div>' +
         '<div class="grid-v">' + shown.map((v, i) => videoCard(v, i + 1)).join('') + '</div>' +
-        (items.length > 4 ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? 'Show top 4 only' : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
+        (items.length > 4 && state.plat === 'all' ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? 'Show top 4 only' : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
         '</section>';
     }).join('');
     const belowHtml = below.length ? '<section class="board below">' +
       '<div class="board-head"><span class="board-icon">' + I.bolt + '</span><div><h3>Below the viral bar</h3><p>' + below.length + ' references under 1M views (or 100K likes), or with no public numbers. Kept for the formula, not as proof.</p></div></div>' +
       (state.platOpen.below ? '<div class="grid-v">' + below.map(v => videoCard(v, 0)).join('') + '</div>' : '') +
       '<div class="board-more"><button class="btn" type="button" data-platopen="below">' + (state.platOpen.below ? 'Hide them' : 'Show ' + below.length + ' formula references') + '</button></div></section>' : '';
-    const picks = list.length ? '<div class="boards">' + (boards || empty('No proven hit in this niche yet', 'Nothing here clears 1M views or 100K likes this week. The formula references below are still worth a look.')) + belowHtml + '</div>' : empty('Nothing for this niche this week', 'Switch to All niches, or open an earlier weekly drop.');
+    const where = [state.niche !== 'all' ? NICHE[state.niche].label : '', state.plat !== 'all' ? (PLATFORM_BOARDS.find(b => b.key === state.plat) || {}).short : ''].filter(Boolean).join(' on ');
+    const picks = list.length ? '<div class="boards">' + (boards || empty('No proven hit here yet', 'Nothing ' + (where ? 'in ' + where + ' ' : '') + 'clears 1M views or 100K likes this week. The formula references below are still worth a look.')) + belowHtml + '</div>' : empty('Nothing ' + (where ? 'for ' + where + ' ' : '') + 'this week', 'Switch the niche or platform filter to All, or open an earlier weekly drop.');
 
     const trends = (w.trends || []).filter(t => nicheOK(t.niche) || t.niche === 'general');
     const trendHtml = trends.length ? '<div class="panel glass"><div class="rows">' + trends.map(t =>
@@ -458,7 +460,7 @@
   }
 
   function viewSaved() {
-    const vids = state.saved.v.map(id => state.data.videoById.get(id)).filter(Boolean);
+    const vids = state.saved.v.map(id => state.data.videoById.get(id)).filter(v => v && platOK(v));
     const hooks = state.saved.h.map(id => state.data.hookById.get(id)).filter(Boolean);
     if (!vids.length && !hooks.length) return '<section class="section">' + empty('Nothing saved yet', 'Tap the bookmark on any reference or hook. Saved items stay on this device.') + '</section>';
     return '<section class="section"><div class="sec-head"><div><span class="eyebrow">Saved</span><h2 style="font-size:var(--t-2xl);margin-top:6px">Your shortlist</h2><p>Stored in this browser only.</p></div></div></section>' +
@@ -487,7 +489,7 @@
     const rank = (arr, fn) => arr.map(o => [o, score(fn(o))]).filter(x => x[1] > 0).sort((a, b) => b[1] - a[1]).map(x => x[0]);
     const L = state.data.library;
     return {
-      videos: rank(state.data.allVideos.filter(v => nicheOK(v.niche)), v => textOf([v.title, v.creator, v.hook, v.formula, v.why, v.replicate, v.platform, v.production, v.beats]) + ' ' + typeWords(v) + ' ' + nicheWords(v)),
+      videos: rank(state.data.allVideos.filter(v => nicheOK(v.niche) && platOK(v)), v => textOf([v.title, v.creator, v.hook, v.formula, v.why, v.replicate, v.platform, v.production, v.beats]) + ' ' + typeWords(v) + ' ' + nicheWords(v)),
       hooks: rank((L.hooks || []).filter(h => nichesOK(h.niches)), h => textOf([h.template, h.example, h.creator, h.evidence]) + ' ' + typeWords(h) + ' ' + nicheWords(h)),
       formats: rank((L.formats || []).filter(f => nichesOK(f.niches)), f => textOf([f.name, f.definition, f.when, f.steps, f.evidence, f.production])),
       craft: rank((L.production || []).concat(L.algorithm || []), c => textOf(c))
@@ -592,7 +594,7 @@
     openSheet(html);
   }
   function relatedVideos(key) {
-    const rel = state.data.allVideos.filter(v => (v.hook && v.hook.types || []).includes(key) || v.format_key === key).slice(0, 6);
+    const rel = state.data.allVideos.filter(v => platOK(v) && ((v.hook && v.hook.types || []).includes(key) || v.format_key === key)).sort((a, b) => (virality(b).value || 0) - (virality(a).value || 0)).slice(0, 6);
     if (!rel.length) return '';
     return '<div class="block"><h3>References using this format</h3><div class="grid-v">' + rel.map(v => videoCard(v, 0)).join('') + '</div></div>';
   }
@@ -621,10 +623,17 @@
   function renderNiches() {
     const all = state.data.allVideos;
     const weekVids = (state.data.weeks[state.weekId].videos || []);
-    const count = k => (k === 'all' ? weekVids : weekVids.filter(v => v.niche === k)).length;
+    const count = k => (k === 'all' ? weekVids : weekVids.filter(v => v.niche === k)).filter(platOK).length;
     $('#niches').innerHTML = '<button class="chip all" type="button" data-niche="all" aria-pressed="' + (state.niche === 'all') + '"><i class="dot"></i>All niches<span class="count">' + count('all') + '</span></button>' +
       NICHES.map(n => '<button class="chip" type="button" data-n="' + n.key + '" data-niche="' + n.key + '" aria-pressed="' + (state.niche === n.key) + '"><i class="dot"></i>' + esc(n.label) + '<span class="count">' + count(n.key) + '</span></button>').join('');
     void all;
+  }
+  function renderPlats() {
+    const weekVids = (state.data.weeks[state.weekId].videos || []).filter(v => nicheOK(v.niche));
+    const n = k => (k === 'all' ? weekVids : weekVids.filter(v => boardOf(v.platform) === k)).length;
+    $('#plats').innerHTML = '<span class="plats-label">Platform</span>' +
+      '<button class="chip all" type="button" data-plat-filter="all" aria-pressed="' + (state.plat === 'all') + '">All<span class="count">' + n('all') + '</span></button>' +
+      PLATFORM_BOARDS.map(b => '<button class="chip pchip" type="button" data-plat-filter="' + b.key + '" aria-pressed="' + (state.plat === b.key) + '">' + (I[b.icon] || I.web) + esc(b.key === 'other' ? 'X & other' : b.short) + '<span class="count">' + n(b.key) + '</span></button>').join('');
   }
   function renderWeeks() {
     const sel = $('#week');
@@ -638,6 +647,7 @@
     hydrateThumbs($('#view'));
     $$('.dock a').forEach(a => a.setAttribute('aria-current', !state.q && a.dataset.view === state.view ? 'page' : 'false'));
     renderNiches();
+    renderPlats();
   }
   function toast(msg) {
     const t = $('#toast');
@@ -690,6 +700,7 @@
       if (d.close !== undefined || e.target.closest('[data-close]')) { closeSheet(); return; }
       if (d.openV) { openVideo(d.openV); return; }
       if (d.openF) { openFormat(d.openF); return; }
+      if (d.platFilter) { state.plat = d.platFilter; store.set('plat', state.plat); state.platOpen = {}; const y = window.scrollY; render(); window.scrollTo(0, Math.min(y, 400)); return; }
       if (d.niche) { state.niche = d.niche; store.set('niche', state.niche); state.spot = 0; state.platOpen = {}; render(); return; }
       if (d.sort) { state.sort = d.sort; render(); return; }
       if (d.platopen) { state.platOpen[d.platopen] = !state.platOpen[d.platopen]; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
