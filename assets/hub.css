@@ -458,6 +458,8 @@ main { outline: none; }
 .board-head p { color: var(--fg-3); font-size: var(--t-xs); font-weight: 600; }
 .board-note { margin-left: auto; font-size: var(--t-xs); color: var(--fg-3); border: 1px dashed var(--line-2); border-radius: 999px; padding: 4px 10px; }
 .board-more { display: flex; justify-content: center; }
+.board.below { padding-top: 22px; border-top: 1px dashed var(--line-2); }
+.board.below .board-icon { color: var(--fg-3); }
 
 /* score rings */
 .scores { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding-top: 6px; border-top: 1px solid var(--line); }

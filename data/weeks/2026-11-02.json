@@ -26,15 +26,16 @@
  ],
  "picks": [
   "ms-hayleyandmo-wife-takes-her-husband",
+  "pt-lbgotsole-group-pt-trainer-motivationally",
   "pt-marty-mcloughlin-old-man-challenge-gym",
   "dx-jeffnippard-jeff-nippard-what-every",
+  "ms-itsjing-creator-tries-the-viral",
   "ms-maggie-tiktok-client-storytime-creator-realises",
   "pt-anatoly-vladimir-elite-powerlifter-disguised-as",
-  "ms-jaimesskin-esthetician-s-10-minute",
+  "ms-trilieuhaiphong-cupping-asmr-the-cup",
+  "dx-jeffnippardfitness-jeff-nippard-and-his",
   "dx-ameelzonweelz-biological-age-kneel-to",
-  "ms-baba-sen-baba-sen-cosmic-baba",
-  "pt-joe-strada-gym-owner-appears-to",
-  "dx-jesssfamofficial-creator-pays-2-500",
+  "ms-jaimesskin-esthetician-s-10-minute",
   "ib-coldplungecam-cold-plunge-cam-drops",
   "pv-jordi-koalitic-magic-door-a-small"
  ],
@@ -3972,6 +3973,990 @@
     "relevancy": 76
    },
    "effort": "medium"
+  },
+  {
+   "id": "dx-jeffnippardfitness-jeff-nippard-and-his",
+   "title": "Same program for 365 days: Jeff Nippard vs his beginner brother",
+   "niche": "dexa_biohacking",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@jeffnippardfitness/video/7505800985776819511",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@jeffnippardfitness",
+    "name": "Jeff Nippard",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 366600,
+    "comments": 644,
+    "shares": null,
+    "quote": "The page shows 366.6K likes and 644 comments. ... Other TikTok discover pages show the same video at about 346.5K to 358K likes, with comment counts around 663 to 665. (WebSearch summary of the TikTok post page snippet; crawl date not shown)",
+    "source_url": "https://www.tiktok.com/@jeffnippardfitness/video/7505800985776819511",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-05",
+   "hook": {
+    "verbatim": "I wanted to see how much muscle a beginner could build compared to someone with 15+ years of lifting experience.",
+    "summary": "Inferred from caption: opens by setting up the veteran vs. beginner question (same program, 365 days), promising lab-measured numbers. The on-screen opening was not seen.",
+    "types": [
+     "test_experiment",
+     "us_vs_them",
+     "curiosity_gap",
+     "authority_credential",
+     "before_after_reveal"
+    ]
+   },
+   "formula": "Two people, one program, N days -> lab body-composition scan at day 0 and day N -> reveal who gained more muscle and lost more fat, with numbers on screen",
+   "beats": [
+    "0-2s the question: how much muscle can a beginner build vs. someone with 15+ years of lifting?",
+    "2-6s the rules: same workout plan, calories tracked in MacroFactor, sleep tracked with an Oura ring",
+    "6-12s lab footage: DEXA, ultrasound, BIA and BioDex at McMaster University",
+    "12s+ partial results or a tease, CTA to the full YouTube breakdown"
+   ],
+   "beats_inferred": true,
+   "why": "It combines a sibling rivalry (veteran vs. noob), a year of commitment and university-lab numbers, so viewers stay to learn who 'won'. The caption pushes viewers to the long-form for the full results.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "Inferred: lab b-roll plus data overlays; not verified",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Gym version: 'Coach vs. new member: same 12-week plan.' Shots: (1) both on the DEXA table at week 0, shown as a top-down slow push over the scanner arm; (2) printouts side by side: body fat %, lean mass, visceral fat; (3) 3-4 training montage clips per month with a week counter; (4) week-12 rescan with the same machine, same time of day, fasted and hydrated; (5) reveal of lean-mass and fat-mass deltas as big on-screen numbers, then the twist of who gained more. Disclose that DEXA is a low-dose X-ray: keep scans to medically sensible intervals (follow Swiss radiation-protection rules and operator guidance) and don't film it as risk-free. Machine error of about 1-2% body fat means small changes can be noise, so say so on screen.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 92
+   },
+   "effort": "high",
+   "remix": {
+    "dexa_biohacking": "Two members (a regular and a total beginner) start the same plan; DEXA both at day 0, 90 and 365 and show the numbers side by side.",
+    "gym_pt": "Trainer vs client (or two siblings) on the same 12-week programme, weekly check-ins, a reveal of both results at the end.",
+    "massage": "Two clients with the same desk-neck complaint, one gets weekly massage and one doesn't; range-of-motion test at week 0 and 8.",
+    "icebath": "Same 30-day cold-plunge protocol for a skeptic and a regular, with resting heart rate and how they feel each week.",
+    "photo_video": "You and a beginner shoot the same subject for 30 days; compare day 1 and day 30 frames."
+   }
+  },
+  {
+   "id": "dx-garybreckaofficial-gary-brecka-clip-on",
+   "title": "Gary Brecka on thyroid symptoms: “This guy's a genius…”",
+   "niche": "dexa_biohacking",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@garybreckaofficial/video/7289563099487620394",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@garybreckaofficial",
+    "name": "Gary Brecka (account labelled official; ownership not verified)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 833900,
+    "comments": 9037,
+    "shares": null,
+    "quote": "The post is dated 2023-10-13 and its caption is \"This guy's a genius…\" with hashtags including #thyroid and #hashimotos. ... It shows 833.9K Likes and 9037 Comments. (WebSearch summary of the TikTok post page snippet; a discover page lists 833.9K likes / 9043 comments)",
+    "source_url": "https://www.tiktok.com/@garybreckaofficial/video/7289563099487620394",
+    "as_of": "2026-11"
+   },
+   "posted": "2023-10",
+   "hook": {
+    "verbatim": "This guy's a genius… #garybrecka #thyroid #thyroidproblems #hashimotos #healing #naturalcures",
+    "summary": "Inferred: a talking-head or podcast clip in which Brecka gives a contrarian explanation of a common condition (thyroid/Hashimoto's). The first seconds were not seen.",
+    "types": [
+     "authority_credential",
+     "contrarian",
+     "myth_bust",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Expert clip: '[common symptom/condition] isn't what your doctor told you' -> simple mechanism -> simple fix",
+   "beats": [
+    "0-2s bold contrarian line about thyroid problems",
+    "2-20s simplified mechanism explanation",
+    "end with an actionable fix or 'test for this'"
+   ],
+   "beats_inferred": true,
+   "why": "It names a widespread, frustrating condition and offers a simple 'hidden cause' story from a confident authority figure, which drives shares and debate in the comments (9K+ comments). It is adjacent to the niche, not a DEXA reference.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "HIGH health-claim risk: the hashtags promote 'natural cures' for Hashimoto's, Brecka is not a physician, and his claims are disputed. A Swiss gym must NOT copy the medical claims. Borrow only the format: a PT or partner doctor explains in 20-30 s what one DEXA number means (e.g. 'visceral fat: the number your bathroom scale hides'). Shots: tight talking head with the printed DEXA report in hand, cut-in to the highlighted line, end card 'book a scan'. Make no diagnosis or cure language. Account may be a fan/clip page: the caption praises Brecka in the third person.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 74,
+    "relevancy": 62
+   },
+   "effort": "medium",
+   "url_note": "Health-claim risk: thyroid and Hashimoto's advice is medical territory. Borrow the authority-clip format, not the claims."
+  },
+  {
+   "id": "dx-garybrecka-gary-brecka-does-this",
+   "title": "Gary Brecka: “Does this sound like you?” symptom checklist",
+   "niche": "dexa_biohacking",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@garybrecka/video/7253127421573090603",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@garybrecka",
+    "name": "Gary Brecka",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 340900,
+    "comments": 3299,
+    "shares": null,
+    "quote": "The caption is \"Does this sound like you? #garybrecka,\" and the page lists a date of July 7, 2023. ... One shows 340.9K Likes, 3299 Comments. Another shows 339.2K likes and about 4.2K comments. (WebSearch summary of TikTok post page snippets; one result lists the account as @garybreckaofficial)",
+    "source_url": "https://www.tiktok.com/@garybrecka/video/7253127421573090603",
+    "as_of": "2026-11"
+   },
+   "posted": "2023-07",
+   "hook": {
+    "verbatim": "Does this sound like you? #garybrecka",
+    "summary": "Inferred from caption only: opens with a list of everyday symptoms (fatigue, brain fog, etc.) so viewers self-identify. Video content not verified.",
+    "types": [
+     "question",
+     "relatable_pain",
+     "authority_credential"
+    ]
+   },
+   "formula": "'Does this sound like you?' -> 3-5 relatable symptoms -> one explanation -> what to test",
+   "beats": [
+    "0-2s direct question to the viewer",
+    "2-10s rapid symptom list",
+    "10s+ explanation and suggested test or fix"
+   ],
+   "beats_inferred": true,
+   "why": "Second-person symptom questions trigger self-diagnosis and 'this is me' comments and shares. The topic of the video itself was not verified, so treat this as a hook-pattern reference.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Gym version: 'Does this sound like you? Scale stuck, clothes tighter, more tired after training…' then cut to the DEXA scan showing fat vs. lean mass, then 'the scale can't tell you which one changed'. Shots: PT to camera in the gym, quick checklist text pops, scanner b-roll, report close-up. Health-claim risk: keep it to body composition and avoid implying the scan diagnoses symptoms or disease. DEXA is a low-dose X-ray.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 70
+   },
+   "effort": "medium",
+   "url_note": "Health-claim risk: keep any symptom list to training, sleep and energy, and point to a doctor for anything medical."
+  },
+  {
+   "id": "dx-bryan-johnson-bryan-johnson-respect-your",
+   "title": "Bryan Johnson: “respect your damn self”",
+   "niche": "dexa_biohacking",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@_bryan_johnson_/video/7502611289659788575",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@_bryan_johnson_",
+    "name": "Bryan Johnson (TikTok display name 'immortal unc')",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 424200,
+    "comments": 2420,
+    "shares": null,
+    "quote": "The closest match is a video titled \"respect your damn self,\" which shows 424.2K Likes, 2420 Comments. (WebSearch summary of TikTok post page snippet; the same video ID is also indexed as 'Understanding Bryan Johnson's Health Blueprint'; an earlier search relayed 427.5K Likes, 2348 Comments for an unspecified video on the account)",
+    "source_url": "https://www.tiktok.com/@_bryan_johnson_/video/7502611289659788575",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-05",
+   "hook": {
+    "verbatim": "respect your damn self",
+    "summary": "Inferred: Bryan Johnson to camera with a blunt self-discipline line framing his Blueprint routine (the page is also indexed as 'Understanding Bryan Johnson's Health Blueprint'). Opening not seen.",
+    "types": [
+     "pov",
+     "contrarian",
+     "authority_credential"
+    ]
+   },
+   "formula": "Blunt one-line mantra on screen -> extreme-but-simple routine rules -> implied 'why aren't you doing this?'",
+   "beats": [
+    "0-2s mantra text 'respect your damn self' over Bryan on camera",
+    "2-15s routine rules (sleep, food, exercise) in rapid cuts",
+    "end on a challenge to the viewer"
+   ],
+   "beats_inferred": true,
+   "why": "Bryan Johnson's meme persona ('immortal unc') and a short, quotable discipline mantra make it highly shareable. The longevity routine gives viewers something to argue about in the comments.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Gym version: a PT gives a 'respect your damn self' 3-rule mantra (sleep, protein, lift), then cuts to the member's DEXA/VO2 max printout as proof the work shows up in data. Shots: hard-light talking head, text mantra burned in, 3 fast b-roll cuts, report close-up. Health-claim risk: Johnson's biological-age and Blueprint claims are not clinically validated, so don't promise a 'younger biological age'. Account ownership: the handle has no official badge in the snippet, but Johnson posted on X 'tiktok keeps calling me immortal unc', and other posts on the account reference his partner Kate Tolo.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 66
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-itsjing-creator-tries-the-viral",
+   "title": "Trying the viral Chinese head and scalp spa in LA",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@_itsjing/video/7273576682093628714",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@_itsjing",
+    "name": "",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1600000,
+    "comments": 2715,
+    "shares": null,
+    "quote": "A TikTok video about a Chinese head and scalp spa in LA shows 1.6M Likes, 2715 Comments.",
+    "source_url": "https://www.tiktok.com/@_itsjing/video/7273576682093628714",
+    "as_of": "2026-11"
+   },
+   "posted": "2023-08",
+   "hook": {
+    "verbatim": "Trying the viral Chinese head and scalp spa in LA 🧖‍♀️ Cai Xiang Ge is the spot to go😆",
+    "summary": "Inferred: on-screen text 'trying the viral Chinese head spa' over the first shot of the treatment room or the scalp camera.",
+    "types": [
+     "curiosity_gap",
+     "social_proof_testimonial",
+     "asmr_sensory",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "'Trying the viral [treatment] at [named studio]' → step-by-step treatment with ASMR sound → verdict and location call-out",
+   "beats": [
+    "0-2s text hook 'trying the viral...' + arrival / first scalp shot",
+    "2-20s treatment steps (scalp camera, wash, massage) with natural sound",
+    "end verdict + 'X is the spot to go'"
+   ],
+   "beats_inferred": true,
+   "why": "It borrows the curiosity of a trend the viewer has already heard about ('the viral head spa') and names a real place, so it also works as a review. Press later credited an LA influencer's August 2023 visit to Cai Xiang Ge with kick-starting the #headspa trend. The same press reports 12.3M views for that clip, but the sources found don't name the creator, so it isn't confirmed that this is the video.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "jump cuts between treatment steps (inferred)",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Have a local creator or client film 'Trying the head spa / deep-tissue session everyone in [city] is booking': exterior + sign (1s), a scalp-camera or close-up 'before' shot, 4-5 one-second treatment steps with natural sound, then the client's face and a verdict line plus the studio name on screen.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 94
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "Invite a local creator (or regular) for “I tried the viral [treatment] in Zurich”: arrival, the first touch, three sensory close-ups, the honest verdict.",
+    "gym_pt": "“I tried the PT gym everyone in Zurich is talking about”: a creator's first session, filmed as their own vlog.",
+    "dexa_biohacking": "“I tried the body scan everyone's posting”: a creator books a DEXA and reacts to the printout.",
+    "icebath": "“I tried the viral cold-plunge club”: a creator's first circuit, sauna to plunge, face cam.",
+    "photo_video": "Film a creator trying your service (a headshot session) as their vlog, then post it on both accounts as a collab."
+   }
+  },
+  {
+   "id": "ms-sangyay-traditional-body-gua-sha",
+   "title": "The traditional body gua sha she grew up with",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@sangyay/video/7431034646147714347",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@sangyay",
+    "name": "",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1600000,
+    "comments": null,
+    "shares": null,
+    "quote": "A longer-form video from a creator who grew up with the practice ... It has about 1.6M likes. (search-result summary of the TikTok page; exact snippet wording not returned)",
+    "source_url": "https://www.tiktok.com/@sangyay/video/7431034646147714347",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-10",
+   "hook": {
+    "verbatim": "This is the traditional gua sha I grew up with—it's ancient Chinese treatment, and yes, I know it's gotten popular lately in the beauty world, but this is the gua sha I know!",
+    "summary": "Inferred: intense red 'sha' marks appearing on the skin while she contrasts this with beauty-world facial gua sha.",
+    "types": [
+     "contrarian",
+     "visual_spectacle",
+     "storytime",
+     "myth_bust",
+     "satisfying_process"
+    ]
+   },
+   "formula": "'This is the REAL [technique], not the trendy version' → raw process with striking visual result → personal/cultural backstory in caption",
+   "beats": [
+    "0-2s scraping already in progress, red marks visible",
+    "mid section shows marks building across back/neck",
+    "end on the finished marks; caption explains relief and family story"
+   ],
+   "beats_inferred": true,
+   "why": "It is contrarian ('the gua sha I know' vs. the beauty-tool version), the red marks are a pattern interrupt that makes people stop, and the heritage story makes it feel authentic and sparks comments.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Therapist does scraping/IASTM on an athlete's upper back. Open on the marks already showing, with text 'This is what real scraping looks like (not the face roller)'. Cut 3-4 progress shots and end with a 2-line explainer of what the redness means. Keep the scraping sound audible.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 88
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-trilieuhaiphong-cupping-asmr-the-cup",
+   "title": "Cupping ASMR: a cup stuck so hard he jokes about a pulley",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@trilieuhaiphong/video/7626740419694546197",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@trilieuhaiphong",
+    "name": "Trị liệu Hải Phòng (therapy clinic, Hai Phong, Vietnam)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1100000,
+    "comments": 18800,
+    "shares": null,
+    "quote": "A Hải Phòng therapy clinic's video (@trilieuhaiphong) is tagged #cuppingtherapy and #asmr, and the page shows 1.1M Likes, 18.8K Comments.",
+    "source_url": "https://www.tiktok.com/@trilieuhaiphong/video/7626740419694546197",
+    "as_of": "2026-11"
+   },
+   "posted": "2026-04",
+   "hook": {
+    "verbatim": "I can't pull it up, I need a pulley system",
+    "summary": "Inferred: a cup suctioned deep into the back; the therapist tugs and it won't release. Humor and spectacle in the first second.",
+    "types": [
+     "humor_skit",
+     "visual_spectacle",
+     "asmr_sensory",
+     "satisfying_process"
+    ]
+   },
+   "formula": "Exaggerated physical-reaction joke on a real treatment ('I can't get it off') → ASMR close-ups of the technique → satisfying release",
+   "beats": [
+    "0-2s therapist pulling on a stuck cup, caption joke",
+    "close-up of skin drawn into the cup, suction sounds",
+    "release / pop and the cup marks reveal"
+   ],
+   "beats_inferred": true,
+   "why": "One relatable joke plus a weird visual (skin pulled high into the cup) and ASMR suction sounds. The 18.8K comments suggest viewers argued about or asked questions on cupping. It's a recent (2026) clinic account, which shows this works for a small business.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "yes",
+    "editing": "light",
+    "vfx": "",
+    "captions": true,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Tight shot on a client's upper back with a clear silicone/glass cup. Therapist 'struggles' to lift it (playful), on-screen text 'need a pulley for this one 😅'. Cut to a macro of the suction, then the release sound and the marks. Mic close to the skin.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 80,
+    "relevancy": 92
+   },
+   "effort": "low",
+   "remix": {
+    "massage": "Close-up of the cup suction and release with clean natural sound; one dry joke at the peak; end on the marks fading.",
+    "gym_pt": "The satisfying sound of the bar loading and locking out, close mic, one deadpan line from the coach.",
+    "dexa_biohacking": "The scanner arm's slow pass and the printout feeding out, ASMR-style, then the number.",
+    "icebath": "Ice cracking, the gasp, the first exhale, all close-mic; no music.",
+    "photo_video": "Shutter clicks and gear handling ASMR before revealing the shot."
+   }
+  },
+  {
+   "id": "ms-readytobanana-comedy-foot-massage-clip",
+   "title": "Comedy foot massage: “a real pro at what he does”",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@readytobanana/video/7451626990823640366",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@readytobanana",
+    "name": "Ready to Banana",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1100000,
+    "comments": 5947,
+    "shares": null,
+    "quote": "A TikTok from the account Ready to Banana (@readytobanana) shows 1.1M Likes, 5947 Comments, and its caption describes a masseur.",
+    "source_url": "https://www.tiktok.com/@readytobanana/video/7451626990823640366",
+    "as_of": "2026-11"
+   },
+   "posted": "2024-12",
+   "hook": {
+    "verbatim": "That masseur, a real pro at what he does😂 #massage",
+    "summary": "Inferred from the search summary ('a foot-massage video with a POV tag'): a POV shot of a foot massage that turns comic within seconds. Exact gag not verified.",
+    "types": [
+     "humor_skit",
+     "pov",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "POV of the client on the table → straight-faced 'pro' technique that turns absurd → reaction",
+   "beats": [
+    "0-2s POV feet on the table, therapist starts seriously",
+    "technique escalates comically",
+    "punchline / client reaction"
+   ],
+   "beats_inferred": true,
+   "why": "It's a sarcastic caption with a POV everyone can picture themselves in, so it travels as a 'send this to your friend' joke. Exact content isn't verified, so use it only as a format signal.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "Shoot from the client's eye line (phone on the headrest). The therapist does an over-the-top 'signature technique' (e.g. dramatic oil pour, karate-chop tapotement) with a deadpan face. Caption: 'My massage therapist, a real professional 😂'. Under 10 s with a trending sound.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 74
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-japaneseheadspa-japanese-head-spa-asmr",
+   "title": "Japanese head spa ASMR",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/discover/%E3%83%98%E3%83%83%E3%83%89%E3%82%B9%E3%83%91-arms%E7%9C%A0%E3%82%8C%E3%82%8B%E6%97%A5%E6%9C%AC",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@japaneseheadspa",
+    "name": "",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 944200,
+    "comments": 2854,
+    "shares": null,
+    "quote": "A second page collects ASMR-style Japanese head spa videos. One lists 944.2K Likes, 2854 Comments for a video from the account @japaneseheadspa.",
+    "source_url": "https://www.tiktok.com/discover/%E3%83%98%E3%83%83%E3%83%89%E3%82%B9%E3%83%91-arms%E7%9C%A0%E3%82%8C%E3%82%8B%E6%97%A5%E6%9C%AC",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Inferred: close-up ASMR head-spa footage (water, foam, scalp massage) from the first frame; no talking.",
+    "types": [
+     "asmr_sensory",
+     "satisfying_process"
+    ]
+   },
+   "formula": "No-talk ASMR: macro shots of the hands and water on the scalp, cut on sound beats",
+   "beats": [
+    "0-2s macro of water/foam on hair",
+    "alternating scalp press / comb / rinse close-ups",
+    "calm end frame"
+   ],
+   "beats_inferred": true,
+   "why": "Pure sensory content that viewers replay to relax. Only a discover-page listing was found, so the exact clip isn't verified.",
+   "production": {
+    "camera": null,
+    "asmr": "yes",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Lav or shotgun mic near the basin. Macro shots of foam, water arcs and fingertip pressure on the scalp. Avoid music and keep each cut 1-2 s, synced to sounds.",
+   "evidence": "low",
+   "scores": {
+    "relatability": 76,
+    "relevancy": 90
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "ms-ur-skin-med-spa-front-desk",
+   "title": "Med-spa front desk won't tell a man if his “wife” is a client",
+   "niche": "massage",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.dailydot.com/culture/med-spa-staff-protect-client-privacy/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@ur.skin.therapist",
+    "name": "Lotus Lux Med Spa staff",
+    "followers": null
+   },
+   "stats": {
+    "views": 30100000,
+    "likes": null,
+    "comments": 23700,
+    "shares": null,
+    "quote": "the video was viewed over 30.1 million times and has over 23.7K comments",
+    "source_url": "https://www.dailydot.com/culture/med-spa-staff-protect-client-privacy/",
+    "as_of": "2025-07",
+    "qualifier": "+"
+   },
+   "posted": "2025-07",
+   "hook": {
+    "verbatim": null,
+    "summary": "Per the coverage: a man comes in asking to buy a gift card 'for his wife' and fishes for whether she's a client. The two women at the desk clock it immediately (security-cam style).",
+    "types": [
+     "storytime",
+     "relatable_pain",
+     "us_vs_them",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Front-desk / CCTV clip of a suspicious customer request → staff calmly protect client privacy → caption framing the 'red flag'",
+   "beats": [
+    "0-3s man at the desk asks to buy a gift card for his wife",
+    "staff ask questions and realise he's checking up on her",
+    "staff refuse to confirm anything; viewers take sides in the comments"
+   ],
+   "beats_inferred": false,
+   "why": "It taps a real-life drama (a possibly controlling partner) and the staff come off as heroes, which drives a huge comment section. It's a spa-reception moment, not a treatment, so it's marked adjacent.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Only with consent and no real client data. Script a reception-desk skit: 'Things we will never tell you at the front desk', with staff role-playing a pushy caller/visitor and showing the privacy policy in action. Film from behind the desk at eye level.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-sarahpalmyra-lazy-girl-5-step",
+   "title": "“Lazy girl” 5-step lymphatic drainage in under 5 minutes",
+   "niche": "massage",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@sarahpalmyra/video/7543308032126553357",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@sarahpalmyra",
+    "name": "Sarah Palmyra",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 369300,
+    "comments": 2839,
+    "shares": null,
+    "quote": "Sarah Palmyra (@sarahpalmyra): A \"5 step\" lymphatic drainage face routine shows 369.3K Likes, 2839 Comments.",
+    "source_url": "https://www.tiktok.com/@sarahpalmyra/video/7543308032126553357",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-08",
+   "hook": {
+    "verbatim": "lazy girl approved, my easy 5 step lymphatic drainage face routine takes less than 5 minutes and really helps depuff the face!",
+    "summary": "Inferred: the creator's puffy morning face plus on-screen 'lazy girl approved 5-step' text, then step 1 begins.",
+    "types": [
+     "listicle",
+     "tutorial_howto",
+     "before_after_reveal",
+     "relatable_pain"
+    ]
+   },
+   "formula": "'Lazy/easy N-step [massage] routine' → numbered steps on camera → depuffed result",
+   "beats": [
+    "0-2s puffy face + 'lazy girl 5-step' text",
+    "steps 1-5, each labelled on screen",
+    "final depuffed look"
+   ],
+   "beats_inferred": true,
+   "why": "The low-effort promise ('lazy', '<5 minutes') plus a numbered format makes it saveable. It's self-massage, not a therapist session, so it's marked adjacent.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "step labels",
+    "captions": true,
+    "audio": "voiceover",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Lymphatic therapist films '3 moves to depuff your face before work (do it in bed)'. Numbered text per move, front-facing ring light, before/after split at the end, and CTA 'full-body lymphatic session link in bio'.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 88
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ms-channel-not-asmr-tok-sen-thai",
+   "title": "Tok sen (Thai wooden-hammer) head therapy, ASMR",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "youtube",
+   "content_type": "long_form",
+   "url": "https://www.youtube.com/watch?v=VR5lvSyOhyY",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": null,
+    "name": "Channel not identified; Playboard description: Anna's Thai hammer head therapy",
+    "followers": null
+   },
+   "stats": {
+    "views": 2650420,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "ASMR 톡센 마사지 ... 2,650,420 views (premiere date March 27, 2020)",
+    "source_url": "https://playboard.co/en/video/VR5lvSyOhyY",
+    "as_of": "2026-11"
+   },
+   "posted": "2020-03",
+   "hook": {
+    "verbatim": "ASMR 톡센 마사지",
+    "summary": "Inferred: rhythmic wooden-hammer tapping sounds from the first second, no talking.",
+    "types": [
+     "asmr_sensory",
+     "satisfying_process"
+    ]
+   },
+   "formula": "Rare traditional technique + pure rhythmic sound = ASMR long-form; cut 15-30 s highlights for Shorts",
+   "beats": [
+    "0-3s hammer-and-wedge tapping on the head/shoulders",
+    "long uninterrupted rhythmic sequence",
+    "slow wind-down"
+   ],
+   "beats_inferred": true,
+   "why": "Tok sen is visually unusual and its tapping rhythm is very ASMR-friendly. This is long-form (not a Short) and from 2020; it's included only as the one verified YouTube massage reference.",
+   "production": {
+    "camera": null,
+    "asmr": "yes",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "If a Thai-massage therapist offers tok sen: film a 20-s vertical Short with a contact mic on the wooden wedge and a close-up of the hammer strikes, text 'Ever heard of a massage with a hammer?'. Post a 10-min no-talk version on YouTube long-form.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 62,
+    "relevancy": 86
+   },
+   "effort": "medium"
+  },
+  {
+   "id": "pt-lbgotsole-group-pt-trainer-motivationally",
+   "title": "Group PT trainer “motivationally bullies” the class",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@lbgotsole/video/7512554881203457311",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@lbgotsole",
+    "name": "LB",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1500000,
+    "comments": 13100,
+    "shares": null,
+    "quote": "It's a video from the account @lbgotsole, tagged #personaltrainer and #grouptraining, with a caption about \"motivational bullying.\" 1.5M Likes, 13.1K Comments.",
+    "source_url": "https://www.tiktok.com/@lbgotsole/video/7512554881203457311",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-06",
+   "hook": {
+    "verbatim": "Motivational bullying 😂😅 #fyp #foryou #gymhumor #personaltrainer #grouptraining #connecticut",
+    "summary": "Inferred: the trainer roasting a struggling client mid-set in a group class, the client laughing back.",
+    "types": [
+     "humor_skit",
+     "relatable_pain",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Real group-PT session clip → trainer's funny 'mean' coaching line → client's reaction; caption names the trope ('motivational bullying')",
+   "beats": [
+    "0-2s client mid-rep, trainer's roast line",
+    "banter back and forth",
+    "client finishes / everyone laughs"
+   ],
+   "beats_inferred": true,
+   "why": "It shows the real culture of a small PT gym (banter and accountability), which is relatable and makes people want that kind of trainer. It's a repeatable series: the same account also has 'professional bullying' (1.3M likes) and 'tough love'.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Mount a phone on a tripod at the group-training floor and record a whole class. Clip the 5-10 s moments where the coach banters with a client who consents. Caption with a named trope ('motivational bullying', 'tough love'), keep the original audio, and post as a recurring series.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 90,
+    "relevancy": 96
+   },
+   "effort": "low",
+   "remix": {
+    "gym_pt": "Mic the trainer during a real group session; cut to the funniest tough-love lines over the class's suffering faces; text: “POV: you paid for this.”",
+    "massage": "Mic the therapist during deep tissue: dry one-liners while the client winces; text: “POV: you asked for firm pressure.”",
+    "dexa_biohacking": "The coach reading out a member's DEXA results with brutal honesty and love; the member's face.",
+    "icebath": "The guide counting down in the plunge, tough-love lines, the group groaning.",
+    "photo_video": "You directing a stiff client with tough-love lines until the shot lands; the final frame."
+   }
+  },
+  {
+   "id": "pt-lbgotsole-this-is-professional-bullying",
+   "title": "“This is professional bullying”: the same trainer's second hit",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@lbgotsole/video/7509863073369296159",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@lbgotsole",
+    "name": "LB",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1300000,
+    "comments": 13500,
+    "shares": null,
+    "quote": "One shows about 1.5M likes and 13.1K comments, and the other shows about 1.3M likes and 13.5K comments (1.5M Likes, 13.1K Comments. and 1.3M Likes, 13.5K Comments.)",
+    "source_url": "https://www.tiktok.com/@lbgotsole/video/7509863073369296159",
+    "as_of": "2026-11"
+   },
+   "posted": "2025-05",
+   "hook": {
+    "verbatim": "This is professional bullying 🤣😤 #fyp #foryou #gymhumor #personaltrainer #grouptraining #connecticut",
+    "summary": "Inferred: the trainer teasing a client in a group session; the punchline lands in the first seconds.",
+    "types": [
+     "humor_skit",
+     "relatable_pain",
+     "behind_the_scenes"
+    ]
+   },
+   "formula": "Same as 'Motivational bullying': real session banter clip + named trope caption",
+   "beats": [
+    "0-2s trainer one-liner at a client",
+    "client comeback",
+    "laugh / finish rep"
+   ],
+   "beats_inferred": true,
+   "why": "It shows the format repeats: two posts a week apart both passed 1.3M likes, so it's the series format rather than one lucky clip.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "",
+    "captions": null,
+    "audio": "original_voice",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Batch-record 2-3 group classes per week and post the best banter moment as the next episode of a named series.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 94
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-yosh-betancourt-pov-you-thought-your",
+   "title": "POV: you thought your trainer was nice, then the workout began",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/discover/gym-trainer-response",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@yosh.betancourt",
+    "name": "Yosh",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 460600,
+    "comments": 404,
+    "shares": null,
+    "quote": "One TikTok discovery page lists 450.9K Likes, 398 Comments for the video, and another shows 448.6K Likes, 394 Comments. ... A page last updated October 12 lists 460.6K Likes, 404 Comments.",
+    "source_url": "https://www.tiktok.com/discover/gym-trainer-response",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "POV: You thought your trainer was a nice person — then the workout begins.",
+    "summary": "Inferred: a smiling, friendly trainer greeting, then a hard cut to the same trainer yelling or pushing reps.",
+    "types": [
+     "pov",
+     "humor_skit",
+     "pattern_interrupt",
+     "before_after_reveal"
+    ]
+   },
+   "formula": "POV text + 'nice' first impression → hard cut on a beat drop to 'workout mode' → client suffering",
+   "beats": [
+    "0-2s friendly hello / handshake",
+    "beat drop, cut to intense coaching",
+    "client collapsing / trainer smiling again"
+   ],
+   "beats_inferred": true,
+   "why": "It's a two-shot contrast gag anyone who has had a PT session recognises. It costs nothing to film and fits any trending sound.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "hard cut on beat drop (inferred)",
+    "captions": true,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Shot 1: the trainer at the gym door, warm smile, 'Welcome! We'll take it easy today'. Shot 2 on the beat drop: the same trainer counting the client through the last burpees. Text: 'POV: you thought your PT was nice'. 7-10 s.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 90,
+    "relevancy": 92
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pt-bodybuildingcom-grandma-powerlifter-pulls-a",
+   "title": "Grandma powerlifter's heavy deadlift",
+   "niche": "gym_pt",
+   "adjacent": true,
+   "platform": "tiktok",
+   "content_type": "tiktok",
+   "url": "https://www.tiktok.com/@bodybuildingcom/video/7020917279344954630",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@bodybuildingcom",
+    "name": "Bodybuilding.com",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 828500,
+    "comments": 1000,
+    "shares": null,
+    "quote": "A bodybuildingcom post tagged #grandma and #deadlift shows 828.5K Likes, 1K Comments.",
+    "source_url": "https://www.tiktok.com/@bodybuildingcom/video/7020917279344954630",
+    "as_of": "2026-11"
+   },
+   "posted": "2021-10",
+   "hook": {
+    "verbatim": "🧃That Special Juice🧃 #grandma #powerlifter #deadlift",
+    "summary": "Inferred: an older woman sets up on a loaded bar, which flips expectations within the first second.",
+    "types": [
+     "pattern_interrupt",
+     "visual_spectacle",
+     "transformation"
+    ]
+   },
+   "formula": "Unexpected lifter (older adult) + heavy lift shown in one take + playful caption",
+   "beats": [
+    "0-2s grandma approaches a loaded bar",
+    "clean heavy pull",
+    "lockout + reaction"
+   ],
+   "beats_inferred": true,
+   "why": "The surprise of an older woman lifting heavy plus a cheeky caption makes it shareable. It's a brand repost rather than a PT gym's own content, hence adjacent. It still proves the 50+/60+ strong-client angle.",
+   "production": {
+    "camera": "iphone",
+    "asmr": "no",
+    "editing": "raw",
+    "vfx": "",
+    "captions": null,
+    "audio": "trending_sound",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Film your oldest consenting client's PR lift side-on, full body in frame, one take. Caption with a playful line ('She's 68. What's your excuse?'). Optional end card with her starting lift 6 months ago for the transformation angle.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 88
+   },
+   "effort": "low"
   }
  ],
  "trends": [

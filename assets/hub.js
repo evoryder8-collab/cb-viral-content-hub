@@ -109,6 +109,13 @@
     if (base == null) return { value: null, basis: 'none' };
     return { value: Math.round(clamp(base + eng, 0, 99)), basis };
   }
+  // The viral bar: a leaderboard only shows proven hits.
+  const BAR = { views: 1e6, likes: 1e5 };
+  function passesBar(v) {
+    const s = v.stats || {};
+    if (s.views) return s.views >= BAR.views;
+    return (s.likes || 0) >= BAR.likes;
+  }
   function overall(v) {
     const vi = virality(v).value;
     const re = v.scores ? v.scores.relatability : 50;
@@ -306,8 +313,10 @@
     const seg = '<div class="seg" role="group" aria-label="Sort">' +
       [['viral', 'Most viral'], ['relevant', 'Most relevant'], ['rank', 'Our picks']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
     // One leaderboard per platform: views are not comparable across apps, so nothing is mixed.
+    const proven = list.filter(passesBar);
+    const below = list.filter(v => !passesBar(v));
     const boards = PLATFORM_BOARDS.map(b => {
-      const items = list.filter(v => b.match.includes(v.platform));
+      const items = proven.filter(v => b.match.includes(v.platform));
       if (!items.length) return '';
       const open = !!state.platOpen[b.key];
       const shown = open ? items : items.slice(0, 4);
@@ -320,7 +329,11 @@
         (items.length > 4 ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? 'Show top 4 only' : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
         '</section>';
     }).join('');
-    const picks = list.length ? '<div class="boards">' + boards + '</div>' : empty('Nothing for this niche this week', 'Switch to All niches, or open an earlier weekly drop.');
+    const belowHtml = below.length ? '<section class="board below">' +
+      '<div class="board-head"><span class="board-icon">' + I.bolt + '</span><div><h3>Below the viral bar</h3><p>' + below.length + ' references under 1M views (or 100K likes), or with no public numbers. Kept for the formula, not as proof.</p></div></div>' +
+      (state.platOpen.below ? '<div class="grid-v">' + below.map(v => videoCard(v, 0)).join('') + '</div>' : '') +
+      '<div class="board-more"><button class="btn" type="button" data-platopen="below">' + (state.platOpen.below ? 'Hide them' : 'Show ' + below.length + ' formula references') + '</button></div></section>' : '';
+    const picks = list.length ? '<div class="boards">' + (boards || empty('No proven hit in this niche yet', 'Nothing here clears 1M views or 100K likes this week. The formula references below are still worth a look.')) + belowHtml + '</div>' : empty('Nothing for this niche this week', 'Switch to All niches, or open an earlier weekly drop.');
 
     const trends = (w.trends || []).filter(t => nicheOK(t.niche) || t.niche === 'general');
     const trendHtml = trends.length ? '<div class="panel glass"><div class="rows">' + trends.map(t =>
@@ -332,7 +345,7 @@
     const hookHtml = featured.length ? '<div class="panel glass"><div class="rows">' + featured.map(hookRow).join('') + '</div></div>' : '';
 
     return hero +
-      sec('Virality leaderboards', 'Ranked separately on each platform, because a view means something different on each app (YouTube counts every Shorts replay as a view since March 2025).', seg, picks) +
+      sec('Virality leaderboards', 'Only proven hits: at least 1M views, or 100K likes where views are private. Ranked separately on each platform, because a view means something different on each app.', seg, picks) +
       (trendHtml ? sec('Moving right now', 'Signals from this week’s research. Ride them early.', '', trendHtml) : '') +
       (hookHtml ? sec('Hooks to steal this week', 'Fill the brackets with your niche.', '<a class="link" href="#hooks">All hooks →</a>', hookHtml) : '');
   }
