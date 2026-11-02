@@ -16,8 +16,12 @@ either as a scheduled Claude session or by hand. Follow it top to bottom.
    photographers & videographers.
 4. **Health and safety:** no medical claims (DEXA, biological-age tests, cold exposure, lymphatic drainage).
    Flag risky formats in `notes` and in the remix text.
-5. Prefer posts from the **last 4–8 weeks**. Evergreen mega-hits are allowed when they teach a reusable formula.
-6. Never repeat a video that is already in an earlier week unless its numbers changed materially.
+5. **The viral bar:** the home leaderboards only show references with **≥1M views, or ≥100K likes when views
+   are private**. Research for that bar; smaller posts go into a collapsed "below the viral bar" list and are
+   only worth adding for an unusually useful formula. Cover every platform (TikTok, Instagram, YouTube): the
+   leaderboards rank each one separately.
+6. Prefer posts from the **last 4–8 weeks**. Evergreen mega-hits are allowed when they teach a reusable formula.
+7. Never repeat a video that is already in an earlier week unless its numbers changed materially.
 
 ## 1. Research (parallel, one agent per niche + one for science)
 
@@ -131,19 +135,19 @@ Swiss context welcome: CHF prices, Zurich/Swiss locations, German/French caption
 ```bash
 cd cb-viral-content-hub
 python3 scripts/import_research.py --week YYYY-MM-DD --research research/YYYY-MM-DD --overlay research/YYYY-MM-DD/overlay.json
-python3 scripts/fetch_thumbs.py --week YYYY-MM-DD   # real covers -> thumbs/<id>.jpg (needs the domains below)
 python3 scripts/validate.py            # must print 0 error(s)
 python3 -m http.server 8765            # optional: eyeball http://localhost:8765
 python3 scripts/build_single_file.py   # optional: dist/cb-viral-content-hub.html for the private preview
-git add data thumbs && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to the branch the hub is published from
+git add data && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to the branch the hub is published from
 ```
 
 Real covers: every reference needs its EXACT post URL (`url_is_exact_post: true`), otherwise no cover can be
-fetched. `fetch_thumbs.py` needs these hosts allowed in the environment's network settings:
-`i.ytimg.com`, `www.tiktok.com`, `*.tiktokcdn.com`, `*.tiktokcdn-us.com`, `www.instagram.com`,
-`*.cdninstagram.com`, `*.fbcdn.net`. If they are blocked, the script reports failures and the cards fall back to
-the designed poster; on the open web the app still asks YouTube and TikTok for covers at view time.
-When publishing the private preview, pass the map in `<output>.files.json` as the Artifact tool's `files`.
+fetched. Covers are downloaded on GitHub's servers by the **CB Hub covers** workflow
+(`.github/workflows/cb-hub-covers.yml`), which runs `scripts/fetch_thumbs.py` whenever week data is pushed and
+commits new files to `thumbs/`. After pushing a drop, wait for that commit (`git fetch` until the branch moves,
+up to ~10 minutes; check the Actions tab if it doesn't), `git pull`, then build the preview. When publishing
+the private preview, pass the map in `<output>.files.json` as the Artifact tool's `files`. Cards without a
+cover fall back to the designed poster.
 
 Keep the raw research files out of the repo (they are large and contain unverified snippets); the week file
 holds everything the app needs.
