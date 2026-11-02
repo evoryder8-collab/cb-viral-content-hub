@@ -48,6 +48,14 @@ def main():
         fh.write(page)
     print(f"wrote {out} ({len(page) / 1024:.0f} KB)")
 
+    # Cover images ship next to the page as separate files (same relative paths as in the repo).
+    # Pass this map as the Artifact tool's `files` parameter when publishing the preview.
+    thumbs = sorted({v["thumb"] for wk in weeks.values() for v in wk.get("videos", []) if v.get("thumb")})
+    files = {t: os.path.join(ROOT, t) for t in thumbs if os.path.exists(os.path.join(ROOT, t))}
+    with open(out + ".files.json", "w", encoding="utf-8") as fh:
+        json.dump(files, fh, indent=1)
+    print(f"{len(files)} cover images listed in {out}.files.json")
+
 
 if __name__ == "__main__":
     main()

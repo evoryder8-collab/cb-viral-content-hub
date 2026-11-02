@@ -16,7 +16,7 @@ A new weekly drop lands every Monday morning (Zurich time). The procedure is in
 
 | Section | What it does |
 |---|---|
-| **This week** | The week's thesis, 3 moves, 12 ranked top picks (glass cards with platform, views, likes and three scores), trends and new hooks. |
+| **This week** | The week's thesis, 3 moves, then a separate virality leaderboard per platform (TikTok, Instagram, YouTube, X/press), with the original cover, views, likes and three scores on each card. Trends and new hooks follow. |
 | **Hooks** | Fill-in-the-blank hook templates from real posts, filterable by type, with a roulette, copy button and sources. |
 | **Formats** | Proven video structures (pattern interrupt, stitch, POV, before/after…) with a shooting recipe, plus carousel formulas. |
 | **Craft** | iPhone vs pro camera, ASMR or not, heavy edits or raw, a format × element matrix, platform algorithm facts, how scores work. |
@@ -51,6 +51,7 @@ data/library.json          hooks, formats, production verdicts, algorithm facts,
 data/weeks/YYYY-MM-DD.json one weekly drop: thesis, moves, picks, references, trends
 scripts/import_research.py research JSON → weekly drop
 scripts/validate.py        data checks (no unsourced numbers, valid ids, scores 0–100)
+scripts/fetch_thumbs.py    downloads each reference's original cover into thumbs/
 scripts/build_single_file.py  one self-contained HTML file (for private previews)
 ```
 

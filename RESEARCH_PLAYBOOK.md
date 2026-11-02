@@ -131,11 +131,19 @@ Swiss context welcome: CHF prices, Zurich/Swiss locations, German/French caption
 ```bash
 cd cb-viral-content-hub
 python3 scripts/import_research.py --week YYYY-MM-DD --research research/YYYY-MM-DD --overlay research/YYYY-MM-DD/overlay.json
+python3 scripts/fetch_thumbs.py --week YYYY-MM-DD   # real covers -> thumbs/<id>.jpg (needs the domains below)
 python3 scripts/validate.py            # must print 0 error(s)
 python3 -m http.server 8765            # optional: eyeball http://localhost:8765
 python3 scripts/build_single_file.py   # optional: dist/cb-viral-content-hub.html for the private preview
-git add data && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to the branch the hub is published from
+git add data thumbs && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to the branch the hub is published from
 ```
+
+Real covers: every reference needs its EXACT post URL (`url_is_exact_post: true`), otherwise no cover can be
+fetched. `fetch_thumbs.py` needs these hosts allowed in the environment's network settings:
+`i.ytimg.com`, `www.tiktok.com`, `*.tiktokcdn.com`, `*.tiktokcdn-us.com`, `www.instagram.com`,
+`*.cdninstagram.com`, `*.fbcdn.net`. If they are blocked, the script reports failures and the cards fall back to
+the designed poster; on the open web the app still asks YouTube and TikTok for covers at view time.
+When publishing the private preview, pass the map in `<output>.files.json` as the Artifact tool's `files`.
 
 Keep the raw research files out of the repo (they are large and contain unverified snippets); the week file
 holds everything the app needs.

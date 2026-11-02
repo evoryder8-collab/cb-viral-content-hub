@@ -96,6 +96,8 @@ def check_video(where, v):
     for k in (v.get("remix") or {}):
         if k not in NICHES:
             err(f"{where} [{vid}]: remix key {k!r} is not a niche")
+    if v.get("thumb") and not os.path.exists(os.path.join(ROOT, v["thumb"])):
+        err(f"{where} [{vid}]: thumb file {v['thumb']} is missing")
     if v.get("evidence") not in (None, "high", "medium", "low"):
         err(f"{where} [{vid}]: evidence must be high|medium|low")
 

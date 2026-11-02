@@ -72,6 +72,13 @@
   // qualifier: '~' = approximate ("about 2.9M"), '+' = lower bound ("over 5M")
   const fmtQ = (n, q) => n == null ? '—' : q === '~' ? '~' + fmt(n) : q === '+' ? fmt(n) + '+' : fmt(n);
   const PLAT = { tiktok: 'TikTok', instagram: 'Instagram', youtube: 'YouTube', facebook: 'Facebook', x: 'X', web: 'Web' };
+  const PLATFORM_BOARDS = [
+    { key: 'tiktok', label: 'TikTok top', short: 'TikTok', icon: 'tiktok', match: ['tiktok'] },
+    { key: 'instagram', label: 'Instagram top', short: 'Instagram', icon: 'instagram', match: ['instagram'] },
+    { key: 'youtube', label: 'YouTube top', short: 'YouTube', icon: 'youtube', match: ['youtube'], note: 'Shorts views include replays' },
+    { key: 'facebook', label: 'Facebook top', short: 'Facebook', icon: 'facebook', match: ['facebook'] },
+    { key: 'other', label: 'X & press-reported', short: 'X & press', icon: 'web', match: ['x', 'web'], note: 'Platform not named in the source, or X' }
+  ];
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const fmtDate = d => {
     if (!d) return '';
@@ -112,7 +119,7 @@
   /* ---------------- state ---------------- */
   const state = {
     data: null, weekId: null, niche: store.get('niche', 'all'), view: 'home', q: '',
-    sort: 'rank', hookType: 'all', platform: 'instagram', showAll: false, group: 'all',
+    sort: 'viral', hookType: 'all', platform: 'instagram', showAll: false, group: 'all', platOpen: {},
     saved: store.get('saved', { v: [], h: [] }), pf: store.get('preflight', {}), spot: 0
   };
   const IS_SINGLE = !!(window.__HUB_DATA__ && window.__HUB_DATA__.mode === 'single');
@@ -167,14 +174,51 @@
     const m = /(?:shorts\/|v=|youtu\.be\/|embed\/)([\w-]{11})/.exec(v.url);
     return m ? m[1] : null;
   }
+  // Real cover images: a cached file shipped with the hub (thumbs/<id>.jpg) wins. On the open web we can
+  // also ask YouTube and TikTok for the cover at view time; the private single-file view only shows shipped files.
+  function thumbSrc(v) {
+    if (v.thumb) return v.thumb;
+    const yid = ytId(v);
+    if (yid && !IS_SINGLE) return 'https://i.ytimg.com/vi/' + yid + '/hqdefault.jpg';
+    return null;
+  }
+  const ttRuntime = v => !IS_SINGLE && v.platform === 'tiktok' && /\/video\/\d+/.test(v.url || '');
+  async function tiktokCover(v) {
+    const key = 'tt:' + v.id;
+    const hit = store.get(key, null);
+    if (hit && Date.now() - hit.t < 12 * 3600e3) return hit.u;
+    const r = await fetch('https://www.tiktok.com/oembed?url=' + encodeURIComponent(v.url));
+    if (!r.ok) throw new Error('oembed ' + r.status);
+    const j = await r.json();
+    if (!j.thumbnail_url) throw new Error('no cover');
+    store.set(key, { u: j.thumbnail_url, t: Date.now() });
+    return j.thumbnail_url;
+  }
+  function hydrateThumbs(root) {
+    $$('img[data-thumb]', root || document).forEach(img => {
+      if (img.dataset.done) return;
+      img.dataset.done = '1';
+      const box = img.closest('.poster');
+      const ok = () => { if (img.naturalWidth > 0 && box) box.classList.add('has-img'); };
+      img.addEventListener('load', ok);
+      img.addEventListener('error', () => { if (box) box.classList.remove('has-img'); img.remove(); });
+      if (img.complete && img.getAttribute('src')) ok();
+      if (img.dataset.tt) {
+        const v = state.data.videoById.get(img.dataset.tt);
+        if (v) tiktokCover(v).then(u => { img.src = u; }).catch(() => img.remove());
+      }
+    });
+  }
   function poster(v, rank, opts) {
     opts = opts || {};
-    const yid = ytId(v);
-    const img = yid && !IS_SINGLE ? '<img alt="" loading="lazy" src="https://i.ytimg.com/vi/' + yid + '/hqdefault.jpg" onerror="this.remove()">' : '';
+    const src = thumbSrc(v);
+    const img = src
+      ? '<img alt="" loading="lazy" decoding="async" data-thumb src="' + esc(src) + '">'
+      : (ttRuntime(v) ? '<img alt="" decoding="async" data-thumb data-tt="' + esc(v.id) + '">' : '');
     const s = v.stats || {};
     const rk = rank ? '<span class="pill rank' + (rank <= 3 ? ' gold' : '') + '">#' + rank + '</span>' : '';
     return '<div class="poster" data-n="' + esc(v.niche) + '">' + img +
-      '<div class="poster-shade"></div><div class="poster-grain"></div>' +
+      '<div class="poster-shade"></div><div class="poster-grain"></div><span class="cover-tag">Original cover</span>' +
       '<div class="poster-top">' + platformPill(v.platform) + rk + '</div>' +
       '<div class="poster-hook">' + posterHookText(v) + '</div>' +
       (opts.noplay ? '' : '<div class="poster-play">' + I.play + '</div>') +
@@ -241,8 +285,9 @@
     const ranks = new Map((w.picks || []).map((id, i) => [id, i + 1]));
     let list = (w.videos || []).map(v => Object.assign({}, v, { week: state.weekId, _rank: ranks.get(v.id) || 999 }));
     list = list.filter(v => nicheOK(v.niche));
+    const vir = v => { const x = virality(v).value; return x == null ? -1 : x; };
     if (state.sort === 'rank') list.sort((a, b) => a._rank - b._rank || overall(b) - overall(a));
-    if (state.sort === 'views') list.sort((a, b) => ((b.stats || {}).views || (b.stats || {}).likes * 8 || 0) - ((a.stats || {}).views || (a.stats || {}).likes * 8 || 0));
+    if (state.sort === 'viral') list.sort((a, b) => vir(b) - vir(a) || overall(b) - overall(a));
     if (state.sort === 'relevant') list.sort((a, b) => (b.scores.relevancy - a.scores.relevancy) || overall(b) - overall(a));
     return list;
   }
@@ -259,18 +304,23 @@
       '</section>';
 
     const seg = '<div class="seg" role="group" aria-label="Sort">' +
-      [['rank', 'Our ranking'], ['views', 'Most views'], ['relevant', 'Most relevant']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
-    // Top picks first; everything else waits behind one button so the page stays calm.
-    const top = state.sort === 'rank' ? list.filter(v => v._rank < 999) : list.slice(0, 12);
-    const head = top.length ? top : list.slice(0, 12);
-    const rest = list.filter(v => !head.includes(v));
-    const cardsFor = arr => arr.map(v => videoCard(v, state.sort === 'rank' ? (v._rank < 999 ? v._rank : 0) : list.indexOf(v) + 1)).join('');
-    const picks = list.length
-      ? '<div class="grid-v">' + cardsFor(head) + '</div>' +
-        (rest.length ? (state.showAll
-          ? '<div class="sec-head" style="margin-top:12px"><div><h2 style="font-size:var(--t-lg)">More proven references</h2><p>The rest of this week’s research, same scoring.</p></div></div><div class="grid-v">' + cardsFor(rest) + '</div>'
-          : '<div style="display:flex;justify-content:center;margin-top:4px"><button class="btn" type="button" data-showall>Show ' + rest.length + ' more references</button></div>') : '')
-      : empty('Nothing for this niche this week', 'Switch to All niches, or open an earlier weekly drop.');
+      [['viral', 'Most viral'], ['relevant', 'Most relevant'], ['rank', 'Our picks']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
+    // One leaderboard per platform: views are not comparable across apps, so nothing is mixed.
+    const boards = PLATFORM_BOARDS.map(b => {
+      const items = list.filter(v => b.match.includes(v.platform));
+      if (!items.length) return '';
+      const open = !!state.platOpen[b.key];
+      const shown = open ? items : items.slice(0, 4);
+      const viralTop = items.map(v => virality(v).value).filter(x => x != null);
+      const meta = items.length + (items.length === 1 ? ' reference' : ' references') + (viralTop.length ? ' · top virality ' + Math.max.apply(null, viralTop) : '');
+      return '<section class="board" data-board="' + b.key + '">' +
+        '<div class="board-head"><span class="board-icon">' + (I[b.icon] || I.web) + '</span><div><h3>' + esc(b.label) + '</h3><p>' + esc(meta) + '</p></div>' +
+        (b.note ? '<span class="board-note">' + esc(b.note) + '</span>' : '') + '</div>' +
+        '<div class="grid-v">' + shown.map((v, i) => videoCard(v, i + 1)).join('') + '</div>' +
+        (items.length > 4 ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? 'Show top 4 only' : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
+        '</section>';
+    }).join('');
+    const picks = list.length ? '<div class="boards">' + boards + '</div>' : empty('Nothing for this niche this week', 'Switch to All niches, or open an earlier weekly drop.');
 
     const trends = (w.trends || []).filter(t => nicheOK(t.niche) || t.niche === 'general');
     const trendHtml = trends.length ? '<div class="panel glass"><div class="rows">' + trends.map(t =>
@@ -282,7 +332,7 @@
     const hookHtml = featured.length ? '<div class="panel glass"><div class="rows">' + featured.map(hookRow).join('') + '</div></div>' : '';
 
     return hero +
-      sec('Top picks', head.length + ' of ' + list.length + ' proven references, scored for virality, relatability and fit with your niches.', seg, picks) +
+      sec('Virality leaderboards', 'Ranked separately on each platform, because a view means something different on each app (YouTube counts every Shorts replay as a view since March 2025).', seg, picks) +
       (trendHtml ? sec('Moving right now', 'Signals from this week’s research. Ride them early.', '', trendHtml) : '') +
       (hookHtml ? sec('Hooks to steal this week', 'Fill the brackets with your niche.', '<a class="link" href="#hooks">All hooks →</a>', hookHtml) : '');
   }
@@ -496,6 +546,7 @@
           '<div class="tags"><span class="tag n" data-n="' + esc(v.niche) + '">' + esc(n.label) + '</span>' + (v.adjacent ? '<span class="tag">Adjacent niche</span>' : '') + '<span class="tag">' + esc(platLabel) + '</span>' + (v.posted ? '<span class="tag">Posted ' + esc(fmtDate(v.posted)) + '</span>' : '') + (v.evidence ? '<span class="tag ev-' + esc(v.evidence) + '">Evidence: ' + esc(v.evidence) + '</span>' : '') + (v.effort ? '<span class="tag">Effort: ' + esc(v.effort) + '</span>' : '') + '</div>' +
           '<h2 id="sheet-title">' + esc(v.title) + '</h2>' +
           '<p style="color:var(--fg-2)">' + esc((v.creator && [v.creator.name, v.creator.handle].filter(Boolean).join(' · ')) || '') + (v.creator && v.creator.followers ? ' · ' + esc(v.creator.followers) + ' followers' : '') + (v.url_is_exact_post === false ? ' · <em>exact post link not found; the button opens the best available source</em>' : '') + '</p>' +
+          (v.url_note ? '<p style="color:var(--warn);font-size:var(--t-xs)">' + esc(v.url_note) + '</p>' : '') +
           '<div class="d-stats">' + statCells + '</div>' + statSrc +
           '<div class="d-scores">' + ring('viral', 'Virality', vi.value, true) + ring('relate', 'Relatable', v.scores && v.scores.relatability, true) + ring('relevant', 'Relevant', v.scores && v.scores.relevancy, true) + '</div>' +
           (v.scores && v.scores.note ? '<p style="color:var(--fg-3);font-size:var(--t-sm)">' + esc(v.scores.note) + '</p>' : '') +
@@ -536,6 +587,7 @@
   function openSheet(html) {
     lastFocus = document.activeElement;
     $('#sheet-body').innerHTML = html;
+    hydrateThumbs($('#sheet-body'));
     const wrap = $('#sheet');
     wrap.hidden = false;
     document.documentElement.style.overflow = 'hidden';
@@ -570,6 +622,7 @@
     const view = state.q ? 'search' : state.view;
     const html = { home: viewHome, hooks: viewHooks, formats: viewFormats, craft: viewCraft, preflight: viewPreflight, saved: viewSaved, search: viewSearch }[view]();
     $('#view').innerHTML = html;
+    hydrateThumbs($('#view'));
     $$('.dock a').forEach(a => a.setAttribute('aria-current', !state.q && a.dataset.view === state.view ? 'page' : 'false'));
     renderNiches();
   }
@@ -624,9 +677,9 @@
       if (d.close !== undefined || e.target.closest('[data-close]')) { closeSheet(); return; }
       if (d.openV) { openVideo(d.openV); return; }
       if (d.openF) { openFormat(d.openF); return; }
-      if (d.niche) { state.niche = d.niche; store.set('niche', state.niche); state.spot = 0; state.showAll = false; render(); return; }
+      if (d.niche) { state.niche = d.niche; store.set('niche', state.niche); state.spot = 0; state.platOpen = {}; render(); return; }
       if (d.sort) { state.sort = d.sort; render(); return; }
-      if (d.showall !== undefined) { state.showAll = true; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
+      if (d.platopen) { state.platOpen[d.platopen] = !state.platOpen[d.platopen]; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
       if (d.htype) { state.hookType = d.htype; state.spot = 0; render(); return; }
       if (d.group) { state.group = d.group; const y = window.scrollY; render(); window.scrollTo(0, y); return; }
       if (d.plat) { state.platform = d.plat; const y = window.scrollY; render(); window.scrollTo(0, y); return; }

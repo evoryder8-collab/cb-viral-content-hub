@@ -284,6 +284,8 @@ def main():
                 v[k].update(val)
             else:
                 v[k] = val
+        if os.path.exists(os.path.join(ROOT, "thumbs", v["id"] + ".jpg")):
+            v["thumb"] = f"thumbs/{v['id']}.jpg"  # keep covers fetched earlier
         kept.append(v)
     trends = [t for i, t in enumerate(trends) if i not in set(ov.get("drop_trends") or [])]
     trends += ov.get("extra_trends") or []
