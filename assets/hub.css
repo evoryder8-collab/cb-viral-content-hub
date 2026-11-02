@@ -391,7 +391,7 @@ main { outline: none; }
 .poster img { opacity: 0; transition: opacity .4s ease; }
 .poster.has-img img { opacity: 1; }
 .poster.has-img .poster-shade { background: linear-gradient(180deg, rgba(0, 0, 0, .42), rgba(0, 0, 0, 0) 26%, rgba(0, 0, 0, 0) 58%, rgba(0, 0, 0, .8)); }
-.poster.has-img .poster-hook, .poster.has-img .poster-grain { display: none; }
+.poster.has-img .poster-hook, .poster.has-img .poster-grain, .poster.has-img .poster-play { display: none; }
 .poster .cover-tag { display: none; }
 .poster.has-img .cover-tag { display: inline-flex; position: absolute; left: 12px; bottom: 40px; height: 22px; padding: 0 8px; border-radius: 999px; font-size: .625rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #fff; background: rgba(10, 12, 18, .45); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); align-items: center; }
 .poster-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, .15), transparent 30%, rgba(0, 0, 0, .66)); }
