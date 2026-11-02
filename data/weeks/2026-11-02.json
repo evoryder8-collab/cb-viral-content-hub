@@ -180,8 +180,8 @@
    "adjacent": false,
    "platform": "youtube",
    "content_type": "short",
-   "url": "https://www.dazeddigital.com/beauty/article/62897/1/are-turkeys-viral-massage-videos-asmr-or-soft-porn",
-   "url_is_exact_post": false,
+   "url": "https://www.youtube.com/watch?v=xx16xXt60Ik",
+   "url_is_exact_post": true,
    "creator": {
     "handle": null,
     "name": "Münür Önkan",
@@ -230,7 +230,8 @@
     "relatability": 62,
     "relevancy": 76
    },
-   "effort": "medium"
+   "effort": "medium",
+   "url_note": "Post match is likely but not certain: YouTube result 'ASMR MASSAGE, SKIN CARE AND BEARD SHAVE WITH BARBER MUNUR ONKAN - YouTube'. Right creator and the same massage + grooming + skincare format, but the Dazed source names no single video,"
   },
   {
    "id": "ms-sophie-dolce-psa-creator-says-her",
@@ -368,7 +369,7 @@
    "url": "https://cafemom.com/news/tiktok-mom-accidentally-booked-a-happy-ending-massage",
    "url_is_exact_post": false,
    "creator": {
-    "handle": null,
+    "handle": "@maggiemcgaugh",
     "name": "Maggie (TikTok creator, handle not given in source)",
     "followers": null
    },
@@ -858,7 +859,7 @@
    "url": "https://twobrainbusiness.com/?p=158163",
    "url_is_exact_post": false,
    "creator": {
-    "handle": null,
+    "handle": "@unleashdstrength",
     "name": "Joe Strada (owner, Unleash'd Strength, Manassas Park, Virginia; 2026 Two-Brain Business Gym of the Year)",
     "followers": "over 33,000 TikTok followers and nearly 2M likes (Kilo / Two-Brain articles, undated)"
    },
@@ -925,7 +926,7 @@
    "url": "https://usekilo.com/this-gym-owner-got-200-members-from-social-media/",
    "url_is_exact_post": false,
    "creator": {
-    "handle": null,
+    "handle": "@unleashdstrength",
     "name": "Joe Strada (Unleash'd Strength)",
     "followers": "over 33,000 TikTok followers (Kilo / Two-Brain)"
    },
@@ -1048,10 +1049,10 @@
    "adjacent": true,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@joeyswoll",
+   "url": "https://www.tiktok.com/@thejoeyswoll",
    "url_is_exact_post": false,
    "creator": {
-    "handle": "@joeyswoll",
+    "handle": "@thejoeyswoll",
     "name": "Joey Swoll",
     "followers": null
    },
@@ -1350,10 +1351,10 @@
    "title": "“How to not be a gym douche”: the kind giant explains etiquette",
    "niche": "gym_pt",
    "adjacent": true,
-   "platform": "tiktok",
+   "platform": "youtube",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@noeldeyzel",
-   "url_is_exact_post": false,
+   "url": "https://www.youtube.com/watch?v=boRbDXHTPzo",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@noeldeyzel",
     "name": "Noel Deyzel",
@@ -1403,7 +1404,8 @@
     "relatability": 78,
     "relevancy": 66
    },
-   "effort": "low"
+   "effort": "low",
+   "url_note": "Post match is likely but not certain: YouTube result 'DON'T BE A GYM DOUCHE #noeldeyzel - YouTube' (gym-etiquette content, which matches Euronews' 'How to not be a Gym Douche'). Uploader channel not shown, and the catalog lists TikTok, so"
   },
   {
    "id": "dx-kimkardashian-kim-kardashian-poses-in",
@@ -1600,7 +1602,7 @@
    "platform": "youtube",
    "content_type": "long_form",
    "url": "https://www.youtube.com/watch?v=1EjX5UK29GE",
-   "url_is_exact_post": false,
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@shawstrength",
     "name": "Brian Shaw (with Devon Larratt)",
@@ -1651,7 +1653,8 @@
     "relatability": 60,
     "relevancy": 84
    },
-   "effort": "medium"
+   "effort": "medium",
+   "url_note": "Post match is likely but not certain: YouTube result 'Body composition showdown: Brian Shaw vs Devon Larratt - YouTube' (the catalog's existing URL; content matches). The snippet does not show the uploading channel. A likely full-length v"
   },
   {
    "id": "dx-jeffnippard-jeff-nippard-what-every",
@@ -1660,8 +1663,8 @@
    "adjacent": false,
    "platform": "youtube",
    "content_type": "long_form",
-   "url": "https://www.youtube.com/channel/UC68TLK0mAEzUyHx5x5k-S1Q",
-   "url_is_exact_post": false,
+   "url": "https://www.youtube.com/watch?v=5K9QhkPww44",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@jeffnippard",
     "name": "Jeff Nippard",
@@ -2337,8 +2340,8 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@itskyajeub",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@itskyajeub/video/7262157948464516398",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@itskyajeub",
     "name": "Kya Jeub (Ice Queen)",
@@ -2399,8 +2402,8 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@itskyajeub",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@itskyajeub/video/7181971958576205099",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@itskyajeub",
     "name": "Kya Jeub (Ice Queen)",
@@ -2451,7 +2454,8 @@
     "relatability": 78,
     "relevancy": 88
    },
-   "effort": "low"
+   "effort": "low",
+   "url_note": "Post match is likely but not certain: Search result title: 'Explained the benefits of taking ice baths to a stranger today… turns out she was an RN!! 😭😍 #icebath #health ... #coldplunge ... #day37 #therapy #coldtherapy' at https://www.tik"
   },
   {
    "id": "ib-zachking-zach-king-s-first",
@@ -2635,10 +2639,10 @@
    "title": "Ashton Hall's 3:50 am routine and ice-water face dunk",
    "niche": "icebath",
    "adjacent": true,
-   "platform": "instagram",
+   "platform": "tiktok",
    "content_type": "reel",
-   "url": "https://amp.knowyourmeme.com/memes/people/ashton-hall",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@ashtonhallofficial/video/7503679134648765726",
+   "url_is_exact_post": true,
    "creator": {
     "handle": null,
     "name": "Ashton Hall",
@@ -2689,7 +2693,8 @@
     "relatability": 68,
     "relevancy": 62
    },
-   "effort": "medium"
+   "effort": "medium",
+   "url_note": "Post match is likely but not certain: Search result (tiktok.com) from Ashton Hall's own account: 'Morning / Wellness routine. 3:50am - 9:00am Added some new gems. Addicted to all around growth. Sharing with you all what has changed my lif"
   },
   {
    "id": "ib-iceman-hof-wim-hof-breaking-my",
@@ -2757,8 +2762,8 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@jordi.koalitic",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@jordi.koalitic/video/7335823281393618208",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@jordi.koalitic",
     "name": "Jordi Koalitic",
@@ -2766,10 +2771,10 @@
    },
    "stats": {
     "views": 222800000,
-    "likes": 14800000,
-    "comments": null,
+    "likes": 15100000,
+    "comments": 61200,
     "shares": null,
-    "quote": "PetaPixel (2024-04-10): 'The video, which has amassed an astounding 222.8 million views on TikTok, creative photographer Jordi Koalitic uses nothing but clever camera angles and precise timing.' PetaPixel also reports the video drew 'over 14.8 million likes on TikTok'. A separate Bored Panda piece (syndicated on inkl) cites '15 million likes and 280 million views on Instagram alone' for the BTS reel of the same shot.",
+    "quote": "PetaPixel (2024-04-10): 'The video, which has amassed an astounding 222.8 million views on TikTok, creative photographer Jordi Koalitic uses nothing but clever camera angles and precise timing.' PetaPixel also reports the video drew 'over 14.8 million likes on TikTok'. A separate Bored Panda piece (syndicated on inkl) cites '15 million likes and 280 million views on Instagram alone' for the BTS reel of the same shot. | Post snippet (https://www.tiktok.com/@jordi.koalitic/video/7335823281393618208): 15.1M Likes, 61.2K Comments",
     "source_url": "https://petapixel.com/2024/04/10/photographer-uses-clever-trick-to-create-magic-door-image",
     "as_of": "2024-04"
    },
@@ -2825,8 +2830,8 @@
    "adjacent": true,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@zachking",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@zachking/video/6768504823336815877",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@zachking",
     "name": "Zach King",
@@ -3008,8 +3013,8 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@anaugazz",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@anaugazz/video/6957048238507625734",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@anaugazz",
     "name": "anaugazz",
@@ -3017,10 +3022,10 @@
    },
    "stats": {
     "views": 19700000,
-    "likes": null,
-    "comments": null,
+    "likes": 3000000,
+    "comments": 8338,
     "shares": null,
-    "quote": "Accio trend report: 'initial videos by @anaugazz racking up over 19.7 million views'. Another outlet in the same results (exact outlet not pinned down) reported it 'racked up 20 million views and 3 million likes on TikTok, and over 740 thousand people saved it.'",
+    "quote": "Accio trend report: 'initial videos by @anaugazz racking up over 19.7 million views'. Another outlet in the same results (exact outlet not pinned down) reported it 'racked up 20 million views and 3 million likes on TikTok, and over 740 thousand people saved it.' | Post snippet (https://www.tiktok.com/@anaugazz/video/6957048238507625734): 3M likes and 8338 comments",
     "source_url": "https://www.accio.com/business/tiktok-photo-editing-trend-steps",
     "as_of": "2026-11",
     "qualifier": "+"
@@ -3068,19 +3073,19 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@alexstemp",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@alex.stemp/video/6802759747545156870",
+   "url_is_exact_post": true,
    "creator": {
-    "handle": "@alexstemp",
+    "handle": "@alex.stemp",
     "name": "Alex Stemplewski (Alex Stemp)",
     "followers": "10M+ TikTok (Adobe MAX 2020 session description); Digital Camera World headline says 11M"
    },
    "stats": {
     "views": 82000000,
-    "likes": null,
+    "likes": 10300000,
     "comments": null,
     "shares": null,
-    "quote": "Columbia Chronicle (opinion): 'His viral video, with over 82 million views, was simply him asking a random mall employee to model for him, and the photos he took turned out pretty basic.'",
+    "quote": "Columbia Chronicle (opinion): 'His viral video, with over 82 million views, was simply him asking a random mall employee to model for him, and the photos he took turned out pretty basic.' | Post snippet (https://www.tiktok.com/@alex.stemp/video/6802759747545156870): It has about 10.3M likes",
     "source_url": "https://columbiachronicle.com/opinion/opinion-tiktoks-photography-feed-lacks-originality-opportunity-for-aspiring-artists/",
     "as_of": "2026-11",
     "qualifier": "+"
@@ -3120,7 +3125,8 @@
     "relatability": 84,
     "relevancy": 80
    },
-   "effort": "medium"
+   "effort": "medium",
+   "url_note": "Post match is likely but not certain: The creator's handle is actually @alex.stemp, not @alexstemp. Search result title: 'I asked her to model #foryou.. and she said No! 😂 #photographyeveryday #challenge #4u @brentography_' at https://www"
   },
   {
    "id": "pv-mark-kelvin-stranger-portrait-shoot-in",
@@ -3372,8 +3378,8 @@
    "adjacent": false,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://www.tiktok.com/@kevinbparry",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@kevinbparry/video/7089125091216248070",
+   "url_is_exact_post": true,
    "creator": {
     "handle": "@kevinbparry",
     "name": "Kevin Parry",
@@ -3381,10 +3387,10 @@
    },
    "stats": {
     "views": null,
-    "likes": null,
-    "comments": null,
+    "likes": 1100000,
+    "comments": 6516,
     "shares": null,
-    "quote": "Creative Bloq / press: 'the short video shared on Twitter amassing more than 7 million views'. Gigazine (2024-02) puts the total across platforms above 50 million and reports Parry admitting 'most of the movie is a lie, it is not a stop motion animation made only with still images.'",
+    "quote": "Creative Bloq / press: 'the short video shared on Twitter amassing more than 7 million views'. Gigazine (2024-02) puts the total across platforms above 50 million and reports Parry admitting 'most of the movie is a lie, it is not a stop motion animation made only with still images.' | Post snippet (https://www.tiktok.com/@kevinbparry/video/7089125091216248070): 1.1M Likes, 6516 Comments (another discover page showed 34.4K Likes, 445 Comments, apparently a stale/different snapshot)",
     "source_url": "https://gigazine.net/gsc_news/en/20240223-netflix-intro",
     "as_of": "2024-02"
    },
@@ -3670,8 +3676,8 @@
    "adjacent": true,
    "platform": "tiktok",
    "content_type": "tiktok",
-   "url": "https://petapixel.com/2023/03/15/artist-jumps-into-her-morning-coffee-in-mind-bending-video",
-   "url_is_exact_post": false,
+   "url": "https://www.tiktok.com/@queenchelsea/video/7201511763211226373",
+   "url_is_exact_post": true,
    "creator": {
     "handle": null,
     "name": "Unconfirmed (search excerpt names the artist 'Laufer'; see PetaPixel 2023-03-15)",
@@ -3722,7 +3728,250 @@
     "relatability": 62,
     "relevancy": 62
    },
-   "effort": "high"
+   "effort": "high",
+   "url_note": "Post match is likely but not certain: Search result title: 'Jumping into my morning coffee ☕️☀️ #vfx' at https://www.tiktok.com/@queenchelsea/video/7201511763211226373?lang=en (ID decodes to 2023-02-18, about 4 weeks before PetaPixel's 20"
+  },
+  {
+   "id": "pt-jenn-reed-former-personal-trainer-53",
+   "title": "Former trainer, 53, shows the lifestyle changes behind her after-50 body",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.newsweek.com/former-personal-trainer-transforms-body-50s-1883695",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Jenn Reed",
+    "followers": null
+   },
+   "stats": {
+    "views": 1300000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "She recently racked up 1.3 million views on an Instagram video that showcases pivotal changes she made to her lifestyle.",
+    "source_url": "https://www.newsweek.com/former-personal-trainer-transforms-body-50s-1883695",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Unknown. Newsweek describes the video only as showcasing pivotal lifestyle changes she made. Her handle and the reel URL did not appear in any search result. The article is about 2.5 years old according to search metadata, so roughly 2024.",
+    "types": [
+     "transformation",
+     "authority_credential",
+     "listicle"
+    ]
+   },
+   "formula": "Over-50 transformation -> 'the changes I made' list -> credential (former PT) as authority",
+   "beats": [
+    "0-2s current physique at 53 or a then/now photo",
+    "changes listed one by one",
+    "encouragement to women 50+"
+   ],
+   "beats_inferred": true,
+   "why": "Newsweek says she makes content to inspire and empower middle-aged women. A 50+ physique plus a concrete list of changes speaks directly to the 40+ PT client. The hook itself is not verified.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "PT studio, 40+ client story: open on the client today lifting, with an old photo inset. Then 3-5 on-screen 'changes I made' (lifting 3x a week, protein at every meal, sleep...), each over B-roll from the studio. End with the client's age in large type.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 90
+   },
+   "effort": "low"
+  },
+  {
+   "id": "ib-kelly-rowland-kelly-rowland-tries-a",
+   "title": "Kelly Rowland's three tries at a backyard cold plunge",
+   "niche": "icebath",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://blackamericaweb.com/2024/06/24/kelly-rowland-attempts-to-do-a-cold-plunge-but-all-we-can-focus-on-is-her-bawdy/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Kelly Rowland",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 450000,
+    "comments": 19000,
+    "shares": null,
+    "quote": "Nearly 450,000 followers have liked her post, and 19,000 have commented. (BlackAmericaWeb, republished from HelloBeautiful; reel posted June 21. Amber Riley joined the comments.)",
+    "source_url": "https://blackamericaweb.com/2024/06/24/kelly-rowland-attempts-to-do-a-cold-plunge-but-all-we-can-focus-on-is-her-bawdy/",
+    "as_of": "2024-06",
+    "qualifier": "~"
+   },
+   "posted": "2024-06",
+   "hook": {
+    "verbatim": null,
+    "summary": "Inferred from coverage: opens on her stepping into an outdoor tub and immediately bailing out with a shocked face. The failed attempts are the hook.",
+    "types": [
+     "challenge_day_x",
+     "reaction_face",
+     "humor_skit",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Attempt 1 (bail), attempt 2 (bail), attempt 3 (lasts a bit longer), with an off-camera partner commenting, then a caption about why you're doing it",
+   "beats": [
+    "0-2s step in, instant gasp, jumps out",
+    "2-8s second try, same result, off-camera laughter",
+    "8-15s third try lasts longer ('Baby, Baby'), partner's 'You're jiggling baby' line",
+    "caption frames it as trying the plunge for its health benefits"
+   ],
+   "beats_inferred": true,
+   "why": "A celebrity failing at it makes the plunge relatable, and the 'three tries' structure gives a built-in mini-payoff. The comments filled with people sharing their own first-plunge experiences (Amber Riley: it's 'a mental thing').",
+   "production": {
+    "camera": "iphone",
+    "asmr": "partial",
+    "editing": "light",
+    "vfx": "jump cuts between attempts (inferred)",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Studio version, 'First-timer, 3 attempts': lock off a wide shot of the tub plus a tight face cam, keep the instructor's off-camera voice and the real gasps, and cut only between attempts. End on the third attempt with a breath-count overlay and a 'book your first plunge' CTA. Safety: get consent, have a staff member at the tub, keep first sessions short, and remind viewers that the cold-shock gasp is why people with heart conditions should get medical clearance first. Never stage breath-holds in the water. Massage/gym crossover: 'first sports massage on a sore athlete, 3 reactions'.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 80
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-michaelbriggsphotography-wedding-photographer-loses-it",
+   "title": "Wedding photographer loses it over a rainbow, caught on the BTS 360 cam",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://petapixel.com/2025/05/22/video-of-wedding-photographer-getting-excited-about-a-rainbow-racks-up-20-million-views/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": "@michaelbriggsphotography",
+    "name": "Michael Briggs (Yarra Valley / Melbourne wedding photographer). The handle is his TikTok, shown in results; his Instagram handle was not confirmed.",
+    "followers": null
+   },
+   "stats": {
+    "views": 20000000,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": "PetaPixel headline: 'Video of Wedding Photographer Getting Excited About a Rainbow Racks Up 20 Million Views' ... 'The video has amassed over 20 million views, with viewers and fellow photographers alike applauding his reaction.' (Views combined across TikTok, Instagram and Facebook, per PetaPixel; the videographer 'had his Insta360 camera rolling the whole time'.)",
+    "source_url": "https://petapixel.com/2025/05/22/video-of-wedding-photographer-getting-excited-about-a-rainbow-racks-up-20-million-views/",
+    "as_of": "2025-05",
+    "qualifier": "+"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": null,
+    "summary": "Golden-hour couple shoot. The photographer spots a rainbow and erupts in an expletive-filled, child-like reaction, filmed by the videographer's 360 cam. The reaction is the first second.",
+    "types": [
+     "behind_the_scenes",
+     "reaction_face",
+     "pattern_interrupt",
+     "humor_skit"
+    ]
+   },
+   "formula": "Always-rolling BTS cam on the shooter, then a genuine unscripted reaction to a lucky moment, then the final photo as the payoff",
+   "beats": [
+    "0-2s photographer sees the rainbow and shouts",
+    "2-8s scrambles to reposition the couple under it",
+    "8-15s the resulting portrait"
+   ],
+   "beats_inferred": true,
+   "why": "Authentic, unscripted joy from a professional who still gets excited after 15 years is more shareable than a polished highlight. Photographers shared it as 'that's us', and couples shared it as 'that's who you want at your wedding'.",
+   "production": {
+    "camera": "mixed",
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "360 reframe from Insta360 footage",
+    "captions": null,
+    "audio": "natural_sound",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Keep a 360 cam or a GoPro on a monopod or chest mount rolling for the whole shoot so the unrepeatable moments are captured: a champion's tears, the moment the scores are announced, light breaking through. For massage championships, mount it at the edge of the stage during finals and cut the reaction, then the hero frame. For ice-bath studios, a rolling 360 in the corner catches the first-timer's scream that a staged take never gets. Rule: the real reaction first, then the polished result.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 84
+   },
+   "effort": "low"
+  },
+  {
+   "id": "pv-glenn-silva-high-school-football-team",
+   "title": "Football team shoot at an In-N-Out drive-thru (then the brand objected)",
+   "niche": "photo_video",
+   "adjacent": true,
+   "platform": "instagram",
+   "content_type": "carousel",
+   "url": "https://petapixel.com/2026/09/30/in-n-out-demands-photographer-remove-viral-images-of-high-school-football-team/",
+   "url_is_exact_post": false,
+   "creator": {
+    "handle": null,
+    "name": "Glenn Silva (Brentwood-based photographer)",
+    "followers": null
+   },
+   "stats": {
+    "views": 600000,
+    "likes": 26000,
+    "comments": null,
+    "shares": null,
+    "quote": "The photos of the team posing outside of In-N-Out and pretending to serve burgers in the drive-thru were a success on Instagram, where they received over 600,000 views and over 26,000 likes. (PetaPixel, Sept 30 2026)",
+    "source_url": "https://petapixel.com/2026/09/30/in-n-out-demands-photographer-remove-viral-images-of-high-school-football-team/",
+    "as_of": "2026-09",
+    "qualifier": "+"
+   },
+   "posted": "2026-09",
+   "hook": {
+    "verbatim": null,
+    "summary": "First frame: a uniformed football team posed at an iconic fast-food location, an unexpected setting for a sports team. Content type is inferred as a photo post or carousel ('photos').",
+    "types": [
+     "pattern_interrupt",
+     "visual_spectacle",
+     "humor_skit"
+    ]
+   },
+   "formula": "Athletes in full kit placed in an unexpected, recognisable everyday location, posed as if they work there, shot as a cinematic team series",
+   "beats": [
+    "slide 1 full team outside the restaurant",
+    "slides 2-n players 'serving burgers' in the drive-thru, close-ups",
+    "final slide team portrait"
+   ],
+   "beats_inferred": true,
+   "why": "The incongruity (gladiator kit at a burger counter) stops the scroll, and the local, school and brand pride drives shares among players' families and fans. The removal story then gave it a second press wave.",
+   "production": {
+    "camera": "pro_camera",
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Put the massage championship finalists in tournament shirts in a Swiss everyday icon (a tram stop, Migros checkout, a Zurich lake bath), or the ice-bath studio's coaches in robes at a kebab stand at -5 °C. LESSON from the takedown: get written location and brand permission at the corporate level, not only from a store manager, plus model releases, before posting. In-N-Out forced removal although the local manager had agreed.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 70,
+    "relevancy": 76
+   },
+   "effort": "medium"
   }
  ],
  "trends": [
