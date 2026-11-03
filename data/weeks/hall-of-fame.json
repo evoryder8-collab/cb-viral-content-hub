@@ -7741,7 +7741,8 @@
     ],
     "avoid": "Stop the moment the pet pulls away"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-yardley-and-pug-melts-into-a.jpg"
   },
   {
    "id": "ms-petassembly-cat-kneads-another-cat",
@@ -7849,7 +7850,8 @@
     ],
     "avoid": "Never pose or press animals for the shot"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-petassembly-cat-kneads-another-cat.jpg"
   },
   {
    "id": "ms-dontstopmeowing-cat-s-cucumber-spa",
@@ -7966,7 +7968,8 @@
     ],
     "avoid": "Keep any pet calm, never startle it"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-dontstopmeowing-cat-s-cucumber-spa.jpg"
   },
   {
    "id": "ms-littlemanyu-shiba-inu-gets-a",
@@ -8088,7 +8091,8 @@
     ],
     "avoid": "Make no health claims for any step"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-littlemanyu-shiba-inu-gets-a.jpg"
   },
   {
    "id": "ms-cicciothebrit-ciccio-the-british-shorthair",
@@ -8196,7 +8200,8 @@
     ],
     "avoid": "No claims about what the tool does"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-cicciothebrit-ciccio-the-british-shorthair.jpg"
   },
   {
    "id": "ms-itsjadefoley-new-massage-gun-dies",
@@ -8308,7 +8313,8 @@
     ],
     "avoid": "Don't knock a named brand's product"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-itsjadefoley-new-massage-gun-dies.jpg"
   },
   {
    "id": "ms-theternalnight-ai-chiropractor-you-won",
@@ -8422,7 +8428,8 @@
     ],
     "avoid": "No fake injuries or health claims"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-theternalnight-ai-chiropractor-you-won.jpg"
   },
   {
    "id": "ms-devonkelley-13-days-of-daily",
@@ -8540,7 +8547,8 @@
     ],
     "avoid": "No 'free Botox' or reshaping claims"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-devonkelley-13-days-of-daily.jpg"
   },
   {
    "id": "ms-aurediit-head-massage-prank-cut",
@@ -8649,7 +8657,8 @@
     ],
     "avoid": "No pranks on people who didn't agree"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-aurediit-head-massage-prank-cut.jpg"
   },
   {
    "id": "ms-seeleedits-head-massage-reaction-faces",
@@ -8761,7 +8770,8 @@
     ],
     "avoid": "Get written consent for every face"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-seeleedits-head-massage-reaction-faces.jpg"
   },
   {
    "id": "ms-maxiranks-ranking-the-funniest-back",
@@ -8869,7 +8879,8 @@
     ],
     "avoid": "No joint cracking unless you're licensed"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-maxiranks-ranking-the-funniest-back.jpg"
   },
   {
    "id": "ms-aurashorts67-ranking-the-funniest-head",
@@ -8981,7 +8992,8 @@
     ],
     "avoid": "Let clients approve their clip first"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-aurashorts67-ranking-the-funniest-head.jpg"
   },
   {
    "id": "ms-mememoning-dare-compilation-chinese-massage",
@@ -9089,7 +9101,8 @@
     ],
     "avoid": "Your own clips only, no health claims"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-mememoning-dare-compilation-chinese-massage.jpg"
   },
   {
    "id": "ms-sanjayasmrmassage-broke-customer-s-head",
@@ -9201,7 +9214,8 @@
     ],
     "avoid": "No real neck cracks, keep it staged"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-sanjayasmrmassage-broke-customer-s-head.jpg"
   },
   {
    "id": "ms-hiiamsillybilly-cartoon-masseur-farts-calls",
@@ -9321,7 +9335,8 @@
     ],
     "avoid": "No crude or sexual jokes on clients"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-hiiamsillybilly-cartoon-masseur-farts-calls.jpg"
   },
   {
    "id": "ms-minikatanastore-when-your-chiropractor-owns",
@@ -9432,7 +9447,8 @@
     ],
     "avoid": "No claims about adjustments or results"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-minikatanastore-when-your-chiropractor-owns.jpg"
   },
   {
    "id": "ms-brotherofcolor-chiropractors-be-like-stereotype",
@@ -9539,7 +9555,8 @@
     ],
     "avoid": "Joke about your trade, never clients"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-brotherofcolor-chiropractors-be-like-stereotype.jpg"
   },
   {
    "id": "ms-isitreal111-viral-foot-massage-mat",
@@ -9651,7 +9668,8 @@
     ],
     "avoid": "No health claims, don't trash brands"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-isitreal111-viral-foot-massage-mat.jpg"
   },
   {
    "id": "ms-drcracks-dogs-and-a-cat",
@@ -9760,7 +9778,8 @@
     ],
     "avoid": "No pain or medical claims for pets"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-drcracks-dogs-and-a-cat.jpg"
   },
   {
    "id": "ms-theloganchitwood-anime-villain-yujiro-hanma",
@@ -9866,7 +9885,8 @@
     ],
     "avoid": "Act tough, never use real force"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/ms-theloganchitwood-anime-villain-yujiro-hanma.jpg"
   },
   {
    "id": "ms-kostamoinen-tf2-s-soldier-yells",
@@ -9979,7 +9999,8 @@
     ],
     "avoid": "Staff only, no real force"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-kostamoinen-tf2-s-soldier-yells.jpg"
   },
   {
    "id": "ms-wonny-brothers-korean-kids-try-an",
@@ -10086,7 +10107,8 @@
     ],
     "avoid": "Minors only with a parent present"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-wonny-brothers-korean-kids-try-an.jpg"
   },
   {
    "id": "ms-jp-wilkins-fake-neck-snap-prank",
@@ -10198,7 +10220,8 @@
     ],
     "avoid": "Never prank a real client"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ms-jp-wilkins-fake-neck-snap-prank.jpg"
   },
   {
    "id": "pt-noahlifts5-lifter-shaves-his-head",
@@ -10311,7 +10334,8 @@
     ],
     "avoid": "Never pressure anyone into a head shave"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pt-noahlifts5-lifter-shaves-his-head.jpg"
   },
   {
    "id": "pt-sie-eb-pink-stanley-girl-answers",
@@ -10427,7 +10451,8 @@
     ],
     "avoid": "Never film or caption real strangers"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pt-sie-eb-pink-stanley-girl-answers.jpg"
   },
   {
    "id": "pt-mack-mah-guy-s-silent-stairmaster",
@@ -10544,7 +10569,8 @@
     ],
     "avoid": "Never caption a real stranger"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pt-mack-mah-guy-s-silent-stairmaster.jpg"
   },
   {
    "id": "pt-laurengiraldo-before-photo-then-the",
@@ -10656,7 +10682,8 @@
     ],
     "avoid": "No weight-loss promises or client photos"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pt-laurengiraldo-before-photo-then-the.jpg"
   },
   {
    "id": "ib-extraordinarymachine-passers-by-roast-a",
@@ -10772,7 +10799,8 @@
     ],
     "avoid": "No health claims, no mocking strangers"
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/ib-extraordinarymachine-passers-by-roast-a.jpg"
   },
   {
    "id": "pv-iamjeanblack-street-photographer-s-your",
@@ -10892,7 +10920,8 @@
     ],
     "avoid": "Never post someone who said no"
    },
-   "effort": "medium"
+   "effort": "medium",
+   "thumb": "thumbs/pv-iamjeanblack-street-photographer-s-your.jpg"
   },
   {
    "id": "pv-polnyuk-comedian-parodies-the-street",
@@ -10999,7 +11028,8 @@
      }
     ]
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pv-polnyuk-comedian-parodies-the-street.jpg"
   },
   {
    "id": "pv-frankie-evans-model-hits-a-new",
@@ -11114,7 +11144,8 @@
      }
     ]
    },
-   "effort": "low"
+   "effort": "low",
+   "thumb": "thumbs/pv-frankie-evans-model-hits-a-new.jpg"
   }
  ],
  "trends": [],
