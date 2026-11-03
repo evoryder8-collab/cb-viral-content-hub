@@ -33,8 +33,16 @@ HOOK_TYPES = {
     "price_value_reveal", "test_experiment", "reaction_face", "social_proof_testimonial", "us_vs_them",
     "visual_spectacle", "loop",
 }
+# Creators never to add, whatever their numbers. Lower-case, no @. Mirrored in validate.py.
+BLOCKED_CREATORS = {
+    "vladimirshmondenko",  # "Anatoly" gym-cleaner pranks: the views come from his strength, not a copyable format
+}
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
           "October", "November", "December"]
+
+
+def blocked(v):
+    return (v.get("creator_handle") or "").strip().lstrip("@").lower() in BLOCKED_CREATORS
 
 
 def slug(text, n=6):
@@ -241,7 +249,8 @@ def main():
         if not r:
             continue
         for v in r.get("videos") or []:
-            videos.append(convert_video(niche, v, week))
+            if not blocked(v):
+                videos.append(convert_video(niche, v, week))
         for i, h in enumerate(r.get("hooks") or []):
             if h.get("template"):
                 hooks.append(convert_hook(niche, h, week, i))

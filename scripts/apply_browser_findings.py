@@ -84,6 +84,9 @@ def main():
 
     for raw in f.get("new") or []:
         niche = raw.get("niche")
+        if IR.blocked(raw):
+            print("blocked creator, skipped:", raw.get("creator_handle"))
+            continue
         if niche not in IR.SHORT:
             print("bad niche, skipped:", raw.get("title"))
             continue

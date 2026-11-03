@@ -74,6 +74,8 @@ def main():
                 why = "no exact post URL"
             elif url.rstrip("/") in known or url in seen:
                 why = "already in the hub"
+            elif IR.blocked(r):
+                why = f"blocked creator {r.get('creator_handle')}"
             elif not niche:
                 why = f"unknown niche {r.get('niche')!r}"
             elif not ((views or 0) >= a.min_views or (views is None and (likes or 0) >= a.min_likes)):

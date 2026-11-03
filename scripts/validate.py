@@ -10,6 +10,7 @@ Rules enforced (see RESEARCH_PLAYBOOK.md):
   * a views/likes number is only allowed with a stats.quote AND a stats.source_url
   * scores are integers 0-100, niches and hook types come from the fixed lists
   * hook ids unique, every hook has a template, every library item has a source where required
+  * no video from a blocked creator (BLOCKED_CREATORS)
 """
 import json
 import os
@@ -30,6 +31,7 @@ HOOK_TYPES = {
     "price_value_reveal", "test_experiment", "reaction_face", "social_proof_testimonial", "us_vs_them",
     "visual_spectacle", "loop",
 }
+BLOCKED_CREATORS = {"vladimirshmondenko"}  # never add; same list as scripts/import_research.py
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{2,80}$")
 WEEK_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -73,6 +75,9 @@ def check_video(where, v):
         err(f"{where} [{vid}]: unknown niche {v.get('niche')!r}")
     if v.get("platform") not in PLATFORMS:
         err(f"{where} [{vid}]: unknown platform {v.get('platform')!r}")
+    handle = ((v.get("creator") or {}).get("handle") or "").lstrip("@").lower()
+    if handle in BLOCKED_CREATORS:
+        err(f"{where} [{vid}]: creator @{handle} is blocked, never add their videos")
     if v.get("url") and not is_url(v["url"]):
         err(f"{where} [{vid}]: url is not http(s)")
     s = v.get("stats") or {}

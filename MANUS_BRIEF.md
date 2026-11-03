@@ -38,6 +38,7 @@ RULES:
 2. Give the exact post URL (tiktok.com/@user/video/…, instagram.com/reel/…, youtube.com/shorts/…), not a profile or an article.
 3. One row per post, no duplicates. Skip posts you can't open.
 4. Prefer posts whose idea a massage studio, PT gym, DEXA/biohacking clinic, ice-bath studio or photographer could copy.
+5. Never include videos by @vladimirshmondenko (the "Anatoly" gym-cleaner pranks).
 
 DELIVER a CSV file named manus-viral-hall-of-fame.csv with exactly these columns:
 niche, platform, url, creator_handle, creator_name, views, likes, comments, posted_date, checked_on, caption_or_title, short_title, hook_first_line, first_3_seconds, hook_types, format_formula, why_it_worked, how_to_repeat, camera, asmr, editing, transitions, audio, length_s

@@ -26,6 +26,9 @@ below are relative to the repo root.
    leaderboards rank each one separately.
 6. Prefer posts from the **last 4–8 weeks**. Evergreen mega-hits are allowed when they teach a reusable formula.
 7. Never repeat a video that is already in an earlier week unless its numbers changed materially.
+8. **Blocked creators:** never add @vladimirshmondenko (the "Anatoly" gym-cleaner pranks). His views come from his
+   strength, not from a format a client can copy. The list is `BLOCKED_CREATORS` in `scripts/import_research.py`
+   (mirrored in `scripts/validate.py`, which fails on any video from it).
 
 ## 1. Research (parallel, one agent per niche + one for science)
 
