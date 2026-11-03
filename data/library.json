@@ -482,58 +482,6 @@
    "added": "2026-11-02"
   },
   {
-   "id": "pt-expert-vs-stereotype-the-disguised-outsider-lifted",
-   "template": "[Expert] VS [stereotype]: the [disguised outsider] lifted with ONE HAND",
-   "example": "Anatoly VS Bodybuilder The CLEANER lifted with ONE HAND",
-   "creator": "Anatoly (Vladimir Shmondenko)",
-   "source_url": "https://socialcounts.org/youtube-video-analytics/-AusCTZwSR8",
-   "types": [
-    "us_vs_them",
-    "visual_spectacle",
-    "pattern_interrupt"
-   ],
-   "delivery": "visual_only",
-   "evidence": "YouTube Short with 15,351,031 views (socialcounts.org).",
-   "niches": [
-    "gym_pt"
-   ],
-   "added": "2026-11-02"
-  },
-  {
-   "id": "pt-elite-athlete-pretended-to-be-a-ordinary",
-   "template": "[Elite athlete] pretended to be a [ordinary role]",
-   "example": "Elite Powerlifter Pretended to be a CLEANER",
-   "creator": "Anatoly (Vladimir Shmondenko)",
-   "source_url": "https://ytubeinfluencers.com/outliers/pranks/",
-   "types": [
-    "curiosity_gap",
-    "humor_skit"
-   ],
-   "delivery": "visual_only",
-   "evidence": "The '#15' entry in the series was listed at 2.4M views (2025) on ytubeinfluencers.",
-   "niches": [
-    "gym_pt"
-   ],
-   "added": "2026-11-02"
-  },
-  {
-   "id": "pt-series-name-n",
-   "template": "[Series name] #[n]",
-   "example": "She can't say No to CLEANER | Anatoly GYM PRANK #23",
-   "creator": "Anatoly (Vladimir Shmondenko)",
-   "source_url": "https://chaindesk.ai/tools/youtube-summarizer/she-cant-say-no-to-cleaner-anatoly-gym-prank-23-aS3o9zfP6IQ",
-   "types": [
-    "humor_skit",
-    "loop"
-   ],
-   "delivery": "text_on_screen",
-   "evidence": "Series numbering visible from #15 to #31 in titles. No per-episode stats for #23.",
-   "niches": [
-    "gym_pt"
-   ],
-   "added": "2026-11-02"
-  },
-  {
    "id": "pt-the-age-identity-challenge-can-you-do",
    "template": "The '[age identity] Challenge': can you do it?",
    "example": "Old Man Challenge",
@@ -5297,7 +5245,7 @@
   },
   {
    "niche": "gym_pt",
-   "note": "Short beats long for the same premise. Anatoly's cleaner Short hit 15.35M views (socialcounts.org) vs 2.4M to 4.1M for long-form uploads in the same series (https://ytubeinfluencers.com/outliers/pranks/). Science creators like Jeremy Ethier repurpose long-form into short clips across IG, YouTube and TikTok (https://www.authorityhacker.com/builth-with-science-marketing/), which supports a 'film one long session, cut 5 shorts' workflow.",
+   "note": "Film one long session, cut five shorts: science creators like Jeremy Ethier repurpose long-form into short clips across IG, YouTube and TikTok (https://www.authorityhacker.com/builth-with-science-marketing/).",
    "added": "2026-11-02"
   },
   {

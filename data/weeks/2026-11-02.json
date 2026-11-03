@@ -31,7 +31,6 @@
   "dx-jeffnippard-jeff-nippard-what-every",
   "ms-itsjing-creator-tries-the-viral",
   "ms-maggie-tiktok-client-storytime-creator-realises",
-  "pt-anatoly-vladimir-elite-powerlifter-disguised-as",
   "ms-trilieuhaiphong-cupping-asmr-the-cup",
   "dx-jeffnippardfitness-jeff-nippard-and-his",
   "dx-ameelzonweelz-biological-age-kneel-to",
@@ -106,6 +105,70 @@
     "dexa_biohacking": "Bring a skeptical spouse to a DEXA scan and capture their face when the body-fat % appears on the screen.",
     "icebath": "Film the partner who swore “never” getting into the plunge: count-in, gasp, the 60-second mark, the grin.",
     "photo_video": "Film the client's partner watching the photos on the back of the camera. Their reaction is the reel."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Husband in the chair, 'I took my husband…'"
+     },
+     {
+      "t": "2–15s",
+      "icon": "face",
+      "do": "Cut to his face at every step"
+     },
+     {
+      "t": "End",
+      "icon": "laugh",
+      "do": "His best reaction or verdict"
+     }
+    ],
+    "why": [
+     {
+      "icon": "face",
+      "says": "His face is the show, not the spa"
+     },
+     {
+      "icon": "laugh",
+      "says": "A pampered skeptic is instantly funny"
+     },
+     {
+      "icon": "loop",
+      "says": "Other couples copied it: it repeats"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, vertical",
+     "angle": "Tripod on the client's face",
+     "sound": "Natural sound",
+     "text": "Hook line on screen",
+     "edit": "Light, quick cuts",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Book a couple or two friends",
+      "tip": "Get a signed model release"
+     },
+     {
+      "icon": "tripod",
+      "do": "Put a tripod at the bed head, facing them"
+     },
+     {
+      "icon": "zoom",
+      "do": "Add a second phone for scalp close-ups"
+     },
+     {
+      "icon": "face",
+      "do": "Catch 5 reactions: water, foam, scalp, towel, mirror"
+     },
+     {
+      "icon": "text",
+      "do": "Text: 'I brought my [dad] to a head spa…'"
+     }
+    ]
    }
   },
   {
@@ -172,6 +235,70 @@
     "dexa_biohacking": "The scan ritual in one take with natural sound: positioning, the slow arm pass, the printout.",
     "icebath": "The guide's breathing count and the crack of the ice in one take, no music.",
     "photo_video": "Your own directing style in one take from a guest's phone. Let your personality carry it."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "hand",
+      "do": "Starts the massage at once, no intro"
+     },
+     {
+      "t": "3–30s",
+      "icon": "ear",
+      "do": "Rhythmic taps and rubs, natural sound"
+     },
+     {
+      "t": "End",
+      "icon": "face",
+      "do": "Client's reaction or his signature move"
+     }
+    ],
+    "why": [
+     {
+      "icon": "person",
+      "says": "His personality carries the whole clip"
+     },
+     {
+      "icon": "ear",
+      "says": "Viewers watch his videos to fall asleep"
+     },
+     {
+      "icon": "star",
+      "says": "One clip alone reached 32M views"
+     }
+    ],
+    "shot": {
+     "camera": "Filmed by a tourist",
+     "sound": "Natural sound only",
+     "text": "No on-screen text",
+     "edit": "One raw take, no edit",
+     "people": "Barber on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Film a therapist with a signature move"
+     },
+     {
+      "icon": "mic",
+      "do": "Clip a mic to the client's collar",
+      "tip": "It catches every hand sound"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot 3/4 front, both faces in frame"
+     },
+     {
+      "icon": "cut",
+      "do": "Keep it one uncut take"
+     },
+     {
+      "icon": "clock",
+      "do": "Post a 30–60s cut, full take on YouTube",
+      "tip": "Sleep viewers watch the long one"
+     }
+    ]
    }
   },
   {
@@ -233,7 +360,71 @@
    },
    "effort": "medium",
    "url_note": "Post match is likely but not certain: YouTube result 'ASMR MASSAGE, SKIN CARE AND BEARD SHAVE WITH BARBER MUNUR ONKAN - YouTube'. Right creator and the same massage + grooming + skincare format, but the Dazed source names no single video,",
-   "thumb": "thumbs/ms-munur-onkan-turkish-barber-asmr-massage.jpg"
+   "thumb": "thumbs/ms-munur-onkan-turkish-barber-asmr-massage.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "zoom",
+      "do": "Close-up of the first touch"
+     },
+     {
+      "t": "2–30s",
+      "icon": "ear",
+      "do": "Massage, grooming, skincare: each its own sound"
+     },
+     {
+      "t": "End",
+      "icon": "face",
+      "do": "Finished look, relaxed client"
+     }
+    ],
+    "why": [
+     {
+      "icon": "ear",
+      "says": "Massage, grooming and skincare sounds in one"
+     },
+     {
+      "icon": "star",
+      "says": "Built 600M+ views, says Dazed"
+     },
+     {
+      "icon": "pin",
+      "says": "A barbershop setting you recognise"
+     }
+    ],
+    "shot": {
+     "angle": "Close-ups of each touch",
+     "sound": "Natural sound, little talking",
+     "text": "No on-screen text",
+     "edit": "Light edit",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "hand",
+      "do": "Stack 3–4 steps that each sound different",
+      "tip": "Oil pour, glide, tapping, hot towel"
+     },
+     {
+      "icon": "mic",
+      "do": "Mic up close, one just out of frame"
+     },
+     {
+      "icon": "music",
+      "do": "Keep music low or off"
+     },
+     {
+      "icon": "pin",
+      "do": "Film in your branded room"
+     },
+     {
+      "icon": "check",
+      "do": "Keep draping and framing clinical"
+     }
+    ],
+    "avoid": "Nothing that could read as sexual"
+   }
   },
   {
    "id": "ms-sophie-dolce-psa-creator-says-her",
@@ -293,7 +484,70 @@
     "relatability": 85,
     "relevancy": 82
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "warn",
+      "do": "Face to camera, she states the warning"
+     },
+     {
+      "t": "3–30s",
+      "icon": "chat",
+      "do": "Hours with the gun, then the symptoms"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Her doctor's advice, passed on"
+     }
+    ],
+    "why": [
+     {
+      "icon": "warn",
+      "says": "A warning about a gadget people own"
+     },
+     {
+      "icon": "share",
+      "says": "Doctors posted follow-ups, spreading it further"
+     },
+     {
+      "icon": "people",
+      "says": "Reached more than 5M people"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, talking head",
+     "sound": "Her own voice",
+     "text": "Captions on screen",
+     "edit": "Light edit"
+    },
+    "steps": [
+     {
+      "icon": "hand",
+      "do": "Talk to camera, massage gun in hand"
+     },
+     {
+      "icon": "text",
+      "do": "Open with: 'Stop using your massage gun here'"
+     },
+     {
+      "icon": "warn",
+      "do": "Point to the front and side of the neck"
+     },
+     {
+      "icon": "check",
+      "do": "Mark safe zones with green and red text",
+      "tip": "Upper traps, glutes, quads"
+     },
+     {
+      "icon": "chat",
+      "do": "Close with: 'Book a session if it still hurts'"
+     }
+    ],
+    "avoid": "Stay in scope; cite a doctor or PT"
+   }
   },
   {
    "id": "ms-jaimesskin-esthetician-s-10-minute",
@@ -360,7 +614,67 @@
     "icebath": "“3-minute breathing routine before every plunge” as a follow-along (no breath-holds in water).",
     "photo_video": "“10 minutes, one light, one phone”: a follow-along portrait setup with the result at the end."
    },
-   "thumb": "thumbs/ms-jaimesskin-esthetician-s-10-minute.jpg"
+   "thumb": "thumbs/ms-jaimesskin-esthetician-s-10-minute.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "clock",
+      "do": "'10 minutes' caption over the puffy before"
+     },
+     {
+      "t": "2–40s",
+      "icon": "hand",
+      "do": "Strokes along neck, jaw and cheekbones"
+     },
+     {
+      "t": "End",
+      "icon": "eye",
+      "do": "The 'after' face"
+     }
+    ],
+    "why": [
+     {
+      "icon": "clock",
+      "says": "Only 10 minutes, easy to try at home"
+     },
+     {
+      "icon": "eye",
+      "says": "The change shows on camera right away"
+     },
+     {
+      "icon": "fire",
+      "says": "Rides a hashtag with almost 1B views"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "text": "Time promise as caption",
+     "edit": "Light edit",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "light",
+      "do": "Set an iPhone and ring light facing you"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'X minutes of lymphatic drainage'",
+      "tip": "Name the area: face or legs"
+     },
+     {
+      "icon": "hand",
+      "do": "Show 4–6 strokes with arrows on screen"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot before and after in the same light",
+      "tip": "Same framing too"
+     }
+    ],
+    "avoid": "No weight-loss or detox claims"
+   }
   },
   {
    "id": "ms-maggie-tiktok-client-storytime-creator-realises",
@@ -427,6 +741,64 @@
     "dexa_biohacking": "“Red flags your body-scan provider isn't legit”: no calibration talk, scans you after lunch, no follow-up.",
     "icebath": "“Signs your ice-bath studio isn't safe”: no time limits, nobody supervising, breath-holds in the water.",
     "photo_video": "“I hired a photographer and these were the red flags”, then show how you work instead."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "warn",
+      "do": "Shock line straight to camera"
+     },
+     {
+      "t": "3–30s",
+      "icon": "chat",
+      "do": "The red flags she missed, in order"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "She said no; the lesson for viewers"
+     }
+    ],
+    "why": [
+     {
+      "icon": "warn",
+      "says": "The shocking first line stops the scroll"
+     },
+     {
+      "icon": "check",
+      "says": "Red flags make it useful, not just shocking"
+     },
+     {
+      "icon": "question",
+      "says": "People want to know a studio is legit"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, talking to camera",
+     "sound": "Her own voice",
+     "text": "Captions on screen",
+     "edit": "Raw, no edit"
+    },
+    "steps": [
+     {
+      "icon": "text",
+      "do": "Open with 'X signs a massage place is legit'"
+     },
+     {
+      "icon": "pin",
+      "do": "Walk through your own studio on camera"
+     },
+     {
+      "icon": "check",
+      "do": "Show licence, intake form, draping, posted prices"
+     },
+     {
+      "icon": "warn",
+      "do": "Add the red flags to watch for"
+     }
+    ],
+    "avoid": "Don't copy the happy-ending topic itself"
    }
   },
   {
@@ -487,7 +859,71 @@
     "relevancy": 92
    },
    "effort": "low",
-   "thumb": "thumbs/ms-theknotking-huge-muscle-knot-being.jpg"
+   "thumb": "thumbs/ms-theknotking-huge-muscle-knot-being.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "zoom",
+      "do": "Close-up of the bulging knot, 'HUGE' caption"
+     },
+     {
+      "t": "2–20s",
+      "icon": "hand",
+      "do": "Working it, tissue visibly moving"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Smooth tissue, client relief"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "You keep watching for the knot to go"
+     },
+     {
+      "icon": "fire",
+      "says": "TikTok has a whole knot-removal topic"
+     },
+     {
+      "icon": "text",
+      "says": "'HUGE' promises something worth seeing"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "angle": "Close-up on the knot",
+     "text": "'This knot was HUGE!'",
+     "edit": "Light edit",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "light",
+      "do": "Light the skin low from one side"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot low and side-on, at skin level",
+      "tip": "The knot shows in silhouette"
+     },
+     {
+      "icon": "tripod",
+      "do": "Mount the iPhone on an arm over the table"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'Biggest knot this week'"
+     },
+     {
+      "icon": "loop",
+      "do": "Keep it 15–25s, end on flat tissue",
+      "tip": "Loop back to the start"
+     }
+    ]
+   }
   },
   {
    "id": "ms-knot-doc-local-creator-recommends-a",
@@ -547,7 +983,63 @@
     "relevancy": 90
    },
    "effort": "low",
-   "thumb": "thumbs/ms-knot-doc-local-creator-recommends-a.jpg"
+   "thumb": "thumbs/ms-knot-doc-local-creator-recommends-a.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "pin",
+      "do": "City name on screen"
+     },
+     {
+      "t": "2–20s",
+      "icon": "eye",
+      "do": "Venue and treatment highlights"
+     },
+     {
+      "t": "End",
+      "icon": "text",
+      "do": "Studio name and location"
+     }
+    ],
+    "why": [
+     {
+      "icon": "pin",
+      "says": "Aimed at locals searching TikTok for massage"
+     },
+     {
+      "icon": "chat",
+      "says": "179 comments, high for a local post"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "text": "City call-out on screen",
+     "edit": "Light edit"
+    },
+    "steps": [
+     {
+      "icon": "text",
+      "do": "Open on 'If you live in [city]…'"
+     },
+     {
+      "icon": "camera",
+      "do": "Film a 10–15s walk from door to room"
+     },
+     {
+      "icon": "zoom",
+      "do": "Add 3–4 treatment close-ups"
+     },
+     {
+      "icon": "check",
+      "do": "End on the booking info"
+     },
+     {
+      "icon": "pin",
+      "do": "Put city and area in caption and first hashtags"
+     }
+    ]
+   }
   },
   {
    "id": "ms-saskiafield-traveller-s-first-head",
@@ -607,7 +1099,70 @@
     "relevancy": 86
    },
    "effort": "low",
-   "thumb": "thumbs/ms-saskiafield-traveller-s-first-head.jpg"
+   "thumb": "thumbs/ms-saskiafield-traveller-s-first-head.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Client lying down, 'my first head spa'"
+     },
+     {
+      "t": "2–30s",
+      "icon": "ear",
+      "do": "Water, foam and scalp close-ups"
+     },
+     {
+      "t": "End",
+      "icon": "money",
+      "do": "Hair result and the value verdict"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "'My first' is a favourite head-spa hook"
+     },
+     {
+      "icon": "money",
+      "says": "The price pun says great value abroad"
+     },
+     {
+      "icon": "pin",
+      "says": "Mixes the head-spa trend with travel"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "ASMR sound",
+     "text": "'My first head spa' caption",
+     "edit": "Light edit",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Bring in a first-timer client"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'My first head spa'"
+     },
+     {
+      "icon": "tripod",
+      "do": "Shoot top-down over the basin for the water"
+     },
+     {
+      "icon": "zoom",
+      "do": "Get a tight close-up of the foam"
+     },
+     {
+      "icon": "money",
+      "do": "End on a price card: 'Worth it?'",
+      "tip": "Sparks a value debate in comments"
+     }
+    ]
+   }
   },
   {
    "id": "ms-tanameraspa-malaysian-masseuse-mazlin-mazlan",
@@ -666,7 +1221,68 @@
     "relatability": 55,
     "relevancy": 90
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "cinema",
+      "do": "Wide shot of the competition stage"
+     },
+     {
+      "t": "2–30s",
+      "icon": "hand",
+      "do": "Flowing, martial-arts-style signature sequence"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "Final pose and applause"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Graceful moves that look like a performance"
+     },
+     {
+      "icon": "heart",
+      "says": "Batik sheets sparked national pride"
+     },
+     {
+      "icon": "share",
+      "says": "Malaysian media picked it up as viral"
+     }
+    ],
+    "shot": {
+     "angle": "Wide on the stage",
+     "sound": "Set to music",
+     "edit": "Light edit",
+     "people": "Competitor on stage"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Orbit the signature move slowly on a gimbal"
+     },
+     {
+      "icon": "tripod",
+      "do": "Run a static wide for the full routine"
+     },
+     {
+      "icon": "music",
+      "do": "Cut it to music"
+     },
+     {
+      "icon": "heart",
+      "do": "Show national touches: textiles, flags"
+     },
+     {
+      "icon": "share",
+      "do": "Pitch the reel to their spa and press"
+     }
+    ]
+   }
   },
   {
    "id": "ms-hattamaneekorn-spa-thai-massage-competitors-dancing",
@@ -725,7 +1341,62 @@
     "relatability": 60,
     "relevancy": 88
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "bolt",
+      "do": "Therapist balancing on the client's back"
+     },
+     {
+      "t": "2–15s",
+      "icon": "eye",
+      "do": "More acrobatic moves"
+     },
+     {
+      "t": "End",
+      "icon": "spark",
+      "do": "Reveal: it's a championship"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "Nobody knew massage had competitions"
+     },
+     {
+      "icon": "eye",
+      "says": "Acrobatic moves look unreal"
+     },
+     {
+      "icon": "share",
+      "says": "A viral X post, then news coverage"
+     }
+    ],
+    "shot": {
+     "edit": "Light edit",
+     "people": "Therapist and client"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Film the wildest moves from low and wide"
+     },
+     {
+      "icon": "bolt",
+      "do": "Open cold on the wildest move"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'This is a real sport'"
+     },
+     {
+      "icon": "spark",
+      "do": "Then reveal the stage, scoreboard and medals"
+     }
+    ]
+   }
   },
   {
    "id": "ms-iranmassage70-massage-school-uses-anatomical",
@@ -784,77 +1455,67 @@
     "relatability": 66,
     "relevancy": 90
    },
-   "effort": "medium"
-  },
-  {
-   "id": "pt-anatoly-vladimir-elite-powerlifter-disguised-as",
-   "title": "Powerlifter disguised as a cleaner out-lifts a bodybuilder",
-   "niche": "gym_pt",
-   "adjacent": true,
-   "platform": "youtube",
-   "content_type": "short",
-   "url": "https://www.youtube.com/watch?v=-AusCTZwSR8",
-   "url_is_exact_post": true,
-   "creator": {
-    "handle": null,
-    "name": "Anatoly (Vladimir Shmondenko)",
-    "followers": "9.78M YouTube subscribers (socialcounts.org, same page as the stats); 23.8M TikTok followers (Wikipedia figure surfaced in search results)"
-   },
-   "stats": {
-    "views": 15351031,
-    "likes": null,
-    "comments": null,
-    "shares": null,
-    "quote": "Socialcounts lists a YouTube Short, \"Anatoly VS Bodybuilder The CLEANER lifted with ONE HAND,\" with 15,351,031 views, published July 1, 2024. The same page says the channel has 9.78M subs.",
-    "source_url": "https://socialcounts.org/youtube-video-analytics/-AusCTZwSR8",
-    "as_of": "2026-11"
-   },
-   "posted": "2024-07",
-   "hook": {
-    "verbatim": null,
-    "summary": "An 'ordinary' cleaner in work clothes appears next to serious lifters. The pattern interrupt is the mismatch between how he looks and what he lifts. The series is built on bystanders reacting to the reveal.",
-    "types": [
-     "pattern_interrupt",
-     "visual_spectacle",
-     "humor_skit",
-     "reaction_face",
-     "us_vs_them"
-    ]
-   },
-   "formula": "Underestimated outsider (disguise) next to confident lifters, then a casual 'impossible' lift, then the bystanders' double-take. Numbered as a recurring series (#15, #23, #28, #31...).",
-   "beats": [
-    "0-2s: the 'cleaner' is mopping or wiping near a lifter (premise set up visually)",
-    "2-8s: he casually picks up or asks to try the heavy implement",
-    "8-20s: one-hand or effortless lift while the lifter watches",
-    "end: reaction faces, laugh or reveal"
-   ],
-   "beats_inferred": false,
-   "why": "Instant visual contrast with no context needed, plus a reaction payoff. The series format (titles numbered #15 to #31 in the results) trains viewers to expect the payoff. The Short's 15.35M views far exceed the 2.4M to 4.1M seen on the channel's long-form uploads (ytubeinfluencers list), which suggests the premise works best compressed into a short.",
-   "production": {
-    "camera": null,
-    "asmr": "no",
-    "editing": "light",
-    "vfx": "none documented",
-    "captions": false,
-    "audio": "natural_sound",
-    "length_s": null,
-    "faces": "creator_on_camera"
-   },
-   "replicate": "PT-studio version without pranking strangers: (1) Cast the studio's 60+ client or smallest client in plain clothes or a cleaner apron at the deadlift platform. (2) Wide tripod shot plus a second iPhone close on a trainer's face. (3) Client casually pulls a weight the 'new member' (a staff actor) just struggled with. (4) Freeze-frame on the reaction, text: 'She's 64. 14 months of PT.' Only film consenting members.",
-   "evidence": "high",
-   "scores": {
-    "relatability": 80,
-    "relevancy": 72
-   },
    "effort": "medium",
-   "remix": {
-    "gym_pt": "A 60-year-old member in office clothes casually pulls more than the young guy next to them. Film the double-take.",
-    "massage": "The petite therapist working on a 120 kg rugby player: his face when the pressure lands.",
-    "dexa_biohacking": "The member who “doesn't look fit” gets the gym's best DEXA result. Reveal the printout.",
-    "icebath": "A grandmother walks past the nervous first-timers and sits in the plunge for three minutes, reading.",
-    "photo_video": "Shoot an event as a ‘guest’ with a phone, then reveal the edited pro frames."
-   },
-   "thumb": "thumbs/pt-anatoly-vladimir-elite-powerlifter-disguised-as.jpg"
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "spark",
+      "do": "Reveal the painted muscle anatomy"
+     },
+     {
+      "t": "2–25s",
+      "icon": "hand",
+      "do": "Technique on the named, painted muscle"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Invite viewers to book or join the course"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "You see the exact muscle being worked"
+     },
+     {
+      "icon": "star",
+      "says": "Teaching that is unusually visual"
+     },
+     {
+      "icon": "people",
+      "says": "Draws students to their massage courses"
+     }
+    ],
+    "shot": {
+     "text": "Captions on screen",
+     "edit": "Light edit, real paint",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Book a body-paint artist for one shoot day"
+     },
+     {
+      "icon": "hand",
+      "do": "Paint traps, rhomboids and lats on a model"
+     },
+     {
+      "icon": "cut",
+      "do": "Film 6–10 short clips, one muscle each"
+     },
+     {
+      "icon": "text",
+      "do": "Put each muscle's name on screen"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot the back from directly overhead"
+     }
+    ]
+   }
   },
   {
    "id": "pt-joe-strada-gym-owner-appears-to",
@@ -921,6 +1582,74 @@
     "dexa_biohacking": "The result loads, the room gasps. Cut to reveal it's the owner's own ‘before’ scan.",
     "icebath": "The coach steps in looking fearless, yelps, and the group behind falls apart laughing.",
     "photo_video": "The photographer ‘drops’ the camera (a decoy). The client's horrified face is the shot."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "dumbbell",
+      "do": "Lifter under a loaded bar, members watching"
+     },
+     {
+      "t": "2–6s",
+      "icon": "warn",
+      "do": "The rep stalls, bar goes back"
+     },
+     {
+      "t": "6–10s",
+      "icon": "people",
+      "do": "Members behind groan, slump, turn away"
+     },
+     {
+      "t": "Loop",
+      "icon": "loop",
+      "do": "Loops back to the setup"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Reads without sound"
+     },
+     {
+      "icon": "people",
+      "says": "Everyone knows the eyes-on-your-PR tension"
+     },
+     {
+      "icon": "warn",
+      "says": "Big views, but few new followers"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "angle": "Crowd visible behind the lifter",
+     "sound": "Trending sound",
+     "edit": "Light edit"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Set a tripod at hip height behind the lifter"
+     },
+     {
+      "icon": "people",
+      "do": "Get 3–4 clients standing in frame"
+     },
+     {
+      "icon": "cut",
+      "do": "Film a 'fail' take and a PR take"
+     },
+     {
+      "icon": "star",
+      "do": "Pin the PR version",
+      "tip": "It suits a PT brand better"
+     },
+     {
+      "icon": "check",
+      "do": "Follow up with a gym-features carousel",
+      "tip": "That turns views into followers"
+     }
+    ]
    }
   },
   {
@@ -980,7 +1709,71 @@
     "relatability": 80,
     "relevancy": 74
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Lifter walks to the rack"
+     },
+     {
+      "t": "2–5s",
+      "icon": "music",
+      "do": "Knee clips the rack, synced to the sound"
+     },
+     {
+      "t": "5–8s",
+      "icon": "face",
+      "do": "Exaggerated pain reaction"
+     },
+     {
+      "t": "Loop",
+      "icon": "loop",
+      "do": "Straight back to the start"
+     }
+    ],
+    "why": [
+     {
+      "icon": "music",
+      "says": "Rode a sound already taking off"
+     },
+     {
+      "icon": "clock",
+      "says": "Short enough to watch again and again"
+     },
+     {
+      "icon": "dumbbell",
+      "says": "A tiny mishap every lifter knows"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, TikTok filter",
+     "sound": "Trending sound effect",
+     "length": "8 seconds",
+     "edit": "Light edit"
+    },
+    "steps": [
+     {
+      "icon": "music",
+      "do": "Keep a weekly bank of 3 trending sounds"
+     },
+     {
+      "icon": "bolt",
+      "do": "Act out one 5–10s studio mishap per sound",
+      "tip": "Cable swing, foam-roller fail"
+     },
+     {
+      "icon": "tripod",
+      "do": "Shoot on a tripod with in-app filters"
+     },
+     {
+      "icon": "clock",
+      "do": "Spend five minutes per clip, no more",
+      "tip": "It brings reach, not leads"
+     }
+    ]
+   }
   },
   {
    "id": "pt-marty-mcloughlin-old-man-challenge-gym",
@@ -1047,6 +1840,67 @@
     "dexa_biohacking": "Run a sit-to-rise or grip test on camera, show the score, then “book your baseline scan”.",
     "icebath": "“The 60-second rule”: can you stay in at 3 °C for one minute? One attempt per member, timer on screen.",
     "photo_video": "“Can you hold a natural smile for 20 seconds?” A posing test, then show the final frame."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "text",
+      "do": "Challenge name on screen, start position"
+     },
+     {
+      "t": "3–17s",
+      "icon": "person",
+      "do": "Full mobility sequence, done cleanly"
+     },
+     {
+      "t": "17–20s",
+      "icon": "question",
+      "do": "Finish: an unspoken 'your turn'"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "Viewers test themselves at home"
+     },
+     {
+      "icon": "people",
+      "says": "'Old man' pulls in the over-40s"
+     },
+     {
+      "icon": "share",
+      "says": "People share it and tag friends"
+     }
+    ],
+    "shot": {
+     "text": "Challenge name on screen",
+     "edit": "Raw, no edit",
+     "length": "20 seconds",
+     "people": "Gym owner on camera"
+    },
+    "steps": [
+     {
+      "icon": "star",
+      "do": "Name your test: '[Studio] 50+ Challenge'"
+     },
+     {
+      "icon": "check",
+      "do": "Combine floor-to-stand, dead hang, deep squat"
+     },
+     {
+      "icon": "people",
+      "do": "Film a trainer and 55+ client side by side"
+     },
+     {
+      "icon": "tripod",
+      "do": "Shoot front-on, full body in frame"
+     },
+     {
+      "icon": "text",
+      "do": "End with: 'Can you do it? Book an assessment'"
+     }
+    ]
    }
   },
   {
@@ -1109,7 +1963,71 @@
     "relatability": 82,
     "relevancy": 62
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "eye",
+      "do": "The clip of someone mocking a stranger"
+     },
+     {
+      "t": "3–10s",
+      "icon": "face",
+      "do": "He appears, pauses, names the problem"
+     },
+     {
+      "t": "10–40s",
+      "icon": "chat",
+      "do": "Why it's wrong: everyone starts somewhere"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "One-line rule"
+     }
+    ],
+    "why": [
+     {
+      "icon": "heart",
+      "says": "He defends an underdog everyone relates to"
+     },
+     {
+      "icon": "person",
+      "says": "A calm authority figure states the rule"
+     },
+     {
+      "icon": "fire",
+      "says": "His etiquette clips reach millions of views"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, talking to camera",
+     "sound": "His own voice",
+     "text": "Captions on screen",
+     "edit": "Stitch, light edit"
+    },
+    "steps": [
+     {
+      "icon": "question",
+      "do": "Pick a public, widely shared bad-advice clip"
+     },
+     {
+      "icon": "person",
+      "do": "Have the head coach react on green screen"
+     },
+     {
+      "icon": "mic",
+      "do": "Use a clip-on mic, desk or studio behind"
+     },
+     {
+      "icon": "check",
+      "do": "State one house rule per video",
+      "tip": "'Nobody films you without asking'"
+     }
+    ],
+    "avoid": "Never stitch members of the public"
+   }
   },
   {
    "id": "pt-nickigeorgiou-uk-personal-trainer-posts",
@@ -1169,7 +2087,69 @@
     "relatability": 90,
     "relevancy": 80
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Trainer in gym kit, confession on screen"
+     },
+     {
+      "t": "2–10s",
+      "icon": "person",
+      "do": "Her body shown honestly, natural poses"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "A reassuring line or caption"
+     }
+    ],
+    "why": [
+     {
+      "icon": "heart",
+      "says": "Women relate when a fit body changes"
+     },
+     {
+      "icon": "person",
+      "says": "Makes hiring a PT less intimidating"
+     },
+     {
+      "icon": "bolt",
+      "says": "Breaks the perfect-trainer image"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Trending sound",
+     "text": "Confession as text overlay",
+     "edit": "Raw, no edit"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Film a female coach in studio kit",
+      "tip": "Mirror or tripod both work"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'Day 2 of my cycle. Still training'"
+     },
+     {
+      "icon": "chat",
+      "do": "Explain how you adjust clients' sessions"
+     },
+     {
+      "icon": "music",
+      "do": "Shoot raw, add a soft trending sound"
+     },
+     {
+      "icon": "pin",
+      "do": "Pin a comment linking the women's programme"
+     }
+    ]
+   }
   },
   {
    "id": "pt-morningfitnessgym-trainer-reacts-when-a",
@@ -1229,7 +2209,68 @@
     "relatability": 76,
     "relevancy": 84
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Client set up on a stack machine"
+     },
+     {
+      "t": "2–6s",
+      "icon": "question",
+      "do": "Pin stuck, client confused"
+     },
+     {
+      "t": "6–12s",
+      "icon": "face",
+      "do": "The trainer's reaction"
+     },
+     {
+      "t": "End",
+      "icon": "laugh",
+      "do": "Laugh, then loop"
+     }
+    ],
+    "why": [
+     {
+      "icon": "heart",
+      "says": "Shows trainer and client having fun"
+     },
+     {
+      "icon": "people",
+      "says": "The most common trainer-client theme on TikTok"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Natural sound",
+     "text": "Captions on screen",
+     "edit": "Light edit",
+     "people": "Trainer and client"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Keep a blooper iPhone running during sessions",
+      "tip": "Get client consent first"
+     },
+     {
+      "icon": "cut",
+      "do": "Clip 6–12s moments: stuck pins, missed high-fives"
+     },
+     {
+      "icon": "face",
+      "do": "Catch the client's face at 'last set'"
+     },
+     {
+      "icon": "text",
+      "do": "Add one line of caption text"
+     }
+    ],
+    "avoid": "Never post clips that mock the client"
+   }
   },
   {
    "id": "pt-ultimateperformance-ultimate-performance-client-story",
@@ -1290,7 +2331,76 @@
     "relatability": 74,
     "relevancy": 95
    },
-   "effort": "high"
+   "effort": "high",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Age and kg lost over the 'before'"
+     },
+     {
+      "t": "2–10s",
+      "icon": "spark",
+      "do": "Reveal of the 'after'"
+     },
+     {
+      "t": "10–40s",
+      "icon": "chat",
+      "do": "Client on how daily life changed"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "UP branding"
+     }
+    ],
+    "why": [
+     {
+      "icon": "text",
+      "says": "Age and a hard number up front"
+     },
+     {
+      "icon": "eye",
+      "says": "Before and after, then real-life change"
+     },
+     {
+      "icon": "star",
+      "says": "The go-to format of a PT-only brand"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Voiceover",
+     "text": "Captions on screen",
+     "edit": "Heavy, before/after cuts",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "text",
+      "do": "Open on a 2s card: age, kg, weeks"
+     },
+     {
+      "icon": "cut",
+      "do": "Hard cut to the progress photo"
+     },
+     {
+      "icon": "mic",
+      "do": "Film a 20–30s seated interview, two cameras",
+      "tip": "Ask what changed outside the gym"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Add clips of the client training with their trainer"
+     },
+     {
+      "icon": "check",
+      "do": "End by inviting a consultation"
+     }
+    ],
+    "avoid": "Get written consent for before photos"
+   }
   },
   {
    "id": "pt-trainwithjoan-joan-macdonald-started-strength",
@@ -1351,7 +2461,74 @@
     "relatability": 82,
     "relevancy": 90
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Her age on screen, 'before' photo"
+     },
+     {
+      "t": "2–8s",
+      "icon": "dumbbell",
+      "do": "Cut to her deadlifting and posing"
+     },
+     {
+      "t": "8–30s",
+      "icon": "chat",
+      "do": "Why she started: not her mother's medication"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Ends with a call to action"
+     }
+    ],
+    "why": [
+     {
+      "icon": "bolt",
+      "says": "Breaks the 'too late to start' belief"
+     },
+     {
+      "icon": "people",
+      "says": "Her trainer daughter is part of the story"
+     },
+     {
+      "icon": "star",
+      "says": "Grew into a book and a movement"
+     }
+    ],
+    "shot": {
+     "camera": "Mixed cameras",
+     "sound": "Music",
+     "text": "Captions on screen",
+     "edit": "Light, before/after cut",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Feature your oldest committed client"
+     },
+     {
+      "icon": "text",
+      "do": "Put their age large on screen"
+     },
+     {
+      "icon": "camera",
+      "do": "Cut from a day-1 photo to them lifting today"
+     },
+     {
+      "icon": "chat",
+      "do": "Add the trainer's line on safe progress"
+     },
+     {
+      "icon": "light",
+      "do": "Shoot handheld, natural light, light music"
+     }
+    ]
+   }
   },
   {
    "id": "pt-noeldeyzel-noel-deyzel-s-how",
@@ -1413,7 +2590,61 @@
    },
    "effort": "low",
    "url_note": "Post match is likely but not certain: YouTube result 'DON'T BE A GYM DOUCHE #noeldeyzel - YouTube' (gym-etiquette content, which matches Euronews' 'How to not be a Gym Douche'). Uploader channel not shown, and the catalog lists TikTok, so",
-   "thumb": "thumbs/pt-noeldeyzel-noel-deyzel-s-how.jpg"
+   "thumb": "thumbs/pt-noeldeyzel-noel-deyzel-s-how.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "'How to not be a gym douche'"
+     },
+     {
+      "t": "2–20s",
+      "icon": "laugh",
+      "do": "Acted 'don't' versus 'do' examples"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Warm sign-off"
+     }
+    ],
+    "why": [
+     {
+      "icon": "bolt",
+      "says": "A huge bodybuilder giving gentle advice"
+     },
+     {
+      "icon": "heart",
+      "says": "Kindness from a giant eases gym nerves"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "His own voice",
+     "text": "Captions on screen",
+     "edit": "Jump cuts"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Cast your most muscular coach"
+     },
+     {
+      "icon": "text",
+      "do": "Title it 'How not to be a gym [X]'"
+     },
+     {
+      "icon": "laugh",
+      "do": "Act out each bad habit, then the right way",
+      "tip": "Play it for laughs"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Cover re-racking, wiping down, asking to work in"
+     }
+    ]
+   }
   },
   {
    "id": "dx-kimkardashian-kim-kardashian-poses-in",
@@ -1473,7 +2704,64 @@
     "relatability": 50,
     "relevancy": 70
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Her in scrubs beside the scanner"
+     },
+     {
+      "t": "2–8s",
+      "icon": "text",
+      "do": "Caption: what it is, how long, why"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "#NotAnAd disclosure"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Celebrity social proof: 3.5M+ likes"
+     },
+     {
+      "icon": "scan",
+      "says": "A futuristic scanner grabs the eye"
+     },
+     {
+      "icon": "money",
+      "says": "The $2,499 price sparked backlash and press"
+     }
+    ],
+    "shot": {
+     "camera": "Photo post, not video",
+     "people": "Her, in scrubs"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Open on a gowned client by the DEXA"
+     },
+     {
+      "icon": "hand",
+      "do": "Show the operator positioning them"
+     },
+     {
+      "icon": "scan",
+      "do": "Show the printout with the values circled",
+      "tip": "Anonymise it first"
+     },
+     {
+      "icon": "money",
+      "do": "Add the price and time, then how to book"
+     }
+    ],
+    "avoid": "No 'saved lives' or cancer-detection claims"
+   }
   },
   {
    "id": "dx-jesssfamofficial-creator-pays-2-500",
@@ -1542,7 +2830,66 @@
     "icebath": "“I paid CHF [price] for a Wim Hof Method workshop… here's how it went.”",
     "photo_video": "“I paid CHF [price] for a brand shoot… here's what I got”: the client reveals the gallery."
    },
-   "thumb": "thumbs/dx-jesssfamofficial-creator-pays-2-500.jpg"
+   "thumb": "thumbs/dx-jesssfamofficial-creator-pays-2-500.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "money",
+      "do": "Price hook: 'I paid $2,500…'"
+     },
+     {
+      "t": "2–20s",
+      "icon": "camera",
+      "do": "Come-with-me footage of the visit and scan"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "'Results to come!' sets up part 2"
+     }
+    ],
+    "why": [
+     {
+      "icon": "money",
+      "says": "The price comes in the first words"
+     },
+     {
+      "icon": "heart",
+      "says": "She admits she's scared and nervous"
+     },
+     {
+      "icon": "question",
+      "says": "Open results make viewers follow for more"
+     }
+    ],
+    "shot": {
+     "edit": "Light edit",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "money",
+      "do": "Open with 'I paid CHF ___ for a DEXA'"
+     },
+     {
+      "icon": "camera",
+      "do": "Film the walk-in, reception, changing and the table"
+     },
+     {
+      "icon": "clock",
+      "do": "End part 1 on 'results in 10 minutes'"
+     },
+     {
+      "icon": "scan",
+      "do": "Post part 2: the printout and a reaction"
+     },
+     {
+      "icon": "text",
+      "do": "Shoot vertical, natural audio, burned-in captions"
+     }
+    ]
+   }
   },
   {
    "id": "dx-dylanmulvaney-dylan-mulvaney-come-with",
@@ -1602,7 +2949,62 @@
     "relevancy": 80
    },
    "effort": "low",
-   "thumb": "thumbs/dx-dylanmulvaney-dylan-mulvaney-come-with.jpg"
+   "thumb": "thumbs/dx-dylanmulvaney-dylan-mulvaney-come-with.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "question",
+      "do": "'Come with me to get a full-body MRI?'"
+     },
+     {
+      "t": "2–30s",
+      "icon": "eye",
+      "do": "Arrival and the scan experience"
+     },
+     {
+      "t": "End",
+      "icon": "money",
+      "do": "Discount link in the caption"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Viewers try an expensive scan by proxy"
+     },
+     {
+      "icon": "people",
+      "says": "A big existing audience did much of it"
+     }
+    ],
+    "shot": {
+     "edit": "Light edit",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Invite a local micro-influencer or member"
+     },
+     {
+      "icon": "question",
+      "do": "Ask: 'Come with me to get a DEXA?'"
+     },
+     {
+      "icon": "camera",
+      "do": "Film door, reception, scan and printout"
+     },
+     {
+      "icon": "money",
+      "do": "Put a member code in the caption"
+     },
+     {
+      "icon": "check",
+      "do": "Label it gifted or a partnership"
+     }
+    ]
+   }
   },
   {
    "id": "dx-shawstrength-strongman-brian-shaw-and",
@@ -1665,7 +3067,72 @@
    },
    "effort": "medium",
    "url_note": "Post match is likely but not certain: YouTube result 'Body composition showdown: Brian Shaw vs Devon Larratt - YouTube' (the catalog's existing URL; content matches). The snippet does not show the uploading channel. A likely full-length v",
-   "thumb": "thumbs/dx-shawstrength-strongman-brian-shaw-and.jpg"
+   "thumb": "thumbs/dx-shawstrength-strongman-brian-shaw-and.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "'1 in 500 million bone density'"
+     },
+     {
+      "t": "2–15s",
+      "icon": "scan",
+      "do": "Both athletes at the DEXA scan"
+     },
+     {
+      "t": "15–45s",
+      "icon": "people",
+      "do": "Results compared: body fat, bone density"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "The 'six standard deviations' line"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "One huge number became the clip title"
+     },
+     {
+      "icon": "people",
+      "says": "Two very different bodies, side by side"
+     },
+     {
+      "icon": "share",
+      "says": "Reposted for months on TikTok and Threads"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Their own voices",
+     "edit": "Heavy edit",
+     "people": "Both athletes on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Pick a coach and a member, or two members",
+      "tip": "Same weight, different bodies"
+     },
+     {
+      "icon": "scan",
+      "do": "Film both on the DEXA table"
+     },
+     {
+      "icon": "cut",
+      "do": "Split-screen the two printouts"
+     },
+     {
+      "icon": "star",
+      "do": "Title it with one stat the report shows",
+      "tip": "E.g. the bone-density Z-score"
+     }
+    ],
+    "avoid": "Never invent percentiles"
+   }
   },
   {
    "id": "dx-jeffnippard-jeff-nippard-what-every",
@@ -1734,7 +3201,70 @@
     "icebath": "A temperature ladder: 15, 10, 5 and 2 °C, same person, breath and face at each step.",
     "photo_video": "The same portrait at five budgets (phone, €500, €3K, cinema rig). Viewers guess which is which."
    },
-   "thumb": "thumbs/dx-jeffnippard-jeff-nippard-what-every.jpg"
+   "thumb": "thumbs/dx-jeffnippard-jeff-nippard-what-every.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–5s",
+      "icon": "text",
+      "do": "Title: every body fat, 50% to 5%"
+     },
+     {
+      "t": "5s",
+      "icon": "person",
+      "do": "Real people at each level, scan-measured"
+     },
+     {
+      "t": "End",
+      "icon": "eye",
+      "do": "Viewers place themselves on the ladder"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "Answers 'where am I?' for everyone"
+     },
+     {
+      "icon": "scan",
+      "says": "Real people, measured by scan"
+     },
+     {
+      "icon": "star",
+      "says": "3.8x the channel's typical views"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Voiceover",
+     "edit": "Heavy edit",
+     "people": "Scanned people on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Line up 4–6 consenting members",
+      "tip": "Get written consent"
+     },
+     {
+      "icon": "scan",
+      "do": "Use each one's DEXA number"
+     },
+     {
+      "icon": "person",
+      "do": "Film each in a neutral stance"
+     },
+     {
+      "icon": "text",
+      "do": "Overlay a big %, 2 seconds each"
+     },
+     {
+      "icon": "check",
+      "do": "End with: 'Find your own number'"
+     }
+    ],
+    "avoid": "No shaming language"
+   }
   },
   {
    "id": "dx-ameelzonweelz-biological-age-kneel-to",
@@ -1803,7 +3333,76 @@
     "icebath": "“If you can stay in for two minutes, your cold tolerance is above average”: regulars vs first-timers.",
     "photo_video": "“If you can do this pose, you'll look good in any photo”: clients attempt it, final frames shown."
    },
-   "thumb": "thumbs/dx-ameelzonweelz-biological-age-kneel-to.jpg"
+   "thumb": "thumbs/dx-ameelzonweelz-biological-age-kneel-to.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Bold age claim on screen, person kneeling"
+     },
+     {
+      "t": "2–5s",
+      "icon": "bolt",
+      "do": "One jump from knees to squat"
+     },
+     {
+      "t": "5–12s",
+      "icon": "laugh",
+      "do": "Pass or funny fail, next person tries"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "Viewer is dared to try it"
+     }
+    ],
+    "why": [
+     {
+      "icon": "clock",
+      "says": "No gear, 5 seconds, pass or fail"
+     },
+     {
+      "icon": "share",
+      "says": "Begs for duets and group versions"
+     },
+     {
+      "icon": "people",
+      "says": "Families, offices and brands all copied it"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Trending sound",
+     "text": "Claim line on screen",
+     "edit": "Raw, no fancy edits",
+     "length": "About 10 seconds",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Line up coaches and members on gym flooring"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'Fun challenge, NOT a real age test'"
+     },
+     {
+      "icon": "bolt",
+      "do": "Film each attempt back to back"
+     },
+     {
+      "icon": "check",
+      "do": "Show an easier version for bad knees or backs"
+     },
+     {
+      "icon": "scan",
+      "do": "Close on 'Want real numbers? We measure VO2 max'"
+     }
+    ],
+    "avoid": "Never present the result as an age"
+   }
   },
   {
    "id": "dx-theautofilled1-gym-member-posts-his",
@@ -1861,7 +3460,63 @@
     "relatability": 70,
     "relevancy": 86
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "scan",
+      "do": "The 17% body-fat result up front"
+     },
+     {
+      "t": "2–10s",
+      "icon": "person",
+      "do": "Then the context: 232 lb, 6 ft 2"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "Is this real? Viewers argue"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Low number clashes with a big frame"
+     },
+     {
+      "icon": "scan",
+      "says": "Members know the gym's own scanner"
+     },
+     {
+      "icon": "chat",
+      "says": "'Fake?' framing gets people debating"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "edit": "Raw, no edits"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Film the printout coming out on a phone"
+     },
+     {
+      "icon": "hand",
+      "do": "Cover the % with a thumb, then reveal"
+     },
+     {
+      "icon": "face",
+      "do": "Cut to the member's face reacting"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'Guess my body fat at 105 kg'",
+      "tip": "Note InBody can differ from DEXA"
+     }
+    ]
+   }
   },
   {
    "id": "dx-danielle-creator-danielle-films-herself",
@@ -1917,7 +3572,59 @@
     "relatability": 64,
     "relevancy": 92
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "pin",
+      "do": "Arriving for her first DEXA scan"
+     },
+     {
+      "t": "2–10s",
+      "icon": "scan",
+      "do": "Lying on the DEXA table"
+     },
+     {
+      "t": "End",
+      "icon": "spark",
+      "do": "Her result"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Top-engagement DEXA scan post on TikTok"
+     },
+     {
+      "icon": "eye",
+      "says": "'Come with me' view of a real scan"
+     }
+    ],
+    "shot": {
+     "angle": "First-person, self-filmed",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Pick a client getting their first scan",
+      "tip": "Get consent before filming"
+     },
+     {
+      "icon": "pin",
+      "do": "Film them arriving at the clinic"
+     },
+     {
+      "icon": "scan",
+      "do": "Show them lying on the DEXA table"
+     },
+     {
+      "icon": "spark",
+      "do": "End on their result screen"
+     }
+    ]
+   }
   },
   {
    "id": "dx-madsfladetri-triathlete-posts-vo2-max",
@@ -1977,7 +3684,68 @@
     "relevancy": 84
    },
    "effort": "low",
-   "thumb": "thumbs/dx-madsfladetri-triathlete-posts-vo2-max.jpg"
+   "thumb": "thumbs/dx-madsfladetri-triathlete-posts-vo2-max.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Score on screen: 'VO2 max test: 72'"
+     },
+     {
+      "t": "2–15s",
+      "icon": "dumbbell",
+      "do": "Test footage: mask on, treadmill running"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Recommends it: shows your heart-rate zones"
+     }
+    ],
+    "why": [
+     {
+      "icon": "text",
+      "says": "The score itself is the hook"
+     },
+     {
+      "icon": "loop",
+      "says": "A repeatable format, not a one-off hit"
+     },
+     {
+      "icon": "check",
+      "says": "One practical use: training zones"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "text": "Score as on-screen text",
+     "edit": "Light cuts",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "zoom",
+      "do": "Shoot a close-up of the mask fitting"
+     },
+     {
+      "icon": "clock",
+      "do": "Speed up the test into a montage"
+     },
+     {
+      "icon": "face",
+      "do": "Catch the gasping finish"
+     },
+     {
+      "icon": "text",
+      "do": "Put the number on screen: 'VO2 max: __'"
+     },
+     {
+      "icon": "check",
+      "do": "Explain training zones, not lifespan"
+     }
+    ]
+   }
   },
   {
    "id": "dx-steven-diary-of-a-ceo",
@@ -2037,7 +3805,66 @@
     "relevancy": 78
    },
    "effort": "medium",
-   "thumb": "thumbs/dx-steven-diary-of-a-ceo.jpg"
+   "thumb": "thumbs/dx-steven-diary-of-a-ceo.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "mic",
+      "do": "Peter Attia introduced with the big claim"
+     },
+     {
+      "t": "3–45s",
+      "icon": "chat",
+      "do": "He explains VO2 max and longevity"
+     },
+     {
+      "t": "End",
+      "icon": "cinema",
+      "do": "Points to the full episode"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Expert name plus a big promise"
+     },
+     {
+      "icon": "fire",
+      "says": "The defining talking point in longevity"
+     },
+     {
+      "icon": "text",
+      "says": "One clean clip, captions burned in"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Expert talking, podcast audio",
+     "text": "Burned-in captions",
+     "edit": "Light, one clip",
+     "people": "Expert on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Put your coach on camera"
+     },
+     {
+      "icon": "eye",
+      "do": "Add a VO2 chart behind via green screen"
+     },
+     {
+      "icon": "text",
+      "do": "Open with 'The one test longevity doctors want'"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Cut to a member doing the test"
+     }
+    ],
+    "avoid": "Say it's linked, never promise longer life"
+   }
   },
   {
    "id": "dx-bryan-johnson-bryan-johnson-posts-his",
@@ -2100,7 +3927,69 @@
     "relevancy": 70
    },
    "effort": "low",
-   "thumb": "thumbs/dx-bryan-johnson-bryan-johnson-posts-his.jpg"
+   "thumb": "thumbs/dx-bryan-johnson-bryan-johnson-posts-his.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "question",
+      "do": "Opens: 'my current morning routine... am I weird?'"
+     },
+     {
+      "t": "2–4s",
+      "icon": "clock",
+      "do": "Start 4:30am, finish 10am"
+     },
+     {
+      "t": "4–15s",
+      "icon": "text",
+      "do": "Bullet list: BP, hair serum, red light cap"
+     },
+     {
+      "t": "End",
+      "icon": "chat",
+      "do": "Readers judge it or copy it"
+     }
+    ],
+    "why": [
+     {
+      "icon": "fire",
+      "says": "Extreme numbers draw mockery and curiosity"
+     },
+     {
+      "icon": "loop",
+      "says": "Spawned 'I tried his routine' copycat videos"
+     },
+     {
+      "icon": "star",
+      "says": "Covered by LADbible and Netflix's 'Don't Die'"
+     }
+    ],
+    "shot": {
+     "text": "Plain text post with bullets",
+     "people": "No faces, words only"
+    },
+    "steps": [
+     {
+      "icon": "text",
+      "do": "Title it 'Our 60-minute recovery stack: am I weird?'"
+     },
+     {
+      "icon": "camera",
+      "do": "Film each station as a 2-second clip",
+      "tip": "Sauna, red light, plunge, PEMF"
+     },
+     {
+      "icon": "clock",
+      "do": "Overlay each station's time, e.g. 'sauna 20 min'"
+     },
+     {
+      "icon": "person",
+      "do": "Film a member trying his routine for 7 days",
+      "tip": "Optional spin-off series"
+     }
+    ]
+   }
   },
   {
    "id": "dx-glucosegoddess-glucose-goddess-posting-her",
@@ -2161,7 +4050,71 @@
     "relatability": 80,
     "relevancy": 82
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "Her glucose graph, labelled with the food"
+     },
+     {
+      "t": "2–5s",
+      "icon": "spark",
+      "do": "Then the graph with the hack applied"
+     },
+     {
+      "t": "5–15s",
+      "icon": "mic",
+      "do": "She explains the difference"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "One simple takeaway hack"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Makes an invisible body process visible"
+     },
+     {
+      "icon": "star",
+      "says": "Same branded chart style every post"
+     },
+     {
+      "icon": "clock",
+      "says": "Steady growth, not one viral spike"
+     }
+    ],
+    "shot": {
+     "camera": "Phone and camera mix",
+     "sound": "Voice-over",
+     "text": "Captions on screen",
+     "edit": "Light edit, own chart graphics",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "scan",
+      "do": "Have a client wear a CGM for 14 days"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Compare one thing: same lunch, walk vs no walk"
+     },
+     {
+      "icon": "star",
+      "do": "Use one branded chart template every post"
+     },
+     {
+      "icon": "mic",
+      "do": "Explain the graph in a short voice-over"
+     }
+    ],
+    "avoid": "Claim only what the curve shows, nothing more"
+   }
   },
   {
    "id": "dx-bodyspec-bodyspec-mobile-dexa-provider",
@@ -2221,7 +4174,64 @@
     "relevancy": 92
    },
    "effort": "low",
-   "thumb": "thumbs/dx-bodyspec-bodyspec-mobile-dexa-provider.jpg"
+   "thumb": "thumbs/dx-bodyspec-bodyspec-mobile-dexa-provider.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Tagged guest lying on the DEXA table"
+     },
+     {
+      "t": "2–10s",
+      "icon": "scan",
+      "do": "Scan arm passes, then the results screen"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Shout-out and tag to the guest"
+     }
+    ],
+    "why": [
+     {
+      "icon": "share",
+      "says": "Tagging the guest borrows their audience"
+     },
+     {
+      "icon": "loop",
+      "says": "Every client visit becomes a post"
+     },
+     {
+      "icon": "star",
+      "says": "'Gold standard' line adds authority"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "edit": "Light",
+     "people": "Client on camera only"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Set a tripod above the DEXA table, same spot"
+     },
+     {
+      "icon": "camera",
+      "do": "Film every first scan and every rescan",
+      "tip": "Only with the client's consent"
+     },
+     {
+      "icon": "people",
+      "do": "Tag the client in the post"
+     },
+     {
+      "icon": "loop",
+      "do": "Post rescans as 'Round 2' progress videos"
+     }
+    ]
+   }
   },
   {
    "id": "dx-doctormike-doctor-mike-questions-prenuvo",
@@ -2281,7 +4291,63 @@
     "relevancy": 70
    },
    "effort": "medium",
-   "thumb": "thumbs/dx-doctormike-doctor-mike-questions-prenuvo.jpg"
+   "thumb": "thumbs/dx-doctormike-doctor-mike-questions-prenuvo.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "warn",
+      "do": "Full-body MRIs are viral; doctors push back"
+     },
+     {
+      "t": "3–40s",
+      "icon": "chat",
+      "do": "The CEO answers on benefits and harms"
+     },
+     {
+      "t": "End",
+      "icon": "mic",
+      "do": "Points to the full podcast"
+     }
+    ],
+    "why": [
+     {
+      "icon": "chat",
+      "says": "A doctor questions the CEO selling it"
+     },
+     {
+      "icon": "check",
+      "says": "Balances hype with expert pushback"
+     },
+     {
+      "icon": "warn",
+      "says": "Safer format for regulated clinics"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Interview audio",
+     "text": "Captions on screen",
+     "edit": "Light",
+     "people": "Doctor Mike on camera"
+    },
+    "steps": [
+     {
+      "icon": "question",
+      "do": "Title it 'Is a DEXA scan worth it?'"
+     },
+     {
+      "icon": "person",
+      "do": "Have your sports scientist answer on camera"
+     },
+     {
+      "icon": "check",
+      "do": "Cover the 5 big objections, one by one",
+      "tip": "Dose, accuracy, frequency, cost, who shouldn't"
+     }
+    ],
+    "avoid": "Answer honestly, no hype or promises"
+   }
   },
   {
    "id": "ib-coldplungecam-cold-plunge-cam-drops",
@@ -2350,7 +4416,76 @@
     "dexa_biohacking": "Free grip-strength tests for strangers; show their number against their age group.",
     "photo_video": "Stranger portraits at an event: 60 seconds each, then show them the frame."
    },
-   "thumb": "thumbs/ib-coldplungecam-cold-plunge-cam-drops.jpg"
+   "thumb": "thumbs/ib-coldplungecam-cold-plunge-cam-drops.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "snow",
+      "do": "Ice bath ready outdoors for a gear test"
+     },
+     {
+      "t": "2–8s",
+      "icon": "people",
+      "do": "A stranger is approached or volunteers"
+     },
+     {
+      "t": "8–20s",
+      "icon": "face",
+      "do": "Stranger gets in: gasps and reactions"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "Stranger gets out or celebrates"
+     }
+    ],
+    "why": [
+     {
+      "icon": "face",
+      "says": "A stranger's reaction is unpredictable"
+     },
+     {
+      "icon": "laugh",
+      "says": "Relatable joke: priorities changed mid-shoot"
+     },
+     {
+      "icon": "money",
+      "says": "Sponsor stayed in the caption, not the video"
+     }
+    ],
+    "shot": {
+     "sound": "Natural sound",
+     "text": "No on-screen text",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "pin",
+      "do": "Put a branded tub outside the studio"
+     },
+     {
+      "icon": "people",
+      "do": "Invite passers-by for a coached 30–60s dip",
+      "tip": "Get signed releases first"
+     },
+     {
+      "icon": "zoom",
+      "do": "Film the entry gasp tight, at water level"
+     },
+     {
+      "icon": "hand",
+      "do": "Have the coach count breaths beside them",
+      "tip": "Keep a timer visible"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'Stranger ice baths > [your planned shoot]'"
+     }
+    ],
+    "avoid": "Screen for heart conditions before any dip"
+   }
   },
   {
    "id": "ib-itskyajeub-he-hid-in-my",
@@ -2413,7 +4548,77 @@
     "relevancy": 78
    },
    "effort": "low",
-   "thumb": "thumbs/ib-itskyajeub-he-hid-in-my.jpg"
+   "thumb": "thumbs/ib-itskyajeub-he-hid-in-my.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "'HE HID IN MY ICE BATH!!' on screen"
+     },
+     {
+      "t": "2–8s",
+      "icon": "person",
+      "do": "She walks up to her daily plunge"
+     },
+     {
+      "t": "8–15s",
+      "icon": "bolt",
+      "do": "Husband bursts out of the water; she screams"
+     },
+     {
+      "t": "End",
+      "icon": "laugh",
+      "do": "Laughter, then a payback video follows"
+     }
+    ],
+    "why": [
+     {
+      "icon": "bolt",
+      "says": "Breaks a ritual fans watch every day"
+     },
+     {
+      "icon": "share",
+      "says": "Couple and scream travel beyond plunge fans"
+     },
+     {
+      "icon": "loop",
+      "says": "Payback part 2 made it a series"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Natural sound",
+     "text": "All-caps headline on screen",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Pick a staff or regular client couple",
+      "tip": "Get consent from both"
+     },
+     {
+      "icon": "person",
+      "do": "Film the regular walking to their usual plunge"
+     },
+     {
+      "icon": "snow",
+      "do": "Hide a staff member under a floating ice layer",
+      "tip": "Experienced only, few-second hold, spotter there"
+     },
+     {
+      "icon": "zoom",
+      "do": "Shoot a tight reaction plus a wide shot"
+     },
+     {
+      "icon": "loop",
+      "do": "Post the payback as part 2"
+     }
+    ],
+    "avoid": "No hyperventilating or long breath-holds in water"
+   }
   },
   {
    "id": "ib-itskyajeub-ice-queen-daily-ice",
@@ -2476,7 +4681,77 @@
    },
    "effort": "low",
    "url_note": "Post match is likely but not certain: Search result title: 'Explained the benefits of taking ice baths to a stranger today… turns out she was an RN!! 😭😍 #icebath #health ... #coldplunge ... #day37 #therapy #coldtherapy' at https://www.tik",
-   "thumb": "thumbs/ib-itskyajeub-ice-queen-daily-ice.jpg"
+   "thumb": "thumbs/ib-itskyajeub-ice-queen-daily-ice.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Day number or a one-line story setup"
+     },
+     {
+      "t": "2–10s",
+      "icon": "snow",
+      "do": "Gets into the ice, same spot daily"
+     },
+     {
+      "t": "10–30s",
+      "icon": "chat",
+      "do": "Tells the story or answers a comment"
+     },
+     {
+      "t": "End",
+      "icon": "clock",
+      "do": "Gets out, teases tomorrow's day"
+     }
+    ],
+    "why": [
+     {
+      "icon": "loop",
+      "says": "A daily series builds a habit audience"
+     },
+     {
+      "icon": "clock",
+      "says": "Built on a simple day counter"
+     },
+     {
+      "icon": "star",
+      "says": "About 2M followers, ice bath every post"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "angle": "Same spot, every day",
+     "sound": "Own voice, talking",
+     "text": "Captions and day number",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Pick one face: owner or a challenge member",
+      "tip": "30- or 100-day challenge"
+     },
+     {
+      "icon": "tripod",
+      "do": "Use the same tripod angle and tub daily",
+      "tip": "Vertical, water level, fixed wide"
+     },
+     {
+      "icon": "text",
+      "do": "Put a day counter on screen"
+     },
+     {
+      "icon": "chat",
+      "do": "Share one thing in the ice: comment, story, myth"
+     },
+     {
+      "icon": "clock",
+      "do": "End by saying tomorrow's day number"
+     }
+    ]
+   }
   },
   {
    "id": "ib-zachking-zach-king-s-first",
@@ -2537,7 +4812,75 @@
     "relevancy": 82
    },
    "effort": "medium",
-   "thumb": "thumbs/ib-zachking-zach-king-s-first.jpg"
+   "thumb": "thumbs/ib-zachking-zach-king-s-first.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "pin",
+      "do": "Glacier scenery, framed as his 'FIRST' plunge"
+     },
+     {
+      "t": "2–8s",
+      "icon": "person",
+      "do": "He walks up and hesitates"
+     },
+     {
+      "t": "8–15s",
+      "icon": "snow",
+      "do": "The plunge and his cold-shock reaction"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Gets out, gives his verdict"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Glacier scenery is a spectacle on its own"
+     },
+     {
+      "icon": "face",
+      "says": "A first-timer's reaction pulls viewers in"
+     },
+     {
+      "icon": "chat",
+      "says": "2,281 comments: viewers joined the conversation"
+     }
+    ],
+    "shot": {
+     "sound": "Natural sound",
+     "text": "No on-screen text",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "pin",
+      "do": "Take a client to a mountain lake in winter",
+      "tip": "Bring a guide along"
+     },
+     {
+      "icon": "camera",
+      "do": "Open on a drone or wide landscape shot"
+     },
+     {
+      "icon": "zoom",
+      "do": "Put a GoPro at the waterline for the entry"
+     },
+     {
+      "icon": "face",
+      "do": "Catch the slow-mo entry and the face reaction",
+      "tip": "End on the steamy-breath exit"
+     },
+     {
+      "icon": "text",
+      "do": "Keep 'FIRST' in the title"
+     }
+    ]
+   }
   },
   {
    "id": "ib-ramonkhino-filipino-actor-rk-bagatsing",
@@ -2595,7 +4938,64 @@
     "relatability": 70,
     "relevancy": 72
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Actor next to the cold plunge"
+     },
+     {
+      "t": "2–10s",
+      "icon": "snow",
+      "do": "He gets into the ice"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Calm, controlled sit: routine ticked off"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "A famous face makes it aspirational"
+     },
+     {
+      "icon": "check",
+      "says": "Checkmark framing: a habit, not a stunt"
+     }
+    ],
+    "shot": {
+     "sound": "Trending sound",
+     "text": "No on-screen text",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "star",
+      "do": "Feature a local athlete or influencer client"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'Added cold plunge to my routine ☑️'"
+     },
+     {
+      "icon": "zoom",
+      "do": "Shoot a slow push-in and an ice close-up"
+     },
+     {
+      "icon": "snow",
+      "do": "Film a calm entry and steady breathing"
+     },
+     {
+      "icon": "light",
+      "do": "Grade it moody; studio name in caption only"
+     }
+    ]
+   }
   },
   {
    "id": "ib-espn-first-time-ice-bath",
@@ -2655,7 +5055,68 @@
     "relevancy": 80
    },
    "effort": "low",
-   "thumb": "thumbs/ib-espn-first-time-ice-bath.jpg"
+   "thumb": "thumbs/ib-espn-first-time-ice-bath.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "First-timer at the edge of the tub"
+     },
+     {
+      "t": "2–6s",
+      "icon": "face",
+      "do": "Gets in and panics right away"
+     },
+     {
+      "t": "End",
+      "icon": "laugh",
+      "do": "The fail: he bails out"
+     }
+    ],
+    "why": [
+     {
+      "icon": "laugh",
+      "says": "Everyone relates to first-timer panic"
+     },
+     {
+      "icon": "question",
+      "says": "Vague caption: you watch to find out"
+     },
+     {
+      "icon": "share",
+      "says": "ESPN repost took it beyond wellness fans"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Original audio",
+     "text": "No on-screen text",
+     "edit": "Raw, no edits",
+     "people": "Only the first-timer on camera"
+    },
+    "steps": [
+     {
+      "icon": "clock",
+      "do": "Run a 'First-timer Fridays' series"
+     },
+     {
+      "icon": "tripod",
+      "do": "Set a tripod at tub height",
+      "tip": "Wide enough to catch bail-outs"
+     },
+     {
+      "icon": "face",
+      "do": "Add a second phone on the face"
+     },
+     {
+      "icon": "text",
+      "do": "Post honest reactions with a deadpan caption",
+      "tip": "Get consent before posting"
+     }
+    ],
+    "avoid": "Never stage an unsafe exit on wet tiles"
+   }
   },
   {
    "id": "ib-ashton-ashton-hall-s-extreme",
@@ -2718,7 +5179,75 @@
    },
    "effort": "medium",
    "url_note": "Post match is likely but not certain: Search result (tiktok.com) from Ashton Hall's own account: 'Morning / Wellness routine. 3:50am - 9:00am Added some new gems. Addicted to all around growth. Sharing with you all what has changed my lif",
-   "thumb": "thumbs/ib-ashton-ashton-hall-s-extreme.jpg"
+   "thumb": "thumbs/ib-ashton-ashton-hall-s-extreme.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "clock",
+      "do": "Pre-dawn wake-up with a timestamp"
+     },
+     {
+      "t": "2–20s",
+      "icon": "cut",
+      "do": "Fast montage: mouth tape, workout, skincare"
+     },
+     {
+      "t": "20–40s",
+      "icon": "snow",
+      "do": "Face dunked in Saratoga ice water, twice"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "More rituals, no explanation given"
+     }
+    ],
+    "why": [
+     {
+      "icon": "laugh",
+      "says": "Extreme and earnest, so easy to parody"
+     },
+     {
+      "icon": "share",
+      "says": "MrBeast and Logan Paul responded"
+     },
+     {
+      "icon": "snow",
+      "says": "Face dunk became the meme's signature move"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Music plus ASMR sounds",
+     "text": "On-screen timestamps",
+     "edit": "Heavy, fast cuts",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "clock",
+      "do": "Title it '[5:47 AM] my client's morning routine'"
+     },
+     {
+      "icon": "text",
+      "do": "Timestamp each step: arrive, breathwork, dunk, plunge, coffee"
+     },
+     {
+      "icon": "ear",
+      "do": "Shoot an ASMR close-up of the ice bowl"
+     },
+     {
+      "icon": "zoom",
+      "do": "Add slow-mo water drops and a bottle pour"
+     },
+     {
+      "icon": "laugh",
+      "do": "Play it self-aware and funny"
+     }
+    ],
+    "avoid": "No health claims, just the humour"
+   }
   },
   {
    "id": "ib-iceman-hof-wim-hof-breaking-my",
@@ -2778,7 +5307,60 @@
     "relevancy": 76
    },
    "effort": "low",
-   "thumb": "thumbs/ib-iceman-hof-wim-hof-breaking-my.jpg"
+   "thumb": "thumbs/ib-iceman-hof-wim-hof-breaking-my.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "star",
+      "do": "Wim Hof on camera: his ice-bath record"
+     },
+     {
+      "t": "3–30s",
+      "icon": "chat",
+      "do": "Beat his record by one minute, every time"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "A lesson or his catchphrase"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "A living legend telling his own story"
+     },
+     {
+      "icon": "warn",
+      "says": "Only 19.4K likes: reactions beat expert talk"
+     }
+    ],
+    "shot": {
+     "sound": "Own voice, talking",
+     "text": "Captions on screen",
+     "edit": "Light",
+     "people": "Wim on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Use credential stories sparingly"
+     },
+     {
+      "icon": "snow",
+      "do": "Talk while sitting in the ice yourself"
+     },
+     {
+      "icon": "people",
+      "do": "Guide a first-timer through the plunge instead"
+     },
+     {
+      "icon": "mic",
+      "do": "Put your authority in the coaching voice-over"
+     }
+    ]
+   }
   },
   {
    "id": "pv-jordi-koalitic-magic-door-a-small",
@@ -2847,7 +5429,75 @@
     "dexa_biohacking": "A paper ‘X-ray window’ cut into a printed scan opens onto the real member. Then reveal the setup.",
     "icebath": "A small paper hole in a photo of the Alps opens onto your real plunge. Then reveal the setup."
    },
-   "thumb": "thumbs/pv-jordi-koalitic-magic-door-a-small.jpg"
+   "thumb": "thumbs/pv-jordi-koalitic-magic-door-a-small.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "spark",
+      "do": "Impossible-looking shot or the odd rig"
+     },
+     {
+      "t": "2–8s",
+      "icon": "hand",
+      "do": "Hand opens a paper door in a book"
+     },
+     {
+      "t": "8–15s",
+      "icon": "camera",
+      "do": "Behind-the-scenes angle matched to the final frame"
+     },
+     {
+      "t": "End",
+      "icon": "loop",
+      "do": "Final image held, loops back to start"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "An 'impossible' photo makes you want the trick"
+     },
+     {
+      "icon": "camera",
+      "says": "Just angles and timing, no editing tricks"
+     },
+     {
+      "icon": "check",
+      "says": "Anyone with a phone can copy it"
+     }
+    ],
+    "shot": {
+     "camera": "Phone, tagged Xiaomi 13 Ultra",
+     "angle": "Lens through the paper door",
+     "edit": "Light, cuts rig to result",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "text",
+      "do": "Print an A3 photo and cut a small flap",
+      "tip": "Venue or studio door photo"
+     },
+     {
+      "icon": "tripod",
+      "do": "Clamp the phone right behind the flap"
+     },
+     {
+      "icon": "hand",
+      "do": "Have a helper open it as someone steps in"
+     },
+     {
+      "icon": "camera",
+      "do": "Film the rig from the side, second phone"
+     },
+     {
+      "icon": "cut",
+      "do": "Edit 3–5s of the rig, then the result",
+      "tip": "No VFX, all in camera"
+     }
+    ]
+   }
   },
   {
    "id": "pv-zachking-zach-king-s-magic",
@@ -2910,7 +5560,68 @@
     "relevancy": 60
    },
    "effort": "high",
-   "thumb": "thumbs/pv-zachking-zach-king-s-magic.jpg"
+   "thumb": "thumbs/pv-zachking-zach-king-s-magic.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–1s",
+      "icon": "spark",
+      "do": "Zach already riding a broom in mid-air"
+     },
+     {
+      "t": "1–6s",
+      "icon": "eye",
+      "do": "The illusion plays out"
+     },
+     {
+      "t": "6–12s",
+      "icon": "camera",
+      "do": "The setup behind the trick is revealed"
+     },
+     {
+      "t": "End",
+      "icon": "loop",
+      "do": "Quick ending that loops back"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Most-viewed TikTok, verified by Guinness"
+     },
+     {
+      "icon": "bolt",
+      "says": "Spectacle from the first second, no intro"
+     },
+     {
+      "icon": "loop",
+      "says": "The reveal makes people rewatch"
+     }
+    ],
+    "shot": {
+     "edit": "Heavy, staging plus compositing",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "spark",
+      "do": "Open on the impossible frame, no intro"
+     },
+     {
+      "icon": "tripod",
+      "do": "Hide a stool behind the table edge, phone low"
+     },
+     {
+      "icon": "person",
+      "do": "Balance the athlete on it to 'levitate'"
+     },
+     {
+      "icon": "camera",
+      "do": "Reveal stool and crew in a 1-second wide",
+      "tip": "Keep the reveal to the last third"
+     }
+    ]
+   }
   },
   {
    "id": "pv-oak-and-alternative-wedding-portrait-slideshow",
@@ -2969,7 +5680,66 @@
     "relatability": 66,
     "relevancy": 76
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–1s",
+      "icon": "spark",
+      "do": "Most unexpected photo first"
+     },
+     {
+      "t": "1–10s",
+      "icon": "music",
+      "do": "Fast photo changes on the beat"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "Strongest photo last"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Bold photos stand out in a samey feed"
+     },
+     {
+      "icon": "chat",
+      "says": "Commenters: 'the coolest wedding photos ever'"
+     },
+     {
+      "icon": "check",
+      "says": "Classic shots delivered, only bold ones posted"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Music",
+     "text": "Caption knocks a wedding cliché",
+     "edit": "Fast photo slideshow",
+     "people": "Clients only"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Pick 8–12 unusual frames from a championship"
+     },
+     {
+      "icon": "zoom",
+      "do": "Include top-down oiled hands and motion blur",
+      "tip": "Silhouettes through steam work too"
+     },
+     {
+      "icon": "music",
+      "do": "Cut them to the beat, 0.5–0.8s each"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it 'Not your typical massage photos'"
+     }
+    ]
+   }
   },
   {
    "id": "pv-ryan-chipman-wedding-first-look-prank",
@@ -3031,7 +5801,70 @@
     "relatability": 82,
     "relevancy": 72
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "person",
+      "do": "Groom faces away, waiting for the bride"
+     },
+     {
+      "t": "3–6s",
+      "icon": "eye",
+      "do": "Costumed friend with a Smirnoff Ice approaches"
+     },
+     {
+      "t": "6–10s",
+      "icon": "laugh",
+      "do": "Groom turns; everyone laughs"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Real bride or a hug"
+     }
+    ],
+    "why": [
+     {
+      "icon": "loop",
+      "says": "Rides a trend viewers already know"
+     },
+     {
+      "icon": "face",
+      "says": "His real reaction is the payoff"
+     },
+     {
+      "icon": "star",
+      "says": "Doubles as a videographer portfolio piece"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Natural sound",
+     "edit": "Light",
+     "people": "Clients on camera only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Seat the competitor facing away from the monitor"
+     },
+     {
+      "icon": "laugh",
+      "do": "Have a teammate cue a fake blooper reel"
+     },
+     {
+      "icon": "cinema",
+      "do": "Then play the real cinematic edit"
+     },
+     {
+      "icon": "face",
+      "do": "Film their face on a second camera, 50–85mm"
+     }
+    ],
+    "avoid": "Only do this with client consent"
+   }
   },
   {
    "id": "pv-anaugazz-iphone-photos-app-editing",
@@ -3092,7 +5925,66 @@
     "relevancy": 70
    },
    "effort": "low",
-   "thumb": "thumbs/pv-anaugazz-iphone-photos-app-editing.jpg"
+   "thumb": "thumbs/pv-anaugazz-iphone-photos-app-editing.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "A dull, flat 'before' photo"
+     },
+     {
+      "t": "2–15s",
+      "icon": "hand",
+      "do": "Sliders pushed to extremes, then dialed back"
+     },
+     {
+      "t": "End",
+      "icon": "spark",
+      "do": "Warm golden-hour 'after', with a before/after flip"
+     }
+    ],
+    "why": [
+     {
+      "icon": "check",
+      "says": "Instantly usable on a phone everyone owns"
+     },
+     {
+      "icon": "star",
+      "says": "740K saves reported"
+     },
+     {
+      "icon": "loop",
+      "says": "Copycat versions pulled millions too"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone screen recording",
+     "text": "Captions on screen",
+     "edit": "Raw, no fancy edits",
+     "people": "No faces"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Screen-record Lightroom Mobile on a flat event shot",
+      "tip": "Title: 'the 10-second edit I use'"
+     },
+     {
+      "icon": "text",
+      "do": "Show each slider value as on-screen text"
+     },
+     {
+      "icon": "spark",
+      "do": "End on a before/after swipe"
+     },
+     {
+      "icon": "check",
+      "do": "Keep it to one photo, one recipe",
+      "tip": "That's what makes it worth saving"
+     }
+    ]
+   }
   },
   {
    "id": "pv-alexstemp-street-photographer-asks-a",
@@ -3155,7 +6047,70 @@
    },
    "effort": "medium",
    "url_note": "Post match is likely but not certain: The creator's handle is actually @alex.stemp, not @alexstemp. Search result title: 'I asked her to model #foryou.. and she said No! 😂 #photographyeveryday #challenge #4u @brentography_' at https://www",
-   "thumb": "thumbs/pv-alexstemp-street-photographer-asks-a.jpg"
+   "thumb": "thumbs/pv-alexstemp-street-photographer-asks-a.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "chat",
+      "do": "He asks a mall worker to model"
+     },
+     {
+      "t": "2–10s",
+      "icon": "camera",
+      "do": "Quick posing on the spot"
+     },
+     {
+      "t": "10–20s",
+      "icon": "spark",
+      "do": "The portraits are revealed"
+     },
+     {
+      "t": "End",
+      "icon": "face",
+      "do": "Their reaction to the photos"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "A stranger becomes the star"
+     },
+     {
+      "icon": "face",
+      "says": "Their reaction is the emotional payoff"
+     },
+     {
+      "icon": "people",
+      "says": "3M followers in three months, he says"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "angle": "Follows him as he approaches",
+     "edit": "Light, filming cut to photos",
+     "people": "Subject's face only"
+    },
+    "steps": [
+     {
+      "icon": "chat",
+      "do": "Ask a volunteer, judge or cleaner to model",
+      "tip": "'Can I make you the star?'"
+     },
+     {
+      "icon": "light",
+      "do": "Shoot 3 quick setups: window, rim light, wide"
+     },
+     {
+      "icon": "face",
+      "do": "Show them the back screen; film their face"
+     },
+     {
+      "icon": "check",
+      "do": "Get a signed release on the spot"
+     }
+    ]
+   }
   },
   {
    "id": "pv-mark-kelvin-stranger-portrait-shoot-in",
@@ -3216,7 +6171,68 @@
     "relatability": 80,
     "relevancy": 74
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "person",
+      "do": "He approaches a stranger in Batangas"
+     },
+     {
+      "t": "3–12s",
+      "icon": "chat",
+      "do": "Gentle direction: 'I'll help you along the way'"
+     },
+     {
+      "t": "12–20s",
+      "icon": "spark",
+      "do": "The edited portraits revealed"
+     },
+     {
+      "t": "End",
+      "icon": "face",
+      "do": "Their reaction or one final hero shot"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Everyday person looks like a cover star"
+     },
+     {
+      "icon": "chat",
+      "says": "Gentle coaching keeps the subject natural"
+     },
+     {
+      "icon": "heart",
+      "says": "Wholesome, ends on a strong image"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "edit": "Light, cut to stills",
+     "people": "Subject's face only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Find a therapist who's never had a portrait"
+     },
+     {
+      "icon": "chat",
+      "do": "Approach and reassure: 'I'll help you along'"
+     },
+     {
+      "icon": "clock",
+      "do": "Shoot for 60 seconds at their table"
+     },
+     {
+      "icon": "spark",
+      "do": "Reveal the portraits and film their reaction"
+     }
+    ]
+   }
   },
   {
    "id": "pv-pete-pete-28-second-bts-of",
@@ -3277,7 +6293,70 @@
     "relatability": 74,
     "relevancy": 80
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "A cowboy in York, on screen at once"
+     },
+     {
+      "t": "2–15s",
+      "icon": "chat",
+      "do": "He approaches and they chat briefly"
+     },
+     {
+      "t": "15–25s",
+      "icon": "camera",
+      "do": "The quick shoot"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "The final portrait"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "A cowboy in York makes you look"
+     },
+     {
+      "icon": "clock",
+      "says": "Just 28 seconds long"
+     },
+     {
+      "icon": "fire",
+      "says": "Took him from 200 views to 1M"
+     }
+    ],
+    "shot": {
+     "camera": "Mixed cameras",
+     "angle": "Behind-the-scenes cam follows him",
+     "edit": "Light",
+     "length": "28 seconds"
+    },
+    "steps": [
+     {
+      "icon": "clock",
+      "do": "Keep it under 30 seconds"
+     },
+     {
+      "icon": "camera",
+      "do": "Have a second shooter film you on a phone"
+     },
+     {
+      "icon": "eye",
+      "do": "Open on the most unusual person there",
+      "tip": "Costumed competitor, 2m judge, tattooed forearms"
+     },
+     {
+      "icon": "star",
+      "do": "Approach, shoot three frames, show the portrait"
+     }
+    ]
+   }
   },
   {
    "id": "pv-alex-baker-reel-pairing-behind-the",
@@ -3337,7 +6416,66 @@
     "relatability": 64,
     "relevancy": 84
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "camera",
+      "do": "Behind-the-scenes clip of the setup"
+     },
+     {
+      "t": "2–4s",
+      "icon": "spark",
+      "do": "Cut to the finished photo"
+     },
+     {
+      "t": "4–16s",
+      "icon": "loop",
+      "do": "Repeat: setup, then photo, 3–5 times"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "End on the best photo"
+     }
+    ],
+    "why": [
+     {
+      "icon": "spark",
+      "says": "A mini-reveal every few seconds"
+     },
+     {
+      "icon": "bolt",
+      "says": "Reported jump: 10K to 100K in minutes"
+     }
+    ],
+    "shot": {
+     "camera": "Mixed cameras",
+     "sound": "Music",
+     "edit": "Hard cuts on the beat",
+     "people": "Clients only"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Set a phone on a mini-tripod at every shoot",
+      "tip": "Or ask a second shooter"
+     },
+     {
+      "icon": "camera",
+      "do": "Film each setup: lighting rig, slider move"
+     },
+     {
+      "icon": "cut",
+      "do": "Pair each setup clip with its final shot"
+     },
+     {
+      "icon": "music",
+      "do": "Edit four pairs, cut on the beat"
+     }
+    ]
+   }
   },
   {
    "id": "pv-unnamed-influencer-sunset-photo-test-iphone",
@@ -3398,7 +6536,70 @@
     "relatability": 78,
     "relevancy": 72
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "camera",
+      "do": "iPhone and camera raised at one sunset"
+     },
+     {
+      "t": "2–6s",
+      "icon": "eye",
+      "do": "The iPhone shot"
+     },
+     {
+      "t": "6–10s",
+      "icon": "spark",
+      "do": "The camera shot"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "Verdict or a question for the comments"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "Phone vs camera starts an instant debate"
+     },
+     {
+      "icon": "chat",
+      "says": "Viewers vote in the comments"
+     },
+     {
+      "icon": "fire",
+      "says": "Fed a 2023 'Gen Z rediscovers cameras' trend"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone and dedicated camera",
+     "text": "Captions on screen",
+     "edit": "Light, side-by-side cut",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "light",
+      "do": "Pick a dim, mixed-light scene at an event",
+      "tip": "Low light shows the gap"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot it on your phone and cinema camera"
+     },
+     {
+      "icon": "eye",
+      "do": "Show the phone shot first, then the camera"
+     },
+     {
+      "icon": "question",
+      "do": "End with 'Which would you hire?'"
+     }
+    ]
+   }
   },
   {
    "id": "pv-kevinbparry-netflix-logo-stop-motion",
@@ -3458,7 +6659,71 @@
     "relevancy": 64
    },
    "effort": "high",
-   "thumb": "thumbs/pv-kevinbparry-netflix-logo-stop-motion.jpg"
+   "thumb": "thumbs/pv-kevinbparry-netflix-logo-stop-motion.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–1s",
+      "icon": "eye",
+      "do": "The Netflix 'N' shape, recognised instantly"
+     },
+     {
+      "t": "1–8s",
+      "icon": "spark",
+      "do": "Yarn animation plays the familiar intro"
+     },
+     {
+      "t": "Loop",
+      "icon": "loop",
+      "do": "Logo holds, then loops"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "The logo is recognised in frame one"
+     },
+     {
+      "icon": "hand",
+      "says": "Handmade texture makes a familiar thing new"
+     },
+     {
+      "icon": "share",
+      "says": "'Mostly digital' confession sparked a second news wave"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "edit": "Digital build, looks stop-motion",
+     "sound": "Natural sound",
+     "text": "No on-screen text",
+     "people": "No faces"
+    },
+    "steps": [
+     {
+      "icon": "star",
+      "do": "Pick a client logo or championship trophy"
+     },
+     {
+      "icon": "hand",
+      "do": "Build it from towels, massage stones, oil drips"
+     },
+     {
+      "icon": "tripod",
+      "do": "Shoot 12 stills a second, locked tripod and exposure",
+      "tip": "A 3–5 second loop is enough"
+     },
+     {
+      "icon": "loop",
+      "do": "Make it play as a seamless loop"
+     },
+     {
+      "icon": "camera",
+      "do": "Post the behind-the-scenes as a second reel",
+      "tip": "Runway can cut you out fast"
+     }
+    ]
+   }
   },
   {
    "id": "pv-kalli-obray-wedding-videographer-s-pep",
@@ -3519,7 +6784,76 @@
     "relatability": 80,
     "relevancy": 88
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "person",
+      "do": "Nervous groom waits for the first look"
+     },
+     {
+      "t": "3–10s",
+      "icon": "mic",
+      "do": "The videographer's whispered advice, clearly audible"
+     },
+     {
+      "t": "10–20s",
+      "icon": "face",
+      "do": "He turns, and visibly relaxes"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "The emotional first-look payoff"
+     }
+    ],
+    "why": [
+     {
+      "icon": "ear",
+      "says": "Viewers hear the private pep talk"
+     },
+     {
+      "icon": "heart",
+      "says": "Brides praised the shooter's human touch"
+     },
+     {
+      "icon": "star",
+      "says": "NBC, TODAY and People picked it up"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Natural sound, advice audible",
+     "text": "Captions on screen",
+     "edit": "Light cuts",
+     "people": "Clients on camera only"
+    },
+    "steps": [
+     {
+      "icon": "mic",
+      "do": "Clip a small mic to yourself first"
+     },
+     {
+      "icon": "person",
+      "do": "Pick a nervous competitor before their routine",
+      "tip": "Get their OK to post it"
+     },
+     {
+      "icon": "ear",
+      "do": "Record the 10 seconds you calm them"
+     },
+     {
+      "icon": "cut",
+      "do": "Cut straight to their confident performance"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'What I tell every competitor…'",
+      "tip": "Caption your actual advice too"
+     }
+    ]
+   }
   },
   {
    "id": "pv-danwhiffenfs-12-second-clip-that",
@@ -3577,7 +6911,64 @@
     "relatability": 66,
     "relevancy": 78
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–1s",
+      "icon": "pin",
+      "do": "The place is clear in second one"
+     },
+     {
+      "t": "1–10s",
+      "icon": "cinema",
+      "do": "One single story beat, nothing more"
+     },
+     {
+      "t": "10–12s",
+      "icon": "loop",
+      "do": "It ends before you can scroll"
+     }
+    ],
+    "why": [
+     {
+      "icon": "clock",
+      "says": "About 12 seconds: the creator's 'sweet spot'"
+     },
+     {
+      "icon": "loop",
+      "says": "The quick end invites a rewatch"
+     },
+     {
+      "icon": "people",
+      "says": "31.7K followers, 8.4M views: reach isn't gated"
+     }
+    ],
+    "shot": {
+     "length": "About 12 seconds",
+     "edit": "Light, fast storytelling",
+     "angle": "Setting shown first"
+    },
+    "steps": [
+     {
+      "icon": "cut",
+      "do": "Cut one 10–12s teaser per championship"
+     },
+     {
+      "icon": "pin",
+      "do": "Open on the venue or country sign"
+     },
+     {
+      "icon": "star",
+      "do": "Show one hero moment, seconds 2–10"
+     },
+     {
+      "icon": "face",
+      "do": "End on the winner's reaction",
+      "tip": "Stop by 12 seconds"
+     }
+    ]
+   }
   },
   {
    "id": "pv-iamjeanblack-street-portrait-approach-videos",
@@ -3636,7 +7027,66 @@
     "relatability": 70,
     "relevancy": 70
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "chat",
+      "do": "Cold approach line to a stylish stranger"
+     },
+     {
+      "t": "3–10s",
+      "icon": "camera",
+      "do": "A quick posing session on the street"
+     },
+     {
+      "t": "10–15s",
+      "icon": "star",
+      "do": "The cinematic portrait reveal"
+     }
+    ],
+    "why": [
+     {
+      "icon": "loop",
+      "says": "A repeatable series format"
+     },
+     {
+      "icon": "share",
+      "says": "So recognisable it spawned a parody meme"
+     },
+     {
+      "icon": "people",
+      "says": "Others copied his style too"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera",
+     "sound": "Music",
+     "edit": "Light, cut to stills",
+     "people": "Subject on camera"
+    },
+    "steps": [
+     {
+      "icon": "chat",
+      "do": "Open with the famous line, as a wink",
+      "tip": "'I'm a videographer at the championship…'"
+     },
+     {
+      "icon": "person",
+      "do": "Approach a championship competitor"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot a genuinely cinematic portrait"
+     },
+     {
+      "icon": "spark",
+      "do": "Reveal the finished still as the payoff"
+     }
+    ],
+    "avoid": "Don't play the line straight: it's a meme"
+   }
   },
   {
    "id": "pv-danielschiffer-product-commercial-shot-at",
@@ -3697,7 +7147,74 @@
     "relatability": 68,
     "relevancy": 86
    },
-   "effort": "high"
+   "effort": "high",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "star",
+      "do": "Glossy hero product shot"
+     },
+     {
+      "t": "2–10s",
+      "icon": "tripod",
+      "do": "Reveal the rig: fishing line, toothpicks, green screen"
+     },
+     {
+      "t": "10–20s",
+      "icon": "cinema",
+      "do": "The polished ad sequence plays"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Final hero frame or logo"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "A big-brand look from a home setup"
+     },
+     {
+      "icon": "question",
+      "says": "Teachable: viewers learn the trick"
+     },
+     {
+      "icon": "heart",
+      "says": "4.7% engagement vs 1.5% for the category"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera, manual focus",
+     "edit": "Heavy, speed ramps, green screen",
+     "sound": "Music",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "hand",
+      "do": "Hang a massage-oil bottle on fishing line"
+     },
+     {
+      "icon": "camera",
+      "do": "Film the oil pour in slow motion"
+     },
+     {
+      "icon": "light",
+      "do": "Shoot against black or green"
+     },
+     {
+      "icon": "loop",
+      "do": "Spin massage stones on a toothpick"
+     },
+     {
+      "icon": "cut",
+      "do": "Open on the rig, then the glossy result",
+      "tip": "Pitch it to massage-oil sponsors"
+     }
+    ]
+   }
   },
   {
    "id": "pv-unconfirmed-search-artist-appears-to-jump",
@@ -3760,7 +7277,64 @@
    },
    "effort": "high",
    "url_note": "Post match is likely but not certain: Search result title: 'Jumping into my morning coffee ☕️☀️ #vfx' at https://www.tiktok.com/@queenchelsea/video/7201511763211226373?lang=en (ID decodes to 2023-02-18, about 4 weeks before PetaPixel's 20",
-   "thumb": "thumbs/pv-unconfirmed-search-artist-appears-to-jump.jpg"
+   "thumb": "thumbs/pv-unconfirmed-search-artist-appears-to-jump.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "An ordinary morning scene with coffee"
+     },
+     {
+      "t": "2–4s",
+      "icon": "zoom",
+      "do": "The creator jumps into the cup"
+     },
+     {
+      "t": "4–10s",
+      "icon": "spark",
+      "do": "An impossible world inside the coffee"
+     },
+     {
+      "t": "Loop",
+      "icon": "loop",
+      "do": "The ending loops"
+     }
+    ],
+    "why": [
+     {
+      "icon": "spark",
+      "says": "A daily ritual turns impossible in seconds"
+     },
+     {
+      "icon": "loop",
+      "says": "The loopable ending drives rewatches"
+     }
+    ],
+    "shot": {
+     "edit": "Heavy, seamless scale transition",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "zoom",
+      "do": "Film oil swirling in a bowl, top-down"
+     },
+     {
+      "icon": "hand",
+      "do": "Dip a hand into the oil"
+     },
+     {
+      "icon": "cut",
+      "do": "Match the swirl to hands gliding on a back"
+     },
+     {
+      "icon": "tripod",
+      "do": "Lock the camera angle for both shots",
+      "tip": "Same height, same lens"
+     }
+    ]
+   }
   },
   {
    "id": "pt-jenn-reed-former-personal-trainer-53",
@@ -3819,7 +7393,69 @@
     "relatability": 86,
     "relevancy": 90
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "Her physique at 53, or then and now"
+     },
+     {
+      "t": "2–15s",
+      "icon": "text",
+      "do": "The changes she made, one by one"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Encouragement for women over 50"
+     }
+    ],
+    "why": [
+     {
+      "icon": "person",
+      "says": "A 50+ physique speaks to 40+ clients"
+     },
+     {
+      "icon": "check",
+      "says": "Her list of changes is concrete"
+     },
+     {
+      "icon": "star",
+      "says": "Former trainer, so she carries authority"
+     }
+    ],
+    "shot": {
+     "sound": "Natural sound",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Open on your 40+ client lifting today",
+      "tip": "Get a signed release first"
+     },
+     {
+      "icon": "camera",
+      "do": "Inset an old photo in the corner"
+     },
+     {
+      "icon": "text",
+      "do": "List 3–5 changes they made on screen",
+      "tip": "Lifting 3x a week, protein, sleep"
+     },
+     {
+      "icon": "cut",
+      "do": "Show each change over studio footage"
+     },
+     {
+      "icon": "star",
+      "do": "End on their age in big type"
+     }
+    ]
+   }
   },
   {
    "id": "ib-kelly-rowland-kelly-rowland-tries-a",
@@ -3881,7 +7517,77 @@
     "relatability": 84,
     "relevancy": 80
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "snow",
+      "do": "Steps in, gasps, jumps straight out"
+     },
+     {
+      "t": "2–8s",
+      "icon": "laugh",
+      "do": "Second try, same bail, laughter off camera"
+     },
+     {
+      "t": "8–15s",
+      "icon": "face",
+      "do": "Third try lasts longer, partner teases her"
+     },
+     {
+      "t": "End",
+      "icon": "text",
+      "do": "Caption: why she's trying the plunge"
+     }
+    ],
+    "why": [
+     {
+      "icon": "laugh",
+      "says": "A celebrity failing makes it relatable"
+     },
+     {
+      "icon": "check",
+      "says": "Three tries build in a mini payoff"
+     },
+     {
+      "icon": "chat",
+      "says": "Comments filled with first-plunge stories"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Real gasps, off-camera voice",
+     "edit": "Jump cuts between attempts",
+     "people": "Kelly on camera"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Lock off a wide plus a face cam"
+     },
+     {
+      "icon": "mic",
+      "do": "Keep the instructor's voice and real gasps"
+     },
+     {
+      "icon": "cut",
+      "do": "Cut only between the three attempts",
+      "tip": "Keep first sessions short"
+     },
+     {
+      "icon": "text",
+      "do": "End attempt three with a breath count",
+      "tip": "Add 'book your first plunge'"
+     },
+     {
+      "icon": "warn",
+      "do": "Get consent and keep staff at the tub",
+      "tip": "Heart conditions: medical clearance first"
+     }
+    ],
+    "avoid": "Never stage breath-holds in the water"
+   }
   },
   {
    "id": "pv-michaelbriggsphotography-wedding-photographer-loses-it",
@@ -3942,7 +7648,70 @@
     "relatability": 82,
     "relevancy": 84
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "face",
+      "do": "Photographer spots the rainbow and erupts"
+     },
+     {
+      "t": "2–8s",
+      "icon": "people",
+      "do": "He scrambles to reposition the couple"
+     },
+     {
+      "t": "8–15s",
+      "icon": "star",
+      "do": "The resulting portrait is the payoff"
+     }
+    ],
+    "why": [
+     {
+      "icon": "face",
+      "says": "Unscripted joy beats a polished highlight"
+     },
+     {
+      "icon": "people",
+      "says": "Photographers shared it as 'that's us'"
+     },
+     {
+      "icon": "heart",
+      "says": "Couples saw who they'd want at weddings"
+     }
+    ],
+    "shot": {
+     "camera": "360 cam, mixed cameras",
+     "angle": "360 footage, reframed",
+     "sound": "Natural sound, unscripted",
+     "edit": "Light",
+     "people": "Photographer on camera"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Keep a 360 cam rolling all shoot",
+      "tip": "Monopod or chest mount works"
+     },
+     {
+      "icon": "pin",
+      "do": "Mount it at the stage edge for finals"
+     },
+     {
+      "icon": "face",
+      "do": "Catch the tears and score announcements"
+     },
+     {
+      "icon": "snow",
+      "do": "Roll a 360 cam in the ice-bath corner"
+     },
+     {
+      "icon": "cut",
+      "do": "Post the real reaction first, then the hero frame"
+     }
+    ]
+   }
   },
   {
    "id": "pv-glenn-silva-high-school-football-team",
@@ -4002,7 +7771,70 @@
     "relatability": 70,
     "relevancy": 76
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "people",
+      "do": "Slide 1: full team outside the restaurant"
+     },
+     {
+      "t": "2–8s",
+      "icon": "laugh",
+      "do": "Next slides: players 'serving burgers' in the drive-thru"
+     },
+     {
+      "t": "End",
+      "icon": "camera",
+      "do": "Last slide: the team portrait"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "Football kit at a burger counter stops scrolls"
+     },
+     {
+      "icon": "share",
+      "says": "Families and fans share the local pride"
+     },
+     {
+      "icon": "fire",
+      "says": "The forced takedown made a second press wave"
+     }
+    ],
+    "shot": {
+     "camera": "Pro camera, photo series",
+     "edit": "Heavy edit, cinematic look",
+     "sound": "Music",
+     "people": "Team on camera only"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Put finalists in tournament shirts"
+     },
+     {
+      "icon": "pin",
+      "do": "Pick a Swiss icon: tram stop, Migros, lake bath"
+     },
+     {
+      "icon": "laugh",
+      "do": "Pose them as if they work there"
+     },
+     {
+      "icon": "check",
+      "do": "Get written brand permission from corporate",
+      "tip": "Get model releases too"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot it as a cinematic series"
+     }
+    ],
+    "avoid": "A store manager's yes isn't enough"
+   }
   },
   {
    "id": "dx-jeffnippardfitness-jeff-nippard-and-his",
@@ -4072,7 +7904,77 @@
     "icebath": "Same 30-day cold-plunge protocol for a skeptic and a regular, with resting heart rate and how they feel each week.",
     "photo_video": "You and a beginner shoot the same subject for 30 days; compare day 1 and day 30 frames."
    },
-   "thumb": "thumbs/dx-jeffnippardfitness-jeff-nippard-and-his.jpg"
+   "thumb": "thumbs/dx-jeffnippardfitness-jeff-nippard-and-his.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "question",
+      "do": "Beginner vs 15-year veteran: who builds more?"
+     },
+     {
+      "t": "2–6s",
+      "icon": "check",
+      "do": "Rules: same plan, food and sleep tracked"
+     },
+     {
+      "t": "6–12s",
+      "icon": "scan",
+      "do": "University lab: DEXA, ultrasound, BIA"
+     },
+     {
+      "t": "End",
+      "icon": "chat",
+      "do": "Results tease, full breakdown on YouTube"
+     }
+    ],
+    "why": [
+     {
+      "icon": "people",
+      "says": "Sibling rivalry: veteran vs beginner"
+     },
+     {
+      "icon": "clock",
+      "says": "A whole year of commitment"
+     },
+     {
+      "icon": "scan",
+      "says": "Lab numbers settle who really won"
+     }
+    ],
+    "shot": {
+     "sound": "Original voice",
+     "edit": "Heavy edit, lab footage",
+     "text": "Numbers on screen",
+     "people": "Jeff and his brother"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Pair a coach and a new member, same plan",
+      "tip": "Run it for 12 weeks"
+     },
+     {
+      "icon": "scan",
+      "do": "Scan both on the DEXA at week 0"
+     },
+     {
+      "icon": "clock",
+      "do": "Film monthly training clips with a week counter"
+     },
+     {
+      "icon": "scan",
+      "do": "Rescan at week 12, same conditions",
+      "tip": "Same machine, time, fasted, hydrated"
+     },
+     {
+      "icon": "star",
+      "do": "Reveal lean and fat changes as big numbers",
+      "tip": "Say on screen: 1–2% machine error"
+     }
+    ],
+    "avoid": "Don't film DEXA as risk-free: low-dose X-ray"
+   }
   },
   {
    "id": "dx-garybreckaofficial-gary-brecka-clip-on",
@@ -4134,7 +8036,70 @@
    },
    "effort": "medium",
    "url_note": "Health-claim risk: thyroid and Hashimoto's advice is medical territory. Borrow the authority-clip format, not the claims.",
-   "thumb": "thumbs/dx-garybreckaofficial-gary-brecka-clip-on.jpg"
+   "thumb": "thumbs/dx-garybreckaofficial-gary-brecka-clip-on.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "warn",
+      "do": "Bold contrarian line about thyroid problems"
+     },
+     {
+      "t": "2–20s",
+      "icon": "chat",
+      "do": "A simplified mechanism, told with confidence"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "One fix, or 'test for this'"
+     }
+    ],
+    "why": [
+     {
+      "icon": "star",
+      "says": "Confident authority on a frustrating condition"
+     },
+     {
+      "icon": "question",
+      "says": "A 'hidden cause' story invites debate"
+     },
+     {
+      "icon": "chat",
+      "says": "9K+ comments of debate"
+     }
+    ],
+    "shot": {
+     "angle": "Talking head or podcast clip",
+     "sound": "Original voice",
+     "edit": "Light",
+     "people": "Speaker on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Film a PT or partner doctor, close up"
+     },
+     {
+      "icon": "scan",
+      "do": "Hold the printed DEXA report in hand"
+     },
+     {
+      "icon": "zoom",
+      "do": "Cut in to one highlighted number"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'Visceral fat: the number your scale hides'",
+      "tip": "Explain it in 20–30 seconds"
+     },
+     {
+      "icon": "check",
+      "do": "End on a 'book a scan' card"
+     }
+    ],
+    "avoid": "No medical claims, diagnosis or cure language"
+   }
   },
   {
    "id": "dx-garybrecka-gary-brecka-does-this",
@@ -4194,7 +8159,60 @@
     "relevancy": 70
    },
    "effort": "medium",
-   "url_note": "Health-claim risk: keep any symptom list to training, sleep and energy, and point to a doctor for anything medical."
+   "url_note": "Health-claim risk: keep any symptom list to training, sleep and energy, and point to a doctor for anything medical.",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "question",
+      "do": "'Does this sound like you?' to camera"
+     },
+     {
+      "t": "2–10s",
+      "icon": "text",
+      "do": "A rapid list of everyday symptoms"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "One explanation, then what to test"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "A 'you' question makes viewers self-identify"
+     },
+     {
+      "icon": "chat",
+      "says": "'This is me' comments drive shares"
+     }
+    ],
+    "shot": {
+     "sound": "Original voice",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "question",
+      "do": "Ask to camera: 'Does this sound like you?'"
+     },
+     {
+      "icon": "text",
+      "do": "Pop up text: scale stuck, clothes tighter, tired"
+     },
+     {
+      "icon": "scan",
+      "do": "Cut to the DEXA scan: fat vs lean"
+     },
+     {
+      "icon": "zoom",
+      "do": "Show the report: 'the scale can't tell you'"
+     }
+    ],
+    "avoid": "Don't imply the scan diagnoses symptoms"
+   }
   },
   {
    "id": "dx-bryan-johnson-bryan-johnson-respect-your",
@@ -4254,7 +8272,69 @@
     "relevancy": 66
    },
    "effort": "low",
-   "thumb": "thumbs/dx-bryan-johnson-bryan-johnson-respect-your.jpg"
+   "thumb": "thumbs/dx-bryan-johnson-bryan-johnson-respect-your.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "'Respect your damn self' over him on camera"
+     },
+     {
+      "t": "2–15s",
+      "icon": "cut",
+      "do": "Routine rules in rapid cuts"
+     },
+     {
+      "t": "End",
+      "icon": "question",
+      "do": "A challenge back to the viewer"
+     }
+    ],
+    "why": [
+     {
+      "icon": "person",
+      "says": "His 'immortal unc' meme persona travels"
+     },
+     {
+      "icon": "text",
+      "says": "A short, quotable mantra"
+     },
+     {
+      "icon": "chat",
+      "says": "His routine gives viewers something to argue about"
+     }
+    ],
+    "shot": {
+     "text": "Mantra text on screen",
+     "sound": "Original voice",
+     "edit": "Light, rapid cuts",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "light",
+      "do": "Film your PT as a hard-lit talking head"
+     },
+     {
+      "icon": "text",
+      "do": "Burn in the mantra: 'respect your damn self'"
+     },
+     {
+      "icon": "check",
+      "do": "Give three rules: sleep, protein, lift"
+     },
+     {
+      "icon": "cut",
+      "do": "Add three fast cuts, one per rule"
+     },
+     {
+      "icon": "scan",
+      "do": "End on the member's DEXA or VO2 printout"
+     }
+    ],
+    "avoid": "Don't promise a 'younger biological age'"
+   }
   },
   {
    "id": "ms-itsjing-creator-tries-the-viral",
@@ -4322,7 +8402,66 @@
     "icebath": "“I tried the viral cold-plunge club”: a creator's first circuit, sauna to plunge, face cam.",
     "photo_video": "Film a creator trying your service (a headshot session) as their vlog, then post it on both accounts as a collab."
    },
-   "thumb": "thumbs/ms-itsjing-creator-tries-the-viral.jpg"
+   "thumb": "thumbs/ms-itsjing-creator-tries-the-viral.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "'Trying the viral head spa' over arrival"
+     },
+     {
+      "t": "2–20s",
+      "icon": "ear",
+      "do": "Treatment steps with natural ASMR sound"
+     },
+     {
+      "t": "End",
+      "icon": "pin",
+      "do": "Verdict, then 'this is the spot to go'"
+     }
+    ],
+    "why": [
+     {
+      "icon": "spark",
+      "says": "Borrows curiosity from a trend people know"
+     },
+     {
+      "icon": "pin",
+      "says": "Naming a real place makes it a review"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Natural sound, partly ASMR",
+     "text": "Hook text on screen",
+     "edit": "Light jump cuts",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Have a local creator or client film it",
+      "tip": "'The session everyone in [city] books'"
+     },
+     {
+      "icon": "pin",
+      "do": "Open with one second of the sign"
+     },
+     {
+      "icon": "zoom",
+      "do": "Add a close-up 'before' shot"
+     },
+     {
+      "icon": "ear",
+      "do": "Cut 4–5 one-second steps, natural sound"
+     },
+     {
+      "icon": "face",
+      "do": "End on their face, verdict, studio name"
+     }
+    ]
+   }
   },
   {
    "id": "ms-sangyay-traditional-body-gua-sha",
@@ -4384,7 +8523,69 @@
     "relevancy": 88
    },
    "effort": "low",
-   "thumb": "thumbs/ms-sangyay-traditional-body-gua-sha.jpg"
+   "thumb": "thumbs/ms-sangyay-traditional-body-gua-sha.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "Scraping underway, red marks already showing"
+     },
+     {
+      "t": "2–15s",
+      "icon": "hand",
+      "do": "Marks build across the back and neck"
+     },
+     {
+      "t": "End",
+      "icon": "chat",
+      "do": "Finished marks; caption tells her family story"
+     }
+    ],
+    "why": [
+     {
+      "icon": "warn",
+      "says": "The red marks stop the scroll"
+     },
+     {
+      "icon": "question",
+      "says": "Real gua sha, not the beauty tool"
+     },
+     {
+      "icon": "heart",
+      "says": "A heritage story feels authentic"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Her voice, scraping audible",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "eye",
+      "do": "Open on an athlete's back, marks showing"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'This is what real scraping looks like'",
+      "tip": "Add: 'not the face roller'"
+     },
+     {
+      "icon": "cut",
+      "do": "Cut 3–4 progress shots"
+     },
+     {
+      "icon": "ear",
+      "do": "Keep the scraping sound audible"
+     },
+     {
+      "icon": "chat",
+      "do": "End with 2 lines on what redness means"
+     }
+    ]
+   }
   },
   {
    "id": "ms-trilieuhaiphong-cupping-asmr-the-cup",
@@ -4452,7 +8653,70 @@
     "icebath": "Ice cracking, the gasp, the first exhale, all close-mic; no music.",
     "photo_video": "Shutter clicks and gear handling ASMR before revealing the shot."
    },
-   "thumb": "thumbs/ms-trilieuhaiphong-cupping-asmr-the-cup.jpg"
+   "thumb": "thumbs/ms-trilieuhaiphong-cupping-asmr-the-cup.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "laugh",
+      "do": "Therapist tugs a stuck cup, joke caption"
+     },
+     {
+      "t": "2–8s",
+      "icon": "zoom",
+      "do": "Close-up of skin drawn into the cup"
+     },
+     {
+      "t": "End",
+      "icon": "ear",
+      "do": "The pop, then the cup marks"
+     }
+    ],
+    "why": [
+     {
+      "icon": "laugh",
+      "says": "One relatable joke lands in second one"
+     },
+     {
+      "icon": "eye",
+      "says": "Skin pulled high into a cup looks weird"
+     },
+     {
+      "icon": "chat",
+      "says": "18.8K comments: cupping gets people talking"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone, close on the back",
+     "sound": "ASMR suction sounds",
+     "text": "Joke caption on screen",
+     "edit": "Light",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "zoom",
+      "do": "Frame a client's upper back tight"
+     },
+     {
+      "icon": "hand",
+      "do": "Use a clear silicone or glass cup"
+     },
+     {
+      "icon": "laugh",
+      "do": "Play up a 'struggle' to lift the cup",
+      "tip": "Text: 'need a pulley for this one'"
+     },
+     {
+      "icon": "mic",
+      "do": "Put a mic close to the skin"
+     },
+     {
+      "icon": "ear",
+      "do": "Cut to the release pop and marks"
+     }
+    ]
+   }
   },
   {
    "id": "ms-readytobanana-comedy-foot-massage-clip",
@@ -4512,7 +8776,63 @@
     "relevancy": 74
    },
    "effort": "low",
-   "thumb": "thumbs/ms-readytobanana-comedy-foot-massage-clip.jpg"
+   "thumb": "thumbs/ms-readytobanana-comedy-foot-massage-clip.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "POV: feet on the table, serious start"
+     },
+     {
+      "t": "2–6s",
+      "icon": "laugh",
+      "do": "The technique escalates into the absurd"
+     },
+     {
+      "t": "End",
+      "icon": "face",
+      "do": "Punchline, or the client's reaction"
+     }
+    ],
+    "why": [
+     {
+      "icon": "person",
+      "says": "The POV puts every viewer on the table"
+     },
+     {
+      "icon": "share",
+      "says": "A 'send this to a friend' joke"
+     }
+    ],
+    "shot": {
+     "angle": "Client's point of view",
+     "sound": "Trending sound"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Set the phone on the headrest"
+     },
+     {
+      "icon": "face",
+      "do": "Keep a deadpan face throughout"
+     },
+     {
+      "icon": "hand",
+      "do": "Do an over-the-top 'signature technique'",
+      "tip": "A dramatic oil pour, karate chops"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it: 'My massage therapist, a real professional'"
+     },
+     {
+      "icon": "music",
+      "do": "Add a trending sound, keep it under 10s"
+     }
+    ]
+   }
   },
   {
    "id": "ms-japaneseheadspa-japanese-head-spa-asmr",
@@ -4570,7 +8890,61 @@
     "relatability": 76,
     "relevancy": 90
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "zoom",
+      "do": "Close-up of water and foam on hair"
+     },
+     {
+      "t": "2–20s",
+      "icon": "hand",
+      "do": "Scalp press, comb and rinse close-ups"
+     },
+     {
+      "t": "End",
+      "icon": "eye",
+      "do": "A calm end frame"
+     }
+    ],
+    "why": [
+     {
+      "icon": "ear",
+      "says": "Pure sound and touch, no talking"
+     },
+     {
+      "icon": "loop",
+      "says": "Viewers replay it to relax"
+     }
+    ],
+    "shot": {
+     "angle": "Extreme close-ups",
+     "sound": "Natural sound, no talking",
+     "edit": "Cuts on sound beats",
+     "people": "Hands only"
+    },
+    "steps": [
+     {
+      "icon": "mic",
+      "do": "Put a lav or shotgun mic near the basin"
+     },
+     {
+      "icon": "zoom",
+      "do": "Film close-ups: foam, water arcs, fingertips"
+     },
+     {
+      "icon": "cut",
+      "do": "Keep each cut 1–2 seconds",
+      "tip": "Skip the music"
+     },
+     {
+      "icon": "ear",
+      "do": "Sync every cut to a sound"
+     }
+    ]
+   }
   },
   {
    "id": "ms-ur-skin-med-spa-front-desk",
@@ -4631,7 +9005,66 @@
     "relatability": 88,
     "relevancy": 80
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "chat",
+      "do": "Man wants a gift card 'for his wife'"
+     },
+     {
+      "t": "3–15s",
+      "icon": "eye",
+      "do": "Staff realise he's checking up on her"
+     },
+     {
+      "t": "End",
+      "icon": "check",
+      "do": "Staff refuse to confirm anything"
+     }
+    ],
+    "why": [
+     {
+      "icon": "warn",
+      "says": "Real drama: a possibly controlling partner"
+     },
+     {
+      "icon": "heart",
+      "says": "The staff come off as heroes"
+     },
+     {
+      "icon": "chat",
+      "says": "Viewers take sides in the comments"
+     }
+    ],
+    "shot": {
+     "angle": "Security-cam style",
+     "sound": "Natural sound",
+     "edit": "Raw, unedited",
+     "people": "Staff on camera"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Script a skit: staff vs a pushy visitor",
+      "tip": "Get consent from everyone on camera"
+     },
+     {
+      "icon": "text",
+      "do": "Title it: 'Things we'll never tell you'"
+     },
+     {
+      "icon": "tripod",
+      "do": "Film from behind the desk at eye level"
+     },
+     {
+      "icon": "check",
+      "do": "Show the privacy policy in action"
+     }
+    ],
+    "avoid": "Never use real clients or client data"
+   }
   },
   {
    "id": "ms-sarahpalmyra-lazy-girl-5-step",
@@ -4692,7 +9125,65 @@
     "relevancy": 88
    },
    "effort": "low",
-   "thumb": "thumbs/ms-sarahpalmyra-lazy-girl-5-step.jpg"
+   "thumb": "thumbs/ms-sarahpalmyra-lazy-girl-5-step.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "face",
+      "do": "Puffy morning face, 'lazy girl 5-step' text"
+     },
+     {
+      "t": "2–30s",
+      "icon": "hand",
+      "do": "Steps 1–5, each labelled on screen"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "The final depuffed look"
+     }
+    ],
+    "why": [
+     {
+      "icon": "clock",
+      "says": "'Lazy' and under 5 minutes feels doable"
+     },
+     {
+      "icon": "check",
+      "says": "Numbered steps make it worth saving"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Voiceover",
+     "text": "Step labels on screen",
+     "edit": "Light",
+     "people": "Creator on camera"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Film 3 face moves as a lymphatic therapist"
+     },
+     {
+      "icon": "text",
+      "do": "Open with: '3 moves before work, in bed'"
+     },
+     {
+      "icon": "light",
+      "do": "Use a front-facing ring light"
+     },
+     {
+      "icon": "text",
+      "do": "Number each move on screen"
+     },
+     {
+      "icon": "check",
+      "do": "End on a before/after split and link"
+     }
+    ]
+   }
   },
   {
    "id": "ms-channel-not-asmr-tok-sen-thai",
@@ -4750,7 +9241,64 @@
     "relatability": 62,
     "relevancy": 86
    },
-   "effort": "medium"
+   "effort": "medium",
+   "guide": {
+    "story": [
+     {
+      "t": "0–3s",
+      "icon": "ear",
+      "do": "Hammer-and-wedge tapping from the first second"
+     },
+     {
+      "t": "3–30s",
+      "icon": "loop",
+      "do": "Long, unbroken rhythmic tapping, no talking"
+     },
+     {
+      "t": "End",
+      "icon": "eye",
+      "do": "A slow wind-down"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "A massage with a hammer looks unusual"
+     },
+     {
+      "icon": "ear",
+      "says": "The tapping rhythm is made for ASMR"
+     }
+    ],
+    "shot": {
+     "sound": "Natural tapping sound, no talking",
+     "edit": "Light, long takes",
+     "length": "Long-form video, not a Short"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Find a Thai therapist who offers tok sen"
+     },
+     {
+      "icon": "mic",
+      "do": "Put a contact mic on the wedge"
+     },
+     {
+      "icon": "zoom",
+      "do": "Film the hammer strikes up close"
+     },
+     {
+      "icon": "text",
+      "do": "Caption: 'Ever heard of a massage with a hammer?'",
+      "tip": "Make it a 20s vertical Short"
+     },
+     {
+      "icon": "clock",
+      "do": "Post a 10-minute no-talk version on YouTube"
+     }
+    ]
+   }
   },
   {
    "id": "pt-lbgotsole-group-pt-trainer-motivationally",
@@ -4817,7 +9365,69 @@
     "icebath": "The guide counting down in the plunge, tough-love lines, the group groaning.",
     "photo_video": "You directing a stiff client with tough-love lines until the shot lands; the final frame."
    },
-   "thumb": "thumbs/pt-lbgotsole-group-pt-trainer-motivationally.jpg"
+   "thumb": "thumbs/pt-lbgotsole-group-pt-trainer-motivationally.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "chat",
+      "do": "Client mid-rep, trainer's roast line"
+     },
+     {
+      "t": "2–8s",
+      "icon": "laugh",
+      "do": "Banter back and forth"
+     },
+     {
+      "t": "End",
+      "icon": "people",
+      "do": "Client finishes, everyone laughs"
+     }
+    ],
+    "why": [
+     {
+      "icon": "people",
+      "says": "Shows real small-gym banter and accountability"
+     },
+     {
+      "icon": "heart",
+      "says": "Makes people want that kind of trainer"
+     },
+     {
+      "icon": "loop",
+      "says": "A series: 'professional bullying', 'tough love'"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Original audio",
+     "edit": "Raw clip",
+     "people": "Trainer and client"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Set a phone on a tripod by the floor"
+     },
+     {
+      "icon": "camera",
+      "do": "Record the whole class"
+     },
+     {
+      "icon": "cut",
+      "do": "Clip the 5–10s banter moments",
+      "tip": "Only clients who consent"
+     },
+     {
+      "icon": "text",
+      "do": "Caption a named trope: 'motivational bullying'"
+     },
+     {
+      "icon": "loop",
+      "do": "Post it as a recurring series"
+     }
+    ]
+   }
   },
   {
    "id": "pt-lbgotsole-this-is-professional-bullying",
@@ -4877,7 +9487,61 @@
     "relevancy": 94
    },
    "effort": "low",
-   "thumb": "thumbs/pt-lbgotsole-this-is-professional-bullying.jpg"
+   "thumb": "thumbs/pt-lbgotsole-this-is-professional-bullying.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "chat",
+      "do": "Trainer's one-liner at a client"
+     },
+     {
+      "t": "2–6s",
+      "icon": "laugh",
+      "do": "The client fires back a comeback"
+     },
+     {
+      "t": "End",
+      "icon": "dumbbell",
+      "do": "Everyone laughs, the rep gets finished"
+     }
+    ],
+    "why": [
+     {
+      "icon": "loop",
+      "says": "Two posts, a week apart, both 1.3M+ likes"
+     },
+     {
+      "icon": "check",
+      "says": "The series works, not one lucky clip"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Original audio",
+     "edit": "Raw clip",
+     "people": "Trainer and client"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Batch-record 2–3 group classes a week"
+     },
+     {
+      "icon": "eye",
+      "do": "Pick the single best banter moment",
+      "tip": "Only with the client's OK"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it with the series' named trope"
+     },
+     {
+      "icon": "loop",
+      "do": "Post it as the next episode"
+     }
+    ]
+   }
   },
   {
    "id": "pt-yosh-betancourt-pov-you-thought-your",
@@ -4937,7 +9601,66 @@
     "relatability": 90,
     "relevancy": 92
    },
-   "effort": "low"
+   "effort": "low",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "face",
+      "do": "Friendly hello and handshake, big smile"
+     },
+     {
+      "t": "2s",
+      "icon": "music",
+      "do": "Beat drops, hard cut to workout mode"
+     },
+     {
+      "t": "End",
+      "icon": "laugh",
+      "do": "Client collapses, trainer smiles again"
+     }
+    ],
+    "why": [
+     {
+      "icon": "person",
+      "says": "Anyone who's had a PT session gets it"
+     },
+     {
+      "icon": "money",
+      "says": "Costs nothing; fits any trending sound"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "sound": "Trending sound with a drop",
+     "text": "POV line on screen",
+     "edit": "Hard cut on the beat",
+     "people": "Trainer and client"
+    },
+    "steps": [
+     {
+      "icon": "face",
+      "do": "Film the trainer smiling at the gym door"
+     },
+     {
+      "icon": "chat",
+      "do": "Have them say: 'We'll take it easy today'"
+     },
+     {
+      "icon": "music",
+      "do": "Cut to shot 2 on the beat drop"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Show them counting the client through burpees"
+     },
+     {
+      "icon": "text",
+      "do": "Add text: 'POV: you thought your PT was nice'",
+      "tip": "Keep it 7–10 seconds"
+     }
+    ]
+   }
   },
   {
    "id": "pt-bodybuildingcom-grandma-powerlifter-pulls-a",
@@ -4997,7 +9720,68 @@
     "relevancy": 88
    },
    "effort": "low",
-   "thumb": "thumbs/pt-bodybuildingcom-grandma-powerlifter-pulls-a.jpg"
+   "thumb": "thumbs/pt-bodybuildingcom-grandma-powerlifter-pulls-a.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "person",
+      "do": "A grandma walks up to a loaded bar"
+     },
+     {
+      "t": "2–8s",
+      "icon": "dumbbell",
+      "do": "One clean, heavy pull in one take"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "Lockout, then her reaction"
+     }
+    ],
+    "why": [
+     {
+      "icon": "spark",
+      "says": "An older woman lifting heavy flips expectations"
+     },
+     {
+      "icon": "laugh",
+      "says": "A cheeky caption makes it shareable"
+     },
+     {
+      "icon": "person",
+      "says": "Shows clients over 50 can lift heavy"
+     }
+    ],
+    "shot": {
+     "camera": "iPhone",
+     "edit": "Raw, one take",
+     "sound": "Trending sound",
+     "people": "Lifter only"
+    },
+    "steps": [
+     {
+      "icon": "person",
+      "do": "Film your oldest consenting client's personal best"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot side-on, full body in frame"
+     },
+     {
+      "icon": "check",
+      "do": "Keep it one take, no cuts"
+     },
+     {
+      "icon": "text",
+      "do": "Caption it: 'She's 68. What's your excuse?'"
+     },
+     {
+      "icon": "clock",
+      "do": "Add an end card: her lift 6 months ago"
+     }
+    ]
+   }
   }
  ],
  "trends": [
