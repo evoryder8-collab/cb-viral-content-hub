@@ -1,5 +1,7 @@
 # CB Viral Content Hub
 
+**Live:** https://evoryder8-collab.github.io/cb-viral-content-hub/ (GitHub Pages, from branch `main`, folder `/`)
+
 A calm, searchable browser of proven hooks, formats and viral references for short-form content
 (reels, TikToks, Shorts, carousels) in five niches:
 
@@ -13,7 +15,7 @@ A new weekly drop lands every Monday morning (Zurich time). The procedure is in
 [`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md).
 
 Repo: [evoryder8-collab/cb-viral-content-hub](https://github.com/evoryder8-collab/cb-viral-content-hub)
-(private), branch `main`. All paths below are relative to the repo root.
+(public), branch `main`. All paths below are relative to the repo root.
 
 ## What's inside
 
@@ -60,5 +62,6 @@ scripts/build_single_file.py  one self-contained HTML file (for private previews
 .github/workflows/cb-hub-covers.yml  "CB Hub covers" Action: runs fetch_thumbs.py + validate.py on GitHub
 ```
 
-The page carries `noindex, nofollow`. The hub lives in this private repo only; it is separate from the
-iconstantine.ch website repo and is not published on the live site.
+The page carries `noindex, nofollow`, so search engines skip it, but anyone with the link can open it.
+Every push to `main` republishes it on GitHub Pages. It is separate from the iconstantine.ch website repo
+and is not part of that site.

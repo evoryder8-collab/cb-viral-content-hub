@@ -3,7 +3,8 @@
 This is the standing procedure for the weekly drop. It runs every **Sunday night → Monday morning (Europe/Zurich)**,
 either as a scheduled Claude session or by hand. Follow it top to bottom.
 
-Work in the repo `evoryder8-collab/cb-viral-content-hub` (private), branch `main`. All paths and commands
+Work in the repo `evoryder8-collab/cb-viral-content-hub` (public), branch `main`. Pushing to `main`
+republishes the live hub at https://evoryder8-collab.github.io/cb-viral-content-hub/. All paths and commands
 below are relative to the repo root.
 
 ## 0. The rules that never change
