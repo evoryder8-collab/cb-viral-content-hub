@@ -28,7 +28,10 @@ below are relative to the repo root.
 7. Never repeat a video that is already in an earlier week unless its numbers changed materially.
 8. **Blocked creators:** never add @vladimirshmondenko (the "Anatoly" gym-cleaner pranks). His views come from his
    strength, not from a format a client can copy. The list is `BLOCKED_CREATORS` in `scripts/import_research.py`
-   (mirrored in `scripts/validate.py`, which fails on any video from it).
+   (mirrored in `scripts/validate.py`, which fails on any video from it). `BLOCKED_NAMES` also catches him by
+   creator name or title when the handle is missing.
+9. **Every video gets a visual guide** (`guide`, see below). The detail sheet shows it instead of the paragraphs;
+   the paragraphs stay under "Full research notes".
 
 ## 1. Research (parallel, one agent per niche + one for science)
 
@@ -76,6 +79,25 @@ agents in one turn (~200 searches), so give each agent 25–35 searches and keep
 
 Beats that are guessed from captions start with `Inferred:`; the importer strips the word and the app shows a
 "not frame-checked" note.
+
+### Visual guide (`guide` on each video)
+
+The detail sheet draws "Formula", "Why it worked", "How it was shot" and "Repeat it" as a storyboard, icon
+points, spec tiles and numbered steps. Keep every line short enough to read at a glance:
+
+```json
+"guide": {
+  "story": [{"t": "0–2s", "icon": "text", "do": "Husband in the chair, 'I took my husband…'"}, … 3–4 frames, hook first, payoff last],
+  "why":   [{"icon": "face", "says": "His face is the show, not the spa"}, … 2–3],
+  "shot":  {"camera": "iPhone, vertical", "angle": "…", "light": "…", "sound": "…", "text": "…", "edit": "…", "length": "…", "people": "…"},
+  "steps": [{"icon": "people", "do": "Book a couple or two friends", "tip": "Get a signed model release"}, … 3–5],
+  "avoid": "optional one-line warning"
+}
+```
+
+Word limits: story 8, why 8, shot values 5, steps 9, tips 7, avoid 8. `story`, `why` and `shot` describe the
+original video only (omit unknown shot keys); `steps` are the copy-it instructions. Icons are the keys of `GI` in
+`assets/hub.js` (`GUIDE_ICONS` in `scripts/validate.py`).
 
 Hook-type keys: `pattern_interrupt, curiosity_gap, negative_warning, contrarian, pov, stitch_duet,
 green_screen_react, asmr_sensory, before_after_reveal, transformation, myth_bust, listicle, question, storytime,

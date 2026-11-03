@@ -11,6 +11,7 @@ Rules enforced (see RESEARCH_PLAYBOOK.md):
   * scores are integers 0-100, niches and hook types come from the fixed lists
   * hook ids unique, every hook has a template, every library item has a source where required
   * no video from a blocked creator (BLOCKED_CREATORS)
+  * a video's visual guide (story / why / shot / steps) has the right shape, short lines and known icons
 """
 import json
 import os
@@ -32,6 +33,7 @@ HOOK_TYPES = {
     "visual_spectacle", "loop",
 }
 BLOCKED_CREATORS = {"vladimirshmondenko"}  # never add; same list as scripts/import_research.py
+BLOCKED_NAMES = ("shmondenko", "anatoly")  # also caught by creator name or title when the handle is missing
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{2,80}$")
 WEEK_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -59,6 +61,59 @@ def is_url(u):
     return isinstance(u, str) and u.startswith(("https://", "http://"))
 
 
+# Visual guide on each video's detail sheet; icons are drawn by GI in assets/hub.js.
+GUIDE_ICONS = {
+    "eye", "face", "laugh", "hand", "ear", "mic", "music", "text", "camera", "tripod", "zoom", "light", "cut",
+    "loop", "clock", "people", "person", "spark", "question", "chat", "share", "heart", "money", "pin", "paw",
+    "snow", "dumbbell", "scan", "warn", "check", "star", "fire", "bolt", "cinema",
+}
+GUIDE_SHOT = {"camera", "angle", "light", "sound", "text", "edit", "length", "people"}
+GUIDE_WORDS = {"story": 8, "why": 8, "shot": 5, "step": 9, "tip": 7, "avoid": 8}
+
+
+def check_guide(where, g):
+    def line(w, s, kind):
+        if not isinstance(s, str) or not s.strip() or s.strip().lower() in ("none", "n/a"):
+            err(f"{w}: empty (leave the key out instead)")
+        elif len(re.findall(r"[^\s/]+", s)) > GUIDE_WORDS[kind]:
+            err(f"{w}: more than {GUIDE_WORDS[kind]} words: {s!r}")
+
+    def icon(w, i):
+        if i not in GUIDE_ICONS:
+            err(f"{w}: unknown icon {i!r}")
+
+    if not isinstance(g, dict):
+        return err(f"{where}: guide must be an object")
+    for k in set(g) - {"story", "why", "shot", "steps", "avoid"}:
+        err(f"{where}: unknown guide key {k!r}")
+    story, why, shot, steps = g.get("story") or [], g.get("why") or [], g.get("shot") or {}, g.get("steps") or []
+    if not 3 <= len(story) <= 4:
+        err(f"{where}: guide.story needs 3-4 frames")
+    for i, f in enumerate(story):
+        icon(f"{where} story[{i}]", f.get("icon"))
+        line(f"{where} story[{i}]", f.get("do"), "story")
+        if not re.fullmatch(r"\d+(\.\d+)?(–\d+(\.\d+)?)?s|End|Loop", str(f.get("t"))):
+            err(f"{where} story[{i}]: t must look like '0–2s', '5s', 'End' or 'Loop'")
+    if not 2 <= len(why) <= 3:
+        err(f"{where}: guide.why needs 2-3 reasons")
+    for i, f in enumerate(why):
+        icon(f"{where} why[{i}]", f.get("icon"))
+        line(f"{where} why[{i}]", f.get("says"), "why")
+    for k in set(shot) - GUIDE_SHOT:
+        err(f"{where}: unknown guide.shot key {k!r}")
+    for k, s in shot.items():
+        line(f"{where} shot.{k}", s, "shot")
+    if not 3 <= len(steps) <= 5:
+        err(f"{where}: guide.steps needs 3-5 steps")
+    for i, f in enumerate(steps):
+        icon(f"{where} steps[{i}]", f.get("icon"))
+        line(f"{where} steps[{i}]", f.get("do"), "step")
+        if "tip" in f:
+            line(f"{where} steps[{i}].tip", f["tip"], "tip")
+    if "avoid" in g:
+        line(f"{where} avoid", g["avoid"], "avoid")
+
+
 def check_score(where, val):
     if not isinstance(val, int) or not 0 <= val <= 100:
         err(f"{where}: score must be an int 0-100, got {val!r}")
@@ -76,8 +131,9 @@ def check_video(where, v):
     if v.get("platform") not in PLATFORMS:
         err(f"{where} [{vid}]: unknown platform {v.get('platform')!r}")
     handle = ((v.get("creator") or {}).get("handle") or "").lstrip("@").lower()
-    if handle in BLOCKED_CREATORS:
-        err(f"{where} [{vid}]: creator @{handle} is blocked, never add their videos")
+    named = " ".join(str(x or "") for x in ((v.get("creator") or {}).get("name"), v.get("title"))).lower()
+    if handle in BLOCKED_CREATORS or any(n in named for n in BLOCKED_NAMES):
+        err(f"{where} [{vid}]: creator is blocked (@vladimirshmondenko), never add their videos")
     if v.get("url") and not is_url(v["url"]):
         err(f"{where} [{vid}]: url is not http(s)")
     s = v.get("stats") or {}
@@ -105,6 +161,10 @@ def check_video(where, v):
         err(f"{where} [{vid}]: thumb file {v['thumb']} is missing")
     if v.get("evidence") not in (None, "high", "medium", "low"):
         err(f"{where} [{vid}]: evidence must be high|medium|low")
+    if v.get("guide") is None:
+        warn(f"{where} [{vid}]: no visual guide; the sheet falls back to the research paragraphs")
+    else:
+        check_guide(f"{where} [{vid}] guide", v["guide"])
 
 
 def main():
@@ -169,6 +229,8 @@ def main():
         hook_ids.add(hid)
         if not h.get("template"):
             err(f"library.hooks [{hid}]: missing template")
+        if any(n in (h.get("creator") or "").lower() for n in BLOCKED_NAMES):
+            err(f"library.hooks [{hid}]: example is by a blocked creator")
         for t in h.get("types") or []:
             if t not in HOOK_TYPES:
                 err(f"library.hooks [{hid}]: unknown type {t!r}")

@@ -56,6 +56,46 @@
     check: '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
   };
 
+  // Icons for the visual guides (video.guide): the data names them, see scripts/validate.py GUIDE_ICONS.
+  const ico = d => '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + d + '</svg>';
+  const GI = {
+    eye: ico('<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>'),
+    face: I.face,
+    laugh: ico('<circle cx="12" cy="12" r="8.5"/><path d="M8 10q1-1.3 2 0M14 10q1-1.3 2 0M7.5 13.5h9a4.5 4.5 0 0 1-9 0z"/>'),
+    hand: ico('<path d="M7 12V6.5a1.5 1.5 0 0 1 3 0V11M10 10.5V4.5a1.5 1.5 0 0 1 3 0V11M13 10.5V5.5a1.5 1.5 0 0 1 3 0V12M16 11.5V8.5a1.5 1.5 0 0 1 3 0V14a7 7 0 0 1-7 7h-.5a6.5 6.5 0 0 1-5.3-2.7l-2.6-3.7a1.6 1.6 0 0 1 2.5-2L7 13.5"/>'),
+    ear: I.ear,
+    mic: ico('<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M8.5 21h7"/>'),
+    music: I.music,
+    text: ico('<rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9h8M12 9v7"/>'),
+    camera: I.camera,
+    tripod: ico('<rect x="8.5" y="2.5" width="7" height="9" rx="1.5"/><path d="M12 11.5v3M12 14.5l-5.5 7M12 14.5l5.5 7M12 14.5v7"/>'),
+    zoom: ico('<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/>'),
+    light: ico('<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.4 1.1 2.2h5c0-.8.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/>'),
+    cut: I.cut,
+    loop: ico('<path d="M4 12a8 8 0 0 1 13.7-5.6L20 8.5M20 4v4.5h-4.5M20 12a8 8 0 0 1-13.7 5.6L4 15.5M4 20v-4.5h4.5"/>'),
+    clock: I.clock,
+    people: ico('<circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="16.5" cy="9" r="2.6"/><path d="M15.5 14.2A5 5 0 0 1 21 19"/>'),
+    person: ico('<circle cx="12" cy="8" r="3.5"/><path d="M5 20.5a7 7 0 0 1 14 0"/>'),
+    spark: I.spark,
+    question: ico('<circle cx="12" cy="12" r="8.5"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17v.2"/>'),
+    chat: I.comment,
+    share: ico('<path d="M21 3 10.5 13.5M21 3l-6.5 18-4-7.5L3 9.5z"/>'),
+    heart: I.heart,
+    money: ico('<rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9.5v5M18 9.5v5"/>'),
+    pin: ico('<path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>'),
+    paw: ico('<circle cx="6.5" cy="10" r="1.8"/><circle cx="10" cy="6" r="1.8"/><circle cx="14.5" cy="6" r="1.8"/><circle cx="18" cy="10" r="1.8"/><path d="M12.2 11.5c-2.5 0-5.4 3.6-5.4 6 0 1.6 1.3 2.5 2.8 2.5 1.2 0 1.8-.6 2.6-.6s1.5.6 2.7.6c1.5 0 2.8-.9 2.8-2.5 0-2.4-3-6-5.5-6z"/>'),
+    snow: ico('<path d="M12 2.5v19M3.8 7.2l16.4 9.6M3.8 16.8l16.4-9.6M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/>'),
+    dumbbell: ico('<path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/>'),
+    scan: ico('<path d="M3.5 8V5A1.5 1.5 0 0 1 5 3.5h3M16 3.5h3A1.5 1.5 0 0 1 20.5 5v3M20.5 16v3a1.5 1.5 0 0 1-1.5 1.5h-3M8 20.5H5A1.5 1.5 0 0 1 3.5 19v-3M3.5 12h17"/>'),
+    warn: ico('<path d="M12 3.5 2.5 20h19z"/><path d="M12 10v4.5M12 17.2v.3"/>'),
+    check: I.check,
+    star: ico('<path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>'),
+    fire: ico('<path d="M12 21a6.5 6.5 0 0 0 6.5-6.5c0-4.5-4-6.5-4.5-11-2.5 1.5-4.5 4.5-4 7.5-1-.5-1.8-1.5-2-2.5-1.5 1.5-2.5 3.6-2.5 6A6.5 6.5 0 0 0 12 21z"/>'),
+    bolt: I.bolt,
+    cinema: I.cinema
+  };
+  const SHOT = [['camera', 'Camera', 'camera'], ['angle', 'Angle', 'tripod'], ['light', 'Light', 'light'], ['sound', 'Sound', 'ear'], ['text', 'On-screen text', 'text'], ['edit', 'Edit', 'cut'], ['length', 'Length', 'clock'], ['people', 'People', 'people']];
+
   /* ---------------- utils ---------------- */
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
@@ -281,6 +321,23 @@
     if (p.length_s) out.push('<span class="rc">' + I.clock + esc(p.length_s) + (/s$/.test(String(p.length_s)) ? '' : ' s') + '</span>');
     if (p.faces) out.push('<span class="rc">' + I.face + esc(String(p.faces).replace(/_/g, ' ')) + '</span>');
     return '<div class="recipe">' + out.join('') + '</div>';
+  }
+  // The four "how to copy it" blocks as visuals: storyboard, reasons, spec tiles, numbered steps.
+  function guideBlocks(g) {
+    const gi = k => GI[k] || GI.check;
+    const n = (g.story || []).length;
+    const stage = i => i === 0 ? 'Hook' : i === n - 1 ? 'Payoff' : n === 4 && i === 2 ? 'Turn' : 'Build';
+    const story = n ? '<div class="block"><h3>Formula</h3><ol class="story">' + g.story.map((f, i) =>
+      '<li><div class="st"><span>' + stage(i) + '</span><span class="t">' + esc(f.t || '') + '</span></div><span class="ic">' + gi(f.icon) + '</span><b>' + esc(f.do) + '</b></li>').join('') + '</ol></div>' : '';
+    const why = (g.why || []).length ? '<div class="block"><h3>Why it worked</h3><ul class="whys">' + g.why.map(w =>
+      '<li><span class="ic">' + gi(w.icon) + '</span><b>' + esc(w.says) + '</b></li>').join('') + '</ul></div>' : '';
+    const sh = g.shot || {};
+    const tiles = SHOT.filter(s => sh[s[0]]).map(s => '<div><span class="ic">' + GI[s[2]] + '</span><small>' + s[1] + '</small><b>' + esc(sh[s[0]]) + '</b></div>').join('');
+    const shot = tiles ? '<div class="block"><h3>How it was shot</h3><div class="spec">' + tiles + '</div></div>' : '';
+    const steps = (g.steps || []).length ? '<div class="block"><h3>Repeat it</h3><ol class="steps">' + g.steps.map(s =>
+      '<li><div class="do">' + gi(s.icon) + '<b>' + esc(s.do) + '</b></div>' + (s.tip ? '<div class="tip">' + esc(s.tip) + '</div>' : '') + '</li>').join('') + '</ol>' +
+      (g.avoid ? '<p class="avoid">' + GI.warn + '<span>' + esc(g.avoid) + '</span></p>' : '') + '</div>' : '';
+    return story + why + shot + steps;
   }
   function sec(title, sub, right, body, id) {
     return '<section class="section"' + (id ? ' id="' + id + '"' : '') + '><div class="sec-head"><div><h2>' + title + '</h2>' + (sub ? '<p>' + sub + '</p>' : '') + '</div>' + (right || '') + '</div>' + body + '</section>';
@@ -518,6 +575,21 @@
   }
   function brief(v) {
     const p = v.production || {};
+    const g = v.guide;
+    if (g) {
+      const sh = g.shot || {};
+      const gl = [
+        'REFERENCE: ' + v.title + ' (' + (v.creator && v.creator.handle || '') + ', ' + v.platform + ')',
+        v.url ? 'LINK: ' + v.url : '',
+        '',
+        'STORYBOARD:'
+      ].concat((g.story || []).map(f => '- ' + f.t + ': ' + f.do))
+        .concat(['', 'WHY IT WORKS:'], (g.why || []).map(w => '- ' + w.says))
+        .concat(['', 'SHOT:'], SHOT.filter(s => sh[s[0]]).map(s => '- ' + s[1] + ': ' + sh[s[0]]))
+        .concat(['', 'SHOOT YOUR VERSION:'], (g.steps || []).map((s, i) => (i + 1) + '. ' + s.do + (s.tip ? ' (' + s.tip + ')' : '')))
+        .concat(g.avoid ? ['', 'AVOID: ' + g.avoid] : []);
+      return gl.filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n');
+    }
     const lines = [
       'REFERENCE: ' + v.title + ' (' + (v.creator && v.creator.handle || '') + ', ' + v.platform + ')',
       v.url ? 'LINK: ' + v.url : '',
@@ -550,6 +622,12 @@
     const remix = v.remix ? '<div class="block"><h3>Remix for each niche</h3><div class="remix">' + Object.keys(v.remix).map(k => '<div class="remix-row" data-n="' + esc(k) + '"><b><i></i>' + esc((NICHE[k] || {}).label || k) + '</b><span>' + esc(v.remix[k]) + '</span></div>').join('') + '</div></div>' : '';
     const typeTags = ((v.hook && v.hook.types) || []).map(t => '<span class="tag">' + esc(HOOK_TYPES[t] || t) + '</span>').join('');
     const platLabel = v.url_is_exact_post === false && !/tiktok|instagram|youtube|facebook|x\.com/.test(host(v.url)) ? 'the source' : (PLAT[v.platform] || 'the source');
+    const notes =
+      (v.formula ? '<div class="block"><h3>Formula</h3><p style="color:var(--fg);font-weight:600">' + esc(v.formula) + '</p></div>' : '') +
+      (v.beats && v.beats.length ? '<div class="block"><h3>Beat by beat</h3><ol class="beats">' + v.beats.map(b => { const m = /^([\d.:–\-+ s]+s|end|End)\s*[:\-–]?\s*(.*)$/.exec(b); return '<li><span class="t">' + esc(m ? m[1] : '•') + '</span><span>' + esc(m ? m[2] : b) + '</span></li>'; }).join('') + '</ol>' + (v.beats_inferred ? '<p style="color:var(--fg-3);font-size:var(--t-xs)">Beats reconstructed from captions and press coverage, not frame-checked. Watch the original before you copy the timing.</p>' : '') + '</div>' : '') +
+      (v.why ? '<div class="block"><h3>Why it worked</h3><p>' + esc(v.why) + '</p></div>' : '') +
+      (v.production ? '<div class="block"><h3>How it was shot</h3>' + recipe(v.production) + '</div>' : '') +
+      (v.replicate ? '<div class="block"><h3>Repeat it</h3><p>' + esc(v.replicate) + '</p></div>' : '');
     const html =
       '<div class="d-grid">' +
         '<div class="d-left"><div id="player">' + poster(v, 0, { noplay: !emb || IS_SINGLE }) + '</div>' +
@@ -566,11 +644,7 @@
           '<div class="d-scores">' + ring('viral', 'Virality', vi.value, true) + ring('relate', 'Relatable', v.scores && v.scores.relatability, true) + ring('relevant', 'Relevant', v.scores && v.scores.relevancy, true) + '</div>' +
           (v.scores && v.scores.note ? '<p style="color:var(--fg-3);font-size:var(--t-sm)">' + esc(v.scores.note) + '</p>' : '') +
           '<div class="block"><h3>The hook</h3>' + (v.hook && v.hook.verbatim ? '<div class="big-hook">“' + esc(v.hook.verbatim) + '”</div>' + (v.hook.summary ? '<p>' + esc(v.hook.summary) + '</p>' : '') : '<p style="color:var(--fg);font-size:var(--t-lg);font-weight:600;line-height:1.45">' + esc(v.hook && v.hook.summary || '') + '</p><p style="color:var(--fg-3);font-size:var(--t-xs)">Exact opening line not documented in the sources; this describes what happens on screen.</p>') + '<div class="tags">' + typeTags + '</div></div>' +
-          (v.formula ? '<div class="block"><h3>Formula</h3><p style="color:var(--fg);font-weight:600">' + esc(v.formula) + '</p></div>' : '') +
-          (v.beats && v.beats.length ? '<div class="block"><h3>Beat by beat</h3><ol class="beats">' + v.beats.map(b => { const m = /^([\d.:–\-+ s]+s|end|End)\s*[:\-–]?\s*(.*)$/.exec(b); return '<li><span class="t">' + esc(m ? m[1] : '•') + '</span><span>' + esc(m ? m[2] : b) + '</span></li>'; }).join('') + '</ol>' + (v.beats_inferred ? '<p style="color:var(--fg-3);font-size:var(--t-xs)">Beats reconstructed from captions and press coverage, not frame-checked. Watch the original before you copy the timing.</p>' : '') + '</div>' : '') +
-          (v.why ? '<div class="block"><h3>Why it worked</h3><p>' + esc(v.why) + '</p></div>' : '') +
-          (v.production ? '<div class="block"><h3>How it was shot</h3>' + recipe(v.production) + '</div>' : '') +
-          (v.replicate ? '<div class="block"><h3>Repeat it</h3><p>' + esc(v.replicate) + '</p></div>' : '') +
+          (v.guide ? guideBlocks(v.guide) + '<details class="notes"><summary>Full research notes</summary><div class="d-main">' + notes + '</div></details>' : notes) +
           remix +
           '<div class="d-actions"><button class="btn primary" type="button" data-copy-brief="' + esc(v.id) + '">' + I.copy + 'Copy shoot brief</button><button class="btn" type="button" data-save-v="' + esc(v.id) + '" aria-pressed="' + saved + '">' + I.save + (saved ? 'Saved' : 'Save') + '</button></div>' +
         '</div>' +

@@ -41,8 +41,14 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
           "October", "November", "December"]
 
 
+BLOCKED_NAMES = ("shmondenko", "anatoly")  # also caught when the handle is missing
+
+
 def blocked(v):
-    return (v.get("creator_handle") or "").strip().lstrip("@").lower() in BLOCKED_CREATORS
+    if (v.get("creator_handle") or "").strip().lstrip("@").lower() in BLOCKED_CREATORS:
+        return True
+    name = " ".join(str(v.get(k) or "") for k in ("creator_name", "title")).lower()
+    return any(n in name for n in BLOCKED_NAMES)
 
 
 def slug(text, n=6):
@@ -142,6 +148,8 @@ def convert_video(niche, v, week):
     for k in ("camera", "asmr", "editing", "audio", "faces"):
         if out["production"][k] in ("unknown", None, ""):
             out["production"][k] = None
+    if v.get("guide"):
+        out["guide"] = v["guide"]  # the visual storyboard / steps, checked by validate.py
     return out
 
 
