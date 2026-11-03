@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge what a browser pass (Claude in Chrome) read off TikTok / Instagram / YouTube into a weekly drop.
+"""Merge what a browser pass (or a verified Manus research run) (Claude in Chrome) read off TikTok / Instagram / YouTube into a weekly drop.
 
     python3 scripts/apply_browser_findings.py --week YYYY-MM-DD findings.json [--dry]
 
@@ -35,11 +35,26 @@ def main():
     ap.add_argument("--week", required=True)
     ap.add_argument("findings")
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--create-collection", metavar="LABEL",
+                    help="create --week as an evergreen collection (e.g. hall-of-fame) if it doesn't exist yet")
     a = ap.parse_args()
     f = json.load(open(a.findings, encoding="utf-8"))
     day = f.get("checked_on") or a.week
     wp = os.path.join(ROOT, "data", "weeks", a.week + ".json")
-    wk = json.load(open(wp, encoding="utf-8"))
+    man_p = os.path.join(ROOT, "data", "manifest.json")
+    if not os.path.exists(wp):
+        if not a.create_collection:
+            sys.exit(f"{wp} not found (pass --create-collection 'Label' to start a new collection)")
+        wk = {"id": a.week, "kind": "collection", "label": a.create_collection,
+              "headline": f.get("headline") or a.create_collection, "lede": f.get("lede"),
+              "moves": [], "picks": [], "videos": [], "trends": []}
+        if not a.dry:
+            man = json.load(open(man_p, encoding="utf-8"))
+            if not any(w["id"] == a.week for w in man["weeks"]):
+                man["weeks"].append({"id": a.week, "kind": "collection", "label": a.create_collection, "count": 0})
+                json.dump(man, open(man_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    else:
+        wk = json.load(open(wp, encoding="utf-8"))
     by = {v["id"]: v for v in wk["videos"]}
     upd = new = removed = 0
 
@@ -91,7 +106,6 @@ def main():
     with open(wp, "w", encoding="utf-8") as fh:
         json.dump(wk, fh, ensure_ascii=False, indent=1)
         fh.write("\n")
-    man_p = os.path.join(ROOT, "data", "manifest.json")
     man = json.load(open(man_p, encoding="utf-8"))
     for w in man["weeks"]:
         if w["id"] == a.week:

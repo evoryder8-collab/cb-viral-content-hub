@@ -112,13 +112,14 @@ def main():
     if not weeks:
         err("manifest.json: no weeks listed")
     ids = [w.get("id") for w in weeks]
-    if manifest.get("latest") not in ids:
-        err("manifest.json: 'latest' must be one of the listed week ids")
+    if manifest.get("latest") not in ids or not WEEK_RE.match(str(manifest.get("latest"))):
+        err("manifest.json: 'latest' must be one of the listed dated week ids")
     seen_videos = {}
     for w in weeks:
         wid = w.get("id")
-        if not isinstance(wid, str) or not WEEK_RE.match(wid):
-            err(f"manifest.json: bad week id {wid!r} (YYYY-MM-DD, the Monday)")
+        is_collection = w.get("kind") == "collection"
+        if not isinstance(wid, str) or not (WEEK_RE.match(wid) or (is_collection and ID_RE.match(wid))):
+            err(f"manifest.json: bad week id {wid!r} (YYYY-MM-DD, the Monday; or a slug with kind 'collection')")
             continue
         wk = load(os.path.join(DATA, "weeks", f"{wid}.json"))
         if wk is None:
@@ -171,7 +172,7 @@ def main():
                 err(f"library.hooks [{hid}]: unknown niche {n!r}")
         if not h.get("source_url"):
             warn(f"library.hooks [{hid}]: no source_url")
-        if h.get("added") not in ids:
+        if h.get("added") not in ids:  # hooks always belong to a week or collection
             err(f"library.hooks [{hid}]: 'added' must be a week id from the manifest")
 
     fkeys = set()

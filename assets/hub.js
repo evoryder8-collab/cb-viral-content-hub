@@ -305,7 +305,7 @@
     const list = weekVideos();
     const moves = (w.moves || []).filter(m => nicheOK(m.niche) || m.niche === 'general');
     const hero = '<section class="hero section">' +
-      '<span class="eyebrow">Weekly drop · ' + esc(w.label || fmtDate(w.id)) + '</span>' +
+      '<span class="eyebrow">' + (w.kind === 'collection' ? 'Collection · ' : 'Weekly drop · ') + esc(w.label || fmtDate(w.id)) + '</span>' +
       '<h1>' + (w.headline_html || esc(w.headline || 'This week’s proven formulas')) + '</h1>' +
       (w.lede ? '<p class="lede">' + esc(w.lede) + '</p>' : '') +
       (moves.length ? '<div class="moves">' + moves.map((m, i) => '<a class="move glass lit" data-n="' + esc(m.niche) + '" href="' + (m.ref ? '#v-' + esc(m.ref) : '#home') + '"><span class="k">' + (i + 1) + '</span><div><b>' + esc(m.title) + '</b><span>' + esc(m.text) + '</span></div></a>').join('') + '</div>' : '') +
@@ -637,8 +637,12 @@
   }
   function renderWeeks() {
     const sel = $('#week');
-    const weeks = state.data.manifest.weeks.slice().sort((a, b) => b.id.localeCompare(a.id));
-    sel.innerHTML = weeks.map((w, i) => '<option value="' + esc(w.id) + '"' + (w.id === state.weekId ? ' selected' : '') + '>' + (i === 0 ? 'This week · ' : 'Week of ') + esc(fmtDate(w.id)) + '</option>').join('');
+    const all = state.data.manifest.weeks;
+    const weeks = all.filter(w => w.kind !== 'collection').sort((a, b) => b.id.localeCompare(a.id));
+    const cols = all.filter(w => w.kind === 'collection');
+    const opt = (w, text) => '<option value="' + esc(w.id) + '"' + (w.id === state.weekId ? ' selected' : '') + '>' + esc(text) + '</option>';
+    sel.innerHTML = weeks.map((w, i) => opt(w, (i === 0 ? 'This week · ' : 'Week of ') + fmtDate(w.id))).join('') +
+      (cols.length ? '<optgroup label="Collections">' + cols.map(w => opt(w, w.label || w.id)).join('') + '</optgroup>' : '');
   }
   function render() {
     const view = state.q ? 'search' : state.view;
@@ -759,7 +763,7 @@
     }
     buildIndex(state.data);
     state.spot = Math.floor(Math.random() * 1000);
-    state.weekId = state.data.manifest.latest || state.data.manifest.weeks[state.data.manifest.weeks.length - 1].id;
+    state.weekId = state.data.manifest.latest || state.data.manifest.weeks.filter(w => w.kind !== 'collection').map(w => w.id).sort().pop();
     if (state.niche !== 'all' && !NICHE[state.niche]) state.niche = 'all';
     try {
       const brands = navigator.userAgentData && navigator.userAgentData.brands || [];
