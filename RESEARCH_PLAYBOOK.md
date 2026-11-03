@@ -3,6 +3,9 @@
 This is the standing procedure for the weekly drop. It runs every **Sunday night → Monday morning (Europe/Zurich)**,
 either as a scheduled Claude session or by hand. Follow it top to bottom.
 
+Work in the repo `evoryder8-collab/cb-viral-content-hub` (private), branch `main`. All paths and commands
+below are relative to the repo root.
+
 ## 0. The rules that never change
 
 1. **No invented ideas.** Every reference must be a real post by a real creator, and every hook a line that
@@ -132,19 +135,20 @@ Swiss context welcome: CHF prices, Zurich/Swiss locations, German/French caption
 
 ## 3. Build, check, publish
 
+From the repo root:
+
 ```bash
-cd cb-viral-content-hub
 python3 scripts/import_research.py --week YYYY-MM-DD --research research/YYYY-MM-DD --overlay research/YYYY-MM-DD/overlay.json
 python3 scripts/validate.py            # must print 0 error(s)
 python3 -m http.server 8765            # optional: eyeball http://localhost:8765
 python3 scripts/build_single_file.py   # optional: dist/cb-viral-content-hub.html for the private preview
-git add data && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to the branch the hub is published from
+git add data && git commit -m "Hub: weekly drop YYYY-MM-DD" && git push   # to main
 ```
 
 Real covers: every reference needs its EXACT post URL (`url_is_exact_post: true`), otherwise no cover can be
 fetched. Covers are downloaded on GitHub's servers by the **CB Hub covers** workflow
 (`.github/workflows/cb-hub-covers.yml`), which runs `scripts/fetch_thumbs.py` whenever week data is pushed and
-commits new files to `thumbs/`. After pushing a drop, wait for that commit (`git fetch` until the branch moves,
+commits new files to `thumbs/`. After pushing a drop, wait for that commit (`git fetch` until `main` moves,
 up to ~10 minutes; check the Actions tab if it doesn't), `git pull`, then build the preview. When publishing
 the private preview, pass the map in `<output>.files.json` as the Artifact tool's `files`. Cards without a
 cover fall back to the designed poster.

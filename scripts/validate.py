@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate CB Viral Content Hub data before every commit.
 
-Usage:  python3 scripts/validate.py          (run from cb-viral-content-hub/)
+Usage:  python3 scripts/validate.py          (run from the repo root)
 Exit code 0 = OK, 1 = errors found. Warnings never fail the run.
 
 Rules enforced (see RESEARCH_PLAYBOOK.md):

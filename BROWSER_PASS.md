@@ -16,7 +16,9 @@ cannot: read real numbers on the post pages, find exact Instagram links, and add
 
 ## Steps
 
-1. `git pull` on branch `claude/adoring-sagan-xqe1po`. The latest week is `latest` in `data/manifest.json`.
+1. In the repo `evoryder8-collab/cb-viral-content-hub` (local copy `~/Downloads/cb-viral-content-hub`), run
+   `git pull` on branch `main`. All paths below are relative to the repo root. The latest week is `latest` in
+   `data/manifest.json`.
 2. **Verify the leaderboards.** For every reference in that week that clears the bar (and every pick), open
    its `url`. Note the current views/likes/comments, or `removed: true` if it's gone or private.
 3. **Find exact links.** For references with `url_is_exact_post: false` (all Instagram ones first), open the
@@ -32,9 +34,9 @@ cannot: read real numbers on the post pages, find exact Instagram links, and add
    python3 scripts/apply_browser_findings.py --week <latest week> findings.json
    ```
    It must end with `0 error(s)`. Don't commit `findings.json`.
-6. Commit `data/` with the message "Hub: browser-verified numbers and links" and push to
-   `claude/adoring-sagan-xqe1po`. The **CB Hub covers** GitHub Action then downloads covers for the new exact
-   links; wait for its commit and `git pull`.
+6. Commit `data/` with the message "Hub: browser-verified numbers and links" and push to `main`. The
+   **CB Hub covers** GitHub Action then downloads covers for the new exact links; wait for its commit and
+   `git pull`.
 7. Rebuild and republish the private preview:
    ```bash
    python3 scripts/build_single_file.py /tmp/cb-hub/cb-viral-content-hub.html

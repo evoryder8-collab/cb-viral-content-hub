@@ -12,6 +12,9 @@ A calm, searchable browser of proven hooks, formats and viral references for sho
 A new weekly drop lands every Monday morning (Zurich time). The procedure is in
 [`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md).
 
+Repo: [evoryder8-collab/cb-viral-content-hub](https://github.com/evoryder8-collab/cb-viral-content-hub)
+(private), branch `main`. All paths below are relative to the repo root.
+
 ## What's inside
 
 | Section | What it does |
@@ -34,6 +37,7 @@ how it was shot, how to repeat it, a remix for each niche, and a **Copy shoot br
 ## Run locally
 
 ```bash
+git clone https://github.com/evoryder8-collab/cb-viral-content-hub.git
 cd cb-viral-content-hub
 python3 -m http.server 8765
 ```
@@ -53,7 +57,8 @@ scripts/import_research.py research JSON → weekly drop
 scripts/validate.py        data checks (no unsourced numbers, valid ids, scores 0–100)
 scripts/fetch_thumbs.py    downloads each reference's original cover into thumbs/
 scripts/build_single_file.py  one self-contained HTML file (for private previews)
+.github/workflows/cb-hub-covers.yml  "CB Hub covers" Action: runs fetch_thumbs.py + validate.py on GitHub
 ```
 
-The page carries `noindex, nofollow`. If this folder is merged into the main branch of the iconstantine.ch site,
-it will be reachable (unlisted) at `iconstantine.ch/cb-viral-content-hub/`.
+The page carries `noindex, nofollow`. The hub lives in this private repo only; it is separate from the
+iconstantine.ch website repo and is not published on the live site.

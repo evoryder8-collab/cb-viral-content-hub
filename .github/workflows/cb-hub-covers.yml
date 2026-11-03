@@ -1,0 +1,51 @@
+# CB Viral Content Hub: download the original cover of every reference with an exact post link
+# (YouTube, TikTok, Instagram) into thumbs/ and record it in the week files.
+# Runs on GitHub's servers whenever the hub's data changes on main, or by hand from the Actions tab.
+name: CB Hub covers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/weeks/**
+      - scripts/fetch_thumbs.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cb-hub-covers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow (shrinks covers to 540 px)
+        run: pip install --quiet pillow
+
+      - name: Download covers
+        run: python3 scripts/fetch_thumbs.py
+
+      - name: Check data
+        run: python3 scripts/validate.py
+
+      - name: Commit new covers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add thumbs data/weeks
+          if git diff --cached --quiet; then
+            echo "No new covers."
+            exit 0
+          fi
+          git commit -m "Hub: add original covers"
+          git push
