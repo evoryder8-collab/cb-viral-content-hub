@@ -55,7 +55,7 @@ pending item:
 1. Open the post in Chrome and read its numbers and content (fall back to `meta` only if the page won't load,
    and label the quote "From the post's link preview, fetched YYYY-MM-DD").
 2. Write a full entry (research schema in `RESEARCH_PLAYBOOK.md`, plus `title_short`, `scores`, `effort`) and
-   merge it with `scripts/apply_browser_findings.py`: into `hall-of-fame` if it clears 10M views (1M likes
-   when views are hidden), otherwise into the latest week. Constantin's picks are never dropped for being
-   below the bar; they go into the latest week's "below the viral bar" list if they're small.
+   merge it with `scripts/apply_browser_findings.py --week my-picks` (the **Constantin's picks** collection,
+   which has no viral bar). Set `"pick": true` on the entry. If it also clears 10M views (1M likes when views
+   are hidden), add it to `hall-of-fame` as well. Constantin's picks are never dropped for being small.
 3. Set the item's `status` to `"added"` with the `id` it got, or `"skipped"` with a reason. Commit `data/`.

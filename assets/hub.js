@@ -312,7 +312,7 @@
     if (!p) return '';
     const out = [];
     const cam = p.camera;
-    if (cam) out.push('<span class="rc' + (cam === 'iphone' ? ' on' : '') + '">' + (cam === 'pro_camera' ? I.cinema : I.camera) + ({ iphone: 'iPhone / phone', pro_camera: 'Pro camera', mixed: 'Phone + pro', either: 'Any camera', unknown: 'Camera: unknown' }[cam] || cam) + '</span>');
+    if (cam) out.push('<span class="rc' + (cam === 'iphone' ? ' on' : '') + '">' + (cam === 'pro_camera' ? I.cinema : I.camera) + ({ iphone: 'iPhone / phone', pro_camera: 'Pro camera', mixed: 'Phone + pro', either: 'Any camera', action_camera: 'Action camera', unknown: 'Camera: unknown' }[cam] || cam) + '</span>');
     if (p.asmr) out.push('<span class="rc' + (p.asmr === 'yes' ? ' on' : '') + '">' + I.ear + ({ yes: 'ASMR sound', partial: 'Some ASMR', optional: 'ASMR optional', no: 'No ASMR' }[p.asmr] || p.asmr) + '</span>');
     if (p.editing) out.push('<span class="rc">' + I.cut + ({ raw: 'Raw, barely edited', light: 'Light edit', heavy: 'Heavy edit' }[p.editing] || p.editing) + '</span>');
     if (p.vfx && !/^none/i.test(p.vfx)) out.push('<span class="rc on" title="' + esc(p.vfx) + '">' + I.spark + esc(p.vfx.length > 34 ? p.vfx.slice(0, 32) + '…' : p.vfx) + '</span>');
@@ -371,8 +371,9 @@
     const seg = '<div class="seg" role="group" aria-label="Sort">' +
       [['viral', 'Most viral'], ['relevant', 'Most relevant'], ['rank', 'Our picks']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
     // One leaderboard per platform: views are not comparable across apps, so nothing is mixed.
-    const proven = list.filter(passesBar);
-    const below = list.filter(v => !passesBar(v));
+    const useBar = w.bar !== false;  // a collection like "Constantin's picks" shows everything
+    const proven = useBar ? list.filter(passesBar) : list;
+    const below = useBar ? list.filter(v => !passesBar(v)) : [];
     const boards = PLATFORM_BOARDS.filter(b => state.plat === 'all' || b.key === state.plat).map(b => {
       const items = proven.filter(v => b.match.includes(v.platform));
       if (!items.length) return '';
@@ -404,7 +405,7 @@
     const hookHtml = featured.length ? '<div class="panel glass"><div class="rows">' + featured.map(hookRow).join('') + '</div></div>' : '';
 
     return hero +
-      sec('Virality leaderboards', 'Only proven hits: at least 1M views, or 100K likes where views are private. Ranked separately on each platform, because a view means something different on each app.', seg, picks) +
+      sec(useBar ? 'Virality leaderboards' : 'Your picks', useBar ? 'Only proven hits: at least 1M views, or 100K likes where views are private. Ranked separately on each platform, because a view means something different on each app.' : 'Every video you sent in, ranked by virality on each platform. No viral bar here.', seg, picks) +
       (trendHtml ? sec('Moving right now', 'Signals from this week’s research. Ride them early.', '', trendHtml) : '') +
       (hookHtml ? sec('Hooks to steal this week', 'Fill the brackets with your niche.', '<a class="link" href="#hooks">All hooks →</a>', hookHtml) : '');
   }
@@ -636,7 +637,7 @@
             (v.url ? '<a class="btn' + (emb && !IS_SINGLE ? '' : ' primary') + '" href="' + esc(v.url) + '" target="_blank" rel="noopener">' + I.ext + (v.url_is_exact_post === false ? (/tiktok|instagram|youtube|x\.com/.test(host(v.url)) ? 'Open creator profile' : 'Read the source') : 'Watch on ' + platLabel) + '</a>' : '') +
           '</div></div>' +
         '<div class="d-main">' +
-          '<div class="tags"><span class="tag n" data-n="' + esc(v.niche) + '">' + esc(n.label) + '</span>' + (v.adjacent ? '<span class="tag">Adjacent niche</span>' : '') + '<span class="tag">' + esc(platLabel) + '</span>' + (v.posted ? '<span class="tag">Posted ' + esc(fmtDate(v.posted)) + '</span>' : '') + (v.evidence ? '<span class="tag ev-' + esc(v.evidence) + '">Evidence: ' + esc(v.evidence) + '</span>' : '') + (v.effort ? '<span class="tag">Effort: ' + esc(v.effort) + '</span>' : '') + '</div>' +
+          '<div class="tags"><span class="tag n" data-n="' + esc(v.niche) + '">' + esc(n.label) + '</span>' + (v.pick ? '<span class="tag n" data-n="general">Constantin\'s pick</span>' : '') + (v.adjacent ? '<span class="tag">Adjacent niche</span>' : '') + '<span class="tag">' + esc(platLabel) + '</span>' + (v.posted ? '<span class="tag">Posted ' + esc(fmtDate(v.posted)) + '</span>' : '') + (v.evidence ? '<span class="tag ev-' + esc(v.evidence) + '">Evidence: ' + esc(v.evidence) + '</span>' : '') + (v.effort ? '<span class="tag">Effort: ' + esc(v.effort) + '</span>' : '') + '</div>' +
           '<h2 id="sheet-title">' + esc(v.title) + '</h2>' +
           '<p style="color:var(--fg-2)">' + esc((v.creator && [v.creator.name, v.creator.handle].filter(Boolean).join(' · ')) || '') + (v.creator && v.creator.followers ? ' · ' + esc(v.creator.followers) + ' followers' : '') + (v.url_is_exact_post === false ? ' · <em>exact post link not found; the button opens the best available source</em>' : '') + '</p>' +
           (v.url_note ? '<p style="color:var(--warn);font-size:var(--t-xs)">' + esc(v.url_note) + '</p>' : '') +

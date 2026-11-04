@@ -10,6 +10,13 @@
    "kind": "collection",
    "label": "Hall of Fame · 10M+",
    "count": 97
+  },
+  {
+   "id": "my-picks",
+   "kind": "collection",
+   "label": "Constantin's picks",
+   "count": 1,
+   "bar": false
   }
  ],
  "latest": "2026-11-02"

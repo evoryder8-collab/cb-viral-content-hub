@@ -1,0 +1,80 @@
+{
+ "id": "my-picks",
+ "kind": "collection",
+ "label": "Constantin's picks",
+ "bar": false,
+ "headline": "Videos you sent in",
+ "headline_html": "Videos <em>you</em> sent in",
+ "lede": "Posts Constantin added because he loves the craft. Numbers come from each post's own page; no viral bar applies here.",
+ "moves": [],
+ "picks": [
+  "pt-fitnessxgabby-gym-edit-with-body"
+ ],
+ "videos": [
+  {
+   "id": "pt-fitnessxgabby-gym-edit-with-body",
+   "title": "Gym edit with body-mask wipe transitions",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DZLE16bIZfW/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@fitnessxgabby",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 25163,
+    "comments": 483,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-04: 25,163 likes · 483 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DZLE16bIZfW/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "The one thing i love about the gym… Is that it can't be faked.",
+    "summary": "Described by Constantin: a mix of gym footage, sound effects (SFX) and wipe transitions built on body masks, where a person walking across the frame is masked out and becomes the wipe into the next shot. The quoted line is the caption's opening.",
+    "types": [
+     "visual_spectacle",
+     "contrarian"
+    ]
+   },
+   "formula": "Gym B-roll cut on SFX hits → each cut is a body-mask wipe (someone walks across the frame and reveals the next shot) → caption carries a short manifesto about earned physiques",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. The transitions are motivated by real movement in the frame, so the edit feels physical rather than like a template effect, and SFX sell every wipe. Per the caption it was shot on a DJI Osmo Action 4 and edited in Adobe Premiere Pro, tagged #gymedit. 25K likes is modest; it's here as a craft reference, not as viral proof.",
+   "production": {
+    "camera": "action_camera",
+    "asmr": "no",
+    "editing": "heavy",
+    "vfx": "Body-mask wipe transitions with SFX on each wipe (per Constantin); a floating phone-screen composite is visible in the cover",
+    "captions": null,
+    "audio": "music",
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "For a PT gym: lock off 6–10 short training shots (one angle each) and, between them, have someone walk close past the lens. In Premiere Pro (or CapCut's masking), mask the walker's body frame by frame and reveal the next clip behind them; add a whoosh or impact SFX on every wipe and cut to the beat. Action camera or phone at 50–60 fps makes the masking easier. End on the strongest rep.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 76,
+    "relevancy": 94
+   },
+   "effort": "high",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Members training, one locked-off angle per shot; a trainer walking past the lens wipes into the next member. SFX on every wipe, end on a PR.",
+    "massage": "Treatment-room B-roll (oil, hands, stretch); the therapist walking past the camera wipes into the next technique. Soft whoosh instead of impact hits.",
+    "dexa_biohacking": "Client walks past the lens and reveals them lying on the DEXA table, then the printout; a second walk-by reveals the 12-week rescan.",
+    "icebath": "A walk-by wipe from the sauna door to the plunge, then from the gasp to the calm exhale; ice-crack SFX on each wipe.",
+    "photo_video": "Showreel structure for your own work: each walk-by in an event clip wipes into the next client's best shot. Use it to show range in 20 seconds."
+   },
+   "thumb": "thumbs/pt-fitnessxgabby-gym-edit-with-body.jpg"
+  }
+ ],
+ "trends": []
+}
