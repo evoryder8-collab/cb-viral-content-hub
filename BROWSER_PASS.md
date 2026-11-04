@@ -45,3 +45,17 @@ cannot: read real numbers on the post pages, find exact Instagram links, and add
    file to that same `url`, passing the covers in `thumbs/` as `files` (map printed in
    `cb-viral-content-hub.html.files.json`).
 8. Report: references verified, numbers changed, posts removed, exact links found, new hits per platform.
+
+## Inbox: posts Constantin sends in
+
+`data/inbox.json` lists posts Constantin asked to add (`status: "pending"`). The CB Hub covers Action reads each
+one's public link preview into `meta` (caption, likes/comments text, preview image) when it can. For every
+pending item:
+
+1. Open the post in Chrome and read its numbers and content (fall back to `meta` only if the page won't load,
+   and label the quote "From the post's link preview, fetched YYYY-MM-DD").
+2. Write a full entry (research schema in `RESEARCH_PLAYBOOK.md`, plus `title_short`, `scores`, `effort`) and
+   merge it with `scripts/apply_browser_findings.py`: into `hall-of-fame` if it clears 10M views (1M likes
+   when views are hidden), otherwise into the latest week. Constantin's picks are never dropped for being
+   below the bar; they go into the latest week's "below the viral bar" list if they're small.
+3. Set the item's `status` to `"added"` with the `id` it got, or `"skipped"` with a reason. Commit `data/`.

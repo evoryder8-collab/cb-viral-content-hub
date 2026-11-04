@@ -126,6 +126,12 @@ upserted by key/text, so only send what changed.
 - Photo & video: BTS vs result, phone hacks, stranger portraits, event/sports BTS, director moments.
 - Platform news: Instagram (@mosseri), TikTok Newsroom, YouTube Shorts updates, Social Media Today.
 
+## 1b. Inbox
+
+Before curating, handle every `status: "pending"` item in `data/inbox.json` (posts Constantin sent in) as
+described in `BROWSER_PASS.md` → "Inbox". In a cloud session you can't open the post, so use the `meta` the
+Action read from the link preview; if there is no `meta` yet, leave the item pending.
+
 ## 2. Curate (overlay file)
 
 Run `python3 scripts/import_research.py --week YYYY-MM-DD --research research/YYYY-MM-DD --list` to see the
