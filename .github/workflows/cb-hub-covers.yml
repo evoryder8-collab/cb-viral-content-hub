@@ -53,4 +53,5 @@ jobs:
             exit 0
           fi
           git commit -m "Hub: add original covers"
+          git pull --rebase origin main
           git push

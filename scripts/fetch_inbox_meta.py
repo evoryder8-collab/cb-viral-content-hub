@@ -48,6 +48,11 @@ def read_preview(url):
         j = json.loads(body)
         return {"title": j.get("title"), "author": j.get("author_name"), "image": j.get("thumbnail_url")}
     last = None
+    if "instagram.com" in url:
+        try:
+            return instagram_embed(url)
+        except Exception as exc:  # noqa: BLE001
+            last = f"embed: {exc}"
     for ua in (FT.UA_PREVIEW, "Twitterbot/1.0"):
         try:
             body, _ = FT.get(url, ua=ua)
@@ -55,10 +60,31 @@ def read_preview(url):
                    "image": meta_tag(body, "og:image")}
             if out["title"] or out["description"]:
                 return out
-            last = f"no preview tags in {len(body)} bytes"
+            t = re.search(rb"<title[^>]*>(.*?)</title>", body, re.S)
+            last = (f"no preview tags in {len(body)} bytes (page title: "
+                    f"{html.unescape(t.group(1).decode('utf-8', 'replace')).strip()[:80] if t else 'none'})")
         except Exception as exc:  # noqa: BLE001
             last = str(exc)
     raise ValueError(last or "no preview")
+
+
+def instagram_embed(url):
+    """Instagram's embed page (what other websites show) usually works without a login."""
+    m = re.search(r"instagram\.com/(?:[\w.]+/)?(reel|p|tv)/([\w-]+)", url)
+    body, _ = FT.get(f"https://www.instagram.com/{m.group(1)}/{m.group(2)}/embed/captioned/")
+    text = lambda b: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", b.decode("utf-8", "replace")))).strip()
+    img = re.search(rb'class="EmbeddedMediaImage"[^>]*src="([^"]+)"', body) or re.search(rb'<img[^>]+src="(https://[^"]*(?:cdninstagram|fbcdn)[^"]+)"', body)
+    cap = re.search(rb'class="Caption"[^>]*>(.*?)</div>', body, re.S)
+    user = re.search(rb'class="UsernameText"[^>]*>([^<]+)<', body)
+    likes = re.search(rb'([\d.,]+\s*[KkMm]?)\s+likes', body)
+    out = {"source": "instagram embed page",
+           "author": user.group(1).decode().strip() if user else None,
+           "description": text(cap.group(1))[:600] if cap else None,
+           "likes_text": likes.group(0).decode() if likes else None,
+           "image": html.unescape(img.group(1).decode()) if img else None}
+    if not (out["image"] or out["description"]):
+        raise ValueError(f"nothing usable in {len(body)} bytes")
+    return out
 
 
 def main():
