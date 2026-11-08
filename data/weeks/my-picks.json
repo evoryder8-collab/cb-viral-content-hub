@@ -14,7 +14,9 @@
   "pt-shubham-fitnesx-love-trend-athlete-edition",
   "pt-karnex01-cake-cut-with-a",
   "pt-tiboinshape-tibo-inshape-s-love",
-  "pv-greeka-ch-fake-cctv-robbery-skit"
+  "pv-greeka-ch-fake-cctv-robbery-skit",
+  "pt-trevorclark4-can-you-do-this",
+  "pt-stayclassycrossfit-crossfit-gym-s-love"
  ],
  "videos": [
   {
@@ -843,6 +845,241 @@
     "avoid": "Don't let it pass as a real crime"
    },
    "thumb": "thumbs/pv-greeka-ch-fake-cctv-robbery-skit.jpg"
+  },
+  {
+   "id": "pt-trevorclark4-can-you-do-this",
+   "title": "“Can you do this?” gymnastics challenge in a CrossFit gym",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfYR-mixmNQ/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@trevorclark4",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 10197,
+    "comments": 65,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 10,197 likes · 65 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DfYR-mixmNQ/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "Can you do this?",
+    "summary": "On-screen “Can you do this?” and then “If you can do this…” over a coach pointing at the floor before a gymnastics move. The caption calls it a gymnastics challenge that's “harder than it looks” and credits @wilbarker.fit. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "challenge_day_x",
+     "question",
+     "test_experiment"
+    ]
+   },
+   "formula": "Direct challenge to the viewer (“Can you do this?”) → coach demonstrates a bodyweight move → conditional line (“If you can do this…”) invites viewers to try it and comment",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. A direct question puts the viewer inside the challenge, and “harder than it looks” makes people try it at home, comment and tag friends. 10.2K likes and 65 comments on the embed page.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Trainer faces the camera and asks “Can you do this?”, demonstrates one bodyweight skill members can learn (handstand hold, pistol squat, floor get-up), then lands the line “If you can do this, you're ready for…”. Show a safe progression in the caption and invite stitches.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 92
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Coach asks “Can you do this?”, demonstrates a skill your members can learn, and ends with “if you can, you're ready for our advanced class”.",
+    "massage": "“Can you do this?”: a 20-second mobility check (touch your toes, turn your neck fully); “if you can't, book a release”.",
+    "dexa_biohacking": "“Can you do this?”: the sit-to-rise test on camera, then “find out what your body really says with a DEXA scan”. Don't claim it measures age.",
+    "icebath": "“Can you do this?”: one minute in the plunge at 3 °C with a timer on screen; “if you can, join the Sunday group”.",
+    "photo_video": "“Can you hold this pose?”: a posing challenge for clients, with the final frame as the payoff."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "question",
+      "do": "“Can you do this?” as he points down"
+     },
+     {
+      "t": "2–8s",
+      "icon": "person",
+      "do": "He demonstrates the gymnastics move"
+     },
+     {
+      "t": "End",
+      "icon": "text",
+      "do": "“If you can do this…” challenges the viewer"
+     }
+    ],
+    "why": [
+     {
+      "icon": "question",
+      "says": "A direct question pulls the viewer in"
+     },
+     {
+      "icon": "chat",
+      "says": "Viewers try it and tag friends"
+     }
+    ],
+    "shot": {
+     "angle": "Wide full-body shot",
+     "text": "Question lines on screen",
+     "people": "One coach"
+    },
+    "steps": [
+     {
+      "icon": "question",
+      "do": "Open with “Can you do this?” to camera"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Demonstrate one bodyweight skill cleanly",
+      "tip": "Pick a skill members can attempt"
+     },
+     {
+      "icon": "text",
+      "do": "Add “If you can do this…” plus the payoff"
+     },
+     {
+      "icon": "chat",
+      "do": "Ask viewers to stitch their attempt"
+     }
+    ],
+    "avoid": "Show a safe progression for beginners"
+   },
+   "thumb": "thumbs/pt-trevorclark4-can-you-do-this.jpg"
+  },
+  {
+   "id": "pt-stayclassycrossfit-crossfit-gym-s-love",
+   "title": "CrossFit gym's “LOVE” trend with a barbell plate as the O",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfFc28gu0Z3/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@stayclassycrossfit",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 6176,
+    "comments": 18,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 6,176 likes · 18 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DfFc28gu0Z3/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "Find a gym (and community) you'll LOVE.",
+    "summary": "LOVE spelled over the gym floor with a Rogue bumper plate's centre as the “O”. The caption sells a free week of classes with a deadline (“Offer ends 11/30”) and a link in bio. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "visual_spectacle",
+     "price_value_reveal"
+    ]
+   },
+   "formula": "Running trend (LOVE letters) with the gym's own equipment as the O → caption turns it into an offer: free week of classes, a deadline, link in bio",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. The gym rides the same LOVE trend as two other favourites but swaps the body for its own kit, then puts a time-limited free week in the caption: the trend brings reach, the offer brings sign-ups. 6.2K likes for a local gym account.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "Pick an object that defines your space and make its round shape the O; one low, steady shot with room for the letters; the caption is the offer with a clear deadline and a link.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 78,
+    "relevancy": 95
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Do the trend with your own kit (plate, kettlebell, rings) as the O, then a free-week offer with a deadline in the caption.",
+    "massage": "LOVE with a hot stone or the face cradle as the O; the caption offers a first-visit price until a date.",
+    "dexa_biohacking": "LOVE with the DEXA printout's body-fat circle as the O; the caption offers a baseline scan price.",
+    "icebath": "LOVE with the plunge tub seen from above as the O; the caption offers a first-plunge session.",
+    "photo_video": "LOVE with a lens as the O for your own studio; the caption offers a mini shoot."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "L appears beside a bumper plate"
+     },
+     {
+      "t": "2–5s",
+      "icon": "dumbbell",
+      "do": "The plate's centre becomes the O"
+     },
+     {
+      "t": "End",
+      "icon": "money",
+      "do": "Caption: free trial week until 30 November"
+     }
+    ],
+    "why": [
+     {
+      "icon": "fire",
+      "says": "Trend twist using the gym's own kit"
+     },
+     {
+      "icon": "money",
+      "says": "Deadline offer turns reach into sign-ups"
+     }
+    ],
+    "shot": {
+     "angle": "Low, floor-level shot",
+     "text": "Letter overlays spell LOVE"
+    },
+    "steps": [
+     {
+      "icon": "eye",
+      "do": "Pick one object that defines your space"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot it low and steady, room for letters"
+     },
+     {
+      "icon": "text",
+      "do": "Make its round shape the O"
+     },
+     {
+      "icon": "money",
+      "do": "Caption: free trial with a clear deadline"
+     }
+    ],
+    "avoid": "Post while the LOVE trend still runs"
+   },
+   "thumb": "thumbs/pt-stayclassycrossfit-crossfit-gym-s-love.jpg"
   }
  ],
  "trends": []
