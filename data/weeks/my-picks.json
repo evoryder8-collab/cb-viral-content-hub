@@ -13,7 +13,8 @@
   "pt-pug-modeltown-don-t-spill-the",
   "pt-shubham-fitnesx-love-trend-athlete-edition",
   "pt-karnex01-cake-cut-with-a",
-  "pt-tiboinshape-tibo-inshape-s-love"
+  "pt-tiboinshape-tibo-inshape-s-love",
+  "pv-greeka-ch-fake-cctv-robbery-skit"
  ],
  "videos": [
   {
@@ -78,7 +79,62 @@
     "icebath": "A walk-by wipe from the sauna door to the plunge, then from the gasp to the calm exhale; ice-crack SFX on each wipe.",
     "photo_video": "Showreel structure for your own work: each walk-by in an event clip wipes into the next client's best shot. Use it to show range in 20 seconds."
    },
-   "thumb": "thumbs/pt-fitnessxgabby-gym-edit-with-body.jpg"
+   "thumb": "thumbs/pt-fitnessxgabby-gym-edit-with-body.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "dumbbell",
+      "do": "Gym shot cut on a hard SFX hit"
+     },
+     {
+      "t": "2–10s",
+      "icon": "person",
+      "do": "A walk-by body mask reveals the next shot"
+     },
+     {
+      "t": "End",
+      "icon": "text",
+      "do": "Caption manifesto: “it can't be faked”"
+     }
+    ],
+    "why": [
+     {
+      "icon": "spark",
+      "says": "Transitions come from real movement, not templates"
+     },
+     {
+      "icon": "ear",
+      "says": "SFX hits sell every wipe"
+     }
+    ],
+    "shot": {
+     "camera": "DJI Osmo Action 4",
+     "edit": "Heavy: masks in Premiere Pro",
+     "sound": "Music plus SFX hits"
+    },
+    "steps": [
+     {
+      "icon": "tripod",
+      "do": "Lock off 6–10 short training shots",
+      "tip": "One angle per shot"
+     },
+     {
+      "icon": "person",
+      "do": "Have someone walk close past the lens"
+     },
+     {
+      "icon": "cut",
+      "do": "Mask the walker and reveal the next clip",
+      "tip": "60 fps makes masking easier"
+     },
+     {
+      "icon": "ear",
+      "do": "Add a whoosh or impact on every wipe"
+     }
+    ],
+    "avoid": "Don't film members without their consent"
+   }
   },
   {
    "id": "ms-jamesmoorewellness-partner-decompression-massage-you",
@@ -144,7 +200,60 @@
     "icebath": "“Warm your partner up after the plunge”: a quick towel-and-breath routine coached by the guide.",
     "photo_video": "Film a couples' session in this tutorial style: close hands, the partner's face, big subtitles."
    },
-   "thumb": "thumbs/ms-jamesmoorewellness-partner-decompression-massage-you.jpg"
+   "thumb": "thumbs/ms-jamesmoorewellness-partner-decompression-massage-you.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Promise: relax your partner's entire body"
+     },
+     {
+      "t": "2–20s",
+      "icon": "hand",
+      "do": "Techniques shown hands-on on a real partner"
+     },
+     {
+      "t": "End",
+      "icon": "chat",
+      "do": "Follow CTA, plus “educational only” disclaimer"
+     }
+    ],
+    "why": [
+     {
+      "icon": "heart",
+      "says": "Something to try on your partner tonight"
+     },
+     {
+      "icon": "share",
+      "says": "Couples send it to each other"
+     }
+    ],
+    "shot": {
+     "text": "Word-by-word subtitles",
+     "people": "Practitioner and a real partner"
+    },
+    "steps": [
+     {
+      "icon": "people",
+      "do": "Film a real couple who both agree",
+      "tip": "Model release from both"
+     },
+     {
+      "icon": "hand",
+      "do": "Show three simple techniques, one per beat"
+     },
+     {
+      "icon": "text",
+      "do": "Burn in big word-by-word subtitles"
+     },
+     {
+      "icon": "share",
+      "do": "End on “send this to your partner”"
+     }
+    ],
+    "avoid": "No spinal pressure claims or risky moves"
+   }
   },
   {
    "id": "pt-pug-modeltown-don-t-spill-the",
@@ -208,7 +317,59 @@
     "icebath": "“Don't flinch” challenge: hold a glass of water steady while stepping into the plunge.",
     "photo_video": "Film a client's challenge day for them; deliver the edit with the title card and their offer in the caption."
    },
-   "thumb": "thumbs/pt-pug-modeltown-don-t-spill-the.jpg"
+   "thumb": "thumbs/pt-pug-modeltown-don-t-spill-the.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Title card: “Don't spill the water challenge”"
+     },
+     {
+      "t": "2–15s",
+      "icon": "people",
+      "do": "Members attempt it while the group watches"
+     },
+     {
+      "t": "End",
+      "icon": "money",
+      "do": "Caption sells membership with address and phone"
+     }
+    ],
+    "why": [
+     {
+      "icon": "laugh",
+      "says": "Simple, funny challenge anyone can judge"
+     },
+     {
+      "icon": "money",
+      "says": "Entertainment on screen, the sale in caption"
+     }
+    ],
+    "shot": {
+     "text": "Big title card on screen",
+     "people": "Real members, gym crowd"
+    },
+    "steps": [
+     {
+      "icon": "dumbbell",
+      "do": "Pick one 20-second challenge members can try"
+     },
+     {
+      "icon": "tripod",
+      "do": "Film 4–6 attempts from one angle"
+     },
+     {
+      "icon": "text",
+      "do": "Put the challenge name on screen"
+     },
+     {
+      "icon": "money",
+      "do": "Offer, address and booking line in caption"
+     }
+    ],
+    "avoid": "Keep the challenge safe for every member"
+   }
   },
   {
    "id": "pt-shubham-fitnesx-love-trend-athlete-edition",
@@ -272,7 +433,59 @@
     "icebath": "LOVE spelled with ice cubes, the O as a heart drawn in the frost on the tub.",
     "photo_video": "Do the trend with camera gear: two lenses forming the heart."
    },
-   "thumb": "thumbs/pt-shubham-fitnesx-love-trend-athlete-edition.jpg"
+   "thumb": "thumbs/pt-shubham-fitnesx-love-trend-athlete-edition.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "“Love trend, but make it athlete edition”"
+     },
+     {
+      "t": "2–6s",
+      "icon": "dumbbell",
+      "do": "Letters L, V, E appear around him"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Flexed arms form the heart as the O"
+     }
+    ],
+    "why": [
+     {
+      "icon": "fire",
+      "says": "Rides a trend people already recognise"
+     },
+     {
+      "icon": "spark",
+      "says": "One niche twist makes it his own"
+     }
+    ],
+    "shot": {
+     "angle": "Locked-off full-body shot",
+     "text": "Letter overlays plus title"
+    },
+    "steps": [
+     {
+      "icon": "eye",
+      "do": "Spot a body or letter trend this week"
+     },
+     {
+      "icon": "tripod",
+      "do": "Shoot one locked-off full-body take"
+     },
+     {
+      "icon": "text",
+      "do": "Add the letters in the edit"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Make your niche's pose the punchline"
+     }
+    ],
+    "avoid": "Post while the trend is still running"
+   }
   },
   {
    "id": "pt-karnex01-cake-cut-with-a",
@@ -336,7 +549,60 @@
     "icebath": "Cut the anniversary cake with an ice block; the crowd films on their phones.",
     "photo_video": "Shoot the crowd filming as much as the stunt: phones in the foreground sell the moment."
    },
-   "thumb": "thumbs/pt-karnex01-cake-cut-with-a.jpg"
+   "thumb": "thumbs/pt-karnex01-cake-cut-with-a.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "eye",
+      "do": "Knife fixed to a barbell over a cake"
+     },
+     {
+      "t": "2–10s",
+      "icon": "dumbbell",
+      "do": "Bench press lowers the blade through the cake"
+     },
+     {
+      "t": "End",
+      "icon": "people",
+      "do": "Crowd films on phones, milestone promise in caption"
+     }
+    ],
+    "why": [
+     {
+      "icon": "eye",
+      "says": "One impossible image explains the whole video"
+     },
+     {
+      "icon": "star",
+      "says": "Milestone promise makes followers come back"
+     }
+    ],
+    "shot": {
+     "people": "Lifter plus crowd filming",
+     "text": "Russian title: “cakes for millions”"
+    },
+    "steps": [
+     {
+      "icon": "star",
+      "do": "Tie a stunt to a gym milestone"
+     },
+     {
+      "icon": "warn",
+      "do": "Use a blunt prop and a spotter",
+      "tip": "Nobody under the bar"
+     },
+     {
+      "icon": "camera",
+      "do": "Film the crowd's phones as well as the stunt"
+     },
+     {
+      "icon": "chat",
+      "do": "Promise the next one at the next goal"
+     }
+    ],
+    "avoid": "Never use a real blade near lifters"
+   }
   },
   {
    "id": "pt-tiboinshape-tibo-inshape-s-love",
@@ -400,7 +666,183 @@
     "icebath": "Guide does the trend by the plunge with steam behind.",
     "photo_video": "You do the trend on set between takes; post it as a behind-the-scenes bonus."
    },
-   "thumb": "thumbs/pt-tiboinshape-tibo-inshape-s-love.jpg"
+   "thumb": "thumbs/pt-tiboinshape-tibo-inshape-s-love.jpg",
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "face",
+      "do": "Smiling in his kitchen, letter L appears"
+     },
+     {
+      "t": "2–6s",
+      "icon": "text",
+      "do": "V and E fill in around him"
+     },
+     {
+      "t": "End",
+      "icon": "heart",
+      "do": "Biceps heart completes the O"
+     }
+    ],
+    "why": [
+     {
+      "icon": "face",
+      "says": "Relaxed home setting reads as personality"
+     },
+     {
+      "icon": "fire",
+      "says": "Same trend, recognisable instantly"
+     }
+    ],
+    "shot": {
+     "angle": "Waist-up, kitchen background",
+     "text": "Letter overlays"
+    },
+    "steps": [
+     {
+      "icon": "pin",
+      "do": "Pick an everyday spot, not the gym floor"
+     },
+     {
+      "icon": "tripod",
+      "do": "Frame waist-up with room for letters"
+     },
+     {
+      "icon": "heart",
+      "do": "Land the biceps heart as the O"
+     }
+    ],
+    "avoid": "Don't repost his video; make your own"
+   }
+  },
+  {
+   "id": "pv-greeka-ch-fake-cctv-robbery-skit",
+   "title": "Fake CCTV “robbery” skit for a restaurant in Biel/Bienne",
+   "niche": "photo_video",
+   "adjacent": true,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfaDfuYORDG/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@greeka_ch",
+    "name": "Greeka (Greek restaurant and take-away, Biel/Bienne)",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "my-pick"
+   },
+   "posted": "2026-11-06",
+   "hook": {
+    "verbatim": "🚨 UN NOUVEAU BRAQUAGE À BIENNE ! 🚨",
+    "summary": "A fake local news story: “breaking news Biel/Bienne” over an overhead CCTV-style shot, staff with their hands up as a “robber” walks in. Per the caption he gets distracted by an ad sign, makes himself a pita in the kitchen and leaves full; the CCTV reveals the real culprit, the Pita Gyros Raclette. The caption ends by saying the scene is fiction. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "storytime",
+     "pattern_interrupt",
+     "humor_skit"
+    ]
+   },
+   "formula": "Fake breaking-news lower third + CCTV angle → staged “robbery” at the counter → the robber gets distracted by the product → the product is revealed as the culprit; caption confirms it's fiction",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. The city name, date and time make locals stop scrolling, the CCTV look reads as real footage, and the product is the punchline, so the ad doesn't feel like an ad. It's a business in Biel/Bienne, the same Swiss market Constantin films in.",
+   "production": {
+    "camera": null,
+    "asmr": "no",
+    "editing": "light",
+    "vfx": "Breaking-news lower third over a high, CCTV-style angle",
+    "captions": true,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "For a client: build a fake local news story around their product. Shoot from a high corner like a security camera, add a “breaking news” lower third with the city name, let staff play along, make the product the twist, and say clearly in the caption that it's fiction. Agree the framing with the business first and keep it obviously playful, so nobody mistakes it for a real crime report.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 82,
+    "relevancy": 84
+   },
+   "effort": "medium",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "“Break-in at the gym”: CCTV shows a ‘burglar’ who stops to train on the new rack; the real culprit is the PT offer.",
+    "massage": "A CCTV ‘intruder’ sneaks into the studio, gets distracted by the treatment table and leaves relaxed; the culprit is the 60-minute deep tissue.",
+    "dexa_biohacking": "Breaking news: a suspect caught on CCTV stepping into the DEXA scanner; the culprit is the body-composition report.",
+    "icebath": "An intruder comes to steal the ice and ends up in the plunge; breaking-news lower third with your city.",
+    "photo_video": "Sell it as a package to local businesses: a fake breaking-news CCTV skit, shot in one afternoon."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "“Breaking news Biel/Bienne” over CCTV-style footage"
+     },
+     {
+      "t": "2–10s",
+      "icon": "people",
+      "do": "“Robber” walks in, staff raise their hands"
+     },
+     {
+      "t": "10–20s",
+      "icon": "eye",
+      "do": "He gets distracted and makes himself a pita"
+     },
+     {
+      "t": "End",
+      "icon": "star",
+      "do": "Reveal: the pita gyros raclette is the culprit"
+     }
+    ],
+    "why": [
+     {
+      "icon": "pin",
+      "says": "City name and time make locals stop"
+     },
+     {
+      "icon": "laugh",
+      "says": "Product is the punchline, so it's no ad"
+     }
+    ],
+    "shot": {
+     "angle": "High corner, CCTV look",
+     "text": "Breaking-news lower third",
+     "people": "Staff playing along"
+    },
+    "steps": [
+     {
+      "icon": "pin",
+      "do": "Frame a fake local news story around the product"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot from a high corner like CCTV"
+     },
+     {
+      "icon": "text",
+      "do": "Add a breaking-news lower third with the city"
+     },
+     {
+      "icon": "star",
+      "do": "Make the product the twist and the culprit"
+     },
+     {
+      "icon": "chat",
+      "do": "Say clearly in the caption it's fiction",
+      "tip": "Avoid alarming real customers"
+     }
+    ],
+    "avoid": "Don't let it pass as a real crime"
+   },
+   "thumb": "thumbs/pv-greeka-ch-fake-cctv-robbery-skit.jpg"
   }
  ],
  "trends": []
