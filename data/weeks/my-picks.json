@@ -1,14 +1,19 @@
 {
  "id": "my-picks",
  "kind": "collection",
- "label": "Constantin's picks",
+ "label": "All-time favourites",
  "bar": false,
- "headline": "Videos you sent in",
- "headline_html": "Videos <em>you</em> sent in",
- "lede": "Posts Constantin added because he loves the craft. Numbers come from each post's own page; no viral bar applies here.",
+ "headline": "Your all-time favourites",
+ "headline_html": "Your <em>all-time</em> favourites",
+ "lede": "Videos Constantin added because he loves them. Numbers come from each post's own Instagram page; no viral bar applies here.",
  "moves": [],
  "picks": [
-  "pt-fitnessxgabby-gym-edit-with-body"
+  "pt-fitnessxgabby-gym-edit-with-body",
+  "ms-jamesmoorewellness-partner-decompression-massage-you",
+  "pt-pug-modeltown-don-t-spill-the",
+  "pt-shubham-fitnesx-love-trend-athlete-edition",
+  "pt-karnex01-cake-cut-with-a",
+  "pt-tiboinshape-tibo-inshape-s-love"
  ],
  "videos": [
   {
@@ -74,6 +79,326 @@
     "photo_video": "Showreel structure for your own work: each walk-by in an event clip wipes into the next client's best shot. Use it to show range in 20 seconds."
    },
    "thumb": "thumbs/pt-fitnessxgabby-gym-edit-with-body.jpg"
+  },
+  {
+   "id": "ms-jamesmoorewellness-partner-decompression-massage-you",
+   "title": "Partner decompression massage you can do at home",
+   "niche": "massage",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfaDy2px5c0/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@jamesmoorewellness",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "quote": null,
+    "source_url": null,
+    "as_of": "2026-11"
+   },
+   "posted": "2026-11-06",
+   "hook": {
+    "verbatim": null,
+    "summary": "Caption: “Decompress and relax your partner’s ENTIRE body with these simple but amazing techniques at home.” The cover shows a hands-on spinal decompression on a partner lying head-down, with word-by-word subtitles (“completely relaxed,”). (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "tutorial_howto",
+     "relatable_pain"
+    ]
+   },
+   "formula": "Promise for couples (“relax your partner’s entire body”) → hands-on techniques shown on a real partner → burned-in word-by-word subtitles → follow CTA",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. It turns professional bodywork into something a viewer can try on their partner tonight, which makes it shareable between couples. The caption carries an “educational only” disclaimer.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Therapist demonstrates 3 partner techniques on a real couple, one per beat, with big word-by-word subtitles; end with “send this to your partner” and a booking line. Keep the creator's “educational only” framing and don't show anything that could hurt a spine.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 90,
+    "relevancy": 96
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "massage": "“3 moves to relax your partner tonight”: therapist coaches a real couple, subtitles word by word, end on “book the real thing”.",
+    "gym_pt": "“Stretch your partner after leg day”: a trainer coaches a couple through 3 assisted stretches.",
+    "dexa_biohacking": "“Wind your partner down for better sleep”: a 3-step evening routine coached by the clinic, framed as general wellbeing, not treatment.",
+    "icebath": "“Warm your partner up after the plunge”: a quick towel-and-breath routine coached by the guide.",
+    "photo_video": "Film a couples' session in this tutorial style: close hands, the partner's face, big subtitles."
+   },
+   "thumb": "thumbs/ms-jamesmoorewellness-partner-decompression-massage-you.jpg"
+  },
+  {
+   "id": "pt-pug-modeltown-don-t-spill-the",
+   "title": "“Don't spill the water” challenge at a local gym",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DdWq8odyqn0/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@pug_modeltown_panipat",
+    "name": "Pro Ultimate Gym, Panipat",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 39069,
+    "comments": 123,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 39,069 likes · 123 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DdWq8odyqn0/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "DON'T SPILL THE WATER CHALLENGE",
+    "summary": "Big on-screen title over gym footage of members attempting the challenge; the cover shows a member drinking from a glass while holding a dumbbell, others watching. The caption adds a membership offer, address and phone number. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "challenge_day_x",
+     "visual_spectacle"
+    ]
+   },
+   "formula": "Named challenge as the on-screen title → members attempt it in front of the group → the caption sells a membership offer with location and contact",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. A local gym turned a simple party-game challenge into reach (39K likes) and paired it with a direct offer in the caption: entertainment on screen, the sale in the caption.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "client_only"
+   },
+   "replicate": "Pick one simple, funny challenge members can attempt in 20 seconds; film 4–6 attempts from one angle with the title on screen; best fail and best win last; put the offer, address and booking line in the caption, not the video.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 95
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Run a monthly challenge (plank-and-sip, wall-sit balance) with members; title on screen, offer in the caption.",
+    "massage": "“Don't spill the oil” balance challenge for therapists at a team day, or a calm “stay relaxed” challenge for clients.",
+    "dexa_biohacking": "“Guess your body-fat %” challenge: members guess, then the DEXA printout reveals it.",
+    "icebath": "“Don't flinch” challenge: hold a glass of water steady while stepping into the plunge.",
+    "photo_video": "Film a client's challenge day for them; deliver the edit with the title card and their offer in the caption."
+   },
+   "thumb": "thumbs/pt-pug-modeltown-don-t-spill-the.jpg"
+  },
+  {
+   "id": "pt-shubham-fitnesx-love-trend-athlete-edition",
+   "title": "“LOVE” trend, athlete edition: bicep heart as the O",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfZxMDLNSrw/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@shubham_fitnesx",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 90467,
+    "comments": 546,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 90,467 likes · 546 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DfZxMDLNSrw/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "Love trend, but make it athlete edition. 💀",
+    "summary": "The LOVE trend: the letters L, V and E appear around the creator while his flexed arms form a heart for the “O”. The cover shows a shirtless athlete against a wall with the letters overlaid. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "visual_spectacle",
+     "humor_skit"
+    ]
+   },
+   "formula": "Join a running trend (LOVE spelled with the body) → twist it to your niche (“athlete edition”) → the physique makes the punchline",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. It rides an existing trend people already recognise and adds one niche twist, so it travels with the trend's reach. 90K likes and 546 comments.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Watch which body or letter trends are running this week, then shoot your niche version the same day: one locked-off shot, the letters added in edit, the trainer's or member's pose as the payoff.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 88,
+    "relevancy": 90
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "LOVE trend with a member's bicep heart, or the trainer and a client making the O together.",
+    "massage": "LOVE trend with the therapist's hands making the heart over a client's back.",
+    "dexa_biohacking": "LOVE spelled with DEXA printouts, the heart made by two hands over the body-fat number.",
+    "icebath": "LOVE spelled with ice cubes, the O as a heart drawn in the frost on the tub.",
+    "photo_video": "Do the trend with camera gear: two lenses forming the heart."
+   },
+   "thumb": "thumbs/pt-shubham-fitnesx-love-trend-athlete-edition.jpg"
+  },
+  {
+   "id": "pt-karnex01-cake-cut-with-a",
+   "title": "Cake cut with a knife on the barbell during a bench press",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/Dc_qYryMcQ5/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@karnex01",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 57686,
+    "comments": 643,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 57,686 likes · 643 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/Dc_qYryMcQ5/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "ТОРТЫ НА МИЛЛИОНЫ (“cakes for millions”)",
+    "summary": "The cover shows a lifter on the bench with a long knife fixed to the barbell, lowering it into a big cake while a crowd films on phones; Russian text on the cover reads “viral content, the tradition continues”. The caption says “40M VIEWS 😳 10K FOLLOWERS = CAKE CUT 🎂”, a promise to repeat the stunt at a follower milestone (it's unclear whether the 40M refers to this reel). (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "visual_spectacle",
+     "pattern_interrupt"
+    ]
+   },
+   "formula": "Absurd stunt with gym equipment (a barbell becomes a cake knife) → crowd filming on phones → milestone promise (“10K followers = cake cut”) turns it into a recurring tradition",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. One impossible-looking image explains the whole video, and the milestone promise gives followers a reason to come back. 57K likes and 643 comments on the embed page.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Celebrate a gym milestone (members, followers, anniversary) with one safe, visual stunt using your own equipment; film the crowd's phones as well as the moment; promise the next one at the next milestone. Keep it safe: a spotter, a blunt prop instead of a real blade, nobody under the bar.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 86
+   },
+   "effort": "medium",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Milestone stunt: the strongest member cuts the anniversary cake with a (blunt) prop on the bar; promise the next one at the next follower goal.",
+    "massage": "Studio birthday: the therapist “massages” the cake with a wooden tool; milestone promise in the caption.",
+    "dexa_biohacking": "The cake comes out of the scanner on the DEXA table for the clinic's 1,000th scan.",
+    "icebath": "Cut the anniversary cake with an ice block; the crowd films on their phones.",
+    "photo_video": "Shoot the crowd filming as much as the stunt: phones in the foreground sell the moment."
+   },
+   "thumb": "thumbs/pt-karnex01-cake-cut-with-a.jpg"
+  },
+  {
+   "id": "pt-tiboinshape-tibo-inshape-s-love",
+   "title": "Tibo InShape's “LOVE” trend with a biceps heart",
+   "niche": "gym_pt",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DfMiaGfotZb/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@tiboinshape",
+    "name": "Tibo InShape",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 55816,
+    "comments": 224,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 55,816 likes · 224 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DfMiaGfotZb/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "Biceps heart 💪❤️",
+    "summary": "The same LOVE trend as the athlete edition: L, V and E around him while his flexed arms form the heart for the “O”. The cover shows him smiling in a kitchen, letters overlaid. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "visual_spectacle",
+     "humor_skit"
+    ]
+   },
+   "formula": "Big creator joins a running trend in his own home, with his signature physique as the twist",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. Same trend, different setting: a relaxed kitchen instead of a gym, which keeps it light. 55K likes and 224 comments.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "creator_on_camera"
+   },
+   "replicate": "Shoot trend versions in an everyday setting (kitchen, reception desk, car park) rather than only on the gym floor; it reads as personality rather than an ad.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 86,
+    "relevancy": 88
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Trainer does the trend at home or at reception, smiling: personality first.",
+    "massage": "Therapist does the trend in the treatment room between clients.",
+    "dexa_biohacking": "Clinic staff do the trend next to the scanner.",
+    "icebath": "Guide does the trend by the plunge with steam behind.",
+    "photo_video": "You do the trend on set between takes; post it as a behind-the-scenes bonus."
+   },
+   "thumb": "thumbs/pt-tiboinshape-tibo-inshape-s-love.jpg"
   }
  ],
  "trends": []
