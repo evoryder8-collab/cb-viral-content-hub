@@ -32,7 +32,9 @@ def main():
     manifest = json.loads(read("data", "manifest.json"))
     library = json.loads(read("data", "library.json"))
     weeks = {w["id"]: json.loads(read("data", "weeks", w["id"] + ".json")) for w in manifest["weeks"]}
-    data = {"mode": "single", "manifest": manifest, "library": library, "weeks": weeks}
+    creators_p = os.path.join(ROOT, "data", "creators.json")
+    creators = json.loads(read("data", "creators.json")) if os.path.exists(creators_p) else {}
+    data = {"mode": "single", "manifest": manifest, "library": library, "weeks": weeks, "creators": creators}
     # </script> inside JSON strings would close the tag early
     data_js = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 

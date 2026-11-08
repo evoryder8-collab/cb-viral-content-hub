@@ -134,7 +134,8 @@
 
   /* ---------------- scoring ---------------- */
   // Virality is computed from public numbers only, so it is the same for everyone and re-computable.
-  function virality(v) {
+  // Reach: raw numbers on a log scale (10K ≈ 20, 1M ≈ 55, 30M+ ≈ 80, plus up to 20 for like-rate).
+  function reachScore(v) {
     const s = v.stats || {};
     let base = null, eng = 8, basis = '';
     if (s.views) {
@@ -148,10 +149,41 @@
     if (base == null) return { value: null, basis: 'none' };
     return { value: Math.round(clamp(base + eng, 0, 99)), basis };
   }
+  // Breakout: likes + comments compared with a typical post from an account of the same size.
+  // Typical = followers × median engagement per post (Rival IQ 2026 benchmark, as reported by Apaya / iqfluence).
+  const BENCH = { instagram: 0.0030, tiktok: 0.0201 };
+  const BENCH_SRC = 'https://apaya.com/blog/social-media-benchmarks-instagram';
+  function creatorOf(v) {
+    const h = v.creator && v.creator.handle;
+    if (!h || !state.data || !state.data.creators) return null;
+    return state.data.creators[v.platform + ':' + h.replace(/^@/, '').toLowerCase()] || null;
+  }
+  function breakout(v) {
+    const c = creatorOf(v), rate = BENCH[v.platform], s = v.stats || {};
+    const eng = (s.likes || 0) + (s.comments || 0);
+    if (!c || !c.followers || !rate || !eng) return null;
+    const expected = c.followers * rate, multiple = eng / expected;
+    return { multiple, expected, followers: c.followers, rate, eng, score: clamp(30 + 25 * Math.log10(multiple), 0, 99) };
+  }
+  function viralWhy(vi) {
+    if (vi.basis === 'breakout') {
+      const b = vi.b, pl = b.rate === BENCH.instagram ? 'Instagram' : 'TikTok';
+      return '<b>Virality ' + vi.value + ':</b> ' + fmt(b.eng) + ' likes + comments, <b>' + (b.multiple >= 10 ? Math.round(b.multiple) : b.multiple.toFixed(1)) + '×</b> a typical ' + pl + ' post for an account of ' + fmt(b.followers) + ' followers (≈' + fmt(Math.round(b.expected)) + ', median ' + (b.rate * 100).toFixed(2) + '%, <a class="link" href="' + BENCH_SRC + '" target="_blank" rel="noopener">Rival IQ 2026</a>)' + (vi.r && vi.r.value != null ? '; reach score ' + vi.r.value + '. 60% breakout + 40% reach.' : '.');
+    }
+    if (vi.value != null) return '<b>Virality ' + vi.value + ':</b> reach only (raw numbers on a log scale). The creator\'s follower count isn\'t known yet, so how far this beat the account\'s normal can\'t be scored.';
+    return '<b>No virality score:</b> no public numbers for this post yet.';
+  }
+  function virality(v) {
+    const r = reachScore(v), b = breakout(v);
+    if (b) return { value: Math.round(r.value == null ? b.score : 0.6 * b.score + 0.4 * r.value), basis: 'breakout', b, r };
+    return r;
+  }
   // The viral bar: a leaderboard only shows proven hits.
   const BAR = { views: 1e6, likes: 1e5 };
   function passesBar(v) {
     const s = v.stats || {};
+    const b = breakout(v);
+    if (b && b.multiple >= 20 && (s.likes || 0) >= 20000) return true;  // a niche breakout counts as proven
     if (s.views) return s.views >= BAR.views;
     return (s.likes || 0) >= BAR.likes;
   }
@@ -181,7 +213,9 @@
     const library = await getJSON('data/library.json');
     const weeks = {};
     await Promise.all(manifest.weeks.map(async w => { weeks[w.id] = await getJSON('data/weeks/' + w.id + '.json'); }));
-    return { manifest, library, weeks };
+    let creators = {};
+    try { creators = await getJSON('data/creators.json'); } catch (e) { /* follower counts not collected yet */ }
+    return { manifest, library, weeks, creators };
   }
 
   // Flatten all weeks into one index (a newer week's copy of a video wins).
@@ -489,7 +523,7 @@
     const cHtml = cs.length ? '<div class="panel glass"><div class="facts">' + cs.map(c => '<div class="fact"><b>' + esc(c.fact) + '</b>' + (c.implication ? '<p>→ ' + esc(c.implication) + '</p>' : '') + (c.source_url ? '<div class="src"><a href="' + esc(c.source_url) + '" target="_blank" rel="noopener">' + esc(host(c.source_url)) + (c.date ? ' · ' + esc(fmtDate(c.date)) : '') + '</a></div>' : '') + '</div>').join('') + '</div></div>' : '';
 
     const how = '<div class="grid-c">' +
-      '<article class="ccard glass">' + ring('viral', 'Virality', 78, true) + '<h3>Virality</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Calculated from the public numbers only. Views on a log scale (10K ≈ 20, 1M ≈ 55, 30M+ ≈ 80) plus up to 20 points for like-rate (likes ÷ views, maxing out at 10%). When only likes are public, likes are used instead. No numbers, no score.</p></article>' +
+      '<article class="ccard glass">' + ring('viral', 'Virality', 78, true) + '<h3>Virality</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Calculated from public numbers only, in two parts. <b>Breakout</b> (60%): likes + comments compared with a typical post from an account of the same size (followers × the platform’s median engagement: 0.30% on Instagram, 2.01% on TikTok, <a href="https://apaya.com/blog/social-media-benchmarks-instagram" target="_blank" rel="noopener">Rival IQ 2026</a>). 1× typical scores 30, 10× scores 55, 100× scores 80. <b>Reach</b> (40%): views on a log scale (10K ≈ 20, 1M ≈ 55, 30M+ ≈ 80) plus up to 20 for like-rate, or likes when views are hidden. Without a follower count it’s reach only; without numbers, no score. A post that does 20× its account’s normal engagement with at least 20K likes counts as a proven hit on the leaderboards.</p></article>' +
       '<article class="ccard glass">' + ring('relate', 'Relatable', 84, true) + '<h3>Relatability</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Editorial rating: how universal the feeling or problem in the hook is (desk-neck pain beats a niche technique), whether a viewer sees themselves in the first 2 seconds, and whether it makes people tag or send it.</p></article>' +
       '<article class="ccard glass">' + ring('relevant', 'Relevant', 92, true) + '<h3>Relevancy</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Editorial rating: how directly the formula transfers to your client niches, weighted by priority (massage and PT gyms first, DEXA/biohacking next, then ice baths and photo/video), and whether it can be shot without special access or budget.</p></article>' +
       '</div>';
@@ -644,6 +678,7 @@
           '<div class="d-stats">' + statCells + '</div>' + statSrc +
           '<div class="d-scores">' + ring('viral', 'Virality', vi.value, true) + ring('relate', 'Relatable', v.scores && v.scores.relatability, true) + ring('relevant', 'Relevant', v.scores && v.scores.relevancy, true) + '</div>' +
           (v.scores && v.scores.note ? '<p style="color:var(--fg-3);font-size:var(--t-sm)">' + esc(v.scores.note) + '</p>' : '') +
+          '<p style="color:var(--fg-2);font-size:var(--t-sm)">' + viralWhy(vi) + '</p>' +
           '<div class="block"><h3>The hook</h3>' + (v.hook && v.hook.verbatim ? '<div class="big-hook">“' + esc(v.hook.verbatim) + '”</div>' + (v.hook.summary ? '<p>' + esc(v.hook.summary) + '</p>' : '') : '<p style="color:var(--fg);font-size:var(--t-lg);font-weight:600;line-height:1.45">' + esc(v.hook && v.hook.summary || '') + '</p><p style="color:var(--fg-3);font-size:var(--t-xs)">Exact opening line not documented in the sources; this describes what happens on screen.</p>') + '<div class="tags">' + typeTags + '</div></div>' +
           (v.guide ? guideBlocks(v.guide) + '<details class="notes"><summary>Full research notes</summary><div class="d-main">' + notes + '</div></details>' : notes) +
           remix +
