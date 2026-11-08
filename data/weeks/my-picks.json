@@ -96,12 +96,14 @@
    },
    "stats": {
     "views": null,
-    "likes": null,
+    "likes": 40000,
     "comments": null,
     "shares": null,
-    "quote": null,
-    "source_url": null,
-    "as_of": "2026-11"
+    "quote": "Reported by Constantin from the post on Instagram, 2026-11-08: 40K+ likes (Instagram's embed page doesn't show this post's count, so the exact number isn't read yet)",
+    "source_url": "https://www.instagram.com/reel/DfaDy2px5c0/",
+    "as_of": "2026-11",
+    "qualifier": "+",
+    "user_reported": true
    },
    "posted": "2026-11-06",
    "hook": {

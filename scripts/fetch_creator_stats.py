@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
@@ -43,11 +44,40 @@ def profile_url(platform, handle):
             "youtube": f"https://www.youtube.com/@{h}"}.get(platform)
 
 
+IG_PAUSE = 4  # seconds between Instagram requests: it answers 429 when asked too quickly
+
+
+def ig_get(url, ua=None):
+    for attempt in range(2):
+        time.sleep(IG_PAUSE)
+        try:
+            return FT.get(url, ua=ua or FT.UA_BROWSER)
+        except Exception as exc:  # noqa: BLE001
+            if "429" in str(exc) and attempt == 0:
+                time.sleep(45)
+                continue
+            raise
+    raise ValueError("rate-limited")
+
+
+def ig_followers_from_embed(post_url):
+    """The embed page of one of the creator's posts usually shows the account's follower count."""
+    m = re.search(r"instagram\.com/(?:[\w.]+/)?(reel|p|tv)/([\w-]+)", post_url or "")
+    if not m:
+        return None
+    body, _ = ig_get(f"https://www.instagram.com/{m.group(1)}/{m.group(2)}/embed/captioned/")
+    text = html.unescape(body.decode("utf-8", "replace"))
+    f = re.search(r"([\d.,]+\s*[KMB]?)\s+followers", text, re.I)
+    if f and num(f.group(1)):
+        return num(f.group(1)), re.sub(r"\s+", " ", text[max(0, f.start() - 60):f.end() + 20]).strip()
+    return None
+
+
 def read_followers(platform, url):
     last = None
     for ua in (FT.UA_PREVIEW, FT.UA_BROWSER):
         try:
-            body, _ = FT.get(url, ua=ua)
+            body, _ = ig_get(url, ua) if platform == "instagram" else FT.get(url, ua=ua)
         except Exception as exc:  # noqa: BLE001
             last = str(exc)
             continue
@@ -70,8 +100,11 @@ def fill_instagram_likes(v):
     m = re.search(r"instagram\.com/(?:[\w.]+/)?(reel|p|tv)/([\w-]+)", v.get("url") or "")
     if not m:
         return False
-    body, _ = FT.get(f"https://www.instagram.com/{m.group(1)}/{m.group(2)}/embed/captioned/")
+    body, _ = ig_get(f"https://www.instagram.com/{m.group(1)}/{m.group(2)}/embed/captioned/")
     likes = re.search(rb"([\d.,]+\s*[KkMm]?)\s+likes", body)
+    if not likes:  # log what the page does say about likes, to see why
+        for hit in list(re.finditer(rb"[Ll]ike", body))[:3]:
+            print("   like-context:", body[max(0, hit.start() - 80):hit.end() + 80].decode("utf-8", "replace").replace("\n", " "))
     comments = re.search(rb"View all ([\d.,]+\s*[KkMm]?) comments", body)
     if not likes:
         raise ValueError(f"no like count on the embed page ({len(body)} bytes; the creator may hide likes)")
@@ -84,6 +117,7 @@ def fill_instagram_likes(v):
     s["source_url"] = v["url"]
     s["as_of"] = TODAY.isoformat()[:7]
     s.pop("qualifier", None)
+    s.pop("user_reported", None)
     return True
 
 
@@ -98,9 +132,13 @@ def main():
         for v in wk.get("videos", []):
             h = (v.get("creator") or {}).get("handle")
             if h and v.get("platform") in ("instagram", "tiktok", "youtube"):
-                wanted[f"{v['platform']}:{h.lstrip('@').lower()}"] = (v["platform"], h)
+                key = f"{v['platform']}:{h.lstrip('@').lower()}"
+                prev = wanted.get(key)
+                post = v["url"] if v.get("url_is_exact_post") else (prev[2] if prev else None)
+                wanted[key] = (v["platform"], h, post)
             s = v.get("stats") or {}
-            if v.get("platform") == "instagram" and v.get("url_is_exact_post") and not s.get("likes") and not s.get("views"):
+            needs = (not s.get("likes") and not s.get("views")) or s.get("user_reported")
+            if v.get("platform") == "instagram" and v.get("url_is_exact_post") and needs:
                 try:
                     if fill_instagram_likes(v):
                         likes_filled += 1
@@ -112,14 +150,20 @@ def main():
             with open(p, "w", encoding="utf-8") as fh:
                 json.dump(wk, fh, ensure_ascii=False, indent=1)
                 fh.write("\n")
-    for key, (platform, handle) in sorted(wanted.items()):
+    for key, (platform, handle, post) in sorted(wanted.items()):
         old = creators.get(key)
         if old and not force and old.get("fetched_on") and \
                 (TODAY - datetime.date.fromisoformat(old["fetched_on"])).days < 30:
             continue
         url = profile_url(platform, handle)
         try:
-            n, text = read_followers(platform, url)
+            hit = None
+            if platform == "instagram" and post:
+                try:
+                    hit = ig_followers_from_embed(post)
+                except Exception as exc:  # noqa: BLE001
+                    print("   embed followers failed:", key, exc)
+            n, text = hit if hit else read_followers(platform, url)
             creators[key] = {"followers": n, "text": text[:200], "url": url, "fetched_on": TODAY.isoformat()}
             got += 1
             print("ok  ", key, n)
