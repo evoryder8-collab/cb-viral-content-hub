@@ -16,7 +16,8 @@
   "pt-tiboinshape-tibo-inshape-s-love",
   "pv-greeka-ch-fake-cctv-robbery-skit",
   "pt-trevorclark4-can-you-do-this",
-  "pt-stayclassycrossfit-crossfit-gym-s-love"
+  "pt-stayclassycrossfit-crossfit-gym-s-love",
+  "pv-onethebaha-phone-tricks-that-make"
  ],
  "videos": [
   {
@@ -1080,6 +1081,125 @@
     "avoid": "Post while the LOVE trend still runs"
    },
    "thumb": "thumbs/pt-stayclassycrossfit-crossfit-gym-s-love.jpg"
+  },
+  {
+   "id": "pv-onethebaha-phone-tricks-that-make",
+   "title": "Phone tricks that make gym videos look cinematic",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/Dc0RGh7v-f6/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@onethebaha",
+    "name": null,
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 13182,
+    "comments": 88,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-08: 13,182 likes · 88 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/Dc0RGh7v-f6/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "hook": {
+    "verbatim": "Phone tricks that will make your gym videos look cinematic 📱🔥💪🏻",
+    "summary": "The caption promises phone tricks for cinematic gym videos; the cover shows one of them: a close, tilted POV shot from under a dumbbell curl, with the gym's ceiling light strips as leading lines. (From the cover and caption; the video itself wasn't watched.)",
+    "types": [
+     "tutorial_howto",
+     "behind_the_scenes",
+     "visual_spectacle"
+    ]
+   },
+   "formula": "Promise (“phone tricks… cinematic”) → each trick shown as the finished shot (close POV angles, moving with the weight) → a list worth saving",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick. A practical promise to everyone who films their own workouts, shown through the result rather than explained, so people save and share it. 13.2K likes and 88 comments on the embed page.",
+   "production": {
+    "camera": "iphone",
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": "hands_only"
+   },
+   "replicate": "Film a “phone tricks” reel at the gym: 3–5 tricks (phone on the dumbbell for a POV curl, low angle off the floor, a slow push past the racks, ceiling lights as leading lines), each shown as a finished 2-second shot with a one-line label; end with “save this for your next gym day”.",
+   "evidence": "high",
+   "scores": {
+    "relatability": 84,
+    "relevancy": 96
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "gym_pt": "Your trainer shows members three phone tricks for filming their own sessions; they post, and the gym gets tagged.",
+    "massage": "Phone tricks for treatment-room footage: overhead hands, a slow push along the table, an oil-pour macro.",
+    "dexa_biohacking": "Phone tricks for filming a DEXA visit: a low shot as the arm passes, the screen's reflection, a printout close-up.",
+    "icebath": "Phone tricks for plunge videos: waterproof case low at the waterline, backlit steam, a slow-motion entry.",
+    "photo_video": "Your own “phone tricks” series for gym owners: it positions you as the expert, and every trick advertises what you'd do with a cinema camera."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "Promise: phone tricks for cinematic gym videos"
+     },
+     {
+      "t": "2–15s",
+      "icon": "camera",
+      "do": "Each trick shown as the finished shot"
+     },
+     {
+      "t": "End",
+      "icon": "share",
+      "do": "A list worth saving for the next session"
+     }
+    ],
+    "why": [
+     {
+      "icon": "camera",
+      "says": "Shows the result, not a lecture"
+     },
+     {
+      "icon": "share",
+      "says": "Gym-goers save it for their next session"
+     }
+    ],
+    "shot": {
+     "camera": "Phone",
+     "angle": "Close POV under the dumbbell",
+     "light": "Ceiling light strips as lines"
+    },
+    "steps": [
+     {
+      "icon": "camera",
+      "do": "Pick 3–5 phone positions that look expensive"
+     },
+     {
+      "icon": "dumbbell",
+      "do": "Mount or hold the phone on the weight",
+      "tip": "Secure it; drops break phones"
+     },
+     {
+      "icon": "light",
+      "do": "Use ceiling lights as leading lines"
+     },
+     {
+      "icon": "text",
+      "do": "Label each trick in one short line"
+     }
+    ],
+    "avoid": "Don't film other members without asking"
+   },
+   "thumb": "thumbs/pv-onethebaha-phone-tricks-that-make.jpg"
   }
  ],
  "trends": []
