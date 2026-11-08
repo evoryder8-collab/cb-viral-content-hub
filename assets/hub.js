@@ -134,21 +134,6 @@
 
   /* ---------------- scoring ---------------- */
   // Virality is computed from public numbers only, so it is the same for everyone and re-computable.
-  // Reach: raw numbers on a log scale (10K ≈ 20, 1M ≈ 55, 30M+ ≈ 80, plus up to 20 for like-rate).
-  function reachScore(v) {
-    const s = v.stats || {};
-    let base = null, eng = 8, basis = '';
-    if (s.views) {
-      base = Math.pow(clamp((Math.log10(s.views) - 3.5) / 4, 0, 1), 0.8) * 80;
-      if (s.likes) eng = clamp((s.likes / s.views) / 0.1, 0, 1) * 20;
-      basis = 'views';
-    } else if (s.likes) {
-      base = Math.pow(clamp((Math.log10(s.likes) - 2.3) / 4.2, 0, 1), 0.8) * 80;
-      basis = 'likes';
-    }
-    if (base == null) return { value: null, basis: 'none' };
-    return { value: Math.round(clamp(base + eng, 0, 99)), basis };
-  }
   // Breakout: likes + comments compared with a typical post from an account of the same size.
   // Typical = followers × median engagement per post (Rival IQ 2026 benchmark, as reported by Apaya / iqfluence).
   const BENCH = { instagram: 0.0030, tiktok: 0.0201 };
@@ -165,18 +150,36 @@
     const expected = c.followers * rate, multiple = eng / expected;
     return { multiple, expected, followers: c.followers, rate, eng, score: clamp(30 + 25 * Math.log10(multiple), 0, 99) };
   }
+  // Virality follows Constantin's scale: 20K likes = 90, 100K+ likes = 97+ (99 at 10M).
+  // Views-only posts count each view as 0.04 likes (a typical like rate), so 500K views = 90, 2.5M = 97.
+  const LIKE_RATE = 0.04;
+  function likesEquivalent(v) {
+    const s = v.stats || {};
+    return Math.max(s.likes || 0, s.views ? s.views * LIKE_RATE : 0) || null;
+  }
+  function scaleFromLikes(L) {
+    if (L >= 1e5) return Math.min(99, 97 + 2 * clamp(Math.log10(L / 1e5) / 2, 0, 1));
+    if (L >= 2e4) return Math.min(96, 90 + 7 * Math.log10(L / 2e4) / Math.log10(5));
+    return clamp(20 + 69 * Math.log10(Math.max(L, 1) / 100) / Math.log10(200), 0, 89);
+  }
   function viralWhy(vi) {
-    if (vi.basis === 'breakout') {
-      const b = vi.b, pl = b.rate === BENCH.instagram ? 'Instagram' : 'TikTok';
-      return '<b>Virality ' + vi.value + ':</b> ' + fmt(b.eng) + ' likes + comments, <b>' + (b.multiple >= 10 ? Math.round(b.multiple) : b.multiple.toFixed(1)) + '×</b> a typical ' + pl + ' post for an account of ' + fmt(b.followers) + ' followers (≈' + fmt(Math.round(b.expected)) + ', median ' + (b.rate * 100).toFixed(2) + '%, <a class="link" href="' + BENCH_SRC + '" target="_blank" rel="noopener">Rival IQ 2026</a>)' + (vi.r && vi.r.value != null ? '; reach score ' + vi.r.value + '. 60% breakout + 40% reach.' : '.');
+    if (vi.value == null) return '<b>No virality score:</b> no public numbers for this post yet.';
+    const s = vi.s, q = s.qualifier;
+    let t = '<b>Virality ' + vi.value + ':</b> ' + (vi.basis === 'likes'
+      ? fmtQ(s.likes, q) + ' likes'
+      : fmtQ(s.views, q) + ' views, counted as about ' + fmt(Math.round(vi.L)) + ' likes at a 4% like rate') +
+      '. Scale: 20K likes = 90, 100K+ likes = 97+.';
+    const b = vi.b;
+    if (b) {
+      const pl = b.rate === BENCH.instagram ? 'Instagram' : 'TikTok';
+      t += ' Breakout: <b>' + (b.multiple >= 10 ? Math.round(b.multiple) : b.multiple.toFixed(1)) + '×</b> a typical ' + pl + ' post for an account of ' + fmt(b.followers) + ' followers (≈' + fmt(Math.round(b.expected)) + ' likes + comments, <a class="link" href="' + BENCH_SRC + '" target="_blank" rel="noopener">Rival IQ 2026</a> median).';
     }
-    if (vi.value != null) return '<b>Virality ' + vi.value + ':</b> reach only (raw numbers on a log scale). The creator\'s follower count isn\'t known yet, so how far this beat the account\'s normal can\'t be scored.';
-    return '<b>No virality score:</b> no public numbers for this post yet.';
+    return t;
   }
   function virality(v) {
-    const r = reachScore(v), b = breakout(v);
-    if (b) return { value: Math.round(r.value == null ? b.score : 0.6 * b.score + 0.4 * r.value), basis: 'breakout', b, r };
-    return r;
+    const s = v.stats || {}, L = likesEquivalent(v), b = breakout(v);
+    if (!L) return { value: null, basis: 'none', b, s };
+    return { value: Math.floor(scaleFromLikes(L)), basis: s.likes && s.likes >= (s.views || 0) * LIKE_RATE ? 'likes' : 'views', L, b, s };
   }
   // The viral bar: a leaderboard only shows proven hits.
   const BAR = { views: 1e6, likes: 1e5 };
@@ -523,7 +526,7 @@
     const cHtml = cs.length ? '<div class="panel glass"><div class="facts">' + cs.map(c => '<div class="fact"><b>' + esc(c.fact) + '</b>' + (c.implication ? '<p>→ ' + esc(c.implication) + '</p>' : '') + (c.source_url ? '<div class="src"><a href="' + esc(c.source_url) + '" target="_blank" rel="noopener">' + esc(host(c.source_url)) + (c.date ? ' · ' + esc(fmtDate(c.date)) : '') + '</a></div>' : '') + '</div>').join('') + '</div></div>' : '';
 
     const how = '<div class="grid-c">' +
-      '<article class="ccard glass">' + ring('viral', 'Virality', 78, true) + '<h3>Virality</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Calculated from public numbers only, in two parts. <b>Breakout</b> (60%): likes + comments compared with a typical post from an account of the same size (followers × the platform’s median engagement: 0.30% on Instagram, 2.01% on TikTok, <a href="https://apaya.com/blog/social-media-benchmarks-instagram" target="_blank" rel="noopener">Rival IQ 2026</a>). 1× typical scores 30, 10× scores 55, 100× scores 80. <b>Reach</b> (40%): views on a log scale (10K ≈ 20, 1M ≈ 55, 30M+ ≈ 80) plus up to 20 for like-rate, or likes when views are hidden. Without a follower count it’s reach only; without numbers, no score. A post that does 20× its account’s normal engagement with at least 20K likes counts as a proven hit on the leaderboards.</p></article>' +
+      '<article class="ccard glass">' + ring('viral', 'Virality', 78, true) + '<h3>Virality</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">From public numbers only, on Constantin’s scale: <b>20K likes = 90</b>, <b>100K+ likes = 97+</b> (99 at 10M). Between 20K and 100K a post scores 90–96; below 20K it scales down (1K ≈ 50, 5K ≈ 71). Posts that only show views count each view as 0.04 likes, a typical like rate (500K views = 90, 2.5M = 97). Each video sheet also shows its <b>breakout</b>: how many times a typical post for an account that size it got (followers × the platform’s median engagement, 0.30% on Instagram and 2.01% on TikTok, <a href="https://apaya.com/blog/social-media-benchmarks-instagram" target="_blank" rel="noopener">Rival IQ 2026</a>). No numbers, no score.</p></article>' +
       '<article class="ccard glass">' + ring('relate', 'Relatable', 84, true) + '<h3>Relatability</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Editorial rating: how universal the feeling or problem in the hook is (desk-neck pain beats a niche technique), whether a viewer sees themselves in the first 2 seconds, and whether it makes people tag or send it.</p></article>' +
       '<article class="ccard glass">' + ring('relevant', 'Relevant', 92, true) + '<h3>Relevancy</h3><p style="color:var(--fg-2);font-size:var(--t-sm)">Editorial rating: how directly the formula transfers to your client niches, weighted by priority (massage and PT gyms first, DEXA/biohacking next, then ice baths and photo/video), and whether it can be shot without special access or budget.</p></article>' +
       '</div>';
