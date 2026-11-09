@@ -734,7 +734,7 @@
     wrap.hidden = true;
     $('#sheet-body').innerHTML = '';
     document.documentElement.style.overflow = '';
-    if (/^#v-/.test(location.hash)) { try { history.replaceState(null, '', '#' + (state.view === 'home' ? homeHash() : state.view)); } catch (e) { /* ignore */ } }
+    if (/^#v-/.test(location.hash)) { try { history.replaceState(null, '', '#' + (state.view === 'home' ? homeHash() : state.view)); } catch (e) { /* ignore */ } tellParent(); }
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
 
@@ -807,7 +807,13 @@
   const HASH_OF = { 'my-picks': 'favourites', 'hall-of-fame': 'halloffame' };
   const latestWeek = () => state.data.manifest.latest || state.data.manifest.weeks.filter(w => w.kind !== 'collection').map(w => w.id).sort().pop();
   const homeHash = () => HASH_OF[state.weekId] || 'home';
+  // When framed (matthewhua.ch/ccideas), tell the outer page our address so its URL stays shareable. Only the hash is sent.
+  function tellParent() {
+    if (window.parent === window) return;
+    try { window.parent.postMessage({ ccHash: location.hash }, '*'); } catch (e) { /* ignore */ }
+  }
   function route() {
+    tellParent();
     const h = (location.hash || '').slice(1);
     if (h.startsWith('v-')) {
       if (state.view !== 'home' && !$('#view').innerHTML) render();
@@ -865,7 +871,7 @@
     });
     document.addEventListener('change', e => {
       const t = e.target;
-      if (t.id === 'week') { state.weekId = t.value; state.view = 'home'; state.q = ''; $('#q').value = ''; try { history.replaceState(null, '', '#' + homeHash()); } catch (e2) { /* ignore */ } render(); window.scrollTo(0, 0); }
+      if (t.id === 'week') { state.weekId = t.value; state.view = 'home'; state.q = ''; $('#q').value = ''; try { history.replaceState(null, '', '#' + homeHash()); } catch (e2) { /* ignore */ } tellParent(); render(); window.scrollTo(0, 0); }
       if (t.dataset.pf) { state.pf[t.dataset.pf] = t.checked; store.set('preflight', state.pf); const y = window.scrollY; render(); window.scrollTo(0, y); const el = document.getElementById(t.id); if (el) el.focus(); }
     });
     let qt;
