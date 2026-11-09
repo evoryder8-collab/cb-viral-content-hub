@@ -694,7 +694,8 @@ table.matrix { width: 100%; border-collapse: collapse; font-size: var(--t-sm); m
   transition: color .2s, background .25s;
 }
 .dock a svg { width: 22px; height: 22px; }
-.dock a span { white-space: nowrap; line-height: 1.2; }
+.dock a { text-align: center; }
+.dock a span { white-space: nowrap; line-height: 1.2; text-align: center; }
 .dock a .short { display: none; }
 .dock a:hover { color: var(--fg); }
 .dock a[aria-current="page"] { color: var(--fg); background: var(--glass-2); box-shadow: inset 0 1px 0 var(--glass-hi), 0 4px 14px -6px rgba(0, 0, 0, .4); }
@@ -843,11 +844,14 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   /* Phones: the bar spans the screen, seven equal buttons, one line of text each. */
   .dock { left: calc(10px + env(safe-area-inset-left, 0px)); right: calc(10px + env(safe-area-inset-right, 0px)); transform: none; max-width: none; padding: 5px; gap: 0; }
   .dock a { flex: 1 1 0; min-width: 0; padding: 7px 0 6px; border-radius: 22px; gap: 3px; }
-  .dock a span { font-size: .625rem; letter-spacing: -.01em; }
+  .dock a span { display: block; justify-self: stretch; max-width: 100%; overflow: hidden; font-size: .625rem; letter-spacing: -.01em; }
+}
+@media (max-width: 360px) {
+  .dock a span { font-size: .5625rem; letter-spacing: -.02em; }
 }
 @media (max-width: 560px) {
   .dock a .full { display: none; }
-  .dock a .short { display: inline; }
+  .dock a .short { display: block; }
 }
 @media (max-width: 420px) {
   .poster-top .pill span { display: none; }
