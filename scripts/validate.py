@@ -180,6 +180,7 @@ def main():
     if manifest.get("latest") not in ids or not WEEK_RE.match(str(manifest.get("latest"))):
         err("manifest.json: 'latest' must be one of the listed dated week ids")
     seen_videos = {}
+    format_refs = []  # (where, video id, format_key): checked against library.formats below
     for w in weeks:
         wid = w.get("id")
         is_collection = w.get("kind") == "collection"
@@ -199,6 +200,8 @@ def main():
         for v in vids:
             check_video(where, v)
             vid = v.get("id")
+            if v.get("format_key"):
+                format_refs.append((where, vid, v["format_key"]))
             if vid in local:
                 err(f"{where}: duplicate video id {vid}")
             local.add(vid)
@@ -253,6 +256,9 @@ def main():
         for n in f.get("niches") or []:
             if n not in NICHES:
                 err(f"library.formats [{f.get('key')}]: unknown niche {n!r}")
+    for where, vid, fk in format_refs:
+        if fk not in fkeys:
+            err(f"{where} [{vid}]: format_key {fk!r} is not a key in library.formats")
     for a in library.get("algorithm") or []:
         if a.get("platform") not in PLATFORMS:
             err(f"library.algorithm: bad platform {a.get('platform')!r}")

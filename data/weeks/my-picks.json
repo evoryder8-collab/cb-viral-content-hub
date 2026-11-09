@@ -488,7 +488,8 @@
      }
     ],
     "avoid": "Post while the trend is still running"
-   }
+   },
+   "format_key": "borrowed_formula"
   },
   {
    "id": "pt-karnex01-cake-cut-with-a",
@@ -717,7 +718,8 @@
      }
     ],
     "avoid": "Don't repost his video; make your own"
-   }
+   },
+   "format_key": "borrowed_formula"
   },
   {
    "id": "pv-greeka-ch-fake-cctv-robbery-skit",
@@ -1080,7 +1082,8 @@
     ],
     "avoid": "Post while the LOVE trend still runs"
    },
-   "thumb": "thumbs/pt-stayclassycrossfit-crossfit-gym-s-love.jpg"
+   "thumb": "thumbs/pt-stayclassycrossfit-crossfit-gym-s-love.jpg",
+   "format_key": "borrowed_formula"
   },
   {
    "id": "pv-onethebaha-phone-tricks-that-make",
@@ -1200,6 +1203,132 @@
     "avoid": "Don't film other members without asking"
    },
    "thumb": "thumbs/pv-onethebaha-phone-tricks-that-make.jpg"
+  },
+  {
+   "id": "pv-thepostprotocol-borrow-a-proven-formula",
+   "title": "Lesson: a formula that went viral once keeps working when another brand borrows it and adds its twist",
+   "niche": "photo_video",
+   "adjacent": false,
+   "platform": "instagram",
+   "content_type": "reel",
+   "url": "https://www.instagram.com/reel/DexC7jzACti/",
+   "url_is_exact_post": true,
+   "creator": {
+    "handle": "@thepostprotocol",
+    "name": "PostProtocol",
+    "followers": null
+   },
+   "stats": {
+    "views": null,
+    "likes": 1640,
+    "comments": 547,
+    "shares": null,
+    "quote": "From Instagram's embed page, fetched 2026-11-09: 1,640 likes · View all 547 comments (Instagram doesn't show the view count there)",
+    "source_url": "https://www.instagram.com/reel/DexC7jzACti/",
+    "as_of": "2026-11"
+   },
+   "posted": null,
+   "lesson": true,
+   "format_key": "borrowed_formula",
+   "hook": {
+    "verbatim": null,
+    "summary": "Built from the cover, the caption and Constantin's description; the video itself wasn't watched here. The cover shows a first video tile labelled 43.5M (a Feastables chocolate bar over a blurred clip) with an arrow to the next tile. Constantin: the reel shows an idea one account started, then another brand borrowing it with its own twist, proving the formula keeps working no matter who repeats it.",
+    "types": [
+     "shock_stat",
+     "curiosity_gap"
+    ]
+   },
+   "formula": "Find an idea that already went viral → keep its skeleton (hook, structure, payoff) → swap in your own brand, client or niche as the twist → post your take",
+   "beats": [],
+   "beats_inferred": false,
+   "why": "Constantin's pick, as a lesson. The reel lines up the same idea used by different accounts, each with big numbers, so the takeaway is that the structure earns the views, not the person. A formula that has already worked is a safer bet than a blank page. 1,640 likes and 547 comments; the caption asks viewers to comment “Viral” for a link, which likely drives the comment count.",
+   "production": {
+    "camera": null,
+    "asmr": null,
+    "editing": null,
+    "vfx": null,
+    "captions": null,
+    "audio": null,
+    "length_s": null,
+    "faces": null
+   },
+   "replicate": "Don't remake this reel; use its idea. Each week, pick one proven video from the hub (Hall of Fame or Favourites), write down its skeleton (first line, structure, payoff) and shoot it with your own client, studio or product as the twist. Borrow the idea, never the footage or the exact words.",
+   "evidence": "medium",
+   "scores": {
+    "relatability": 72,
+    "relevancy": 95
+   },
+   "effort": "low",
+   "pick": true,
+   "added_by": "Constantin",
+   "remix": {
+    "massage": "Take a massage reel that already went viral (the partner decompression in Favourites, a head-spa ASMR) and redo it in your studio, with your therapist and signature technique as the twist.",
+    "gym_pt": "Take a gym trend with proof (the LOVE trend did it three times in Favourites) and redo it with your trainer and a member over 40 as the twist.",
+    "dexa_biohacking": "Borrow a proven reveal structure (guess the number, before and after) and make the DEXA printout the payoff.",
+    "icebath": "Borrow a proven challenge structure (how long can a first-timer last, reaction at the first dip) and set it in your plunge.",
+    "photo_video": "Keep a proven behind-the-scenes-vs-result structure and swap in your own client shoot; post one borrowed formula a week next to your new ideas."
+   },
+   "guide": {
+    "story": [
+     {
+      "t": "0–2s",
+      "icon": "text",
+      "do": "The original's hook, in your words"
+     },
+     {
+      "t": "2–10s",
+      "icon": "camera",
+      "do": "Same structure, your client on screen"
+     },
+     {
+      "t": "End",
+      "icon": "spark",
+      "do": "Same payoff, with your twist on top"
+     }
+    ],
+    "why": [
+     {
+      "icon": "fire",
+      "says": "The idea already hit 43.5M once"
+     },
+     {
+      "icon": "loop",
+      "says": "The formula travels, not the creator"
+     },
+     {
+      "icon": "star",
+      "says": "Proven ideas beat a blank page"
+     }
+    ],
+    "shot": {
+     "angle": "Same as the original",
+     "text": "Same hook, your words",
+     "people": "Your client or team"
+    },
+    "steps": [
+     {
+      "icon": "eye",
+      "do": "Pick one proven video from the hub",
+      "tip": "Hall of Fame or Favourites"
+     },
+     {
+      "icon": "text",
+      "do": "Write its skeleton: hook, structure, payoff"
+     },
+     {
+      "icon": "spark",
+      "do": "Swap in your client, studio or product",
+      "tip": "One twist, not five"
+     },
+     {
+      "icon": "camera",
+      "do": "Shoot it the same week",
+      "tip": "While the idea still circulates"
+     }
+    ],
+    "avoid": "Copying their footage or exact words"
+   },
+   "thumb": "thumbs/pv-thepostprotocol-borrow-a-proven-formula.jpg"
   }
  ],
  "trends": []

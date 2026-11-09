@@ -4037,6 +4037,46 @@
     "length_s": "7-45"
    },
    "updated": "2026-11-02"
+  },
+  {
+   "key": "borrowed_formula",
+   "name": "Borrowed Formula (proven idea, your twist)",
+   "definition": "Take an idea that already went viral for someone else, keep its skeleton (hook, structure, payoff) and remake it with your own brand, client or niche as the twist. The structure is what earns the views, so it keeps working whoever repeats it.",
+   "when": "Every week, as the safe bet next to new ideas. Works best while the original is still circulating and when your twist is obvious in the first 2 seconds. Borrow the idea; shoot your own footage and write your own words.",
+   "steps": [
+    "Pick one proven post: Hall of Fame or Favourites in this hub, or anything far above its niche's usual numbers.",
+    "Write down its skeleton: the first line or frame, the structure in beats, and the payoff.",
+    "Choose one twist that makes it yours: your client, your studio, your product, your niche.",
+    "Shoot it with your own footage and words, keeping the original's timing.",
+    "Post it while the idea is still circulating, then compare its 3-second hold with your usual posts."
+   ],
+   "example": {
+    "creator": "PostProtocol (@thepostprotocol)",
+    "description": "A breakdown reel Constantin saved: it shows one account's idea being borrowed by another brand with its own twist, and the formula working again. The cover shows the first video at 43.5M.",
+    "url": "https://www.instagram.com/reel/DexC7jzACti/",
+    "stats": "1,640 likes · 547 comments on the breakdown reel (Instagram embed page, 2026-11-09)"
+   },
+   "evidence": "In this hub: the same LOVE trend (letters spelled around the body, the O made with the arms) worked for three different gym accounts in All-time favourites: @shubham_fitnesx 90,467 likes, @tiboinshape 55,816 likes and @stayclassycrossfit 6,176 likes, each read from the post's Instagram embed page. Same skeleton, different people, all far above their usual numbers is the pattern this format bets on.",
+   "sources": [
+    "https://www.instagram.com/reel/DexC7jzACti/",
+    "https://www.instagram.com/reel/DfZxMDLNSrw/"
+   ],
+   "niches": [
+    "massage",
+    "gym_pt",
+    "dexa_biohacking",
+    "icebath",
+    "photo_video"
+   ],
+   "production": {
+    "camera": "either",
+    "asmr": "optional",
+    "editing": "light",
+    "transitions": "Same as the original",
+    "audio": "Same structure, your own or licensed sound",
+    "length_s": "Same as the original"
+   },
+   "updated": "2026-11-09"
   }
  ],
  "carousels": [
