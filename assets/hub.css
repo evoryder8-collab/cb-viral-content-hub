@@ -416,6 +416,8 @@ main { outline: none; }
 }
 .pill svg { width: 15px; height: 15px; }
 .rank { font-family: var(--f-display); font-weight: 800; padding: 0 11px; }
+.ptl { display: inline-flex; gap: 6px; min-width: 0; }
+.pill.lesson { background: rgba(242, 193, 78, .9); color: #1b1404; border-color: rgba(255, 255, 255, .5); }
 .rank.gold { background: linear-gradient(135deg, #f7d77c, #d39b1c); color: #1b1404; border-color: rgba(255, 255, 255, .5); }
 .poster-hook {
   position: absolute;

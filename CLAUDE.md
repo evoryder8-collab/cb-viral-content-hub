@@ -38,6 +38,12 @@ whether to; don't stop at "queued".
 6. **Ship and report:** commit, push to `main`, and send Constantin a screenshot of All-time favourites plus a short
    line per new card (likes, Virality, breakout, what makes it work).
 
+**Lessons.** When Constantin says a reel teaches an idea rather than being a video to copy (e.g. a strategy
+breakdown), still run all six steps, plus: set `lesson: true` (the card shows a "Lesson" label), write the hook,
+formula, guide and remixes about *applying the idea* in each niche, not about recreating that video, and add or
+update the matching entry in the **Formats** library (`data/library.json` → `formats`) with this reel as its example.
+Link the cards in the hub that prove the idea by giving them the format's key as `format_key`.
+
 ## Scoring (shown on every card)
 
 - **Virality** (computed in `assets/hub.js`, never hand-set): Constantin's scale. **20K likes = 90**, 20K–100K =

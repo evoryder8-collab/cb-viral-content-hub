@@ -304,7 +304,7 @@
     const rk = rank ? '<span class="pill rank' + (rank <= 3 ? ' gold' : '') + '">#' + rank + '</span>' : '';
     return '<div class="poster" data-n="' + esc(v.niche) + '">' + img +
       '<div class="poster-shade"></div><div class="poster-grain"></div><span class="cover-tag">Original cover</span>' +
-      '<div class="poster-top">' + platformPill(v.platform) + rk + '</div>' +
+      '<div class="poster-top"><span class="ptl">' + platformPill(v.platform) + (v.lesson ? '<span class="pill lesson">Lesson</span>' : '') + '</span>' + rk + '</div>' +
       '<div class="poster-hook">' + posterHookText(v) + '</div>' +
       (opts.noplay ? '' : '<div class="poster-play">' + I.play + '</div>') +
       '<div class="poster-stats num">' +
@@ -674,7 +674,7 @@
             (v.url ? '<a class="btn' + (emb && !IS_SINGLE ? '' : ' primary') + '" href="' + esc(v.url) + '" target="_blank" rel="noopener">' + I.ext + (v.url_is_exact_post === false ? (/tiktok|instagram|youtube|x\.com/.test(host(v.url)) ? 'Open creator profile' : 'Read the source') : 'Watch on ' + platLabel) + '</a>' : '') +
           '</div></div>' +
         '<div class="d-main">' +
-          '<div class="tags"><span class="tag n" data-n="' + esc(v.niche) + '">' + esc(n.label) + '</span>' + (v.pick ? '<span class="tag n" data-n="general">Constantin\'s favourite</span>' : '') + (v.adjacent ? '<span class="tag">Adjacent niche</span>' : '') + '<span class="tag">' + esc(platLabel) + '</span>' + (v.posted ? '<span class="tag">Posted ' + esc(fmtDate(v.posted)) + '</span>' : '') + (v.evidence ? '<span class="tag ev-' + esc(v.evidence) + '">Evidence: ' + esc(v.evidence) + '</span>' : '') + (v.effort ? '<span class="tag">Effort: ' + esc(v.effort) + '</span>' : '') + '</div>' +
+          '<div class="tags"><span class="tag n" data-n="' + esc(v.niche) + '">' + esc(n.label) + '</span>' + (v.pick ? '<span class="tag n" data-n="general">Constantin\'s favourite</span>' : '') + (v.lesson ? '<span class="tag n" data-n="general">Lesson: apply the idea, not the video</span>' : '') + (v.adjacent ? '<span class="tag">Adjacent niche</span>' : '') + '<span class="tag">' + esc(platLabel) + '</span>' + (v.posted ? '<span class="tag">Posted ' + esc(fmtDate(v.posted)) + '</span>' : '') + (v.evidence ? '<span class="tag ev-' + esc(v.evidence) + '">Evidence: ' + esc(v.evidence) + '</span>' : '') + (v.effort ? '<span class="tag">Effort: ' + esc(v.effort) + '</span>' : '') + '</div>' +
           '<h2 id="sheet-title">' + esc(v.title) + '</h2>' +
           '<p style="color:var(--fg-2)">' + esc((v.creator && [v.creator.name, v.creator.handle].filter(Boolean).join(' · ')) || '') + (v.creator && v.creator.followers ? ' · ' + esc(v.creator.followers) + ' followers' : '') + (v.url_is_exact_post === false ? ' · <em>exact post link not found; the button opens the best available source</em>' : '') + '</p>' +
           (v.url_note ? '<p style="color:var(--warn);font-size:var(--t-xs)">' + esc(v.url_note) + '</p>' : '') +
