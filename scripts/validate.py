@@ -273,6 +273,13 @@ def main():
         tot += 1
     if tot and tot < 8:
         warn("library.checklist: fewer than 8 checks")
+    # Browsers keep CSS/JS for a while: index.html must point at the current files (scripts/stamp_assets.py).
+    import hashlib
+    page = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()
+    for rel in ("assets/hub.css", "assets/hub.js"):
+        want = hashlib.sha1(open(os.path.join(ROOT, rel), "rb").read()).hexdigest()[:10]
+        if f"{rel}?v={want}" not in page:
+            err(f"index.html: {rel} stamp is stale; run python3 scripts/stamp_assets.py")
     return finish()
 
 

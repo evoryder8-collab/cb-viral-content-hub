@@ -385,12 +385,12 @@
   function weekVideos() {
     const w = state.data.weeks[state.weekId];
     const ranks = new Map((w.picks || []).map((id, i) => [id, i + 1]));
-    let list = (w.videos || []).map(v => Object.assign({}, v, { week: state.weekId, _rank: ranks.get(v.id) || 999 }));
+    let list = (w.videos || []).map((v, i) => Object.assign({}, v, { week: state.weekId, _rank: ranks.get(v.id) || 999, _i: i }));
     list = list.filter(v => nicheOK(v.niche) && platOK(v));
     const vir = v => { const x = virality(v).value; return x == null ? -1 : x; };
-    if (state.sort === 'rank') list.sort((a, b) => a._rank - b._rank || overall(b) - overall(a));
-    if (state.sort === 'viral') list.sort((a, b) => vir(b) - vir(a) || overall(b) - overall(a));
-    if (state.sort === 'relevant') list.sort((a, b) => (b.scores.relevancy - a.scores.relevancy) || overall(b) - overall(a));
+    // Latest added: the video's own `added` date, else its week; ties keep the order it was filed in (newest last in the file).
+    if (state.sort === 'latest') list.sort((a, b) => String(b.added || b.week).localeCompare(String(a.added || a.week)) || b._i - a._i);
+    else list.sort((a, b) => vir(b) - vir(a) || overall(b) - overall(a));
     return list;
   }
 
@@ -412,7 +412,7 @@
       '</section>';
 
     const seg = '<div class="seg" role="group" aria-label="Sort">' +
-      [['viral', 'Most viral'], ['relevant', 'Most relevant'], ['rank', 'Our picks']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
+      [['viral', 'Highest virality'], ['latest', 'Latest added']].map(([k, l]) => '<button type="button" data-sort="' + k + '" aria-pressed="' + (state.sort === k) + '">' + l + '</button>').join('') + '</div>';
     // One leaderboard per platform: views are not comparable across apps, so nothing is mixed.
     const useBar = w.bar !== false;  // a collection like "Constantin's picks" shows everything
     const proven = useBar ? list.filter(passesBar) : list;
@@ -426,9 +426,9 @@
       const meta = items.length + (items.length === 1 ? ' reference' : ' references') + (viralTop.length ? ' · top virality ' + Math.max.apply(null, viralTop) : '');
       return '<section class="board" data-board="' + b.key + '">' +
         '<div class="board-head"><span class="board-icon">' + (I[b.icon] || I.web) + '</span><div><h3>' + esc(b.label) + '</h3><p>' + esc(meta) + '</p></div>' +
-        (b.note ? '<span class="board-note">' + esc(b.note) + '</span>' : '') + '</div>' +
-        '<div class="grid-v">' + shown.map((v, i) => videoCard(v, i + 1)).join('') + '</div>' +
-        (items.length > 4 && state.plat === 'all' ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? 'Show top 4 only' : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
+        (b.note ? '<span class="board-note">' + esc(b.note) + '</span>' : '') + seg + '</div>' +
+        '<div class="grid-v">' + shown.map((v, i) => videoCard(v, state.sort === 'latest' ? 0 : i + 1)).join('') + '</div>' +
+        (items.length > 4 && state.plat === 'all' ? '<div class="board-more"><button class="btn" type="button" data-platopen="' + b.key + '">' + (open ? (state.sort === 'latest' ? 'Show latest 4 only' : 'Show top 4 only') : 'Show all ' + items.length + ' on ' + esc(b.short)) + '</button></div>' : '') +
         '</section>';
     }).join('');
     const belowHtml = below.length ? '<section class="board below">' +
@@ -448,7 +448,7 @@
     const hookHtml = featured.length ? '<div class="panel glass"><div class="rows">' + featured.map(hookRow).join('') + '</div></div>' : '';
 
     return hero +
-      sec(useBar ? 'Virality leaderboards' : 'Your picks', useBar ? 'Only proven hits: at least 1M views, or 100K likes where views are private. Ranked separately on each platform, because a view means something different on each app.' : 'Every video you sent in, ranked by virality on each platform. No viral bar here.', seg, picks) +
+      sec(useBar ? 'Virality leaderboards' : 'Your picks', useBar ? 'Only proven hits: at least 1M views, or 100K likes where views are private. Ranked separately on each platform, because a view means something different on each app.' : 'Every video you sent in, grouped by platform. Sort each list by highest virality or latest added. No viral bar here.', '', picks) +
       (trendHtml ? sec('Moving right now', 'Signals from this week’s research. Ride them early.', '', trendHtml) : '') +
       (hookHtml ? sec('Hooks to steal this week', 'Fill the brackets with your niche.', '<a class="link" href="#hooks">All hooks →</a>', hookHtml) : '');
   }

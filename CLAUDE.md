@@ -57,5 +57,6 @@ Link the cards in the hub that prove the idea by giving them the format's key as
 
 ## Shipping
 
-Work on `main`. Run `python3 scripts/validate.py` before every commit. The covers Action commits covers,
+Work on `main`. Run `python3 scripts/validate.py` before every commit. After changing `assets/hub.css` or `assets/hub.js`, run
+`python3 scripts/stamp_assets.py` (phones otherwise keep the old files; validate.py fails on a stale stamp). The covers Action commits covers,
 inbox reads and follower counts after pushes that touch `data/weeks/**` or `data/inbox.json`; pull before pushing.

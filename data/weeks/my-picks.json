@@ -137,7 +137,8 @@
      }
     ],
     "avoid": "Don't film members without their consent"
-   }
+   },
+   "added": "2026-11-04"
   },
   {
    "id": "ms-jamesmoorewellness-partner-decompression-massage-you",
@@ -256,7 +257,8 @@
      }
     ],
     "avoid": "No spinal pressure claims or risky moves"
-   }
+   },
+   "added": "2026-11-08"
   },
   {
    "id": "pt-pug-modeltown-don-t-spill-the",
@@ -372,7 +374,8 @@
      }
     ],
     "avoid": "Keep the challenge safe for every member"
-   }
+   },
+   "added": "2026-11-08"
   },
   {
    "id": "pt-shubham-fitnesx-love-trend-athlete-edition",
@@ -489,7 +492,8 @@
     ],
     "avoid": "Post while the trend is still running"
    },
-   "format_key": "borrowed_formula"
+   "format_key": "borrowed_formula",
+   "added": "2026-11-08"
   },
   {
    "id": "pt-karnex01-cake-cut-with-a",
@@ -606,7 +610,8 @@
      }
     ],
     "avoid": "Never use a real blade near lifters"
-   }
+   },
+   "added": "2026-11-08"
   },
   {
    "id": "pt-tiboinshape-tibo-inshape-s-love",
@@ -719,7 +724,8 @@
     ],
     "avoid": "Don't repost his video; make your own"
    },
-   "format_key": "borrowed_formula"
+   "format_key": "borrowed_formula",
+   "added": "2026-11-08"
   },
   {
    "id": "pv-greeka-ch-fake-cctv-robbery-skit",
@@ -847,7 +853,8 @@
     ],
     "avoid": "Don't let it pass as a real crime"
    },
-   "thumb": "thumbs/pv-greeka-ch-fake-cctv-robbery-skit.jpg"
+   "thumb": "thumbs/pv-greeka-ch-fake-cctv-robbery-skit.jpg",
+   "added": "2026-11-08"
   },
   {
    "id": "pt-trevorclark4-can-you-do-this",
@@ -966,7 +973,8 @@
     ],
     "avoid": "Show a safe progression for beginners"
    },
-   "thumb": "thumbs/pt-trevorclark4-can-you-do-this.jpg"
+   "thumb": "thumbs/pt-trevorclark4-can-you-do-this.jpg",
+   "added": "2026-11-08"
   },
   {
    "id": "pt-stayclassycrossfit-crossfit-gym-s-love",
@@ -1083,7 +1091,8 @@
     "avoid": "Post while the LOVE trend still runs"
    },
    "thumb": "thumbs/pt-stayclassycrossfit-crossfit-gym-s-love.jpg",
-   "format_key": "borrowed_formula"
+   "format_key": "borrowed_formula",
+   "added": "2026-11-08"
   },
   {
    "id": "pv-onethebaha-phone-tricks-that-make",
@@ -1202,7 +1211,8 @@
     ],
     "avoid": "Don't film other members without asking"
    },
-   "thumb": "thumbs/pv-onethebaha-phone-tricks-that-make.jpg"
+   "thumb": "thumbs/pv-onethebaha-phone-tricks-that-make.jpg",
+   "added": "2026-11-08"
   },
   {
    "id": "pv-thepostprotocol-borrow-a-proven-formula",
@@ -1328,7 +1338,8 @@
     ],
     "avoid": "Copying their footage or exact words"
    },
-   "thumb": "thumbs/pv-thepostprotocol-borrow-a-proven-formula.jpg"
+   "thumb": "thumbs/pv-thepostprotocol-borrow-a-proven-formula.jpg",
+   "added": "2026-11-09"
   }
  ],
  "trends": []
