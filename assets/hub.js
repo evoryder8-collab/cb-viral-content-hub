@@ -398,7 +398,13 @@
     const w = state.data.weeks[state.weekId];
     const list = weekVideos();
     const moves = (w.moves || []).filter(m => nicheOK(m.niche) || m.niche === 'general');
-    const hero = '<section class="hero section">' +
+    const latest = latestWeek();
+    const switcher = '<nav class="seg switcher" aria-label="Collections">' +
+      [['home', latest, 'This week'], ['halloffame', 'hall-of-fame', 'Hall of Fame'], ['favourites', 'my-picks', '♥ Favourites']]
+        .filter(([, id]) => state.data.weeks[id])
+        .map(([hash, id, label]) => '<a href="#' + hash + '"' + ((id === state.weekId || (hash === 'home' && w.kind !== 'collection')) ?' aria-current="page"' : '') + '>' + label + '</a>').join('') +
+      '</nav>';
+    const hero = switcher + '<section class="hero section">' +
       '<span class="eyebrow">' + (w.kind === 'collection' ? 'Collection · ' : 'Weekly drop · ') + esc(w.label || fmtDate(w.id)) + '</span>' +
       '<h1>' + (w.headline_html || esc(w.headline || 'This week’s proven formulas')) + '</h1>' +
       (w.lede ? '<p class="lede">' + esc(w.lede) + '</p>' : '') +
@@ -728,7 +734,7 @@
     wrap.hidden = true;
     $('#sheet-body').innerHTML = '';
     document.documentElement.style.overflow = '';
-    if (/^#v-/.test(location.hash)) { try { history.replaceState(null, '', '#' + state.view); } catch (e) { /* ignore */ } }
+    if (/^#v-/.test(location.hash)) { try { history.replaceState(null, '', '#' + (state.view === 'home' ? homeHash() : state.view)); } catch (e) { /* ignore */ } }
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
 
@@ -762,7 +768,9 @@
     const html = { home: viewHome, hooks: viewHooks, formats: viewFormats, craft: viewCraft, preflight: viewPreflight, saved: viewSaved, search: viewSearch }[view]();
     $('#view').innerHTML = html;
     hydrateThumbs($('#view'));
-    $$('.dock a').forEach(a => a.setAttribute('aria-current', !state.q && a.dataset.view === state.view ? 'page' : 'false'));
+    const here = state.q ? '' : state.view === 'home' && state.weekId === 'my-picks' ? 'favourites' : state.view;
+    $$('.dock a').forEach(a => a.setAttribute('aria-current', a.dataset.view === here ? 'page' : 'false'));
+    if ($('#week').value !== state.weekId) $('#week').value = state.weekId;
     renderNiches();
     renderPlats();
   }
@@ -795,11 +803,25 @@
 
   /* ---------------- routing ---------------- */
   const VIEWS = ['home', 'hooks', 'formats', 'craft', 'preflight', 'saved'];
+  const COLL = { favourites: 'my-picks', halloffame: 'hall-of-fame' };
+  const HASH_OF = { 'my-picks': 'favourites', 'hall-of-fame': 'halloffame' };
+  const latestWeek = () => state.data.manifest.latest || state.data.manifest.weeks.filter(w => w.kind !== 'collection').map(w => w.id).sort().pop();
+  const homeHash = () => HASH_OF[state.weekId] || 'home';
   function route() {
     const h = (location.hash || '').slice(1);
     if (h.startsWith('v-')) {
       if (state.view !== 'home' && !$('#view').innerHTML) render();
       openVideo(h.slice(2));
+      return;
+    }
+    // Collections have their own addresses, so the dock, the switcher and matthewhua.ch/ccideas#favourites can open them.
+    if (COLL[h] || h === 'home' || h === '') {
+      const target = COLL[h] || latestWeek();
+      closeSheet();
+      if (state.data.weeks[target] && (state.weekId !== target || state.view !== 'home' || state.q)) {
+        state.weekId = target; state.view = 'home'; state.q = ''; $('#q').value = ''; state.platOpen = {};
+        render(); window.scrollTo(0, 0);
+      }
       return;
     }
     if (h === 'scores') { state.view = 'craft'; state.q = ''; $('#q').value = ''; render(); const el = document.getElementById('scores'); if (el) el.scrollIntoView(); return; }
@@ -813,6 +835,8 @@
     document.addEventListener('click', e => {
       const t = e.target.closest('button, [data-open-v], [data-open-f], a[href^="#"]');
       if (!t) return;
+      // A link to the address already in the bar fires no hashchange: route anyway (e.g. "This week" after picking an older week).
+      if (t.matches('a[href^="#"]') && t.getAttribute('href') === location.hash) { e.preventDefault(); route(); return; }
       const d = t.dataset;
       if (d.close !== undefined || e.target.closest('[data-close]')) { closeSheet(); return; }
       if (d.openV) { openVideo(d.openV); return; }
@@ -841,7 +865,7 @@
     });
     document.addEventListener('change', e => {
       const t = e.target;
-      if (t.id === 'week') { state.weekId = t.value; state.view = 'home'; state.q = ''; $('#q').value = ''; try { history.replaceState(null, '', '#home'); } catch (e2) { /* ignore */ } render(); window.scrollTo(0, 0); }
+      if (t.id === 'week') { state.weekId = t.value; state.view = 'home'; state.q = ''; $('#q').value = ''; try { history.replaceState(null, '', '#' + homeHash()); } catch (e2) { /* ignore */ } render(); window.scrollTo(0, 0); }
       if (t.dataset.pf) { state.pf[t.dataset.pf] = t.checked; store.set('preflight', state.pf); const y = window.scrollY; render(); window.scrollTo(0, y); const el = document.getElementById(t.id); if (el) el.focus(); }
     });
     let qt;
@@ -882,10 +906,11 @@
       const brands = navigator.userAgentData && navigator.userAgentData.brands || [];
       if (brands.some(b => /Chromium/.test(b.brand)) && !matchMedia('(prefers-reduced-motion: reduce)').matches) $('.dock').classList.add('lens');
     } catch (e) { /* no lens */ }
-    renderWeeks();
     bind();
     const h = (location.hash || '').slice(1);
     state.view = VIEWS.includes(h) ? h : 'home';
+    if (COLL[h] && state.data.weeks[COLL[h]]) state.weekId = COLL[h];
+    renderWeeks();
     render();
     if (h.startsWith('v-') || h === 'scores') route();
   }

@@ -330,6 +330,7 @@ main { outline: none; }
 .section:first-child { margin-top: 18px; }
 .sec-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .sec-head > div { display: grid; gap: 6px; min-width: 0; }
+.sec-head > .seg { display: inline-flex; gap: 2px; }
 .sec-head h2 { font-size: var(--t-xl); }
 .sec-head p { color: var(--fg-2); font-size: var(--t-sm); max-width: 62ch; }
 .eyebrow { font-size: var(--t-xs); font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--fg-3); }
@@ -358,6 +359,11 @@ main { outline: none; }
 /* ---------- segmented control ---------- */
 .seg { display: inline-flex; flex: none; max-width: 100%; overflow-x: auto; scrollbar-width: none; padding: 4px; gap: 2px; border-radius: 999px; background: var(--glass); border: 1px solid var(--line); }
 .seg button { white-space: nowrap; flex: none; border: 0; background: transparent; height: 32px; padding: 0 14px; border-radius: 999px; font-size: var(--t-sm); font-weight: 600; color: var(--fg-2); cursor: pointer; }
+.seg.switcher { display: flex; width: fit-content; margin: 0 auto 4px; }
+.seg.switcher a { white-space: nowrap; flex: none; display: inline-flex; align-items: center; height: 36px; padding: 0 16px; border-radius: 999px; font-size: var(--t-sm); font-weight: 700; color: var(--fg-2); text-decoration: none; }
+.seg.switcher a:hover { color: var(--fg); }
+.seg.switcher a[aria-current="page"] { background: var(--glass-2); color: var(--fg); box-shadow: inset 0 1px 0 var(--glass-hi), 0 2px 8px rgba(0, 0, 0, .18); }
+@media (max-width: 420px) { .seg.switcher a { padding: 0 11px; font-size: var(--t-xs); } }
 .seg button[aria-pressed="true"] { background: var(--glass-2); color: var(--fg); box-shadow: inset 0 1px 0 var(--glass-hi), 0 2px 8px rgba(0, 0, 0, .18); }
 
 /* ---------- video cards ---------- */
